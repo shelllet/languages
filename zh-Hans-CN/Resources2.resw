@@ -177,14 +177,14 @@
   <data name="PressPointer.ToolTip" xml:space="preserve">
     <value>PressPointer</value>
   </data>
-  <data name="MouseListener.Description" xml:space="preserve">
-    <value>MouseListener</value>
+  <data name="ListenMouse.Description" xml:space="preserve">
+    <value>监听鼠标</value>
   </data>
-  <data name="MouseListener.Title" xml:space="preserve">
-    <value>MouseListener</value>
+  <data name="ListenMouse.Title" xml:space="preserve">
+    <value>监听鼠标</value>
   </data>
-  <data name="MouseListener.ToolTip" xml:space="preserve">
-    <value>MouseListener</value>
+  <data name="ListenMouse.ToolTip" xml:space="preserve">
+    <value>监听鼠标</value>
   </data>
   <data name="System.Description" xml:space="preserve">
     <value>System</value>
@@ -298,13 +298,13 @@
     <value>TypePoint</value>
   </data>
   <data name="File.Description" xml:space="preserve">
-    <value>File</value>
+    <value>定义文件类型</value>
   </data>
   <data name="File.Title" xml:space="preserve">
-    <value>File</value>
+    <value>文件</value>
   </data>
   <data name="File.ToolTip" xml:space="preserve">
-    <value>File</value>
+    <value>定义文件类型</value>
   </data>
   <data name="Folder.Description" xml:space="preserve">
     <value>文件夹类型</value>
@@ -447,14 +447,14 @@
   <data name="SendText.ToolTip" xml:space="preserve">
     <value>SendText</value>
   </data>
-  <data name="KeyboardListener.Description" xml:space="preserve">
-    <value>KeyboardListener</value>
+  <data name="ListenKeyboard.Description" xml:space="preserve">
+    <value>监听键盘</value>
   </data>
-  <data name="KeyboardListener.Title" xml:space="preserve">
-    <value>KeyboardListener</value>
+  <data name="ListenKeyboard.Title" xml:space="preserve">
+    <value>监听键盘</value>
   </data>
-  <data name="KeyboardListener.ToolTip" xml:space="preserve">
-    <value>KeyboardListener</value>
+  <data name="ListenKeyboard.ToolTip" xml:space="preserve">
+    <value>监听键盘</value>
   </data>
   <data name="Image.Description" xml:space="preserve">
     <value>Image</value>
@@ -558,23 +558,23 @@
   <data name="DetectorLineSegment.ToolTip" xml:space="preserve">
     <value>DetectorLineSegment</value>
   </data>
-  <data name="Detector_FindContours.Description" xml:space="preserve">
-    <value>Detector_FindContours(preview)</value>
+  <data name="FindContours.Description" xml:space="preserve">
+    <value>查找轮廓</value>
   </data>
-  <data name="Detector_FindContours.Title" xml:space="preserve">
-    <value>Detector_FindContours(preview)</value>
+  <data name="FindContours.Title" xml:space="preserve">
+    <value>查找轮廓</value>
   </data>
-  <data name="Detector_FindContours.ToolTip" xml:space="preserve">
-    <value>Detector_FindContours(preview)</value>
+  <data name="FindContours.ToolTip" xml:space="preserve">
+    <value>查找轮廓</value>
   </data>
-  <data name="DetectorMatchTemplate.Description" xml:space="preserve">
-    <value>DetectorMatchTemplate</value>
+  <data name="MatchImage.Description" xml:space="preserve">
+    <value>匹配图片</value>
   </data>
-  <data name="DetectorMatchTemplate.Title" xml:space="preserve">
-    <value>DetectorMatchTemplate</value>
+  <data name="MatchImage.Title" xml:space="preserve">
+    <value>匹配图片</value>
   </data>
-  <data name="DetectorMatchTemplate.ToolTip" xml:space="preserve">
-    <value>DetectorMatchTemplate</value>
+  <data name="MatchImage.ToolTip" xml:space="preserve">
+    <value>匹配图片</value>
   </data>
   <data name="Detector_BlobDetector.Description" xml:space="preserve">
     <value>Detector_BlobDetector(preview)</value>
