@@ -457,10 +457,10 @@
     <value>监听键盘</value>
   </data>
   <data name="Image.Description" xml:space="preserve">
-    <value>Image</value>
+    <value>图像处理算法</value>
   </data>
   <data name="Image.Title" xml:space="preserve">
-    <value>Image</value>
+    <value>图像算法</value>
   </data>
   <data name="Threshold.Description" xml:space="preserve">
     <value>Threshold</value>
@@ -497,6 +497,15 @@
   </data>
   <data name="ImageCanny.ToolTip" xml:space="preserve">
     <value>ImageCanny</value>
+  </data>
+	<data name="ColorConvert.Description" xml:space="preserve">
+    <value>颜色转换</value>
+  </data>
+  <data name="ColorConvert.Title" xml:space="preserve">
+    <value>颜色转换</value>
+  </data>
+  <data name="ColorConvert.ToolTip" xml:space="preserve">
+    <value>颜色转换</value>
   </data>
   <data name="ImageInRange.Description" xml:space="preserve">
     <value>ImageInRange</value>
@@ -567,14 +576,14 @@
   <data name="FindContours.ToolTip" xml:space="preserve">
     <value>查找轮廓</value>
   </data>
-  <data name="MatchImage.Description" xml:space="preserve">
-    <value>匹配图片</value>
+  <data name="MatchTemplate.Description" xml:space="preserve">
+    <value>模板匹配</value>
   </data>
-  <data name="MatchImage.Title" xml:space="preserve">
-    <value>匹配图片</value>
+  <data name="MatchTemplate.Title" xml:space="preserve">
+    <value>模板匹配</value>
   </data>
-  <data name="MatchImage.ToolTip" xml:space="preserve">
-    <value>匹配图片</value>
+  <data name="MatchTemplate.ToolTip" xml:space="preserve">
+    <value>模板匹配</value>
   </data>
   <data name="Detector_BlobDetector.Description" xml:space="preserve">
     <value>Detector_BlobDetector(preview)</value>
@@ -585,14 +594,14 @@
   <data name="Detector_BlobDetector.ToolTip" xml:space="preserve">
     <value>Detector_BlobDetector(preview)</value>
   </data>
-  <data name="DetectorHoughLines.Description" xml:space="preserve">
-    <value>DetectorHoughLines(preview)</value>
+  <data name="DetectShape.Description" xml:space="preserve">
+    <value>检测形状</value>
   </data>
-  <data name="DetectorHoughLines.Title" xml:space="preserve">
-    <value>DetectorHoughLines(preview)</value>
+  <data name="DetectShape.Title" xml:space="preserve">
+    <value>检测形状</value>
   </data>
-  <data name="DetectorHoughLines.ToolTip" xml:space="preserve">
-    <value>DetectorHoughLines(preview)</value>
+  <data name="DetectShape.ToolTip" xml:space="preserve">
+    <value>检测形状</value>
   </data>
   <data name="OCRTesseract.Description" xml:space="preserve">
     <value>OCRTesseract(preview)</value>
