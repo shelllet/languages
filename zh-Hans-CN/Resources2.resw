@@ -118,64 +118,64 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Mouse.Description" xml:space="preserve">
-    <value>Mouse</value>
+    <value>鼠标动作</value>
   </data>
   <data name="Mouse.Title" xml:space="preserve">
-    <value>Mouse</value>
+    <value>鼠标</value>
   </data>
   <data name="MovePointer.Description" xml:space="preserve">
-    <value>MovePointer</value>
+    <value>移动鼠标</value>
   </data>
   <data name="MovePointer.Title" xml:space="preserve">
-    <value>MovePointer</value>
+    <value>移动鼠标</value>
   </data>
   <data name="MovePointer.ToolTip" xml:space="preserve">
-    <value>MovePointer</value>
+    <value>移动</value>
   </data>
   <data name="Click.Description" xml:space="preserve">
-    <value>Click</value>
+    <value>点击</value>
   </data>
   <data name="Click.Title" xml:space="preserve">
-    <value>Click</value>
+    <value>点击</value>
   </data>
   <data name="Click.ToolTip" xml:space="preserve">
-    <value>Click</value>
+    <value>点击</value>
   </data>
   <data name="MoveClick.Description" xml:space="preserve">
-    <value>移动点击</value>
+    <value>移动+点击</value>
   </data>
   <data name="MoveClick.Title" xml:space="preserve">
-    <value>移动点击</value>
+    <value>移动+点击</value>
   </data>
   <data name="MoveClick.ToolTip" xml:space="preserve">
-    <value>移动点击</value>
+    <value>移动+点击</value>
   </data>
   <data name="DoubleClick.Description" xml:space="preserve">
-    <value>DoubleClick</value>
+    <value>双击</value>
   </data>
   <data name="DoubleClick.Title" xml:space="preserve">
-    <value>DoubleClick</value>
+    <value>双击</value>
   </data>
   <data name="DoubleClick.ToolTip" xml:space="preserve">
-    <value>DoubleClick</value>
+    <value>双击</value>
   </data>
   <data name="RightClick.Description" xml:space="preserve">
-    <value>RightClick</value>
+    <value>右键点击</value>
   </data>
   <data name="RightClick.Title" xml:space="preserve">
-    <value>RightClick</value>
+    <value>右键点击</value>
   </data>
   <data name="RightClick.ToolTip" xml:space="preserve">
-    <value>RightClick</value>
+    <value>右键点击</value>
   </data>
   <data name="PressPointer.Description" xml:space="preserve">
-    <value>PressPointer</value>
+    <value>拖动</value>
   </data>
   <data name="PressPointer.Title" xml:space="preserve">
-    <value>PressPointer</value>
+    <value>拖动</value>
   </data>
   <data name="PressPointer.ToolTip" xml:space="preserve">
-    <value>PressPointer</value>
+    <value>拖动</value>
   </data>
   <data name="ListenMouse.Description" xml:space="preserve">
     <value>监听鼠标</value>
@@ -187,46 +187,46 @@
     <value>监听鼠标</value>
   </data>
   <data name="System.Description" xml:space="preserve">
-    <value>System</value>
+    <value>系统</value>
   </data>
   <data name="System.Title" xml:space="preserve">
-    <value>System</value>
+    <value>系统</value>
   </data>
   <data name="Wait.Description" xml:space="preserve">
-    <value>Wait</value>
+    <value>等待</value>
   </data>
   <data name="Wait.Title" xml:space="preserve">
-    <value>Wait</value>
+    <value>等待</value>
   </data>
   <data name="Wait.ToolTip" xml:space="preserve">
-    <value>Wait</value>
+    <value>等待</value>
   </data>
   <data name="FileQuery.Description" xml:space="preserve">
-    <value>FileQuery</value>
+    <value>搜索文件</value>
   </data>
   <data name="FileQuery.Title" xml:space="preserve">
-    <value>FileQuery</value>
+    <value>搜索文件</value>
   </data>
   <data name="FileQuery.ToolTip" xml:space="preserve">
-    <value>FileQuery</value>
+    <value>搜索文件</value>
   </data>
   <data name="StartProcess.Description" xml:space="preserve">
-    <value>StartProcess</value>
+    <value>启动进程</value>
   </data>
   <data name="StartProcess.Title" xml:space="preserve">
-    <value>StartProcess</value>
+    <value>启动进程</value>
   </data>
   <data name="StartProcess.ToolTip" xml:space="preserve">
-    <value>StartProcess</value>
+    <value>启动进程</value>
   </data>
   <data name="MediaCapture.Description" xml:space="preserve">
-    <value>MediaCapture</value>
+    <value>窗口截图</value>
   </data>
   <data name="MediaCapture.Title" xml:space="preserve">
-    <value>MediaCapture</value>
+    <value>窗口截图</value>
   </data>
   <data name="MediaCapture.ToolTip" xml:space="preserve">
-    <value>MediaCapture</value>
+    <value>窗口截图</value>
   </data>
   <data name="RunMessageLoop.Description" xml:space="preserve">
     <value>运行消息循环</value>
@@ -247,13 +247,13 @@
     <value>退出消息循环</value>
   </data>
   <data name="Background.Description" xml:space="preserve">
-    <value>Background</value>
+    <value>线程</value>
   </data>
   <data name="Background.Title" xml:space="preserve">
-    <value>Background</value>
+    <value>线程</value>
   </data>
   <data name="Background.ToolTip" xml:space="preserve">
-    <value>Background</value>
+    <value>线程</value>
   </data>
   <data name="BackgroundController.Description" xml:space="preserve">
     <value>BackgroundController</value>
@@ -265,37 +265,37 @@
     <value>BackgroundController</value>
   </data>
   <data name="Type.Description" xml:space="preserve">
-    <value>Type</value>
+    <value>类型定义</value>
   </data>
   <data name="Type.Title" xml:space="preserve">
-    <value>Type</value>
+    <value>类型定义</value>
   </data>
   <data name="TypeUri.Description" xml:space="preserve">
-    <value>TypeUri</value>
+    <value>统一资源标志符</value>
   </data>
   <data name="TypeUri.Title" xml:space="preserve">
-    <value>TypeUri</value>
+    <value>URI</value>
   </data>
   <data name="TypeUri.ToolTip" xml:space="preserve">
-    <value>TypeUri</value>
+    <value>统一资源标志符</value>
   </data>
   <data name="TypeValue.Description" xml:space="preserve">
-    <value>TypeValue</value>
+    <value>定义一个数值</value>
   </data>
   <data name="TypeValue.Title" xml:space="preserve">
-    <value>TypeValue</value>
+    <value>值</value>
   </data>
   <data name="TypeValue.ToolTip" xml:space="preserve">
-    <value>TypeValue</value>
+    <value>定义一个数值</value>
   </data>
   <data name="TypePoint.Description" xml:space="preserve">
-    <value>TypePoint</value>
+    <value>定义一个坐标点</value>
   </data>
   <data name="TypePoint.Title" xml:space="preserve">
-    <value>TypePoint</value>
+    <value>坐标</value>
   </data>
   <data name="TypePoint.ToolTip" xml:space="preserve">
-    <value>TypePoint</value>
+    <value>定义一个坐标点</value>
   </data>
   <data name="File.Description" xml:space="preserve">
     <value>定义文件类型</value>
@@ -316,79 +316,79 @@
     <value>文件夹</value>
   </data>
   <data name="Clipboard.Description" xml:space="preserve">
-    <value>Clipboard</value>
+    <value>剪切板</value>
   </data>
   <data name="Clipboard.Title" xml:space="preserve">
-    <value>Clipboard</value>
+    <value>剪切板</value>
   </data>
   <data name="Clipboard.ToolTip" xml:space="preserve">
-    <value>Clipboard</value>
+    <value>剪切板</value>
   </data>
   <data name="ShortcutType.Description" xml:space="preserve">
-    <value>ShortcutType</value>
+    <value>快捷键</value>
   </data>
   <data name="ShortcutType.Title" xml:space="preserve">
-    <value>ShortcutType</value>
+    <value>快捷键</value>
   </data>
   <data name="ShortcutType.ToolTip" xml:space="preserve">
-    <value>ShortcutType</value>
+    <value>快捷键</value>
   </data>
   <data name="Window.Description" xml:space="preserve">
-    <value>Window</value>
+    <value>窗口类</value>
   </data>
   <data name="Window.Title" xml:space="preserve">
-    <value>Window</value>
+    <value>窗口类</value>
   </data>
   <data name="FindWindow.Description" xml:space="preserve">
-    <value>FindWindow</value>
+    <value>查找窗口</value>
   </data>
   <data name="FindWindow.Title" xml:space="preserve">
-    <value>FindWindow</value>
+    <value>查找窗口</value>
   </data>
   <data name="FindWindow.ToolTip" xml:space="preserve">
-    <value>FindWindow</value>
+    <value>查找窗口</value>
   </data>
   <data name="Workflow.Description" xml:space="preserve">
-    <value>Workflow</value>
+    <value>逻辑</value>
   </data>
   <data name="Workflow.Title" xml:space="preserve">
-    <value>Workflow</value>
+    <value>逻辑</value>
   </data>
   <data name="For.Description" xml:space="preserve">
-    <value>For</value>
+    <value>循环</value>
   </data>
   <data name="For.Title" xml:space="preserve">
-    <value>For</value>
+    <value>循环</value>
   </data>
   <data name="For.ToolTip" xml:space="preserve">
-    <value>For</value>
+    <value>循环</value>
   </data>
   <data name="If.Description" xml:space="preserve">
     <value>If</value>
   </data>
   <data name="If.Title" xml:space="preserve">
-    <value>If</value>
+    <value>条件判断</value>
   </data>
   <data name="If.ToolTip" xml:space="preserve">
-    <value>If</value>
+    <value>条件判断</value>
   </data>
   <data name="Invoke.Description" xml:space="preserve">
-    <value>Invoke</value>
+    <value>调用</value>
   </data>
   <data name="Invoke.Title" xml:space="preserve">
-    <value>Invoke</value>
+    <value>调用</value>
   </data>
   <data name="Invoke.ToolTip" xml:space="preserve">
-    <value>Invoke</value>
+    <value>调用</value>
   </data>
   <data name="Break.Description" xml:space="preserve">
-    <value>Break</value>
+    <value>停止循环</value>
   </data>
   <data name="Break.Title" xml:space="preserve">
-    <value>Break</value>
+    <value>停止循环</value>
   </data>
   <data name="Break.ToolTip" xml:space="preserve">
-    <value>Break</value>
+    <value>停止循环</value>
   </data>
   <data name="WorkflowParam.Description" xml:space="preserve">
     <value>WorkflowParam</value>
@@ -400,52 +400,52 @@
     <value>WorkflowParam</value>
   </data>
   <data name="Workflow_Code.Description" xml:space="preserve">
-    <value>Workflow_Code</value>
+    <value>代码</value>
   </data>
   <data name="Workflow_Code.Title" xml:space="preserve">
-    <value>Workflow_Code</value>
+    <value>脚本</value>
   </data>
   <data name="Workflow_Code.ToolTip" xml:space="preserve">
-    <value>Workflow_Code</value>
+    <value>代码</value>
   </data>
   <data name="Media.Description" xml:space="preserve">
-    <value>Media</value>
+    <value>多媒体</value>
   </data>
   <data name="Media.Title" xml:space="preserve">
-    <value>Media</value>
+    <value>多媒体</value>
   </data>
   <data name="MediaPlay.Description" xml:space="preserve">
-    <value>MediaPlay</value>
+    <value>声音播放</value>
   </data>
   <data name="MediaPlay.Title" xml:space="preserve">
-    <value>MediaPlay</value>
+    <value>声音播放</value>
   </data>
   <data name="MediaPlay.ToolTip" xml:space="preserve">
-    <value>MediaPlay</value>
+    <value>声音播放</value>
   </data>
   <data name="Keyboard.Description" xml:space="preserve">
-    <value>Keyboard</value>
+    <value>键盘</value>
   </data>
   <data name="Keyboard.Title" xml:space="preserve">
-    <value>Keyboard</value>
+    <value>键盘</value>
   </data>
   <data name="SendKey.Description" xml:space="preserve">
-    <value>SendKey</value>
+    <value>发送按键</value>
   </data>
   <data name="SendKey.Title" xml:space="preserve">
-    <value>SendKey</value>
+    <value>发送按键</value>
   </data>
   <data name="SendKey.ToolTip" xml:space="preserve">
-    <value>SendKey</value>
+    <value>发送按键</value>
   </data>
   <data name="SendText.Description" xml:space="preserve">
-    <value>SendText</value>
+    <value>发送文本</value>
   </data>
   <data name="SendText.Title" xml:space="preserve">
-    <value>SendText</value>
+    <value>发送文本</value>
   </data>
   <data name="SendText.ToolTip" xml:space="preserve">
-    <value>SendText</value>
+    <value>发送文本</value>
   </data>
   <data name="ListenKeyboard.Description" xml:space="preserve">
     <value>监听键盘</value>
@@ -463,25 +463,25 @@
     <value>图像算法</value>
   </data>
   <data name="Threshold.Description" xml:space="preserve">
-    <value>Threshold</value>
+    <value>阈值</value>
   </data>
   <data name="Threshold.Title" xml:space="preserve">
-    <value>Threshold</value>
+    <value>阈值</value>
   </data>
   <data name="Threshold.ToolTip" xml:space="preserve">
-    <value>Threshold</value>
+    <value>阈值</value>
   </data>
   <data name="ImageGaussianBlur.Description" xml:space="preserve">
-    <value>ImageGaussianBlur</value>
+    <value>模糊</value>
   </data>
   <data name="ImageGaussianBlur.Title" xml:space="preserve">
-    <value>ImageGaussianBlur</value>
+    <value>模糊</value>
   </data>
   <data name="ImageGaussianBlur.ToolTip" xml:space="preserve">
-    <value>ImageGaussianBlur</value>
+    <value>模糊</value>
   </data>
   <data name="ImageDilate.Description" xml:space="preserve">
-    <value>ImageDilate</value>
+    <value>膨胀</value>
   </data>
   <data name="ImageDilate.Title" xml:space="preserve">
     <value>ImageDilate</value>
@@ -508,64 +508,64 @@
     <value>颜色转换</value>
   </data>
   <data name="ImageInRange.Description" xml:space="preserve">
-    <value>ImageInRange</value>
+    <value>InRange</value>
   </data>
   <data name="ImageInRange.Title" xml:space="preserve">
-    <value>ImageInRange</value>
+    <value>InRange</value>
   </data>
   <data name="ImageInRange.ToolTip" xml:space="preserve">
-    <value>ImageInRange</value>
+    <value>InRange</value>
   </data>
   <data name="ImageDecode.Description" xml:space="preserve">
-    <value>ImageDecode</value>
+    <value>图像解码</value>
   </data>
   <data name="ImageDecode.Title" xml:space="preserve">
-    <value>ImageDecode</value>
+    <value>图像解码</value>
   </data>
   <data name="ImageDecode.ToolTip" xml:space="preserve">
-    <value>ImageDecode</value>
+    <value>图像解码</value>
   </data>
   <data name="ImageEncode.Description" xml:space="preserve">
-    <value>ImageEncode</value>
+    <value>编码图像</value>
   </data>
   <data name="ImageEncode.Title" xml:space="preserve">
-    <value>ImageEncode</value>
+    <value>编码图像</value>
   </data>
   <data name="ImageEncode.ToolTip" xml:space="preserve">
-    <value>ImageEncode</value>
+    <value>编码图像</value>
   </data>
   <data name="FileRead.Description" xml:space="preserve">
-    <value>FileRead</value>
+    <value>读取文件</value>
   </data>
   <data name="FileRead.Title" xml:space="preserve">
-    <value>FileRead</value>
+    <value>读取文件</value>
   </data>
   <data name="FileRead.ToolTip" xml:space="preserve">
-    <value>FileRead</value>
+    <value>读取文件</value>
   </data>
   <data name="FileWrite.Description" xml:space="preserve">
-    <value>FileWrite</value>
+    <value>文件写入</value>
   </data>
   <data name="FileWrite.Title" xml:space="preserve">
-    <value>FileWrite</value>
+    <value>文件写入</value>
   </data>
   <data name="FileWrite.ToolTip" xml:space="preserve">
-    <value>FileWrite</value>
+    <value>文件写入</value>
   </data>
   <data name="Detection.Description" xml:space="preserve">
-    <value>Detection</value>
+    <value>检测</value>
   </data>
   <data name="Detection.Title" xml:space="preserve">
-    <value>Detection</value>
+    <value>检测</value>
   </data>
   <data name="DetectorLineSegment.Description" xml:space="preserve">
-    <value>DetectorLineSegment</value>
+    <value>线段检测</value>
   </data>
   <data name="DetectorLineSegment.Title" xml:space="preserve">
-    <value>DetectorLineSegment(preview)</value>
+    <value>线段检测(preview)</value>
   </data>
   <data name="DetectorLineSegment.ToolTip" xml:space="preserve">
-    <value>DetectorLineSegment</value>
+    <value>线段检测</value>
   </data>
   <data name="FindContours.Description" xml:space="preserve">
     <value>查找轮廓</value>
@@ -586,13 +586,13 @@
     <value>模板匹配</value>
   </data>
   <data name="Detector_BlobDetector.Description" xml:space="preserve">
-    <value>Detector_BlobDetector(preview)</value>
+    <value>Blob(preview)</value>
   </data>
   <data name="Detector_BlobDetector.Title" xml:space="preserve">
-    <value>Detector_BlobDetector(preview)</value>
+    <value>Blob(preview)</value>
   </data>
   <data name="Detector_BlobDetector.ToolTip" xml:space="preserve">
-    <value>Detector_BlobDetector(preview)</value>
+    <value>Blob(preview)</value>
   </data>
   <data name="DetectShape.Description" xml:space="preserve">
     <value>检测形状</value>
@@ -604,96 +604,96 @@
     <value>检测形状</value>
   </data>
   <data name="OCRTesseract.Description" xml:space="preserve">
-    <value>OCRTesseract(preview)</value>
+    <value>OCR(preview)</value>
   </data>
   <data name="OCRTesseract.Title" xml:space="preserve">
-    <value>OCRTesseract(preview)</value>
+    <value>OCR(preview)</value>
   </data>
   <data name="OCRTesseract.ToolTip" xml:space="preserve">
-    <value>OCRTesseract(preview)</value>
+    <value>OCR(preview)</value>
   </data>
   <data name="Convert.Description" xml:space="preserve">
-    <value>Convert</value>
+    <value>类型转换</value>
   </data>
   <data name="Convert.Title" xml:space="preserve">
-    <value>Convert</value>
+    <value>类型转换</value>
   </data>
   <data name="PathConverter.Description" xml:space="preserve">
-    <value>PathConverter</value>
+    <value>路径转换</value>
   </data>
   <data name="PathConverter.Title" xml:space="preserve">
-    <value>PathConverter</value>
+    <value>路径转换</value>
   </data>
   <data name="PathConverter.ToolTip" xml:space="preserve">
-    <value>PathConverter</value>
+    <value>字符串转换路径</value>
   </data>
   <data name="Browser.Description" xml:space="preserve">
-    <value>Browser</value>
+    <value>浏览器</value>
   </data>
   <data name="Browser.Title" xml:space="preserve">
-    <value>Browser</value>
+    <value>浏览器</value>
   </data>
   <data name="OpenUrl.Description" xml:space="preserve">
-    <value>OpenUrl</value>
+    <value>打开网址</value>
   </data>
   <data name="OpenUrl.Title" xml:space="preserve">
-    <value>OpenUrl</value>
+    <value>打开网址</value>
   </data>
   <data name="OpenUrl.ToolTip" xml:space="preserve">
-    <value>OpenUrl</value>
+    <value>打开网址</value>
   </data>
   <data name="WebInput.Description" xml:space="preserve">
-    <value>WebInput</value>
+    <value>输入</value>
   </data>
   <data name="WebInput.Title" xml:space="preserve">
-    <value>WebInput</value>
+    <value>输入</value>
   </data>
   <data name="WebInput.ToolTip" xml:space="preserve">
-    <value>WebInput</value>
+    <value>输入</value>
   </data>
   <data name="WebButton.Description" xml:space="preserve">
-    <value>WebButton</value>
+    <value>按钮</value>
   </data>
   <data name="WebButton.Title" xml:space="preserve">
-    <value>WebButton</value>
+    <value>按钮</value>
   </data>
   <data name="WebButton.ToolTip" xml:space="preserve">
-    <value>WebButton</value>
+    <value>按钮</value>
   </data>
   <data name="WebElement.Description" xml:space="preserve">
-    <value>WebElement</value>
+    <value>元素</value>
   </data>
   <data name="WebElement.Title" xml:space="preserve">
-    <value>WebElement</value>
+    <value>元素</value>
   </data>
   <data name="WebElement.ToolTip" xml:space="preserve">
-    <value>WebElement</value>
+    <value>元素</value>
   </data>
   <data name="WebUrlRetrieve.Description" xml:space="preserve">
-    <value>WebUrlRetrieve</value>
+    <value>下载</value>
   </data>
   <data name="WebUrlRetrieve.Title" xml:space="preserve">
-    <value>WebUrlRetrieve</value>
+    <value>下载</value>
   </data>
   <data name="WebUrlRetrieve.ToolTip" xml:space="preserve">
-    <value>WebUrlRetrieve</value>
+    <value>下载</value>
   </data>
   <data name="WebGetAttribute.Description" xml:space="preserve">
-    <value>WebGetAttribute</value>
+    <value>获取属性</value>
   </data>
   <data name="WebGetAttribute.Title" xml:space="preserve">
-    <value>WebGetAttribute</value>
+    <value>获取属性</value>
   </data>
   <data name="WebGetAttribute.ToolTip" xml:space="preserve">
-    <value>WebGetAttribute</value>
+    <value>获取属性</value>
   </data>
   <data name="WebQuit.Description" xml:space="preserve">
-    <value>WebQuit</value>
+    <value>退出浏览器</value>
   </data>
   <data name="WebQuit.Title" xml:space="preserve">
-    <value>WebQuit</value>
+    <value>退出浏览器</value>
   </data>
   <data name="WebQuit.ToolTip" xml:space="preserve">
-    <value>WebQuit</value>
+    <value>退出浏览器</value>
   </data>
 </root>
