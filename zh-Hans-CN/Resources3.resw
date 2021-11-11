@@ -117,24 +117,11 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Items.None" xml:space="preserve">
-    <value>空</value>
+  <data name="CommandBar.Prev.Label" xml:space="preserve">
+    <value>上一个</value>
   </data>
-  <data name="Languages.List" xml:space="preserve">
-    <value>{
-    "英语": "en-US",
-    "简体中文": "zh-Hans-CN",
-    "繁体中文": "zh-TW"
-}</value>
-  </data>
-  <data name="Ok.Text" xml:space="preserve">
-    <value>确定</value>
-  </data>
-  <data name="Simple.Text" xml:space="preserve">
-    <value>Simple RPA</value>
-    <comment>应用程序标题</comment>
-  </data>
-  <data name="Version.New" xml:space="preserve">
-    <value> 发现新版本： {}</value>
+  <data name="LabelImage.Text" xml:space="preserve">
+    <value>LabelImage</value>
+    <comment>LabelImage工具</comment>
   </data>
 </root>
