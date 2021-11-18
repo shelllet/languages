@@ -390,14 +390,14 @@
   <data name="Break.ToolTip" xml:space="preserve">
     <value>停止循环</value>
   </data>
-  <data name="WorkflowParam.Description" xml:space="preserve">
-    <value>WorkflowParam</value>
+  <data name="Param.Description" xml:space="preserve">
+    <value>参数</value>
   </data>
-  <data name="WorkflowParam.Title" xml:space="preserve">
-    <value>WorkflowParam</value>
+  <data name="Param.Title" xml:space="preserve">
+    <value>参数</value>
   </data>
-  <data name="WorkflowParam.ToolTip" xml:space="preserve">
-    <value>WorkflowParam</value>
+  <data name="Param.ToolTip" xml:space="preserve">
+    <value>参数</value>
   </data>
   <data name="Workflow_Code.Description" xml:space="preserve">
     <value>代码</value>
@@ -498,7 +498,7 @@
   <data name="ImageCanny.ToolTip" xml:space="preserve">
     <value>ImageCanny</value>
   </data>
-	<data name="ColorConvert.Description" xml:space="preserve">
+  <data name="ColorConvert.Description" xml:space="preserve">
     <value>颜色转换</value>
   </data>
   <data name="ColorConvert.Title" xml:space="preserve">
@@ -695,5 +695,14 @@
   </data>
   <data name="WebQuit.ToolTip" xml:space="preserve">
     <value>退出浏览器</value>
+  </data>
+  <data name="OutputString.Description" xml:space="preserve">
+    <value>输出信息</value>
+  </data>
+  <data name="OutputString.Title" xml:space="preserve">
+    <value>输出信息</value>
+  </data>
+  <data name="OutputString.ToolTip" xml:space="preserve">
+    <value>输出信息</value>
   </data>
 </root>
