@@ -133,6 +133,15 @@
   <data name="CommandBar.Stop.Label" xml:space="preserve">
     <value>停止</value>
   </data>
+  <data name="ImagePreview.Button.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="ImagePreview.Title.Text" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="Items.None" xml:space="preserve">
+    <value>空</value>
+  </data>
   <data name="Languages.Header" xml:space="preserve">
     <value>语言</value>
   </data>

@@ -168,13 +168,13 @@
   <data name="RightClick.ToolTip" xml:space="preserve">
     <value>右键点击</value>
   </data>
-  <data name="PressPointer.Description" xml:space="preserve">
+  <data name="DragPointer.Description" xml:space="preserve">
     <value>拖动</value>
   </data>
-  <data name="PressPointer.Title" xml:space="preserve">
+  <data name="DragPointer.Title" xml:space="preserve">
     <value>拖动</value>
   </data>
-  <data name="PressPointer.ToolTip" xml:space="preserve">
+  <data name="DragPointer.ToolTip" xml:space="preserve">
     <value>拖动</value>
   </data>
   <data name="ListenMouse.Description" xml:space="preserve">
@@ -447,6 +447,24 @@
   <data name="SendText.ToolTip" xml:space="preserve">
     <value>发送文本</value>
   </data>
+	<data name="PressKey.Description" xml:space="preserve">
+    <value>按下按键</value>
+  </data>
+  <data name="PressKey.Title" xml:space="preserve">
+    <value>按下按键</value>
+  </data>
+  <data name="PressKey.ToolTip" xml:space="preserve">
+    <value>按下按键</value>
+  </data>
+	<data name="ReleaseKey.Description" xml:space="preserve">
+    <value>释放按键</value>
+  </data>
+	<data name="ReleaseKey.Title" xml:space="preserve">
+    <value>释放按键</value>
+  </data>
+	<data name="ReleaseKey.ToolTip" xml:space="preserve">
+    <value>释放按键</value>
+  </data>
   <data name="ListenKeyboard.Description" xml:space="preserve">
     <value>监听键盘</value>
   </data>
@@ -704,5 +722,20 @@
   </data>
   <data name="OutputString.ToolTip" xml:space="preserve">
     <value>输出信息</value>
+  </data>
+   <data name="Calc.Description" xml:space="preserve">
+    <value>计算</value>
+  </data>
+  <data name="Calc.Title" xml:space="preserve">
+    <value>计算</value>
+  </data>
+    <data name="CalcCenter.Description" xml:space="preserve">
+    <value>矩形中心</value>
+  </data>
+  <data name="CalcCenter.Title" xml:space="preserve">
+    <value>矩形中心</value>
+  </data>
+  <data name="CalcCenter.ToolTip" xml:space="preserve">
+    <value>矩形中心</value>
   </data>
 </root>
