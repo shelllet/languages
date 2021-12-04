@@ -603,6 +603,16 @@
   <data name="MatchTemplate.ToolTip" xml:space="preserve">
     <value>模板匹配</value>
   </data>
+    <data name="MatchTemplate2.Description" xml:space="preserve">
+    <value>模板匹配2</value>
+  </data>
+  <data name="MatchTemplate2.Title" xml:space="preserve">
+    <value>模板匹配2</value>
+  </data>
+  <data name="MatchTemplate2.ToolTip" xml:space="preserve">
+    <value>模板匹配2</value>
+  </data>
+  
   <data name="Detector_BlobDetector.Description" xml:space="preserve">
     <value>Blob(preview)</value>
   </data>
