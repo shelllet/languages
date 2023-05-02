@@ -1,0 +1,1883 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing"
+  mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework
+  object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0,
+      Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0,
+      Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Language" xml:space="preserve">
+    <value>簡体字中国語</value>
+  </data>
+  <data name="Add.Label" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Delete.Label" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Document.Text" xml:space="preserve">
+    <value>プロセスが変更されました。保存しますか?</value>
+  </data>
+  <data name="Recording.Title" xml:space="preserve">
+    <value>録画中です… は...</value>
+  </data>
+  <data name="Save.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Ok.Text" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="Publish.Text" xml:space="preserve">
+    <value>リリース</value>
+  </data>
+  <data name="Stop.Text" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Simple.Text" xml:space="preserve">
+    <value>Winui</value>
+    <comment>应用程序标题</comment>
+  </data>
+  <data name="Blank.Project.Text" xml:space="preserve">
+    <value>「新規」をクリックしてプロジェクトを作成します</value>
+  </data>
+  <data name="Reminder.Text" xml:space="preserve">
+    <value>暖かい注意</value>
+  </data>
+  <data name="Version.Text" xml:space="preserve">
+    <value>バージョン</value>
+  </data>
+  <data name="Version.Title.Text" xml:space="preserve">
+    <value>バージョン:</value>
+  </data>
+  <data name="Version.New" xml:space="preserve">
+    <value>新しいバージョンが見つかりました: {}</value>
+  </data>
+  <data name="Home.Title.Text" xml:space="preserve">
+    <value>ウェブサイト:</value>
+  </data>
+  <data name="Registered.Text" xml:space="preserve">
+    <value>登録済み</value>
+  </data>
+  <data name="UnRegistered.Text" xml:space="preserve">
+    <value>未登録</value>
+  </data>
+  <data name="Registered.To.Text" xml:space="preserve">
+    <value>現在の製品登録:</value>
+  </data>
+  <data name="Blank.UserName.Text" xml:space="preserve">
+    <value>ユーザー名:</value>
+  </data>
+  <data name="Blank.SerialNumber.Text" xml:space="preserve">
+    <value>シリアル番号:</value>
+  </data>
+  <data name="History.Title" xml:space="preserve">
+    <value>履歴</value>
+  </data>
+  <data name="ActionItem.Open.Text" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="ActionItem.Visible.Text" xml:space="preserve">
+    <value>有効化</value>
+  </data>
+  <data name="ImagePreview.Button.Text" xml:space="preserve">
+    <value>確定</value>
+  </data>
+  <data name="ImagePreview.Title.Text" xml:space="preserve">
+    <value>プレビュー</value>
+  </data>
+  <data name="Items.None" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="Settings.Basic.Content" xml:space="preserve">
+    <value>基本設定</value>
+  </data>
+  <data name="Settings.Shortcut.Content" xml:space="preserve">
+    <value>ショートカットキー設定</value>
+  </data>
+  <data name="Settings.Drawing.Content" xml:space="preserve">
+    <value>絵描き</value>
+  </data>
+  <data name="Settings.Process.Content" xml:space="preserve">
+    <value>流れ</value>
+  </data>
+  <data name="Settings.Language.Header" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="Settings.Theme.Header" xml:space="preserve">
+    <value>テーマ</value>
+  </data>
+  <data name="Settings.Sound.Header" xml:space="preserve">
+    <value>サウンド</value>
+  </data>
+  <data name="Settings.RigisterFileType.Header" xml:space="preserve">
+    <value>関連タイプ</value>
+  </data>
+  <data name="Settings.Drawing.Thickness.Text" xml:space="preserve">
+    <value>枠線のサイズ</value>
+  </data>
+  <data name="Settings.Drawing.FontHeight.Text" xml:space="preserve">
+    <value>フォントサイズ</value>
+  </data>
+  <data name="Settings.Color.Text" xml:space="preserve">
+    <value>前景色</value>
+  </data>
+  <data name="Settings.BackgroundColor.Text" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="Settings.Process_Inference.Header" xml:space="preserve">
+    <value>モデル推論</value>
+  </data>
+  <data name="Settings.Basic_RandomTitle.Text" xml:space="preserve">
+    <value>ランダムタイトル</value>
+  </data>
+  <data name="ProcessOptions.Header.Text" xml:space="preserve">
+    <value>プロジェクトオプション</value>
+  </data>
+  <data name="ActionProperty.Header.Text" xml:space="preserve">
+    <value>アクション属性</value>
+  </data>
+  <data name="Process.Created.Header" xml:space="preserve">
+    <value>作成日</value>
+  </data>
+  <data name="Process.Hide.Header" xml:space="preserve">
+    <value>実行時にウィンドウを非表示</value>
+  </data>
+  <data name="Process.Times.Header" xml:space="preserve">
+    <value>実行回数</value>
+  </data>
+  <data name="Process.Concurrently.Header" xml:space="preserve">
+    <value>同時数量</value>
+  </data>
+  <data name="Process.Output.Header" xml:space="preserve">
+    <value>より多くのログを出力</value>
+  </data>
+  <data name="Process.Process.Header" xml:space="preserve">
+    <value>メインフロー</value>
+  </data>
+  <data name="Process.Description.Text" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="Page.Output.Header" xml:space="preserve">
+    <value>出力</value>
+  </data>
+  <data name="Page.Resource.Header" xml:space="preserve">
+    <value>リソース</value>
+  </data>
+  <data name="Page.Variable.Header" xml:space="preserve">
+    <value>変数</value>
+  </data>
+  <data name="Page.Record.Header" xml:space="preserve">
+    <value>録画</value>
+  </data>
+  <data name="ToolBar.About.Label" xml:space="preserve">
+    <value>について</value>
+  </data>
+  <data name="ToolBar.Help.Label" xml:space="preserve">
+    <value>ヘルプ</value>
+  </data>
+  <data name="ToolBar.Register.Label" xml:space="preserve">
+    <value>登録</value>
+  </data>
+  <data name="BlankPage.Buy.Text" xml:space="preserve">
+    <value>購入対応</value>
+  </data>
+  <data name="Rename.Title" xml:space="preserve">
+    <value>名前の変更</value>
+  </data>
+  <data name="Variable.Title" xml:space="preserve">
+    <value>変数</value>
+  </data>
+  <data name="AndroidPackage.Title" xml:space="preserve">
+    <value>アンドロイドバッグ</value>
+  </data>
+  <data name="Close.Text" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
+  <data name="Workflow.MenuItem.Visible.Text" xml:space="preserve">
+    <value>表示</value>
+  </data>
+  <data name="Workflow.MenuItem.Preview.Text" xml:space="preserve">
+    <value>プレビューをオンにする</value>
+  </data>
+  <data name="Workflow.MenuItem.Open.Text" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="Workflow.MenuItem.Remove.Text" xml:space="preserve">
+    <value>削除</value>
+  </data>
+  <data name="Workflow.MenuItem.PreviewAll.Text" xml:space="preserve">
+    <value>プレビューをオンにする (すべてのアクション)</value>
+  </data>
+  <data name="Workflow.MenuItem.UnPreviewAll.Text" xml:space="preserve">
+    <value>プレビューをオフにする (すべてのアクション)</value>
+  </data>
+  <data name="ToolBar.New.Label" xml:space="preserve">
+    <value>新規作成</value>
+  </data>
+  <data name="ToolBar.Open.Label" xml:space="preserve">
+    <value>開く</value>
+  </data>
+  <data name="ToolBar.Run.Label" xml:space="preserve">
+    <value>実行</value>
+  </data>
+  <data name="ToolBar.Shared.Label" xml:space="preserve">
+    <value>リリース</value>
+  </data>
+  <data name="ToolBar.SaveAs.Label" xml:space="preserve">
+    <value>名前を付けて保存</value>
+  </data>
+  <data name="ToolBar.Save.Label" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ToolBar.Settings.Label" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="Shortcut.MouseGlobalPosition.Text" xml:space="preserve">
+    <value>マウス位置の取得 (グローバル)</value>
+  </data>
+  <data name="Shortcut.MouseWindowPosition.Text" xml:space="preserve">
+    <value>マウス位置の取得 (ウィンドウ)</value>
+  </data>
+  <data name="Shortcut.WindowTitle.Text" xml:space="preserve">
+    <value>ウィンドウタイトルの取得</value>
+  </data>
+  <data name="Shortcut.ColorPicker.Text" xml:space="preserve">
+    <value>ピックアップカラー</value>
+  </data>
+  <data name="Shortcut.WorkRun.Text" xml:space="preserve">
+    <value>実行フロー</value>
+  </data>
+  <data name="Shortcut.WorkPause.Text" xml:space="preserve">
+    <value>プロセスを一時停止する</value>
+  </data>
+  <data name="RecordWindow.Title" xml:space="preserve">
+    <value>録画</value>
+  </data>
+  <data name="StartToRun.Title" xml:space="preserve">
+    <value>実行</value>
+  </data>
+  <data name="Head.Text" xml:space="preserve">
+    <value>スタート</value>
+  </data>
+  <data name="Mouse.Description" xml:space="preserve">
+    <value>マウスアクション</value>
+  </data>
+  <data name="Mouse.Title" xml:space="preserve">
+    <value>マウス</value>
+  </data>
+  <data name="MovePointer.Description" xml:space="preserve">
+    <value>マウスを動かす</value>
+  </data>
+  <data name="MovePointer.Title" xml:space="preserve">
+    <value>マウスを動かす</value>
+  </data>
+
+  <data name="Click.Description" xml:space="preserve">
+    <value>クリック</value>
+  </data>
+  <data name="Click.Title" xml:space="preserve">
+    <value>クリック</value>
+  </data>
+
+  <data name="MoveClick.Description" xml:space="preserve">
+    <value>移動クリック</value>
+  </data>
+  <data name="MoveClick.Title" xml:space="preserve">
+    <value>移動クリック</value>
+  </data>
+
+  <data name="DoubleClick.Description" xml:space="preserve">
+    <value>ダブルクリック</value>
+  </data>
+  <data name="DoubleClick.Title" xml:space="preserve">
+    <value>ダブルクリック</value>
+  </data>
+
+  <data name="RightClick.Description" xml:space="preserve">
+    <value>右クリック</value>
+  </data>
+  <data name="RightClick.Title" xml:space="preserve">
+    <value>右クリック</value>
+  </data>
+
+  <data name="DragPointer.Description" xml:space="preserve">
+    <value>ドラッグ</value>
+  </data>
+  <data name="DragPointer.Title" xml:space="preserve">
+    <value>ドラッグ</value>
+  </data>
+
+  <data name="ListenMouse.Description" xml:space="preserve">
+    <value>モニターマウス</value>
+  </data>
+  <data name="ListenMouse.Title" xml:space="preserve">
+    <value>モニターマウス</value>
+  </data>
+
+  <data name="System.Description" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="System.Title" xml:space="preserve">
+    <value>システム</value>
+  </data>
+  <data name="Wait.Description" xml:space="preserve">
+    <value>待って、休眠とも言える。動作をしばらく停止させてから実行を続けることができます。</value>
+  </data>
+  <data name="Wait.Title" xml:space="preserve">
+    <value>待つ</value>
+  </data>
+
+  <data name="FileQuery.Description" xml:space="preserve">
+    <value>ファイルを検索する</value>
+  </data>
+  <data name="FileQuery.Title" xml:space="preserve">
+    <value>ファイルを検索する</value>
+  </data>
+
+  <data name="StartProcess.Description" xml:space="preserve">
+    <value>起動プロセス</value>
+  </data>
+  <data name="StartProcess.Title" xml:space="preserve">
+    <value>起動プロセス</value>
+  </data>
+
+  <data name="WindowCapture.Description" xml:space="preserve">
+    <value>このアクションは、選択したウィンドウをスクリーンショットするために使用します</value>
+  </data>
+  <data name="WindowCapture.Title" xml:space="preserve">
+    <value>ウィンドウスクリーンショット</value>
+  </data>
+
+  <data name="CropImage.Description" xml:space="preserve">
+    <value>この動作は、1枚の画像上で領域を選択し、トリミングすることができる。</value>
+  </data>
+  <data name="CropImage.Title" xml:space="preserve">
+    <value>写真を切る</value>
+  </data>
+
+  <data name="PlayRecord.Description" xml:space="preserve">
+    <value>録画を再生する</value>
+  </data>
+  <data name="PlayRecord.Title" xml:space="preserve">
+    <value>録画を再生する</value>
+  </data>
+
+  <data name="Timer.Description" xml:space="preserve">
+    <value>タイマーは一定の時間間隔で、いくつかの動作を繰り返し実行することができる。</value>
+  </data>
+  <data name="Timer.Title" xml:space="preserve">
+    <value>タイマー</value>
+  </data>
+
+  <data name="ONNXClassification.Description" xml:space="preserve">
+    <value>目標分類</value>
+  </data>
+  <data name="ONNXClassification.Title" xml:space="preserve">
+    <value>目標分類</value>
+  </data>
+
+  <data name="Type.Description" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="Type.Title" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="TypeUri.Description" xml:space="preserve">
+    <value>Urlを作成します</value>
+  </data>
+  <data name="TypeUri.Title" xml:space="preserve">
+    <value>Uri</value>
+  </data>
+
+  <data name="TypePassword.Description" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="TypePassword.Title" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+
+  <data name="TypePoint.Description" xml:space="preserve">
+    <value>座標点を定義します</value>
+  </data>
+  <data name="TypePoint.Title" xml:space="preserve">
+    <value>座標</value>
+  </data>
+
+  <data name="TypeFile.Description" xml:space="preserve">
+    <value>ファイルタイプの定義</value>
+  </data>
+  <data name="TypeFile.Title" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+
+  <data name="TypeFolder.Description" xml:space="preserve">
+    <value>フォルダを定義する</value>
+  </data>
+  <data name="TypeFolder.Title" xml:space="preserve">
+    <value>フォルダ</value>
+  </data>
+
+  <data name="ClipboardValue.Description" xml:space="preserve">
+    <value>せん断板</value>
+  </data>
+  <data name="ClipboardValue.Title" xml:space="preserve">
+    <value>せん断板</value>
+  </data>
+
+  <data name="TypeShortcut.Description" xml:space="preserve">
+    <value>ショートカットキー</value>
+  </data>
+  <data name="TypeShortcut.Title" xml:space="preserve">
+    <value>ショートカットキー</value>
+  </data>
+
+  <data name="Window.Description" xml:space="preserve">
+    <value>ウィンドウクラス</value>
+  </data>
+  <data name="Window.Title" xml:space="preserve">
+    <value>ウィンドウクラス</value>
+  </data>
+  <data name="FindWindow.Description" xml:space="preserve">
+    <value>Windowsシステムのウィンドウを検索します。このアクションは、ウィンドウタイトルまたはウィンドウクラスからウィンドウを検索します。</value>
+  </data>
+  <data name="FindWindow.Title" xml:space="preserve">
+    <value>検索ウィンドウ</value>
+  </data>
+
+  <data name="Control.Description" xml:space="preserve">
+    <value>ロジック</value>
+  </data>
+  <data name="Control.Title" xml:space="preserve">
+    <value>ロジック</value>
+  </data>
+  <data name="For.Description" xml:space="preserve">
+    <value>ループ</value>
+  </data>
+  <data name="For.Title" xml:space="preserve">
+    <value>ループ</value>
+  </data>
+
+  <data name="If.Description" xml:space="preserve">
+    <value>条件判断はpythonのif文に相当し、この動作には2つの分岐があり、条件が成立すれば左のフロー分岐を実行し、そうでなければ右のフロー分岐を実行する</value>
+  </data>
+  <data name="If.Title" xml:space="preserve">
+    <value>判断する</value>
+  </data>
+
+  <data name="Invoke.Description" xml:space="preserve">
+    <value>このアクションは、他のフロー (サブフローではない) を呼び出すことができます。</value>
+  </data>
+  <data name="Invoke.Title" xml:space="preserve">
+    <value>呼び出し</value>
+  </data>
+
+  <data name="Break.Description" xml:space="preserve">
+    <value>ループを停止する</value>
+  </data>
+  <data name="Break.Title" xml:space="preserve">
+    <value>ループを停止する</value>
+  </data>
+
+  <data name="OpenUri.Description" xml:space="preserve">
+    <value>このアクションは、ブラウザを起動して指定されたwebサイトを開くことができます</value>
+  </data>
+  <data name="OpenUri.Title" xml:space="preserve">
+    <value>リンクを開く</value>
+  </data>
+
+  <data name="Code.Description" xml:space="preserve">
+    <value>そのアクションは、いくつかのpythonスクリプトを実行することができます。</value>
+  </data>
+  <data name="Code.Title" xml:space="preserve">
+    <value>スクリプト</value>
+  </data>
+
+  <data name="Media.Description" xml:space="preserve">
+    <value>スクリーンショット、音声再生などのメディア</value>
+  </data>
+  <data name="Media.Title" xml:space="preserve">
+    <value>メディア</value>
+  </data>
+  <data name="MediaPlay.Description" xml:space="preserve">
+    <value>音声再生</value>
+  </data>
+  <data name="MediaPlay.Title" xml:space="preserve">
+    <value>音声再生</value>
+  </data>
+
+  <data name="Keyboard.Description" xml:space="preserve">
+    <value>キーボード</value>
+  </data>
+  <data name="Keyboard.Title" xml:space="preserve">
+    <value>キーボード</value>
+  </data>
+  <data name="SendKey.Description" xml:space="preserve">
+    <value>送信ボタン</value>
+  </data>
+  <data name="SendKey.Title" xml:space="preserve">
+    <value>送信ボタン</value>
+  </data>
+
+  <data name="SendText.Description" xml:space="preserve">
+    <value>テキストを送信</value>
+  </data>
+  <data name="SendText.Title" xml:space="preserve">
+    <value>テキストを送信</value>
+  </data>
+
+  <data name="PressKey.Description" xml:space="preserve">
+    <value>ボタンを押す</value>
+  </data>
+  <data name="PressKey.Title" xml:space="preserve">
+    <value>ボタンを押す</value>
+  </data>
+
+  <data name="ReleaseKey.Description" xml:space="preserve">
+    <value>リリースボタン</value>
+  </data>
+  <data name="ReleaseKey.Title" xml:space="preserve">
+    <value>リリースボタン</value>
+  </data>
+
+  <data name="ListenKeyboard.Description" xml:space="preserve">
+    <value>モニターキーボード</value>
+  </data>
+  <data name="ListenKeyboard.Title" xml:space="preserve">
+    <value>モニターキーボード</value>
+  </data>
+
+  <data name="Image.Description" xml:space="preserve">
+    <value>画像処理</value>
+  </data>
+  <data name="Image.Title" xml:space="preserve">
+    <value>画像処理</value>
+  </data>
+  <data name="ImageSave.Description" xml:space="preserve">
+    <value>プロセス中の画像タイプをローカルディスクに保存します。</value>
+  </data>
+  <data name="ImageSave.Title" xml:space="preserve">
+    <value>画像を保存する</value>
+  </data>
+
+  <data name="FeatureDetect.Description" xml:space="preserve">
+    <value>このアクションでは、1枚の画像の中からいくつかの特徴を持つ画像を探します。</value>
+  </data>
+  <data name="FeatureDetect.Title" xml:space="preserve">
+    <value>画像検索</value>
+  </data>
+
+  <data name="ExitApp.Description" xml:space="preserve">
+    <value>脱退</value>
+  </data>
+  <data name="ExitApp.Title" xml:space="preserve">
+    <value>脱退</value>
+  </data>
+
+  <data name="ImageLoad.Description" xml:space="preserve">
+    <value>画像をロードする</value>
+  </data>
+  <data name="ImageLoad.Title" xml:space="preserve">
+    <value>画像をロードする</value>
+  </data>
+
+  <data name="ONNXDetection.Description" xml:space="preserve">
+    <value>目標検出</value>
+  </data>
+  <data name="ONNXDetection.Title" xml:space="preserve">
+    <value>目標検出</value>
+  </data>
+
+  <data name="PointConvert.Description" xml:space="preserve">
+    <value>ウィンドウ座標を画面座標に変換するか、画面座標をウィンドウ座標に変換します</value>
+  </data>
+  <data name="PointConvert.Title" xml:space="preserve">
+    <value>座標変換</value>
+  </data>
+
+  <data name="QuitThread.Description" xml:space="preserve">
+    <value>実行中のスレッドアクションを終了するために使用できます。</value>
+  </data>
+  <data name="QuitThread.Title" xml:space="preserve">
+    <value>スレッドを終了する</value>
+  </data>
+
+  <data name="AdbPackages.Description" xml:space="preserve">
+    <value>このアクションは、androidシミュレータのすべてのインストールパッケージを取得できます。</value>
+  </data>
+  <data name="AdbPackages.Title" xml:space="preserve">
+    <value>インストールパッケージ</value>
+  </data>
+
+  <data name="Filesystem.Description" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="Filesystem.Title" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="FileRead.Description" xml:space="preserve">
+    <value>ファイルの読み取り</value>
+  </data>
+  <data name="FileRead.Title" xml:space="preserve">
+    <value>ファイルの読み取り</value>
+  </data>
+
+  <data name="FileWrite.Description" xml:space="preserve">
+    <value>ファイル書き込み</value>
+  </data>
+  <data name="FileWrite.Title" xml:space="preserve">
+    <value>ファイル書き込み</value>
+  </data>
+
+  <data name="Detection.Description" xml:space="preserve">
+    <value>画像検査</value>
+  </data>
+  <data name="Detection.Title" xml:space="preserve">
+    <value>画像検査</value>
+  </data>
+  <data name="Dnn.Description" xml:space="preserve">
+    <value>ディープラーニング</value>
+  </data>
+  <data name="Dnn.Title" xml:space="preserve">
+    <value>ディープラーニング</value>
+  </data>
+  <data name="Drawing.Description" xml:space="preserve">
+    <value>絵描き</value>
+  </data>
+  <data name="Drawing.Title" xml:space="preserve">
+    <value>絵描き</value>
+  </data>
+  <data name="TypeResource.Description" xml:space="preserve">
+    <value>リソース</value>
+  </data>
+  <data name="TypeResource.Title" xml:space="preserve">
+    <value>リソース</value>
+  </data>
+
+  <data name="MatchShapes.Description" xml:space="preserve">
+    <value>図形を探す</value>
+  </data>
+  <data name="MatchShapes.Title" xml:space="preserve">
+    <value>図形を探す</value>
+  </data>
+
+  <data name="ReadJson.Description" xml:space="preserve">
+    <value>Jsonの読み取り</value>
+  </data>
+  <data name="ReadJson.Title" xml:space="preserve">
+    <value>Jsonの読み取り</value>
+  </data>
+
+  <data name="RandomNumber.Description" xml:space="preserve">
+    <value>ランダム数を生成する</value>
+  </data>
+  <data name="RandomNumber.Title" xml:space="preserve">
+    <value>ランダム数</value>
+  </data>
+
+  <data name="Database.Description" xml:space="preserve">
+    <value>データベース</value>
+  </data>
+  <data name="Database.Title" xml:space="preserve">
+    <value>データベース</value>
+  </data>
+  <data name="WebWaitFrameAvailable.Description" xml:space="preserve">
+    <value>指定されたフレームワークをに切り替えることができるかどうかを確認します。</value>
+  </data>
+  <data name="WebWaitFrameAvailable.Title" xml:space="preserve">
+    <value>待機 * フレーム切り替え可能</value>
+  </data>
+
+  <data name="WebWaitVisibilityByLocator.Description" xml:space="preserve">
+    <value>位置付けポリシーを使用して、ページdomに存在する要素が表示されているかどうかをチェックします。可視性とは、要素が表示されるだけでなく、高さと幅が0を超えていることを意味します</value>
+  </data>
+  <data name="WebWaitVisibilityByLocator.Title" xml:space="preserve">
+    <value>* 表示待ち (ロケータ)</value>
+  </data>
+
+  <data name="AccessSize.Description" xml:space="preserve">
+    <value>配列またはリストの長さを取得します。アクセスするアクションは、コンテナまたはリストに同じ値が複数ある必要があります。</value>
+  </data>
+  <data name="AccessSize.Title" xml:space="preserve">
+    <value>アクセス長</value>
+  </data>
+
+  <data name="Web.Description" xml:space="preserve">
+    <value>ブラウザの操作</value>
+  </data>
+  <data name="Web.Title" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="Network.Description" xml:space="preserve">
+    <value>ネットワーク</value>
+  </data>
+  <data name="Network.Title" xml:space="preserve">
+    <value>ネットワーク</value>
+  </data>
+  <data name="WebOpen.Description" xml:space="preserve">
+    <value>ブラウザを開き、サポートし、chromeとedgeブラウザを開きます。</value>
+  </data>
+  <data name="WebOpen.Title" xml:space="preserve">
+    <value>ブラウザを開く</value>
+  </data>
+
+  <data name="WebWaitTitle.Description" xml:space="preserve">
+    <value>タイトルに大文字と小文字を区別する文字列が含まれているかどうかをチェックします。</value>
+  </data>
+  <data name="WebWaitTitle.Title" xml:space="preserve">
+    <value>* タイトルを待つ</value>
+  </data>
+
+  <data name="WebElementSubmit.Description" xml:space="preserve">
+    <value>フォーム送信</value>
+  </data>
+  <data name="WebElementSubmit.Title" xml:space="preserve">
+    <value>フォーム送信</value>
+  </data>
+
+  <data name="WebGetElement.Description" xml:space="preserve">
+    <value>Web要素の検索</value>
+  </data>
+  <data name="WebGetElement.Title" xml:space="preserve">
+    <value>要素の検索</value>
+  </data>
+
+  <data name="HttpDownload.Description" xml:space="preserve">
+    <value>このアクションは、httpプロトコルを介してネットワークファイルをダウンロードします。</value>
+  </data>
+  <data name="HttpDownload.Title" xml:space="preserve">
+    <value>ダウンロード</value>
+  </data>
+
+  <data name="WebElementAttribute.Description" xml:space="preserve">
+    <value>属性の取得</value>
+  </data>
+  <data name="WebElementAttribute.Title" xml:space="preserve">
+    <value>属性の取得</value>
+  </data>
+
+  <data name="WebCookies.Description" xml:space="preserve">
+    <value>クッキーを取得</value>
+  </data>
+  <data name="WebCookies.Title" xml:space="preserve">
+    <value>クッキーを取得</value>
+  </data>
+
+  <data name="WebWaitPresence.Description" xml:space="preserve">
+    <value>要素がページのdomに存在するかどうかをチェックすることは、必ずしも要素が表示されていることを意味するわけではありません。</value>
+  </data>
+  <data name="WebWaitPresence.Title" xml:space="preserve">
+    <value>* 要素のレンダリングを待つ</value>
+  </data>
+
+  <data name="ArithmeticCalculate.Description" xml:space="preserve">
+    <value>( - * / ) 算术演算を行います</value>
+  </data>
+  <data name="ArithmeticCalculate.Title" xml:space="preserve">
+    <value>算数実行</value>
+  </data>
+
+  <data name="Algorithm.Description" xml:space="preserve">
+    <value>アルゴリズム</value>
+  </data>
+  <data name="Algorithm.Title" xml:space="preserve">
+    <value>アルゴリズム</value>
+  </data>
+  <data name="FindContours.Description" xml:space="preserve">
+    <value>プロファイルを検索</value>
+  </data>
+  <data name="FindContours.Title" xml:space="preserve">
+    <value>プロファイルを検索</value>
+  </data>
+
+  <data name="ImageMorphological.Description" xml:space="preserve">
+    <value>膨張</value>
+  </data>
+  <data name="ImageMorphological.Title" xml:space="preserve">
+    <value>膨張</value>
+  </data>
+
+  <data name="PaddleTextDetection.Description" xml:space="preserve">
+    <value>テキスト検出</value>
+  </data>
+  <data name="PaddleTextDetection.Title" xml:space="preserve">
+    <value>テキスト検出</value>
+  </data>
+
+  <data name="NetUserAdd.Description" xml:space="preserve">
+    <value>このアクションは、オペレーティングシステムにアカウントを追加することができます。</value>
+  </data>
+  <data name="NetUserAdd.Title" xml:space="preserve">
+    <value>ユーザーの追加</value>
+  </data>
+
+  <data name="TypeRect.Description" xml:space="preserve">
+    <value>長方形</value>
+  </data>
+  <data name="TypeRect.Title" xml:space="preserve">
+    <value>長方形</value>
+  </data>
+
+  <data name="SplitString.Description" xml:space="preserve">
+    <value>文字列の分割</value>
+  </data>
+  <data name="SplitString.Title" xml:space="preserve">
+    <value>文字列の分割</value>
+  </data>
+
+  <data name="TypeScalar.Description" xml:space="preserve">
+    <value>スカラー</value>
+  </data>
+  <data name="TypeScalar.Title" xml:space="preserve">
+    <value>スカラー</value>
+  </data>
+
+  <data name="SpecialWindow.Description" xml:space="preserve">
+    <value>このアクションは、既知の特定のウィンドウを選択するために使用されます。</value>
+  </data>
+  <data name="SpecialWindow.Title" xml:space="preserve">
+    <value>特定のウィンドウ</value>
+  </data>
+
+  <data name="SendKeyMessage.Description" xml:space="preserve">
+    <value>キーボードメッセージを送信</value>
+  </data>
+  <data name="SendKeyMessage.Title" xml:space="preserve">
+    <value>キーボードメッセージを送信</value>
+  </data>
+
+  <data name="OpenApplication.Description" xml:space="preserve">
+    <value>Windowsシステムのソフトウェアを開きます。このアクションは、プログラムが終了するのを待ちません。</value>
+  </data>
+  <data name="OpenApplication.Title" xml:space="preserve">
+    <value>アプリを開く</value>
+  </data>
+
+  <data name="NameAlias.Description" xml:space="preserve">
+    <value>このアクションは、名前でフローの中で使用できる通過アクションを参照します。</value>
+  </data>
+  <data name="NameAlias.Title" xml:space="preserve">
+    <value>アクションの参照 (名前)</value>
+  </data>
+
+  <data name="LaunchFile.Description" xml:space="preserve">
+    <value>このアクションは、オペレーティングシステムに関連付けられたファイルタイプのファイルを開くことができます。</value>
+  </data>
+  <data name="LaunchFile.Title" xml:space="preserve">
+    <value>ファイルを開く</value>
+  </data>
+
+  <data name="PaddleTextRecognition.Description" xml:space="preserve">
+    <value>テキスト認識</value>
+  </data>
+  <data name="PaddleTextRecognition.Title" xml:space="preserve">
+    <value>テキスト認識</value>
+  </data>
+
+  <data name="WebSwitchToFrame.Description" xml:space="preserve">
+    <value>指定されたフレームにフォーカスを切り替える</value>
+  </data>
+  <data name="WebSwitchToFrame.Title" xml:space="preserve">
+    <value>フレームを切り替える</value>
+  </data>
+
+  <data name="WebFocusFrameDefault.Description" xml:space="preserve">
+    <value>フォーカスをデフォルトのフレームワークに切り替えます。</value>
+  </data>
+  <data name="WebFocusFrameDefault.Title" xml:space="preserve">
+    <value>フレーム * 設定フォーカス</value>
+  </data>
+
+  <data name="WebActionChainsCreated.Description" xml:space="preserve">
+    <value>Webアクションチェーンの作成</value>
+  </data>
+  <data name="WebActionChainsCreated.Title" xml:space="preserve">
+    <value>アクションチェーン * 作成</value>
+  </data>
+
+  <data name="WebActionClick.Description" xml:space="preserve">
+    <value>Web要素をクリックします。アクションはアクションチェーンに追加する必要があります。</value>
+  </data>
+  <data name="WebActionClick.Title" xml:space="preserve">
+    <value>アクションチェーン.クリック</value>
+  </data>
+
+  <data name="When.Description" xml:space="preserve">
+    <value>このアクションは、条件が成立するまでスレッドを開いて検出し続けます。</value>
+  </data>
+  <data name="When.Title" xml:space="preserve">
+    <value>… が成立する</value>
+  </data>
+
+  <data name="WebScreenshot.Description" xml:space="preserve">
+    <value>要素のスクリーンショットまたはページのスクリーンショット</value>
+  </data>
+  <data name="WebScreenshot.Title" xml:space="preserve">
+    <value>要素スクリーンショット</value>
+  </data>
+
+  <data name="PressAndReleaseKey.Description" xml:space="preserve">
+    <value>押してリリース</value>
+  </data>
+  <data name="PressAndReleaseKey.Title" xml:space="preserve">
+    <value>押してリリース</value>
+  </data>
+
+  <data name="ShowMessageBox.Description" xml:space="preserve">
+    <value>ヒントボックス</value>
+  </data>
+  <data name="ShowMessageBox.Title" xml:space="preserve">
+    <value>ヒントボックス</value>
+  </data>
+
+  <data name="MoveOffset.Description" xml:space="preserve">
+    <value>オフセット移動</value>
+  </data>
+  <data name="MoveOffset.Title" xml:space="preserve">
+    <value>オフセット移動</value>
+  </data>
+
+  <data name="TextChinese.Description" xml:space="preserve">
+    <value>画像中の中国語文字を識別する。</value>
+  </data>
+  <data name="TextChinese.Title" xml:space="preserve">
+    <value>中国語認識</value>
+  </data>
+
+  <data name="ResizeImage.Description" xml:space="preserve">
+    <value>サイズ変更</value>
+  </data>
+  <data name="ResizeImage.Title" xml:space="preserve">
+    <value>サイズ変更</value>
+  </data>
+
+  <data name="CenterCropImage.Description" xml:space="preserve">
+    <value>中心位置から画像を切り取る</value>
+  </data>
+  <data name="CenterCropImage.Title" xml:space="preserve">
+    <value>写真を切る</value>
+  </data>
+
+  <data name="WinRun.Description" xml:space="preserve">
+    <value>オペレーティングシステムで実行ダイアログを開く</value>
+  </data>
+  <data name="WinRun.Title" xml:space="preserve">
+    <value>ダイアログを実行する</value>
+  </data>
+
+  <data name="HttpGet.Description" xml:space="preserve">
+    <value>Http getリクエスト</value>
+  </data>
+  <data name="HttpGet.Title" xml:space="preserve">
+    <value>Get</value>
+  </data>
+
+  <data name="ONNXModel.Description" xml:space="preserve">
+    <value>Onnxモデルファイルのロード</value>
+  </data>
+  <data name="ONNXModel.Title" xml:space="preserve">
+    <value>モデル</value>
+  </data>
+
+  <data name="WebWaitVisibilityByElement.Description" xml:space="preserve">
+    <value>既知の要素から、ページdomに存在する要素が表示されているかどうかをチェックします。可視性とは、要素が表示されるだけでなく、高さと幅が0より大きいことを意味します</value>
+  </data>
+  <data name="WebWaitVisibilityByElement.Title" xml:space="preserve">
+    <value>* 表示待ち</value>
+  </data>
+
+  <data name="WebWaitAlert.Description" xml:space="preserve">
+    <value>現在アラームが存在するかどうかを確認し、それに切り替えます。</value>
+  </data>
+  <data name="WebWaitAlert.Title" xml:space="preserve">
+    <value>* 警告ボックスを待つ</value>
+  </data>
+
+  <data name="WebWaitClickable.Description" xml:space="preserve">
+    <value>要素が表示され、有効になっていることを確認して、クリックできるようにします。</value>
+  </data>
+  <data name="WebWaitClickable.Title" xml:space="preserve">
+    <value>待つ * クリック可能</value>
+  </data>
+
+  <data name="BlobDetect.Description" xml:space="preserve">
+    <value>ブロブ検索</value>
+  </data>
+  <data name="BlobDetect.Title" xml:space="preserve">
+    <value>ブロブ</value>
+  </data>
+
+  <data name="FilterVertex.Description" xml:space="preserve">
+    <value>頂点フィルタ</value>
+  </data>
+  <data name="FilterVertex.Title" xml:space="preserve">
+    <value>頂点フィルタ</value>
+  </data>
+
+  <data name="CalculateCenter.Description" xml:space="preserve">
+    <value>計算中心位置</value>
+  </data>
+  <data name="CalculateCenter.Title" xml:space="preserve">
+    <value>中心座標</value>
+  </data>
+
+  <data name="CaptureFullScreen.Description" xml:space="preserve">
+    <value>全画面スクリーンショット</value>
+  </data>
+  <data name="CaptureFullScreen.Title" xml:space="preserve">
+    <value>全画面スクリーンショット</value>
+  </data>
+
+  <data name="SendMouseClick.Description" xml:space="preserve">
+    <value>マウスメッセージを送信</value>
+  </data>
+  <data name="SendMouseClick.Title" xml:space="preserve">
+    <value>マウスメッセージを送信</value>
+  </data>
+
+  <data name="YoutubeDownload.Description" xml:space="preserve">
+    <value>Youtube動画ダウンロード</value>
+  </data>
+  <data name="YoutubeDownload.Title" xml:space="preserve">
+    <value>Youtube動画ダウンロード</value>
+  </data>
+
+  <data name="DirectoryIterator.Description" xml:space="preserve">
+    <value>フォルダを巡回する</value>
+  </data>
+  <data name="DirectoryIterator.Title" xml:space="preserve">
+    <value>フォルダを巡回する</value>
+  </data>
+
+  <data name="CopyFile.Description" xml:space="preserve">
+    <value>ファイルのコピー</value>
+  </data>
+  <data name="CopyFile.Title" xml:space="preserve">
+    <value>ファイルのコピー</value>
+  </data>
+
+  <data name="CodeExpression.Description" xml:space="preserve">
+    <value>このアクションは、pythonの式を実行することができます。</value>
+  </data>
+  <data name="CodeExpression.Title" xml:space="preserve">
+    <value>式</value>
+  </data>
+
+  <data name="KillProcess.Description" xml:space="preserve">
+    <value>このアクションは、オペレーティングシステムのプロセスを終了することができます</value>
+  </data>
+  <data name="KillProcess.Title" xml:space="preserve">
+    <value>プロセスの終了</value>
+  </data>
+
+  <data name="ActionAlias.Description" xml:space="preserve">
+    <value>このアクションは、フローを参照するために使用できる通過アクションです。</value>
+  </data>
+  <data name="ActionAlias.Title" xml:space="preserve">
+    <value>アクションの参照</value>
+  </data>
+
+  <data name="WindowTitle.Description" xml:space="preserve">
+    <value>直線を探す</value>
+  </data>
+  <data name="WindowTitle.Title" xml:space="preserve">
+    <value>直線を探す</value>
+  </data>
+
+  <data name="FastLineDetection.Description" xml:space="preserve">
+    <value>直線を探す</value>
+  </data>
+  <data name="FastLineDetection.Title" xml:space="preserve">
+    <value>直線を探す</value>
+  </data>
+
+  <data name="EdgeLineDetection.Description" xml:space="preserve">
+    <value>直線を探す</value>
+  </data>
+  <data name="EdgeLineDetection.Title" xml:space="preserve">
+    <value>直線を探す</value>
+  </data>
+
+  <data name="EllipseDetection.Description" xml:space="preserve">
+    <value>画像中の円または楕円を検出する</value>
+  </data>
+  <data name="EllipseDetection.Title" xml:space="preserve">
+    <value>楕円検出</value>
+  </data>
+
+  <data name="CvtColor.Description" xml:space="preserve">
+    <value>カラー変換</value>
+  </data>
+  <data name="CvtColor.Title" xml:space="preserve">
+    <value>カラー変換</value>
+  </data>
+
+  <data name="ImageCanny.Description" xml:space="preserve">
+    <value>エッジ検出</value>
+  </data>
+  <data name="ImageCanny.Title" xml:space="preserve">
+    <value>エッジ検出</value>
+  </data>
+
+  <data name="ImageThreshold.Description" xml:space="preserve">
+    <value>この動作は、画像を二値化することができる。一定のしきい値条件で画像をグレースケール画像にすると理解できる。</value>
+  </data>
+  <data name="ImageThreshold.Title" xml:space="preserve">
+    <value>二値化</value>
+  </data>
+
+  <data name="ImageInRange.Description" xml:space="preserve">
+    <value>Inrange</value>
+  </data>
+  <data name="ImageInRange.Title" xml:space="preserve">
+    <value>Inrange</value>
+  </data>
+
+  <data name="MoveDoubleClick.Description" xml:space="preserve">
+    <value>画像の腐食</value>
+  </data>
+  <data name="MoveDoubleClick.Title" xml:space="preserve">
+    <value>腐食</value>
+  </data>
+
+  <data name="ConnectedComponents.Description" xml:space="preserve">
+    <value>コネクティッドコンポーネント</value>
+  </data>
+  <data name="ConnectedComponents.Title" xml:space="preserve">
+    <value>コネクティッドコンポーネント</value>
+  </data>
+
+  <data name="ImageBlur.Description" xml:space="preserve">
+    <value>あいまい</value>
+  </data>
+  <data name="ImageBlur.Title" xml:space="preserve">
+    <value>あいまい</value>
+  </data>
+
+  <data name="ApproxPolyDP.Description" xml:space="preserve">
+    <value>Approxpolydp</value>
+  </data>
+  <data name="ApproxPolyDP.Title" xml:space="preserve">
+    <value>Approxpolydp</value>
+  </data>
+
+  <data name="FindNonZero.Description" xml:space="preserve">
+    <value>画像で、ゼロ以外の画素点を探します。</value>
+  </data>
+  <data name="FindNonZero.Title" xml:space="preserve">
+    <value>非ゼロ画素点</value>
+  </data>
+
+  <data name="WorkThread.Description" xml:space="preserve">
+    <value>スレッドは、いくつかのアクションを非同期的に実行するために使用できます。</value>
+  </data>
+  <data name="WorkThread.Title" xml:space="preserve">
+    <value>スレッド</value>
+  </data>
+
+  <data name="SetForegroundWindow.Description" xml:space="preserve">
+    <value>フロントウィンドウ</value>
+  </data>
+  <data name="SetForegroundWindow.Title" xml:space="preserve">
+    <value>フロントウィンドウ</value>
+  </data>
+
+  <data name="ShutdownSystem.Description" xml:space="preserve">
+    <value>この動作は、オペレーティングシステム、つまりコンピュータのシャットダウンをオフにすることができます。</value>
+  </data>
+  <data name="ShutdownSystem.Title" xml:space="preserve">
+    <value>電源を切る</value>
+  </data>
+
+  <data name="TimedTask.Description" xml:space="preserve">
+    <value>このアクションは、指定された時間にトリガされ、対応するサブアクションを実行できます。</value>
+  </data>
+  <data name="TimedTask.Title" xml:space="preserve">
+    <value>定時タスク</value>
+  </data>
+
+  <data name="HttpPost.Description" xml:space="preserve">
+    <value>Http postリクエストの送信</value>
+  </data>
+  <data name="HttpPost.Title" xml:space="preserve">
+    <value>Post</value>
+  </data>
+
+  <data name="HttpHead.Description" xml:space="preserve">
+    <value>Http headリクエスト</value>
+  </data>
+  <data name="HttpHead.Title" xml:space="preserve">
+    <value>Head</value>
+  </data>
+
+  <data name="Android.Description" xml:space="preserve">
+    <value>アンドロイド</value>
+  </data>
+  <data name="Android.Title" xml:space="preserve">
+    <value>アンドロイド</value>
+  </data>
+  <data name="AdbKillServer.Description" xml:space="preserve">
+    <value>サービスの終了</value>
+  </data>
+  <data name="AdbKillServer.Title" xml:space="preserve">
+    <value>サービスの終了</value>
+  </data>
+
+  <data name="AdbDevices.Description" xml:space="preserve">
+    <value>照会システムで起動したアンドロイドシミュレータ。</value>
+  </data>
+  <data name="AdbDevices.Title" xml:space="preserve">
+    <value>設備リスト</value>
+  </data>
+
+  <data name="AdbStartServer.Description" xml:space="preserve">
+    <value>サービスの開始</value>
+  </data>
+  <data name="AdbStartServer.Title" xml:space="preserve">
+    <value>サービスの開始</value>
+  </data>
+
+  <data name="AdbForward.Description" xml:space="preserve">
+    <value>アンドロイドのポートをローカルポートにマッピングします。</value>
+  </data>
+  <data name="AdbForward.Title" xml:space="preserve">
+    <value>転送</value>
+  </data>
+
+  <data name="AdbConnect.Description" xml:space="preserve">
+    <value>主にシミュレータは本機ではなく、別のコンピューターに応用されている。</value>
+  </data>
+  <data name="AdbConnect.Title" xml:space="preserve">
+    <value>接続</value>
+  </data>
+
+  <data name="AdbIfConfig.Description" xml:space="preserve">
+    <value>ネットワークカードの設定を確認する</value>
+  </data>
+  <data name="AdbIfConfig.Title" xml:space="preserve">
+    <value>ネットワークカードの設定を確認する</value>
+  </data>
+
+  <data name="AdbRemoveForward.Description" xml:space="preserve">
+    <value>現在のシステムでポート転送を削除します。</value>
+  </data>
+  <data name="AdbRemoveForward.Title" xml:space="preserve">
+    <value>転送を削除</value>
+  </data>
+
+  <data name="ReadLines.Description" xml:space="preserve">
+    <value>複数行のファイルを読み込む</value>
+  </data>
+  <data name="ReadLines.Title" xml:space="preserve">
+    <value>複数行のファイルを読み込む</value>
+  </data>
+
+  <data name="AdbSwipe.Description" xml:space="preserve">
+    <value>アンドロイドシミュレータでスライド操作を実現します。</value>
+  </data>
+  <data name="AdbSwipe.Title" xml:space="preserve">
+    <value>スライディング</value>
+  </data>
+
+  <data name="AdbInput.Description" xml:space="preserve">
+    <value>Androidシミュレータではテキスト入力をシミュレートしています。この動作は中国語入力には対応していません。</value>
+  </data>
+  <data name="AdbInput.Title" xml:space="preserve">
+    <value>入力</value>
+  </data>
+
+  <data name="AdbKey.Description" xml:space="preserve">
+    <value>アンドロイドシミュレータでボタンをシミュレートします。</value>
+  </data>
+  <data name="AdbKey.Title" xml:space="preserve">
+    <value>ボタン</value>
+  </data>
+
+  <data name="AdbTap.Description" xml:space="preserve">
+    <value>Androidシミュレータでクリックをシミュレートします。</value>
+  </data>
+  <data name="AdbTap.Title" xml:space="preserve">
+    <value>クリック</value>
+  </data>
+
+  <data name="AdbScreenCap.Description" xml:space="preserve">
+    <value>シミュレータースクリーンショット</value>
+  </data>
+  <data name="AdbScreenCap.Title" xml:space="preserve">
+    <value>スクリーンショット</value>
+  </data>
+
+  <data name="AccessArray.Description" xml:space="preserve">
+    <value>インデックスに基づいてアクションの値を取得します。このアクションには、同じ値が複数ある必要があります。</value>
+  </data>
+  <data name="AccessArray.Title" xml:space="preserve">
+    <value>アクセス配列</value>
+  </data>
+
+  <data name="BaiduTranslate.Description" xml:space="preserve">
+    <value>バイドゥ翻訳</value>
+  </data>
+  <data name="BaiduTranslate.Title" xml:space="preserve">
+    <value>バイドゥ翻訳</value>
+  </data>
+
+  <data name="AdbStartApp.Description" xml:space="preserve">
+    <value>このアクションは、アンドロイドシミュレータのappを開くことができます。</value>
+  </data>
+  <data name="AdbStartApp.Title" xml:space="preserve">
+    <value>Appを開く</value>
+  </data>
+
+  <data name="AccessKey.Description" xml:space="preserve">
+    <value>指定した名前に基づいて、オブジェクトの値を取得します</value>
+  </data>
+  <data name="AccessKey.Title" xml:space="preserve">
+    <value>Access key</value>
+  </data>
+
+  <data name="CaptureForground.Description" xml:space="preserve">
+    <value>フロントウィンドウのスクリーンショット</value>
+  </data>
+  <data name="CaptureForground.Title" xml:space="preserve">
+    <value>フロントウィンドウのスクリーンショット</value>
+  </data>
+
+  <data name="Cloud.Description" xml:space="preserve">
+    <value>Cloud</value>
+  </data>
+  <data name="Cloud.Title" xml:space="preserve">
+    <value>Cloud</value>
+  </data>
+  <data name="Xml.Description" xml:space="preserve">
+    <value>Xml</value>
+  </data>
+  <data name="Xml.Title" xml:space="preserve">
+    <value>Xml</value>
+  </data>
+  <data name="XmlLoadDocument.Description" xml:space="preserve">
+    <value>Xmlロードドキュメント</value>
+  </data>
+  <data name="XmlLoadDocument.Title" xml:space="preserve">
+    <value>Xmlロードドキュメント</value>
+  </data>
+
+  <data name="Json.Description" xml:space="preserve">
+    <value>Json</value>
+  </data>
+  <data name="Json.Title" xml:space="preserve">
+    <value>Json</value>
+  </data>
+  <data name="XmlGetNodeList.Description" xml:space="preserve">
+    <value>Xml getnode list</value>
+  </data>
+  <data name="XmlGetNodeList.Title" xml:space="preserve">
+    <value>Xml getnode list</value>
+  </data>
+
+  <data name="XmlNodeName.Description" xml:space="preserve">
+    <value>Xml nodename</value>
+  </data>
+  <data name="XmlNodeName.Title" xml:space="preserve">
+    <value>Xml nodename</value>
+  </data>
+
+  <data name="FilterText.Description" xml:space="preserve">
+    <value>このアクションは、文字列を含む配列をフィルタリングします</value>
+  </data>
+  <data name="FilterText.Title" xml:space="preserve">
+    <value>文字列のフィルタリング</value>
+  </data>
+
+  <data name="XmlDocumentElement.Description" xml:space="preserve">
+    <value>Xml documentelement</value>
+  </data>
+  <data name="XmlDocumentElement.Title" xml:space="preserve">
+    <value>Xml documentelement</value>
+  </data>
+
+  <data name="XmlReplaceText.Description" xml:space="preserve">
+    <value>Xmlのりものtext</value>
+  </data>
+  <data name="XmlReplaceText.Title" xml:space="preserve">
+    <value>Xmlのりものtext</value>
+  </data>
+
+  <data name="XmlSaveDocument.Description" xml:space="preserve">
+    <value>Xmlファイルの保存</value>
+  </data>
+  <data name="XmlSaveDocument.Title" xml:space="preserve">
+    <value>保存</value>
+  </data>
+
+  <data name="InputFlyoutItem.Actions.Text" xml:space="preserve">
+    <value>アクション</value>
+  </data>
+  <data name="InputFlyoutItem.Expression.Text" xml:space="preserve">
+    <value>式</value>
+  </data>
+  <data name="InputFlyoutItem.Text.Text" xml:space="preserve">
+    <value>テキスト</value>
+  </data>
+  <data name="InputFlyoutItem.Url.Text" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="InputFlyoutItem.Boolean.Text" xml:space="preserve">
+    <value>ブル</value>
+  </data>
+  <data name="InputFlyoutItem.Number.Text" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="InputFlyoutItem.Point.Text" xml:space="preserve">
+    <value>座標</value>
+  </data>
+  <data name="InputFlyoutItem.FolderPicker.Text" xml:space="preserve">
+    <value>フォルダ</value>
+  </data>
+  <data name="InputFlyoutItem.FilePicker.Text" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
+  <data name="InputFlyoutItem.KeySequence.Text" xml:space="preserve">
+    <value>キーボード</value>
+  </data>
+  <data name="InputFlyoutItem.Resource.Text" xml:space="preserve">
+    <value>リソース</value>
+  </data>
+  <data name="InputFlyoutItem.Scalar.Text" xml:space="preserve">
+    <value>スカラー</value>
+  </data>
+  <data name="InputFlyoutItem.Range.Text" xml:space="preserve">
+    <value>範囲</value>
+  </data>
+    <data name="InputFlyoutItem.Color.Text" xml:space="preserve">
+    <value>カラー</value>
+  </data>
+    <data name="InputFlyoutItem.Rect.Text" xml:space="preserve">
+    <value>長方形</value>
+  </data>
+  <data name="ProcessID.Description" xml:space="preserve">
+    <value>プロセスは同時に実行することができ、同時に実行すると、複数のプロセスが開かれ、実行中のプロセスごとに一意の数字フラグがあり、このフラグは0から増加します。</value>
+  </data>
+  <data name="ProcessID.Title" xml:space="preserve">
+    <value>プロセスフラグ</value>
+  </data>
+
+  <data name="PaddleTextDirectionClassifier.Description" xml:space="preserve">
+    <value>テキスト方向分類</value>
+  </data>
+  <data name="PaddleTextDirectionClassifier.Title" xml:space="preserve">
+    <value>テキスト方向分類</value>
+  </data>
+
+  <data name="InputParam.Description" xml:space="preserve">
+    <value>親アクションから渡された値。</value>
+  </data>
+  <data name="InputParam.Title" xml:space="preserve">
+    <value>パラメータのインポート</value>
+  </data>
+
+  <data name="WebActionChainsPerform.Description" xml:space="preserve">
+    <value>作成したアクションチェーンを実行します。</value>
+  </data>
+  <data name="WebActionChainsPerform.Title" xml:space="preserve">
+    <value>アクションチェーン * 実行</value>
+  </data>
+
+  <data name="WebElementSendKey.Description" xml:space="preserve">
+    <value>送信ボタン</value>
+  </data>
+  <data name="WebElementSendKey.Title" xml:space="preserve">
+    <value>送信ボタン</value>
+  </data>
+
+  <data name="WebElementClick.Description" xml:space="preserve">
+    <value>クリック</value>
+  </data>
+  <data name="WebElementClick.Title" xml:space="preserve">
+    <value>クリック</value>
+  </data>
+
+  <data name="WebElementClear.Description" xml:space="preserve">
+    <value>テキストがテキスト入力要素の場合は、テキストをクリアします。</value>
+  </data>
+  <data name="WebElementClear.Title" xml:space="preserve">
+    <value>テキストをクリア</value>
+  </data>
+
+  <data name="WebElementIsSelect.Description" xml:space="preserve">
+    <value>戻り要素が選択されているかどうかは、チェックボックスまたはラジオボタンが選択されているかどうかをチェックするために使用できます。</value>
+  </data>
+  <data name="WebElementIsSelect.Title" xml:space="preserve">
+    <value>チェックをオンにする</value>
+  </data>
+
+  <data name="WebElementSendText.Description" xml:space="preserve">
+    <value>現在フォーカスのあるweb要素にテキストを送信します。</value>
+  </data>
+  <data name="WebElementSendText.Title" xml:space="preserve">
+    <value>テキストを送信</value>
+  </data>
+
+  <data name="WebActionClickHold.Description" xml:space="preserve">
+    <value>要素の上でマウスの左ボタンを押すと、アクションチェーンに追加する必要があります。</value>
+  </data>
+  <data name="WebActionClickHold.Title" xml:space="preserve">
+    <value>アクションチェーン.クリック</value>
+  </data>
+
+  <data name="WebActionDoubleClick.Description" xml:space="preserve">
+    <value>要素をダブルクリックすると、アクションチェーンに追加する必要があります。</value>
+  </data>
+  <data name="WebActionDoubleClick.Title" xml:space="preserve">
+    <value>アクションチェーン.ダブルクリック</value>
+  </data>
+
+  <data name="WebActionMoveTo.Description" xml:space="preserve">
+    <value>マウスを要素の上に移動します。</value>
+  </data>
+  <data name="WebActionMoveTo.Title" xml:space="preserve">
+    <value>アクションチェーン移動</value>
+  </data>
+
+  <data name="WebActionRelease.Description" xml:space="preserve">
+    <value>要素のマウスボタンを放します。</value>
+  </data>
+  <data name="WebActionRelease.Title" xml:space="preserve">
+    <value>アクションチェーン.リリース</value>
+  </data>
+
+  <data name="WebActionDragDrop.Description" xml:space="preserve">
+    <value>ソース要素の上でマウスの左ボタンを押したまま、ターゲット要素に移動してマウスを放します。</value>
+  </data>
+  <data name="WebActionDragDrop.Title" xml:space="preserve">
+    <value>アクションチェーン.ドラッグ &amp; ドロップ</value>
+  </data>
+
+  <data name="WebActionKeyDown.Description" xml:space="preserve">
+    <value>送信ボタンのみで、リリースしません。 (control、alt、shift) と一緒にのみ使用できます。</value>
+  </data>
+  <data name="WebActionKeyDown.Title" xml:space="preserve">
+    <value>アクションチェーン.ボタン</value>
+  </data>
+
+  <data name="WebActionKeyUp.Description" xml:space="preserve">
+    <value>修正キーを放す</value>
+  </data>
+  <data name="WebActionKeyUp.Title" xml:space="preserve">
+    <value>アクションチェーン.リリースボタン</value>
+  </data>
+
+  <data name="WebActionMoveOffset.Description" xml:space="preserve">
+    <value>マウスを現在のマウス位置に移動するか、web要素のオフセットを指定します。</value>
+  </data>
+  <data name="WebActionMoveOffset.Title" xml:space="preserve">
+    <value>アクションチェーン移動 (オフセット)</value>
+  </data>
+
+  <data name="WebActionSendText.Description" xml:space="preserve">
+    <value>テキストの設定</value>
+  </data>
+  <data name="WebActionSendText.Title" xml:space="preserve">
+    <value>アクションチェーン.テキストの送信</value>
+  </data>
+
+  <data name="LoggingEnabled.Description" xml:space="preserve">
+    <value>このアクションは、出力ログを個別に制御するために使用されます</value>
+  </data>
+  <data name="LoggingEnabled.Title" xml:space="preserve">
+    <value>出力</value>
+  </data>
+
+  <data name="AdaptiveThreshold.Description" xml:space="preserve">
+    <value>適応二値化</value>
+  </data>
+  <data name="AdaptiveThreshold.Title" xml:space="preserve">
+    <value>適応二値化</value>
+  </data>
+
+  <data name="GroupAction.Description" xml:space="preserve">
+    <value>この動作は、ビュー上の関連動作をグループ化することができ、論理的にはっきりしている。</value>
+  </data>
+  <data name="GroupAction.Title" xml:space="preserve">
+    <value>グループ分け</value>
+  </data>
+
+  <data name="AdbMove.Description" xml:space="preserve">
+    <value>移動</value>
+  </data>
+  <data name="AdbMove.Title" xml:space="preserve">
+    <value>移動</value>
+  </data>
+
+  <data name="TcpListen.Description" xml:space="preserve">
+    <value>このアクションは、tcpまたはudpサービス側を作成するために使用されます。</value>
+  </data>
+  <data name="TcpListen.Title" xml:space="preserve">
+    <value>傍受</value>
+  </data>
+
+  <data name="TcpSend.Description" xml:space="preserve">
+    <value>このアクションは、tcpまたはudpを介してデータを送信します。</value>
+  </data>
+  <data name="TcpSend.Title" xml:space="preserve">
+    <value>送信</value>
+  </data>
+
+  <data name="TcpReceive.Description" xml:space="preserve">
+    <value>このアクションは、tcpまたはudpを介してデータを受信します。</value>
+  </data>
+  <data name="TcpReceive.Title" xml:space="preserve">
+    <value>受信</value>
+  </data>
+
+  <data name="TcpConnect.Description" xml:space="preserve">
+    <value>この動作は、tcpまたはudpを介してサービス側に接続されます。</value>
+  </data>
+  <data name="TcpConnect.Title" xml:space="preserve">
+    <value>接続</value>
+  </data>
+
+  <data name="FilterArea.Description" xml:space="preserve">
+    <value>面積フィルタリング</value>
+  </data>
+  <data name="FilterArea.Title" xml:space="preserve">
+    <value>面積フィルタリング</value>
+  </data>
+
+  <data name="FilterPerimeter.Description" xml:space="preserve">
+    <value>Filterperimeter</value>
+  </data>
+  <data name="FilterPerimeter.Title" xml:space="preserve">
+    <value>Filterperimeter</value>
+  </data>
+
+  <data name="ColorPercentage.Description" xml:space="preserve">
+    <value>このアクションは、画像に占める色の割合を集計します</value>
+  </data>
+  <data name="ColorPercentage.Title" xml:space="preserve">
+    <value>カラー統計</value>
+  </data>
+
+  <data name="WindowVisible.Description" xml:space="preserve">
+    <value>このアクションは、ウィンドウの表示または非表示を設定します。</value>
+  </data>
+  <data name="WindowVisible.Title" xml:space="preserve">
+    <value>ウィンドウ表示</value>
+  </data>
+
+  <data name="TypeColor.Description" xml:space="preserve">
+    <value>カラー</value>
+  </data>
+  <data name="TypeColor.Title" xml:space="preserve">
+    <value>カラー</value>
+  </data>
+
+  <data name="DrawDetectResults.Description" xml:space="preserve">
+    <value>オブジェクト検出結果の描画</value>
+  </data>
+  <data name="DrawDetectResults.Title" xml:space="preserve">
+    <value>タグオブジェクト</value>
+  </data>
+
+  <data name="FilterEllipse.Description" xml:space="preserve">
+    <value>この動作は、楕円検出動作で検出された楕円をフィルタリングすることができる</value>
+  </data>
+  <data name="FilterEllipse.Title" xml:space="preserve">
+    <value>楕円フィルタリング</value>
+  </data>
+
+  <data name="CloseHandle.Description" xml:space="preserve">
+    <value>アプリ程度で開いたハンドルを閉じる</value>
+  </data>
+  <data name="CloseHandle.Title" xml:space="preserve">
+    <value>ハンドルを閉じる</value>
+  </data>
+
+  <data name="Empty.Description" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="Empty.Title" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+
+  <data name="EnumWindows.Description" xml:space="preserve">
+    <value>列挙ウィンドウ</value>
+  </data>
+  <data name="EnumWindows.Title" xml:space="preserve">
+    <value>列挙ウィンドウ</value>
+  </data>
+
+  <data name="FilterWindows.Description" xml:space="preserve">
+    <value>ウィンドウフィルタ</value>
+  </data>
+  <data name="FilterWindows.Title" xml:space="preserve">
+    <value>Filterwindows</value>
+  </data>
+
+  <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="Workflow.MenuItem.Copy.Text" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Workflow.MenuItem.Locate.Text" xml:space="preserve">
+    <value>位置決め</value>
+  </data>
+
+  <data name="MatchTemplate.Description" xml:space="preserve">
+    <value>ピクセル固定のシーンに適した簡単な画像検索</value>
+  </data>
+  <data name="MatchTemplate.Title" xml:space="preserve">
+    <value>テンプレートマッチ</value>
+  </data>
+
+
+  <data name="LogicalOperator.Description" xml:space="preserve">
+    <value>Logic alゼータ</value>
+  </data>
+  <data name="LogicalOperator.Title" xml:space="preserve">
+    <value>Logic alゼータ</value>
+  </data>
+
+
+  <data name="RelationalOperator.Description" xml:space="preserve">
+    <value>関係演算は、2つの操作値を比較するために使用され、関係演算は、オペランドの値に基づいてtrueまたはfalseを返すブール値を返します。</value>
+  </data>
+  <data name="RelationalOperator.Title" xml:space="preserve">
+    <value>関係演算</value>
+  </data>
+
+
+  <data name="ImageMarkROI.Description" xml:space="preserve">
+    <value>画像に関心のある領域をマークします。例えば、図を探すときは、その領域からのみ画像を探します。</value>
+  </data>
+  <data name="ImageMarkROI.Title" xml:space="preserve">
+    <value>タグroi</value>
+  </data>
+
+
+  <data name="TypeString.Description" xml:space="preserve">
+    <value>文字列を定義します</value>
+  </data>
+  <data name="TypeString.Title" xml:space="preserve">
+    <value>文字列</value>
+  </data>
+
+
+</root>
