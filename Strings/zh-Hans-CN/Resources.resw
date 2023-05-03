@@ -245,7 +245,7 @@
   <data name="Settings.Process_Inference.Header" xml:space="preserve">
     <value>模型推理</value>
   </data>
-  <data name="Settings.Basic_RandomTitle.Text" xml:space="preserve">
+  <data name="Settings.Basic_RandomTitle.Header" xml:space="preserve">
     <value>随机标题</value>
   </data>
   <data name="ProcessOptions.Header.Text" xml:space="preserve">
@@ -391,21 +391,21 @@
   </data>
 
   <data name="Click.Description" xml:space="preserve">
-    <value>点击</value>
+    <value>鼠标点击</value>
   </data>
   <data name="Click.Title" xml:space="preserve">
     <value>点击</value>
   </data>
 
   <data name="MoveClick.Description" xml:space="preserve">
-    <value>移动+点击</value>
+    <value>移动鼠标，到达位置后点击鼠标相应的键</value>
   </data>
   <data name="MoveClick.Title" xml:space="preserve">
-    <value>移动+点击</value>
+    <value>移动并点击</value>
   </data>
 
   <data name="DoubleClick.Description" xml:space="preserve">
-    <value>双击</value>
+    <value>双击鼠标</value>
   </data>
   <data name="DoubleClick.Title" xml:space="preserve">
     <value>双击</value>
@@ -419,7 +419,7 @@
   </data>
 
   <data name="DragPointer.Description" xml:space="preserve">
-    <value>拖动</value>
+    <value>拖动鼠标</value>
   </data>
   <data name="DragPointer.Title" xml:space="preserve">
     <value>拖动</value>
@@ -488,7 +488,7 @@
   </data>
 
   <data name="ONNXClassification.Description" xml:space="preserve">
-    <value>目标分类</value>
+    <value>目标分类，建议使用 *Yolo5 *网络训练的 ONNX 的模型。其它网络模型，可能需要通过脚本自定义输出。</value>
   </data>
   <data name="ONNXClassification.Title" xml:space="preserve">
     <value>目标分类</value>
@@ -508,7 +508,7 @@
   </data>
 
   <data name="TypePassword.Description" xml:space="preserve">
-    <value>密码</value>
+    <value>定义密码</value>
   </data>
   <data name="TypePassword.Title" xml:space="preserve">
     <value>密码</value>
@@ -536,14 +536,14 @@
   </data>
 
   <data name="ClipboardValue.Description" xml:space="preserve">
-    <value>剪切板</value>
+    <value>获取剪切板当前的内容</value>
   </data>
   <data name="ClipboardValue.Title" xml:space="preserve">
     <value>剪切板</value>
   </data>
 
   <data name="TypeShortcut.Description" xml:space="preserve">
-    <value>快捷键</value>
+    <value>定义一个快捷键</value>
   </data>
   <data name="TypeShortcut.Title" xml:space="preserve">
     <value>快捷键</value>
@@ -686,21 +686,21 @@
   </data>
 
   <data name="ExitApp.Description" xml:space="preserve">
-    <value>退出</value>
+    <value>退出流程执行</value>
   </data>
   <data name="ExitApp.Title" xml:space="preserve">
     <value>退出</value>
   </data>
 
   <data name="ImageLoad.Description" xml:space="preserve">
-    <value>加载图像</value>
+    <value>从本地磁盘加载图像</value>
   </data>
   <data name="ImageLoad.Title" xml:space="preserve">
     <value>加载图像</value>
   </data>
 
   <data name="ONNXDetection.Description" xml:space="preserve">
-    <value>目标检测</value>
+    <value>目标检测,仅支持 Yolo5格式的 ONNX 模型，其它 ONNX 检测模型需要通过脚本自已解析输出</value>
   </data>
   <data name="ONNXDetection.Title" xml:space="preserve">
     <value>目标检测</value>
@@ -766,17 +766,17 @@
     <value>绘图</value>
   </data>
   <data name="TypeResource.Description" xml:space="preserve">
-    <value>资源</value>
+    <value>定义资源</value>
   </data>
   <data name="TypeResource.Title" xml:space="preserve">
     <value>资源</value>
   </data>
 
   <data name="MatchShapes.Description" xml:space="preserve">
-    <value>查找形状</value>
+    <value>从图像上查找形状,即使形状旋转也不会对匹配产生太大影响。</value>
   </data>
   <data name="MatchShapes.Title" xml:space="preserve">
-    <value>查找形状</value>
+    <value>形状匹配</value>
   </data>
 
   <data name="ReadJson.Description" xml:space="preserve">
@@ -814,10 +814,10 @@
   </data>
 
   <data name="AccessSize.Description" xml:space="preserve">
-    <value>获取数组或者列表的长度。访问的动作必须是一个容器或者是一个列表有多个相同的值。</value>
+    <value>获取数组的长度。访问的动作必须是一个数组。</value>
   </data>
   <data name="AccessSize.Title" xml:space="preserve">
-    <value>访问长度</value>
+    <value>长度*数组</value>
   </data>
 
   <data name="Web.Description" xml:space="preserve">
@@ -861,7 +861,7 @@
   </data>
 
   <data name="HttpDownload.Description" xml:space="preserve">
-    <value>此动作通过HTTP协议下载网络文件。</value>
+    <value>此动作通过 HTTP 协议下载网络文件。</value>
   </data>
   <data name="HttpDownload.Title" xml:space="preserve">
     <value>下载</value>
@@ -889,7 +889,7 @@
   </data>
 
   <data name="ArithmeticCalculate.Description" xml:space="preserve">
-    <value>进行(+ - * / ) 算术运算</value>
+    <value>进行(+ - * / ) 算术运算，源数据必须支持算术运行。</value>
   </data>
   <data name="ArithmeticCalculate.Title" xml:space="preserve">
     <value>算术运行</value>
@@ -909,10 +909,10 @@
   </data>
 
   <data name="ImageMorphological.Description" xml:space="preserve">
-    <value>膨胀</value>
+    <value>形态学操作是一组基于形状处理图像的操作。他们将结构化元素应用于输入图像并生成输出图像。 </value>
   </data>
   <data name="ImageMorphological.Title" xml:space="preserve">
-    <value>膨胀</value>
+    <value>形态学操作</value>
   </data>
 
   <data name="PaddleTextDetection.Description" xml:space="preserve">
@@ -930,7 +930,7 @@
   </data>
 
   <data name="TypeRect.Description" xml:space="preserve">
-    <value>矩形</value>
+    <value>定义一个矩形</value>
   </data>
   <data name="TypeRect.Title" xml:space="preserve">
     <value>矩形</value>
@@ -944,7 +944,7 @@
   </data>
 
   <data name="TypeScalar.Description" xml:space="preserve">
-    <value>Scalar</value>
+    <value>标量包含 4 个数值</value>
   </data>
   <data name="TypeScalar.Title" xml:space="preserve">
     <value>Scalar</value>
@@ -958,7 +958,7 @@
   </data>
 
   <data name="SendKeyMessage.Description" xml:space="preserve">
-    <value>发送键盘消息</value>
+    <value>向窗口发送键盘消息</value>
   </data>
   <data name="SendKeyMessage.Title" xml:space="preserve">
     <value>发送键盘消息</value>
@@ -1042,14 +1042,14 @@
   </data>
 
   <data name="ShowMessageBox.Description" xml:space="preserve">
-    <value>提示框</value>
+    <value>显示一个提示框</value>
   </data>
   <data name="ShowMessageBox.Title" xml:space="preserve">
     <value>提示框</value>
   </data>
 
   <data name="MoveOffset.Description" xml:space="preserve">
-    <value>偏移移动</value>
+    <value>以鼠标当前的位置为起始位置，按照偏移量来移动鼠标。</value>
   </data>
   <data name="MoveOffset.Title" xml:space="preserve">
     <value>偏移移动</value>
@@ -1070,7 +1070,7 @@
   </data>
 
   <data name="CenterCropImage.Description" xml:space="preserve">
-    <value>从中心位置开始裁切图片</value>
+    <value>从中心位置开始裁切图片。</value>
   </data>
   <data name="CenterCropImage.Title" xml:space="preserve">
     <value>裁切图片</value>
@@ -1084,7 +1084,7 @@
   </data>
 
   <data name="HttpGet.Description" xml:space="preserve">
-    <value>Http Get 请求</value>
+    <value>基于 HTTP 的Get 请求</value>
   </data>
   <data name="HttpGet.Title" xml:space="preserve">
     <value>Get</value>
@@ -1119,21 +1119,21 @@
   </data>
 
   <data name="BlobDetect.Description" xml:space="preserve">
-    <value>Blob 查找</value>
+    <value>Blob 是图像中与周围区域在属性（例如亮度、颜色）上不同的区域。</value>
   </data>
   <data name="BlobDetect.Title" xml:space="preserve">
-    <value>Blob</value>
+    <value>Blob 查找</value>
   </data>
 
   <data name="FilterVertex.Description" xml:space="preserve">
-    <value>顶点过滤</value>
+    <value>根据轮廓的形状过滤数组</value>
   </data>
   <data name="FilterVertex.Title" xml:space="preserve">
-    <value>顶点过滤</value>
+    <value>轮廓形状过滤</value>
   </data>
 
   <data name="CalculateCenter.Description" xml:space="preserve">
-    <value>计算中心位置 </value>
+    <value>计算矩形框，或者轮廓的中心位置。 </value>
   </data>
   <data name="CalculateCenter.Title" xml:space="preserve">
     <value>中心坐标</value>
@@ -1154,7 +1154,7 @@
   </data>
 
   <data name="YoutubeDownload.Description" xml:space="preserve">
-    <value>Youtube 视频下载</value>
+    <value>Youtube 视频下载，需要能访问 Youtube 的网络</value>
   </data>
   <data name="YoutubeDownload.Title" xml:space="preserve">
     <value>Youtube 视频下载</value>
@@ -1196,24 +1196,24 @@
   </data>
 
   <data name="WindowTitle.Description" xml:space="preserve">
-    <value>查找直线</value>
+    <value>获取或者设置窗口标题</value>
   </data>
   <data name="WindowTitle.Title" xml:space="preserve">
-    <value>查找直线</value>
+    <value>窗口标题</value>
   </data>
 
   <data name="FastLineDetection.Description" xml:space="preserve">
-    <value>查找直线</value>
+    <value>使用快速直线检测算法检测直线</value>
   </data>
   <data name="FastLineDetection.Title" xml:space="preserve">
-    <value>查找直线</value>
+    <value>快速直线检测</value>
   </data>
 
   <data name="EdgeLineDetection.Description" xml:space="preserve">
-    <value>查找直线</value>
+    <value>通过边缘检测来查找线段</value>
   </data>
   <data name="EdgeLineDetection.Title" xml:space="preserve">
-    <value>查找直线</value>
+    <value>线段检测</value>
   </data>
 
   <data name="EllipseDetection.Description" xml:space="preserve">
@@ -1238,31 +1238,31 @@
   </data>
 
   <data name="ImageThreshold.Description" xml:space="preserve">
-    <value>该动作可以对图像进行二值化操作。可以理解为按照一定的阈值条件，把图像变成灰度图像。</value>
+    <value>该动作可以对图像进行阈值化操作。在该阈值操作中，值大于指定阈值的像素被分配一个标准值。该阈值操作是全局的，即图像中的所有像素都使用相同的阈值。</value>
   </data>
   <data name="ImageThreshold.Title" xml:space="preserve">
-    <value>二值化</value>
+    <value>阈值</value>
   </data>
 
   <data name="ImageInRange.Description" xml:space="preserve">
-    <value>InRange</value>
+    <value>指定一个色彩范围，抓取影像中符合色彩范围内的颜色，透过这个方式，就可以筛选出影像中的特定颜色物件。</value>
   </data>
   <data name="ImageInRange.Title" xml:space="preserve">
-    <value>InRange</value>
+    <value>颜色筛选</value>
   </data>
 
   <data name="MoveDoubleClick.Description" xml:space="preserve">
-    <value>图像腐蚀</value>
+    <value>移动鼠标，到达位置后双击鼠标相应的键</value>
   </data>
   <data name="MoveDoubleClick.Title" xml:space="preserve">
-    <value>腐蚀</value>
+    <value>移动并双击</value>
   </data>
 
   <data name="ConnectedComponents.Description" xml:space="preserve">
-    <value>Connected Components</value>
+    <value>通过对二值图像中 Bolb（斑点）区域的连通性分析，可以让我们对二值图像中的斑点进行更细粒度的过滤。</value>
   </data>
   <data name="ConnectedComponents.Title" xml:space="preserve">
-    <value>Connected Components</value>
+    <value>连通域分析</value>
   </data>
 
   <data name="ImageBlur.Description" xml:space="preserve">
@@ -1273,14 +1273,14 @@
   </data>
 
   <data name="ApproxPolyDP.Description" xml:space="preserve">
-    <value>ApproxPolyDP</value>
+    <value>将一个轮廓的形状逼近到另一个由较少数量的顶点组成的形状，使得形状的轮廓之间的距离等于指定精度或小于指定精度的过程称为形状的近似轮廓</value>
   </data>
   <data name="ApproxPolyDP.Title" xml:space="preserve">
-    <value>ApproxPolyDP</value>
+    <value>近似轮廓</value>
   </data>
 
   <data name="FindNonZero.Description" xml:space="preserve">
-    <value>在一张图片上，查找非零像素点。</value>
+    <value>在一张图片上，查找非零像素位置。</value>
   </data>
   <data name="FindNonZero.Title" xml:space="preserve">
     <value>非零像素点</value>
@@ -1294,7 +1294,7 @@
   </data>
 
   <data name="SetForegroundWindow.Description" xml:space="preserve">
-    <value>前置窗口</value>
+    <value>设置前置窗口</value>
   </data>
   <data name="SetForegroundWindow.Title" xml:space="preserve">
     <value>前置窗口</value>
@@ -1315,14 +1315,14 @@
   </data>
 
   <data name="HttpPost.Description" xml:space="preserve">
-    <value>发送 Http Post 请求</value>
+    <value>基于 HTTP 的Post 请求</value>
   </data>
   <data name="HttpPost.Title" xml:space="preserve">
     <value>Post</value>
   </data>
 
   <data name="HttpHead.Description" xml:space="preserve">
-    <value>Http Head 请求</value>
+    <value>基于 HTTP 的Head 请求</value>
   </data>
   <data name="HttpHead.Title" xml:space="preserve">
     <value>Head</value>
@@ -1335,7 +1335,7 @@
     <value>安卓</value>
   </data>
   <data name="AdbKillServer.Description" xml:space="preserve">
-    <value>终止服务</value>
+    <value>终止安卓模拟器服务，结束进程 Adb.exe。</value>
   </data>
   <data name="AdbKillServer.Title" xml:space="preserve">
     <value>终止服务</value>
@@ -1349,7 +1349,7 @@
   </data>
 
   <data name="AdbStartServer.Description" xml:space="preserve">
-    <value>启动服务</value>
+    <value>启动 Adb 服务</value>
   </data>
   <data name="AdbStartServer.Title" xml:space="preserve">
     <value>启动服务</value>
@@ -1363,14 +1363,14 @@
   </data>
 
   <data name="AdbConnect.Description" xml:space="preserve">
-    <value>主要应用在模拟器不在本机，而在的另一台电脑上面。</value>
+    <value>连接模拟器，主要应用在模拟器在远程电脑上面。</value>
   </data>
   <data name="AdbConnect.Title" xml:space="preserve">
     <value>连接</value>
   </data>
 
   <data name="AdbIfConfig.Description" xml:space="preserve">
-    <value>查看网卡配置</value>
+    <value>查看模拟器网卡配置</value>
   </data>
   <data name="AdbIfConfig.Title" xml:space="preserve">
     <value>查看网卡配置</value>
@@ -1426,10 +1426,10 @@
   </data>
 
   <data name="AccessArray.Description" xml:space="preserve">
-    <value>根据索引获得某个动作当中的值。此动作必须有多个相同的值。</value>
+    <value>根据索引获取 数组 当中的值。</value>
   </data>
   <data name="AccessArray.Title" xml:space="preserve">
-    <value>访问数组</value>
+    <value>索引*数组</value>
   </data>
 
   <data name="BaiduTranslate.Description" xml:space="preserve">
@@ -1440,21 +1440,21 @@
   </data>
 
   <data name="AdbStartApp.Description" xml:space="preserve">
-    <value>该动作可以打开安卓模拟器上的APP。</value>
+    <value>该动作可以打开安卓模拟器上的 App。</value>
   </data>
   <data name="AdbStartApp.Title" xml:space="preserve">
     <value>打开App</value>
   </data>
 
   <data name="AccessKey.Description" xml:space="preserve">
-    <value>根据指定的名称，获取对象的值</value>
+    <value>根据指定的名称，获取 对象 的值。</value>
   </data>
   <data name="AccessKey.Title" xml:space="preserve">
-    <value>Access Key</value>
+    <value>名称*对象</value>
   </data>
 
   <data name="CaptureForground.Description" xml:space="preserve">
-    <value>前置窗口截图</value>
+    <value>前置窗口截图。</value>
   </data>
   <data name="CaptureForground.Title" xml:space="preserve">
     <value>前置窗口截图</value>
@@ -1473,10 +1473,10 @@
     <value>Xml</value>
   </data>
   <data name="XmlLoadDocument.Description" xml:space="preserve">
-    <value>XmlLoadDocument</value>
+    <value>Xml 文档</value>
   </data>
   <data name="XmlLoadDocument.Title" xml:space="preserve">
-    <value>XmlLoadDocument</value>
+    <value>文档</value>
   </data>
 
   <data name="Json.Description" xml:space="preserve">
@@ -1486,38 +1486,38 @@
     <value>Json</value>
   </data>
   <data name="XmlGetNodeList.Description" xml:space="preserve">
-    <value>XmlGetNodeList</value>
+    <value>获取 Xml 节点</value>
   </data>
   <data name="XmlGetNodeList.Title" xml:space="preserve">
-    <value>XmlGetNodeList</value>
+    <value>获取节点</value>
   </data>
 
   <data name="XmlNodeName.Description" xml:space="preserve">
-    <value>XmlNodeName</value>
+    <value>Xml 节点名称</value>
   </data>
   <data name="XmlNodeName.Title" xml:space="preserve">
-    <value>XmlNodeName</value>
+    <value>节点名称</value>
   </data>
 
   <data name="FilterText.Description" xml:space="preserve">
-    <value>该动作可以过滤包含字符串的数组</value>
+    <value>该动作可以过滤含文本元素的列表。</value>
   </data>
   <data name="FilterText.Title" xml:space="preserve">
-    <value>过滤字符串</value>
+    <value>过滤文本</value>
   </data>
 
   <data name="XmlDocumentElement.Description" xml:space="preserve">
-    <value>XmlDocumentElement</value>
+    <value>Xml 文档元素</value>
   </data>
   <data name="XmlDocumentElement.Title" xml:space="preserve">
-    <value>XmlDocumentElement</value>
+    <value>元素</value>
   </data>
 
   <data name="XmlReplaceText.Description" xml:space="preserve">
-    <value>XmlReplaceText</value>
+    <value>替换节点文本</value>
   </data>
   <data name="XmlReplaceText.Title" xml:space="preserve">
-    <value>XmlReplaceText</value>
+    <value>文本替换</value>
   </data>
 
   <data name="XmlSaveDocument.Description" xml:space="preserve">
@@ -1587,7 +1587,7 @@
   </data>
 
   <data name="InputParam.Description" xml:space="preserve">
-    <value>由父动作传入的值。</value>
+    <value>通常做为子动作，其值由相应的父动作传入。通常列表都会支持子动作，列表的每个元素都会传递给该子动作。</value>
   </data>
   <data name="InputParam.Title" xml:space="preserve">
     <value>传入参数</value>
@@ -1706,21 +1706,21 @@
   </data>
 
   <data name="AdaptiveThreshold.Description" xml:space="preserve">
-    <value>自适应二值化</value>
+    <value>自适应阈值是针对较小的区域计算阈值，因此对于不同的区域会有不同的阈值。</value>
   </data>
   <data name="AdaptiveThreshold.Title" xml:space="preserve">
-    <value>自适应二值化</value>
+    <value>自适应阈值</value>
   </data>
 
   <data name="GroupAction.Description" xml:space="preserve">
-    <value>该动作可以把视图上相关动作分组，是逻辑更清晰。</value>
+    <value>该动作可以把视图上相关动作分组，使逻辑更清晰。</value>
   </data>
   <data name="GroupAction.Title" xml:space="preserve">
     <value>分组</value>
   </data>
 
   <data name="AdbMove.Description" xml:space="preserve">
-    <value>移动</value>
+    <value>上下左右移动，类似游戏当中的 WASD 功能。</value>
   </data>
   <data name="AdbMove.Title" xml:space="preserve">
     <value>移动</value>
@@ -1755,7 +1755,7 @@
   </data>
 
   <data name="FilterArea.Description" xml:space="preserve">
-    <value>面积过滤</value>
+    <value>通过计算数组中元素的面积来过滤元素</value>
   </data>
   <data name="FilterArea.Title" xml:space="preserve">
     <value>面积过滤</value>
@@ -1797,7 +1797,7 @@
   </data>
 
   <data name="FilterEllipse.Description" xml:space="preserve">
-    <value>该动作可以过滤椭圆检测动作所检测到的椭圆</value>
+    <value>通过 椭圆 的特征过滤 圆 或者 椭圆。</value>
   </data>
   <data name="FilterEllipse.Title" xml:space="preserve">
     <value>椭圆过滤</value>
@@ -1842,7 +1842,7 @@
   </data>
 
   <data name="MatchTemplate.Description" xml:space="preserve">
-    <value>简单的图片查找，适用于像素固定不变的场景</value>
+    <value>简单的图片查找，通常用于查找较小的图像。</value>
   </data>
   <data name="MatchTemplate.Title" xml:space="preserve">
     <value>模板匹配</value>
