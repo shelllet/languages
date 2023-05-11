@@ -61,46 +61,47 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -122,53 +123,52 @@
       Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Language" xml:space="preserve">
-    <value>简体中文</value>
+    <value>English</value>
   </data>
   <data name="Add.Label" xml:space="preserve">
-    <value>添加</value>
+    <value>Add</value>
   </data>
   <data name="Delete.Label" xml:space="preserve">
-    <value>删除</value>
+    <value>Delete</value>
+  </data>
+  <data name="MoveUp.Label" xml:space="preserve">
+    <value>Move up</value>
+  </data>
+  <data name="MoveDown.Label" xml:space="preserve">
+    <value>Move down</value>
   </data>
   <data name="Document.Text" xml:space="preserve">
-    <value>流程已经修改，是否保存?</value>
+    <value>The process has been modified and is it saved?</value>
   </data>
   <data name="Recording.Title" xml:space="preserve">
-    <value>正在录制...</value>
+    <value>Record...</value>
   </data>
   <data name="Save.Text" xml:space="preserve">
-    <value>保存</value>
+    <value>Preserve</value>
   </data>
   <data name="Cancel.Text" xml:space="preserve">
-    <value>取消</value>
+    <value>Cancel</value>
   </data>
   <data name="Ok.Text" xml:space="preserve">
-    <value>确定</value>
+    <value>Ok</value>
   </data>
   <data name="Publish.Text" xml:space="preserve">
-    <value>发布</value>
+    <value>Publish</value>
   </data>
   <data name="Stop.Text" xml:space="preserve">
-    <value>停止</value>
+    <value>Stop</value>
   </data>
   <data name="Simple.Text" xml:space="preserve">
-    <value>Winui++</value>
-    <comment>应用程序标题</comment>
-  </data>
-  <data name="Blank.Project.Text" xml:space="preserve">
-    <value>Click 'new' to create the project</value>
-  </data>
-  <data name="Reminder.Text" xml:space="preserve">
-    <value>Friendly reminder</value>
+    <value>WinUi++</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
-    <value>Edition</value>
+    <value>Version</value>
   </data>
   <data name="Version.Title.Text" xml:space="preserve">
-    <value>Edition:</value>
+    <value>Version:</value>
   </data>
   <data name="Version.New" xml:space="preserve">
-    <value>Discover a new version: {}</value>
+    <value>A new version found: {}</value>
   </data>
   <data name="Home.Title.Text" xml:space="preserve">
     <value>Website:</value>
@@ -213,10 +213,10 @@
     <value>Shortcut settings</value>
   </data>
   <data name="Settings.Drawing.Content" xml:space="preserve">
-    <value>Plot</value>
+    <value>Draw</value>
   </data>
   <data name="Settings.Process.Content" xml:space="preserve">
-    <value>Flow path</value>
+    <value>Process</value>
   </data>
   <data name="Settings.Language.Header" xml:space="preserve">
     <value>Language</value>
@@ -231,19 +231,19 @@
     <value>Association type</value>
   </data>
   <data name="Settings.Drawing.Thickness.Text" xml:space="preserve">
-    <value>Frame size</value>
+    <value>Thickness</value>
   </data>
   <data name="Settings.Drawing.FontHeight.Text" xml:space="preserve">
-    <value>Body size</value>
+    <value>Font size</value>
   </data>
   <data name="Settings.Color.Text" xml:space="preserve">
     <value>Foreground color</value>
   </data>
   <data name="Settings.BackgroundColor.Text" xml:space="preserve">
-    <value>Background colour</value>
+    <value>Background Color</value>
   </data>
   <data name="Settings.Process_Inference.Header" xml:space="preserve">
-    <value>Model reasoning</value>
+    <value>Model inference</value>
   </data>
   <data name="Settings.Basic_RandomTitle.Header" xml:space="preserve">
     <value>Random title</value>
@@ -254,17 +254,14 @@
   <data name="ActionProperty.Header.Text" xml:space="preserve">
     <value>Action properties</value>
   </data>
-  <data name="Process.Created.Header" xml:space="preserve">
-    <value>Creation date</value>
-  </data>
   <data name="Process.Hide.Header" xml:space="preserve">
-    <value>Runtime hidden window</value>
+    <value>Hide window</value>
   </data>
   <data name="Process.Times.Header" xml:space="preserve">
     <value>Number of runs</value>
   </data>
   <data name="Process.Concurrently.Header" xml:space="preserve">
-    <value>Concurrent quantity</value>
+    <value>Concurrent</value>
   </data>
   <data name="Process.Output.Header" xml:space="preserve">
     <value>Output more logs</value>
@@ -285,7 +282,7 @@
     <value>Variable</value>
   </data>
   <data name="Page.Record.Header" xml:space="preserve">
-    <value>Transcribe</value>
+    <value>Record</value>
   </data>
   <data name="ToolBar.About.Label" xml:space="preserve">
     <value>About</value>
@@ -315,7 +312,7 @@
     <value>Show</value>
   </data>
   <data name="Workflow.MenuItem.Preview.Text" xml:space="preserve">
-    <value>Open the preview</value>
+    <value>Enable the preview</value>
   </data>
   <data name="Workflow.MenuItem.Open.Text" xml:space="preserve">
     <value>Open</value>
@@ -324,31 +321,31 @@
     <value>Delete</value>
   </data>
   <data name="Workflow.MenuItem.PreviewAll.Text" xml:space="preserve">
-    <value>Open the preview (all actions)</value>
+    <value>Enable preview (All Actions)</value>
   </data>
   <data name="Workflow.MenuItem.UnPreviewAll.Text" xml:space="preserve">
-    <value>Close the preview (all actions)</value>
+    <value>Close preview (All Actions)</value>
   </data>
   <data name="ToolBar.New.Label" xml:space="preserve">
-    <value>New-built</value>
+    <value>New</value>
   </data>
   <data name="ToolBar.Open.Label" xml:space="preserve">
     <value>Open</value>
   </data>
   <data name="ToolBar.Run.Label" xml:space="preserve">
-    <value>Move</value>
+    <value>Run</value>
   </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>Publish</value>
   </data>
   <data name="ToolBar.SaveAs.Label" xml:space="preserve">
-    <value>Save as</value>
+    <value>Save As</value>
   </data>
   <data name="ToolBar.Save.Label" xml:space="preserve">
-    <value>Preserve</value>
+    <value>Save</value>
   </data>
   <data name="ToolBar.Settings.Label" xml:space="preserve">
-    <value>Set up</value>
+    <value>Settings</value>
   </data>
   <data name="Shortcut.MouseGlobalPosition.Text" xml:space="preserve">
     <value>Get the mouse location (global)</value>
@@ -369,13 +366,13 @@
     <value>Pause process</value>
   </data>
   <data name="RecordWindow.Title" xml:space="preserve">
-    <value>Transcribe</value>
+    <value>Record</value>
   </data>
   <data name="StartToRun.Title" xml:space="preserve">
-    <value>Move</value>
+    <value>Run</value>
   </data>
   <data name="Head.Text" xml:space="preserve">
-    <value>Begin</value>
+    <value>Start</value>
   </data>
   <data name="Mouse.Description" xml:space="preserve">
     <value>Mouse action</value>
@@ -384,42 +381,42 @@
     <value>Mouse</value>
   </data>
   <data name="MovePointer.Description" xml:space="preserve">
-    <value>Rolling mouse</value>
+    <value>Move Pointer</value>
   </data>
   <data name="MovePointer.Title" xml:space="preserve">
-    <value>Rolling mouse</value>
+    <value>Simulate the mouse move</value>
   </data>
 
   <data name="Click.Description" xml:space="preserve">
-    <value>Mouse click</value>
+    <value>Simulate the mouse click</value>
   </data>
   <data name="Click.Title" xml:space="preserve">
     <value>Click</value>
   </data>
 
   <data name="MoveClick.Description" xml:space="preserve">
-    <value>Move the mouse and click the corresponding mouse button after reaching the position</value>
+    <value>Move the mouse and click the corresponding button of the mouse after reaching the position</value>
   </data>
   <data name="MoveClick.Title" xml:space="preserve">
-    <value>Move and click</value>
+    <value>Move and Click</value>
   </data>
 
   <data name="DoubleClick.Description" xml:space="preserve">
-    <value>Double click the mouse</value>
+    <value>Simulate the mouse-double-click action</value>
   </data>
   <data name="DoubleClick.Title" xml:space="preserve">
-    <value>Double click</value>
+    <value>Double Click</value>
   </data>
 
   <data name="RightClick.Description" xml:space="preserve">
-    <value>Right click</value>
+    <value>Simulate right mouse click</value>
   </data>
   <data name="RightClick.Title" xml:space="preserve">
-    <value>Right click</value>
+    <value>Right Click</value>
   </data>
 
   <data name="DragPointer.Description" xml:space="preserve">
-    <value>Drag the mouse</value>
+    <value>Simulate the mouse drag operation</value>
   </data>
   <data name="DragPointer.Title" xml:space="preserve">
     <value>Drag</value>
@@ -429,7 +426,7 @@
     <value>Listen to the mouse</value>
   </data>
   <data name="ListenMouse.Title" xml:space="preserve">
-    <value>Listen to the mouse</value>
+    <value>Listen</value>
   </data>
 
   <data name="System.Description" xml:space="preserve">
@@ -449,18 +446,18 @@
     <value>Search for files</value>
   </data>
   <data name="FileQuery.Title" xml:space="preserve">
-    <value>Search for files</value>
+    <value>FileQuery</value>
   </data>
 
   <data name="StartProcess.Description" xml:space="preserve">
     <value>Start the process</value>
   </data>
   <data name="StartProcess.Title" xml:space="preserve">
-    <value>Start the process</value>
+    <value>StartProcess</value>
   </data>
 
   <data name="WindowCapture.Description" xml:space="preserve">
-    <value>This action is used to take screenshots of the selected window</value>
+    <value>This action is used to take screenshots of the specified window</value>
   </data>
   <data name="WindowCapture.Title" xml:space="preserve">
     <value>Window screenshots</value>
@@ -474,14 +471,14 @@
   </data>
 
   <data name="PlayRecord.Description" xml:space="preserve">
-    <value>Play recording</value>
+    <value>Play the recorded keyboard and mouse macro.</value>
   </data>
   <data name="PlayRecord.Title" xml:space="preserve">
     <value>Play recording</value>
   </data>
 
   <data name="Timer.Description" xml:space="preserve">
-    <value>The timer can perform repeated actions at certain time intervals.</value>
+    <value>The subprocess can be repeated at certain time intervals.</value>
   </data>
   <data name="Timer.Title" xml:space="preserve">
     <value>Timer</value>
@@ -501,35 +498,35 @@
     <value>Type</value>
   </data>
   <data name="TypeUri.Description" xml:space="preserve">
-    <value>Create an url</value>
+    <value>Create a web address type</value>
   </data>
   <data name="TypeUri.Title" xml:space="preserve">
-    <value>Uri</value>
+    <value>Url</value>
   </data>
 
   <data name="TypePassword.Description" xml:space="preserve">
-    <value>Defining the password</value>
+    <value>Define the password, the string type</value>
   </data>
   <data name="TypePassword.Title" xml:space="preserve">
     <value>Password</value>
   </data>
 
   <data name="TypePoint.Description" xml:space="preserve">
-    <value>Define a coordinate point</value>
+    <value>Define a coordinate type</value>
   </data>
   <data name="TypePoint.Title" xml:space="preserve">
     <value>Coordinate</value>
   </data>
 
   <data name="TypeFile.Description" xml:space="preserve">
-    <value>Define file type</value>
+    <value>Define the file type</value>
   </data>
   <data name="TypeFile.Title" xml:space="preserve">
     <value>Document</value>
   </data>
 
   <data name="TypeFolder.Description" xml:space="preserve">
-    <value>Define the folder</value>
+    <value>Defines the folder type</value>
   </data>
   <data name="TypeFolder.Title" xml:space="preserve">
     <value>File</value>
@@ -543,7 +540,7 @@
   </data>
 
   <data name="TypeShortcut.Description" xml:space="preserve">
-    <value>Define a shortcut key</value>
+    <value>Defines a shortcut key type</value>
   </data>
   <data name="TypeShortcut.Title" xml:space="preserve">
     <value>Keyboard shortcuts</value>
@@ -569,7 +566,7 @@
     <value>Logic</value>
   </data>
   <data name="For.Description" xml:space="preserve">
-    <value>Recurrence</value>
+    <value>Cycles, mainly used to iterate over the container</value>
   </data>
   <data name="For.Title" xml:space="preserve">
     <value>Recurrence</value>
@@ -590,7 +587,7 @@
   </data>
 
   <data name="Break.Description" xml:space="preserve">
-    <value>Stop the cycle</value>
+    <value>Stop cycling, mainly used in subprocesses, such as cycle actions</value>
   </data>
   <data name="Break.Title" xml:space="preserve">
     <value>Stop the cycle</value>
@@ -604,7 +601,7 @@
   </data>
 
   <data name="Code.Description" xml:space="preserve">
-    <value>This action can execute some python scripts.</value>
+    <value>This action can execute a python script.</value>
   </data>
   <data name="Code.Title" xml:space="preserve">
     <value>Script</value>
@@ -617,7 +614,7 @@
     <value>Medium</value>
   </data>
   <data name="MediaPlay.Description" xml:space="preserve">
-    <value>Sound play</value>
+    <value>Play sound files</value>
   </data>
   <data name="MediaPlay.Title" xml:space="preserve">
     <value>Sound play</value>
@@ -644,14 +641,14 @@
   </data>
 
   <data name="PressKey.Description" xml:space="preserve">
-    <value>Press the button</value>
+    <value>Press the button will not release the key</value>
   </data>
   <data name="PressKey.Title" xml:space="preserve">
     <value>Press the button</value>
   </data>
 
   <data name="ReleaseKey.Description" xml:space="preserve">
-    <value>Release the button</value>
+    <value>Release the pressed keyboard key</value>
   </data>
   <data name="ReleaseKey.Title" xml:space="preserve">
     <value>Release the button</value>
@@ -765,14 +762,14 @@
     <value>Plot</value>
   </data>
   <data name="TypeResource.Description" xml:space="preserve">
-    <value>Define resources</value>
+    <value>Define the resource type</value>
   </data>
   <data name="TypeResource.Title" xml:space="preserve">
     <value>Resource</value>
   </data>
 
   <data name="MatchShapes.Description" xml:space="preserve">
-    <value>Finding shapes from the image, even the shape rotation does not have much impact on the match.</value>
+    <value>Finding shapes from the image, even if the shape rotation does not have much impact on the match.</value>
   </data>
   <data name="MatchShapes.Title" xml:space="preserve">
     <value>Shape matching</value>
@@ -813,10 +810,10 @@
   </data>
 
   <data name="AccessSize.Description" xml:space="preserve">
-    <value>Get the length of the array. the action to access must be an array.</value>
+    <value>Get the length of the array.</value>
   </data>
   <data name="AccessSize.Title" xml:space="preserve">
-    <value>Length * array</value>
+    <value>Array length</value>
   </data>
 
   <data name="Web.Description" xml:space="preserve">
@@ -914,11 +911,11 @@
     <value>Morphological operation</value>
   </data>
 
-  <data name="PaddleTextDetection.Description" xml:space="preserve">
-    <value>Text detection</value>
+  <data name="TextDetection.Description" xml:space="preserve">
+    <value>Detection text areas on the image.</value>
   </data>
-  <data name="PaddleTextDetection.Title" xml:space="preserve">
-    <value>Text detection</value>
+  <data name="TextDetection.Title" xml:space="preserve">
+    <value>Text block detection</value>
   </data>
 
   <data name="NetUserAdd.Description" xml:space="preserve">
@@ -929,7 +926,7 @@
   </data>
 
   <data name="TypeRect.Description" xml:space="preserve">
-    <value>Defining a rectangle</value>
+    <value>Define a rectangular type</value>
   </data>
   <data name="TypeRect.Title" xml:space="preserve">
     <value>Rectangle</value>
@@ -943,7 +940,7 @@
   </data>
 
   <data name="TypeScalar.Description" xml:space="preserve">
-    <value>The scalar consists of 4 numerical values</value>
+    <value>Deine the scalar type, the scalar contains 4 values</value>
   </data>
   <data name="TypeScalar.Title" xml:space="preserve">
     <value>Scalar</value>
@@ -984,10 +981,10 @@
     <value>Open-file</value>
   </data>
 
-  <data name="PaddleTextRecognition.Description" xml:space="preserve">
+  <data name="TextRecognition.Description" xml:space="preserve">
     <value>Text recognition</value>
   </data>
-  <data name="PaddleTextRecognition.Title" xml:space="preserve">
+  <data name="TextRecognition.Title" xml:space="preserve">
     <value>Text recognition</value>
   </data>
 
@@ -1020,7 +1017,7 @@
   </data>
 
   <data name="When.Description" xml:space="preserve">
-    <value>The action opens a thread until the condition is true.</value>
+    <value>The action opens a thread-constant detection condition until the condition is established, and when the condition holds, the sub-process is executed.</value>
   </data>
   <data name="When.Title" xml:space="preserve">
     <value>When... established</value>
@@ -1034,7 +1031,7 @@
   </data>
 
   <data name="PressAndReleaseKey.Description" xml:space="preserve">
-    <value>Press and release</value>
+    <value>Press the keyboard button for a certain amount of time, and then release the key</value>
   </data>
   <data name="PressAndReleaseKey.Title" xml:space="preserve">
     <value>Press and release</value>
@@ -1083,14 +1080,14 @@
   </data>
 
   <data name="HttpGet.Description" xml:space="preserve">
-    <value>A get request based on the http</value>
+    <value>Send a get request based on http</value>
   </data>
   <data name="HttpGet.Title" xml:space="preserve">
     <value>Get</value>
   </data>
 
   <data name="ONNXModel.Description" xml:space="preserve">
-    <value>Load the onnx model file</value>
+    <value>Load the onnx, the model file</value>
   </data>
   <data name="ONNXModel.Title" xml:space="preserve">
     <value>Model</value>
@@ -1125,10 +1122,10 @@
   </data>
 
   <data name="FilterVertex.Description" xml:space="preserve">
-    <value>Filter the array against the shape of the contour</value>
+    <value>Sen the profile against the shape of the profile</value>
   </data>
   <data name="FilterVertex.Title" xml:space="preserve">
-    <value>Profile shape filtering</value>
+    <value>Shape screening</value>
   </data>
 
   <data name="CalculateCenter.Description" xml:space="preserve">
@@ -1153,10 +1150,10 @@
   </data>
 
   <data name="YoutubeDownload.Description" xml:space="preserve">
-    <value>Youtube video download, need access to the youtube network</value>
+    <value>Currently, only youtube video download is supported, requiring access to the youtube network.</value>
   </data>
   <data name="YoutubeDownload.Title" xml:space="preserve">
-    <value>Youtube video download</value>
+    <value>Video download</value>
   </data>
 
   <data name="DirectoryIterator.Description" xml:space="preserve">
@@ -1202,10 +1199,10 @@
   </data>
 
   <data name="FastLineDetection.Description" xml:space="preserve">
-    <value>Lines were detected using a fast straight-line detection algorithm</value>
+    <value>Find lines using a fast line detection algorithm</value>
   </data>
   <data name="FastLineDetection.Title" xml:space="preserve">
-    <value>Fast straight line detection</value>
+    <value>Quick straight line check</value>
   </data>
 
   <data name="EdgeLineDetection.Description" xml:space="preserve">
@@ -1223,7 +1220,7 @@
   </data>
 
   <data name="CvtColor.Description" xml:space="preserve">
-    <value>Color conversion</value>
+    <value>The image were color-transformed</value>
   </data>
   <data name="CvtColor.Title" xml:space="preserve">
     <value>Color conversion</value>
@@ -1265,7 +1262,7 @@
   </data>
 
   <data name="ImageBlur.Description" xml:space="preserve">
-    <value>Vague</value>
+    <value>Image blurring</value>
   </data>
   <data name="ImageBlur.Title" xml:space="preserve">
     <value>Vague</value>
@@ -1279,7 +1276,7 @@
   </data>
 
   <data name="FindNonZero.Description" xml:space="preserve">
-    <value>On an image, look for non-zero pixel locations.</value>
+    <value>On one image, look for non-zero pixel locations.</value>
   </data>
   <data name="FindNonZero.Title" xml:space="preserve">
     <value>Non-zero pixel point</value>
@@ -1314,14 +1311,14 @@
   </data>
 
   <data name="HttpPost.Description" xml:space="preserve">
-    <value>A post request based on the http</value>
+    <value>Send the http-based post requests</value>
   </data>
   <data name="HttpPost.Title" xml:space="preserve">
     <value>Post</value>
   </data>
 
   <data name="HttpHead.Description" xml:space="preserve">
-    <value>A head request based on the http</value>
+    <value>Send the head requests based on the http</value>
   </data>
   <data name="HttpHead.Title" xml:space="preserve">
     <value>Head</value>
@@ -1372,7 +1369,7 @@
     <value>View the simulator network configuration</value>
   </data>
   <data name="AdbIfConfig.Title" xml:space="preserve">
-    <value>View the network card configuration</value>
+    <value>Network card configuration</value>
   </data>
 
   <data name="AdbRemoveForward.Description" xml:space="preserve">
@@ -1425,10 +1422,10 @@
   </data>
 
   <data name="AccessArray.Description" xml:space="preserve">
-    <value>Get the values in the array from the index.</value>
+    <value>Get the elements in the array from the index.</value>
   </data>
   <data name="AccessArray.Title" xml:space="preserve">
-    <value>Index * array</value>
+    <value>Access the array</value>
   </data>
 
   <data name="BaiduTranslate.Description" xml:space="preserve">
@@ -1442,14 +1439,14 @@
     <value>This action opens the app on the android emulator.</value>
   </data>
   <data name="AdbStartApp.Title" xml:space="preserve">
-    <value>Open app</value>
+    <value>Open the application</value>
   </data>
 
   <data name="AccessKey.Description" xml:space="preserve">
     <value>Gets the value of the object by the specified name.</value>
   </data>
   <data name="AccessKey.Title" xml:space="preserve">
-    <value>Name * object</value>
+    <value>Access object</value>
   </data>
 
   <data name="CaptureForground.Description" xml:space="preserve">
@@ -1472,7 +1469,7 @@
     <value>Xml</value>
   </data>
   <data name="XmlLoadDocument.Description" xml:space="preserve">
-    <value>Xml d</value>
+    <value>Load the xml document</value>
   </data>
   <data name="XmlLoadDocument.Title" xml:space="preserve">
     <value>D</value>
@@ -1499,21 +1496,21 @@
   </data>
 
   <data name="FilterText.Description" xml:space="preserve">
-    <value>This action filters a list of text elements.</value>
+    <value>In the array or list, the filter contains the specified text elements.</value>
   </data>
   <data name="FilterText.Title" xml:space="preserve">
-    <value>Filter the text</value>
+    <value>Text screening</value>
   </data>
 
   <data name="XmlDocumentElement.Description" xml:space="preserve">
-    <value>The xml document element</value>
+    <value>Xml element</value>
   </data>
   <data name="XmlDocumentElement.Title" xml:space="preserve">
     <value>Element</value>
   </data>
 
   <data name="XmlReplaceText.Description" xml:space="preserve">
-    <value>Replace node text</value>
+    <value>Replace the node text</value>
   </data>
   <data name="XmlReplaceText.Title" xml:space="preserve">
     <value>Textual substitution</value>
@@ -1565,10 +1562,10 @@
   <data name="InputFlyoutItem.Range.Text" xml:space="preserve">
     <value>Scope</value>
   </data>
-    <data name="InputFlyoutItem.Color.Text" xml:space="preserve">
+  <data name="InputFlyoutItem.Color.Text" xml:space="preserve">
     <value>Pigment</value>
   </data>
-    <data name="InputFlyoutItem.Rect.Text" xml:space="preserve">
+  <data name="InputFlyoutItem.Rect.Text" xml:space="preserve">
     <value>Rectangle</value>
   </data>
   <data name="ProcessID.Description" xml:space="preserve">
@@ -1578,15 +1575,22 @@
     <value>Process tag</value>
   </data>
 
-  <data name="PaddleTextDirectionClassifier.Description" xml:space="preserve">
-    <value>Text direction classification</value>
+  <data name="IsEmpty.Description" xml:space="preserve">
+    <value>Determine whether the container or the list is empty</value>
   </data>
-  <data name="PaddleTextDirectionClassifier.Title" xml:space="preserve">
-    <value>Text direction classification</value>
+  <data name="IsEmpty.Title" xml:space="preserve">
+    <value>The empty</value>
+  </data>
+
+  <data name="QRCode.Description" xml:space="preserve">
+    <value>Identify the qr code in the picture.</value>
+  </data>
+  <data name="QRCode.Title" xml:space="preserve">
+    <value>Qr code identification</value>
   </data>
 
   <data name="InputParam.Description" xml:space="preserve">
-    <value>Usually done as a child action, its value is transmitted by the corresponding parent action. usually the list supports a subaction and each element of the list is passed to it.</value>
+    <value>Usually done as a child action, its value is transmitted by the corresponding parent action. usually the list supports a child action, and each element of the list is passed to the action.</value>
   </data>
   <data name="InputParam.Title" xml:space="preserve">
     <value>Input parameter</value>
@@ -1698,10 +1702,10 @@
   </data>
 
   <data name="LoggingEnabled.Description" xml:space="preserve">
-    <value>This action is used to control the output log separately</value>
+    <value>This action is used to control the output logs in the process</value>
   </data>
   <data name="LoggingEnabled.Title" xml:space="preserve">
-    <value>Output</value>
+    <value>Outgoing control</value>
   </data>
 
   <data name="AdaptiveThreshold.Description" xml:space="preserve">
@@ -1733,7 +1737,7 @@
   </data>
 
   <data name="TcpSend.Description" xml:space="preserve">
-    <value>This action sends data through either the tcp or the udp.</value>
+    <value>This action sends data through either tcp or udp.</value>
   </data>
   <data name="TcpSend.Title" xml:space="preserve">
     <value>Transmit by radio</value>
@@ -1754,59 +1758,59 @@
   </data>
 
   <data name="FilterArea.Description" xml:space="preserve">
-    <value>Elements were filtered by calculating the area of the elements in the array</value>
+    <value>Filter the elements in the list by calculating the area of the elements in the array</value>
   </data>
   <data name="FilterArea.Title" xml:space="preserve">
-    <value>Area filtration</value>
+    <value>Area screening</value>
   </data>
 
   <data name="FilterPerimeter.Description" xml:space="preserve">
-    <value>Filterperimeter</value>
+    <value>Calculate the circumference of the elements in the array and filter the eligible elements</value>
   </data>
   <data name="FilterPerimeter.Title" xml:space="preserve">
-    <value>Filterperimeter</value>
+    <value>Peripheral screening</value>
   </data>
 
   <data name="ColorPercentage.Description" xml:space="preserve">
     <value>This action can count the percentage of a color in the image</value>
   </data>
   <data name="ColorPercentage.Title" xml:space="preserve">
-    <value>Color statistics</value>
+    <value>ColorPercentage</value>
   </data>
 
   <data name="WindowVisible.Description" xml:space="preserve">
     <value>This action is used to set the window display or hide.</value>
   </data>
   <data name="WindowVisible.Title" xml:space="preserve">
-    <value>Window visual</value>
+    <value>WindowVisible</value>
   </data>
 
   <data name="TypeColor.Description" xml:space="preserve">
-    <value>Pigment</value>
+    <value>Define the color type</value>
   </data>
   <data name="TypeColor.Title" xml:space="preserve">
-    <value>Pigment</value>
+    <value>Color</value>
   </data>
 
-  <data name="DrawDetectResults.Description" xml:space="preserve">
-    <value>Draw the object detection results</value>
+  <data name="DrawDetectionResult.Description" xml:space="preserve">
+    <value>Draw the object detection results, usually containing a rectangular box</value>
   </data>
-  <data name="DrawDetectResults.Title" xml:space="preserve">
-    <value>Tagged object</value>
+  <data name="DrawDetectionResult.Title" xml:space="preserve">
+    <value>DrawDetectionResult</value>
   </data>
 
   <data name="FilterEllipse.Description" xml:space="preserve">
-    <value>Filter the circle or the ellipse through the feature of the ellipse.</value>
+    <value>Filter the elements in the ellipse list by the features of the ellipse or circle.</value>
   </data>
   <data name="FilterEllipse.Title" xml:space="preserve">
-    <value>Elliptic filtration</value>
+    <value>FilterEllipse</value>
   </data>
 
   <data name="CloseHandle.Description" xml:space="preserve">
     <value>Close the application degree open handle</value>
   </data>
   <data name="CloseHandle.Title" xml:space="preserve">
-    <value>Close the handle</value>
+    <value>CloseHandle</value>
   </data>
 
   <data name="Empty.Description" xml:space="preserve">
@@ -1820,39 +1824,39 @@
     <value>Enumeration window</value>
   </data>
   <data name="EnumWindows.Title" xml:space="preserve">
-    <value>Enumeration window</value>
+    <value>EnumWindows</value>
   </data>
 
   <data name="FilterWindows.Description" xml:space="preserve">
-    <value>Window filtering</value>
+    <value>Filter the eligible windows in the current operating system</value>
   </data>
   <data name="FilterWindows.Title" xml:space="preserve">
-    <value>Filterwindows</value>
+    <value>FilterWindows</value>
   </data>
 
   <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
     <value>Add</value>
   </data>
   <data name="Workflow.MenuItem.Copy.Text" xml:space="preserve">
-    <value>Duplicate</value>
+    <value>Copy</value>
   </data>
   <data name="Workflow.MenuItem.Locate.Text" xml:space="preserve">
-    <value>Fixed position</value>
+    <value>Locate</value>
   </data>
 
   <data name="MatchTemplate.Description" xml:space="preserve">
-    <value>Simple picture lookup, usually used to find smaller images.</value>
+    <value>Simple picture lookup is usually used to find smaller images, or images with fewer features.</value>
   </data>
   <data name="MatchTemplate.Title" xml:space="preserve">
-    <value>Template matching</value>
+    <value>MatchTemplate</value>
   </data>
 
 
   <data name="LogicalOperator.Description" xml:space="preserve">
-    <value>Logicaloperator</value>
+    <value>Logical operation</value>
   </data>
   <data name="LogicalOperator.Title" xml:space="preserve">
-    <value>Logicaloperator</value>
+    <value>LogicalOperator</value>
   </data>
 
 
@@ -1860,7 +1864,7 @@
     <value>The relationship operation is used to compare the values of two operations, which returns a boolean value, either true or false based on the value of the operand.</value>
   </data>
   <data name="RelationalOperator.Title" xml:space="preserve">
-    <value>Relational calculus</value>
+    <value>RelationalOperator</value>
   </data>
 
 
@@ -1868,16 +1872,22 @@
     <value>Mark the area of interest, such as when looking for a picture, and only find the image from that area.</value>
   </data>
   <data name="ImageMarkROI.Title" xml:space="preserve">
-    <value>Tab roi</value>
+    <value>ImageMarkROI</value>
   </data>
 
 
   <data name="TypeString.Description" xml:space="preserve">
-    <value>Define a character string</value>
+    <value>Define a string type</value>
   </data>
   <data name="TypeString.Title" xml:space="preserve">
-    <value>Alphabetic string</value>
+    <value>String</value>
   </data>
 
 
+  <data name="WindowRect.Description" xml:space="preserve">
+    <value>Gets the size of the border rectangle for the specified window, given by the screen coordinates relative to the upper left corner of the screen coordinates.</value>
+  </data>
+  <data name="WindowRect.Title" xml:space="preserve">
+    <value>WindowRect</value>
+  </data>
 </root>

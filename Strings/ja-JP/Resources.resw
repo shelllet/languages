@@ -122,13 +122,19 @@
       Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Language" xml:space="preserve">
-    <value>簡体字中国語</value>
+    <value>日語</value>
   </data>
   <data name="Add.Label" xml:space="preserve">
     <value>追加</value>
   </data>
   <data name="Delete.Label" xml:space="preserve">
     <value>削除</value>
+  </data>
+  <data name="MoveUp.Label" xml:space="preserve">
+    <value>上へ移動</value>
+  </data>
+  <data name="MoveDown.Label" xml:space="preserve">
+    <value>下へ移動</value>
   </data>
   <data name="Document.Text" xml:space="preserve">
     <value>プロセスが変更されました。保存しますか？</value>
@@ -152,14 +158,7 @@
     <value>停止</value>
   </data>
   <data name="Simple.Text" xml:space="preserve">
-    <value>Winui++</value>
-    <comment>应用程序标题</comment>
-  </data>
-  <data name="Blank.Project.Text" xml:space="preserve">
-    <value>「新規」をクリックしてプロジェクトを作成</value>
-  </data>
-  <data name="Reminder.Text" xml:space="preserve">
-    <value>心温まる注意喚起</value>
+    <value>WinUi++</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
     <value>バージョン</value>
@@ -253,9 +252,6 @@
   </data>
   <data name="ActionProperty.Header.Text" xml:space="preserve">
     <value>アクションのプロパティ</value>
-  </data>
-  <data name="Process.Created.Header" xml:space="preserve">
-    <value>作成日</value>
   </data>
   <data name="Process.Hide.Header" xml:space="preserve">
     <value>実行時にウィンドウを隠す</value>
@@ -391,7 +387,7 @@
   </data>
 
   <data name="Click.Description" xml:space="preserve">
-    <value>マウスクリック</value>
+    <value>マウスクリックの動作をシミュレートする</value>
   </data>
   <data name="Click.Title" xml:space="preserve">
     <value>クリック</value>
@@ -405,21 +401,21 @@
   </data>
 
   <data name="DoubleClick.Description" xml:space="preserve">
-    <value>ダブルクリック</value>
+    <value>マウスのダブルクリックアクションをシミュレートする</value>
   </data>
   <data name="DoubleClick.Title" xml:space="preserve">
     <value>ダブルクリック</value>
   </data>
 
   <data name="RightClick.Description" xml:space="preserve">
-    <value>右クリック</value>
+    <value>マウスの右クリックをシミュレート</value>
   </data>
   <data name="RightClick.Title" xml:space="preserve">
     <value>右クリック</value>
   </data>
 
   <data name="DragPointer.Description" xml:space="preserve">
-    <value>マウスのドラッグ</value>
+    <value>マウスのドラッグ操作をシミュレートする</value>
   </data>
   <data name="DragPointer.Title" xml:space="preserve">
     <value>ドラッグ</value>
@@ -460,7 +456,7 @@
   </data>
 
   <data name="WindowCapture.Description" xml:space="preserve">
-    <value>選択したウィンドウをスクリーンショットします</value>
+    <value>このアクションは、指定したウィンドウをスクリーンショットします</value>
   </data>
   <data name="WindowCapture.Title" xml:space="preserve">
     <value>ウィンドウのスクリーンショット</value>
@@ -474,14 +470,14 @@
   </data>
 
   <data name="PlayRecord.Description" xml:space="preserve">
-    <value>録画を再生</value>
+    <value>録音したキーボードマクロとマウスマクロを再生します。</value>
   </data>
   <data name="PlayRecord.Title" xml:space="preserve">
     <value>録画を再生</value>
   </data>
 
   <data name="Timer.Description" xml:space="preserve">
-    <value>タイマーは一定の時間間隔で、いくつかのアクションを繰り返すことができます。</value>
+    <value>サブフローは一定の時間間隔で繰り返し実行することができる。</value>
   </data>
   <data name="Timer.Title" xml:space="preserve">
     <value>タイマー</value>
@@ -501,21 +497,21 @@
     <value>タイプ</value>
   </data>
   <data name="TypeUri.Description" xml:space="preserve">
-    <value>Urlを作成</value>
+    <value>Webアドレスの種類を作成します</value>
   </data>
   <data name="TypeUri.Title" xml:space="preserve">
-    <value>Uri</value>
+    <value>ウェブアドレス</value>
   </data>
 
   <data name="TypePassword.Description" xml:space="preserve">
-    <value>パスワードの定義</value>
+    <value>パスワードの定義、文字列型</value>
   </data>
   <data name="TypePassword.Title" xml:space="preserve">
     <value>パスワード</value>
   </data>
 
   <data name="TypePoint.Description" xml:space="preserve">
-    <value>座標点を定義する</value>
+    <value>座標タイプを定義するには</value>
   </data>
   <data name="TypePoint.Title" xml:space="preserve">
     <value>座標</value>
@@ -529,7 +525,7 @@
   </data>
 
   <data name="TypeFolder.Description" xml:space="preserve">
-    <value>フォルダの定義</value>
+    <value>フォルダタイプの定義</value>
   </data>
   <data name="TypeFolder.Title" xml:space="preserve">
     <value>フォルダ</value>
@@ -543,7 +539,7 @@
   </data>
 
   <data name="TypeShortcut.Description" xml:space="preserve">
-    <value>ショートカットキーの定義</value>
+    <value>ショートカットキーの種類の定義</value>
   </data>
   <data name="TypeShortcut.Title" xml:space="preserve">
     <value>ショートカットキー</value>
@@ -569,7 +565,7 @@
     <value>ろんり</value>
   </data>
   <data name="For.Description" xml:space="preserve">
-    <value>じゅんかん</value>
+    <value>主にコンテナを反復するために使用されるループ</value>
   </data>
   <data name="For.Title" xml:space="preserve">
     <value>じゅんかん</value>
@@ -590,7 +586,7 @@
   </data>
 
   <data name="Break.Description" xml:space="preserve">
-    <value>サイクルの停止</value>
+    <value>ループを停止することは、主にループ動作のようなサブプロセスで用いられる</value>
   </data>
   <data name="Break.Title" xml:space="preserve">
     <value>サイクルの停止</value>
@@ -604,7 +600,7 @@
   </data>
 
   <data name="Code.Description" xml:space="preserve">
-    <value>このアクションは、いくつかのpythonスクリプトを実行します。</value>
+    <value>このアクションはpythonスクリプトを実行します。</value>
   </data>
   <data name="Code.Title" xml:space="preserve">
     <value>スクリプト</value>
@@ -617,7 +613,7 @@
     <value>メディア</value>
   </data>
   <data name="MediaPlay.Description" xml:space="preserve">
-    <value>サウンド再生</value>
+    <value>サウンドファイルを再生</value>
   </data>
   <data name="MediaPlay.Title" xml:space="preserve">
     <value>サウンド再生</value>
@@ -644,14 +640,14 @@
   </data>
 
   <data name="PressKey.Description" xml:space="preserve">
-    <value>キーを押す</value>
+    <value>キーを押したまま、キーを放さない</value>
   </data>
   <data name="PressKey.Title" xml:space="preserve">
     <value>キーを押す</value>
   </data>
 
   <data name="ReleaseKey.Description" xml:space="preserve">
-    <value>キーを離す</value>
+    <value>キーを放します</value>
   </data>
   <data name="ReleaseKey.Title" xml:space="preserve">
     <value>キーを離す</value>
@@ -765,7 +761,7 @@
     <value>図形描画</value>
   </data>
   <data name="TypeResource.Description" xml:space="preserve">
-    <value>リソースの定義</value>
+    <value>リソース・タイプの定義</value>
   </data>
   <data name="TypeResource.Title" xml:space="preserve">
     <value>リソース</value>
@@ -813,10 +809,10 @@
   </data>
 
   <data name="AccessSize.Description" xml:space="preserve">
-    <value>配列の長さを取得します。アクセスするアクションは配列でなければなりません。</value>
+    <value>配列の長さを取得します。</value>
   </data>
   <data name="AccessSize.Title" xml:space="preserve">
-    <value>長さ*配列</value>
+    <value>配列長</value>
   </data>
 
   <data name="Web.Description" xml:space="preserve">
@@ -914,11 +910,11 @@
     <value>けいたいがくてきそうさ</value>
   </data>
 
-  <data name="PaddleTextDetection.Description" xml:space="preserve">
-    <value>テキスト検出</value>
+  <data name="TextDetection.Description" xml:space="preserve">
+    <value>画像上のテキスト領域を検出します。</value>
   </data>
-  <data name="PaddleTextDetection.Title" xml:space="preserve">
-    <value>テキスト検出</value>
+  <data name="TextDetection.Title" xml:space="preserve">
+    <value>テキストブロックの検出</value>
   </data>
 
   <data name="NetUserAdd.Description" xml:space="preserve">
@@ -929,7 +925,7 @@
   </data>
 
   <data name="TypeRect.Description" xml:space="preserve">
-    <value>長方形を定義する</value>
+    <value>長方形の種類を定義する</value>
   </data>
   <data name="TypeRect.Title" xml:space="preserve">
     <value>長方形</value>
@@ -943,10 +939,10 @@
   </data>
 
   <data name="TypeScalar.Description" xml:space="preserve">
-    <value>スカラーには4つの数値が含まれます</value>
+    <value>4つの数値で構成されるスカラーのタイプを定義します</value>
   </data>
   <data name="TypeScalar.Title" xml:space="preserve">
-    <value>スカル</value>
+    <value>スカラ</value>
   </data>
 
   <data name="SpecialWindow.Description" xml:space="preserve">
@@ -984,10 +980,10 @@
     <value>ファイルを開く</value>
   </data>
 
-  <data name="PaddleTextRecognition.Description" xml:space="preserve">
+  <data name="TextRecognition.Description" xml:space="preserve">
     <value>テキスト認識</value>
   </data>
-  <data name="PaddleTextRecognition.Title" xml:space="preserve">
+  <data name="TextRecognition.Title" xml:space="preserve">
     <value>テキスト認識</value>
   </data>
 
@@ -1020,7 +1016,7 @@
   </data>
 
   <data name="When.Description" xml:space="preserve">
-    <value>このアクションは、条件が成立するまでスレッドの継続的な検出をオンにします。</value>
+    <value>このアクションは、条件が成立するまでスレッドのチェック条件をオンにし、条件が成立すると、サブフローを実行する。</value>
   </data>
   <data name="When.Title" xml:space="preserve">
     <value>成立したとき</value>
@@ -1034,7 +1030,7 @@
   </data>
 
   <data name="PressAndReleaseKey.Description" xml:space="preserve">
-    <value>押して離す</value>
+    <value>キーボードキーを一定時間押した後、キーを放す</value>
   </data>
   <data name="PressAndReleaseKey.Title" xml:space="preserve">
     <value>押して離す</value>
@@ -1083,7 +1079,7 @@
   </data>
 
   <data name="HttpGet.Description" xml:space="preserve">
-    <value>Httpベースのget要求</value>
+    <value>Httpベースのget要求の送信</value>
   </data>
   <data name="HttpGet.Title" xml:space="preserve">
     <value>ゲット</value>
@@ -1125,10 +1121,10 @@
   </data>
 
   <data name="FilterVertex.Description" xml:space="preserve">
-    <value>輪郭の形状に基づいて配列をフィルタする</value>
+    <value>プロファイルの形状に基づいてプロファイルをフィルタする</value>
   </data>
   <data name="FilterVertex.Title" xml:space="preserve">
-    <value>プロファイルシェイプフィルタ</value>
+    <value>シェイプフィルタ</value>
   </data>
 
   <data name="CalculateCenter.Description" xml:space="preserve">
@@ -1153,10 +1149,10 @@
   </data>
 
   <data name="YoutubeDownload.Description" xml:space="preserve">
-    <value>Youtube動画のダウンロードには、youtubeにアクセスできるネットワークが必要</value>
+    <value>現在はユーチューブ動画のダウンロードのみに対応しており、ユーチューブにアクセスできるネットワークが必要となる。</value>
   </data>
   <data name="YoutubeDownload.Title" xml:space="preserve">
-    <value>Youtube動画ダウンロード</value>
+    <value>ビデオのダウンロード</value>
   </data>
 
   <data name="DirectoryIterator.Description" xml:space="preserve">
@@ -1202,10 +1198,10 @@
   </data>
 
   <data name="FastLineDetection.Description" xml:space="preserve">
-    <value>高速直線検出アルゴリズムを使用した直線の検出</value>
+    <value>高速線分検出アルゴリズムを使用した線分の検索</value>
   </data>
   <data name="FastLineDetection.Title" xml:space="preserve">
-    <value>高速直線検出</value>
+    <value>高速直線検査</value>
   </data>
 
   <data name="EdgeLineDetection.Description" xml:space="preserve">
@@ -1223,7 +1219,7 @@
   </data>
 
   <data name="CvtColor.Description" xml:space="preserve">
-    <value>カラー変換</value>
+    <value>画像の色変換</value>
   </data>
   <data name="CvtColor.Title" xml:space="preserve">
     <value>カラー変換</value>
@@ -1265,7 +1261,7 @@
   </data>
 
   <data name="ImageBlur.Description" xml:space="preserve">
-    <value>ぼやける</value>
+    <value>画像がぼやける</value>
   </data>
   <data name="ImageBlur.Title" xml:space="preserve">
     <value>ぼやける</value>
@@ -1314,14 +1310,14 @@
   </data>
 
   <data name="HttpPost.Description" xml:space="preserve">
-    <value>Httpベースのポスト要求</value>
+    <value>Httpベースのポスト要求の送信</value>
   </data>
   <data name="HttpPost.Title" xml:space="preserve">
     <value>ポスト</value>
   </data>
 
   <data name="HttpHead.Description" xml:space="preserve">
-    <value>Httpベースのhead要求</value>
+    <value>Httpベースのhead要求の送信</value>
   </data>
   <data name="HttpHead.Title" xml:space="preserve">
     <value>ヘド</value>
@@ -1372,7 +1368,7 @@
     <value>エミュレータのnic構成の表示</value>
   </data>
   <data name="AdbIfConfig.Title" xml:space="preserve">
-    <value>Nic構成の表示</value>
+    <value>Nic構成</value>
   </data>
 
   <data name="AdbRemoveForward.Description" xml:space="preserve">
@@ -1425,10 +1421,10 @@
   </data>
 
   <data name="AccessArray.Description" xml:space="preserve">
-    <value>インデックスに基づいて配列の値を取得します。</value>
+    <value>インデックスに基づいて配列の要素を取得します。</value>
   </data>
   <data name="AccessArray.Title" xml:space="preserve">
-    <value>インデックス*配列</value>
+    <value>配列へのアクセス</value>
   </data>
 
   <data name="BaiduTranslate.Description" xml:space="preserve">
@@ -1442,14 +1438,14 @@
     <value>この動作でandroidエミュレータ上のappを開くことができます。</value>
   </data>
   <data name="AdbStartApp.Title" xml:space="preserve">
-    <value>Appを開く</value>
+    <value>アプリケーションを開く</value>
   </data>
 
   <data name="AccessKey.Description" xml:space="preserve">
     <value>指定した名前に基づいて、オブジェクトの値を取得します。</value>
   </data>
   <data name="AccessKey.Title" xml:space="preserve">
-    <value>名前*オブジェクト</value>
+    <value>オブジェクトへのアクセス</value>
   </data>
 
   <data name="CaptureForground.Description" xml:space="preserve">
@@ -1472,7 +1468,7 @@
     <value>Xml</value>
   </data>
   <data name="XmlLoadDocument.Description" xml:space="preserve">
-    <value>Xmlドキュメント</value>
+    <value>Xmlドキュメントのロード</value>
   </data>
   <data name="XmlLoadDocument.Title" xml:space="preserve">
     <value>ドキュメント</value>
@@ -1499,14 +1495,14 @@
   </data>
 
   <data name="FilterText.Description" xml:space="preserve">
-    <value>このアクションは、テキストエレメントを含むリストをフィルタリングします。</value>
+    <value>配列またはリストでは、フィルタには指定されたテキストエレメントが含まれます。</value>
   </data>
   <data name="FilterText.Title" xml:space="preserve">
-    <value>テキストのフィルタリング</value>
+    <value>テキストフィルタ</value>
   </data>
 
   <data name="XmlDocumentElement.Description" xml:space="preserve">
-    <value>Xmlドキュメント要素</value>
+    <value>Xml要素</value>
   </data>
   <data name="XmlDocumentElement.Title" xml:space="preserve">
     <value>要素</value>
@@ -1565,10 +1561,10 @@
   <data name="InputFlyoutItem.Range.Text" xml:space="preserve">
     <value>範囲</value>
   </data>
-    <data name="InputFlyoutItem.Color.Text" xml:space="preserve">
+  <data name="InputFlyoutItem.Color.Text" xml:space="preserve">
     <value>色</value>
   </data>
-    <data name="InputFlyoutItem.Rect.Text" xml:space="preserve">
+  <data name="InputFlyoutItem.Rect.Text" xml:space="preserve">
     <value>長方形</value>
   </data>
   <data name="ProcessID.Description" xml:space="preserve">
@@ -1578,15 +1574,22 @@
     <value>プロセスフラグ</value>
   </data>
 
-  <data name="PaddleTextDirectionClassifier.Description" xml:space="preserve">
-    <value>テキスト方向分類</value>
+  <data name="IsEmpty.Description" xml:space="preserve">
+    <value>コンテナまたはリストが空かどうかを判断します</value>
   </data>
-  <data name="PaddleTextDirectionClassifier.Title" xml:space="preserve">
-    <value>テキスト方向分類</value>
+  <data name="IsEmpty.Title" xml:space="preserve">
+    <value>空を判定する</value>
+  </data>
+
+  <data name="QRCode.Description" xml:space="preserve">
+    <value>画像中の二次元コードを認識する。</value>
+  </data>
+  <data name="QRCode.Title" xml:space="preserve">
+    <value>二次元コード認識</value>
   </data>
 
   <data name="InputParam.Description" xml:space="preserve">
-    <value>通常は子アクションとして、その値は対応する親アクションから渡されます。通常、リストはサブアクションをサポートし、リストの各要素がサブアクションに渡されます。</value>
+    <value>通常は子アクションとして、その値は対応する親アクションから渡されます。通常、リストはサブアクションをサポートし、リストの各要素はそのアクションに渡されます。</value>
   </data>
   <data name="InputParam.Title" xml:space="preserve">
     <value>入力パラメータ</value>
@@ -1698,10 +1701,10 @@
   </data>
 
   <data name="LoggingEnabled.Description" xml:space="preserve">
-    <value>このアクションは出力ログを個別に制御するために使用されます</value>
+    <value>このアクションは、プロセスの出力ログを制御するために使用されます</value>
   </data>
   <data name="LoggingEnabled.Title" xml:space="preserve">
-    <value>アウトプット</value>
+    <value>しゅつりょくせいぎょ</value>
   </data>
 
   <data name="AdaptiveThreshold.Description" xml:space="preserve">
@@ -1754,17 +1757,17 @@
   </data>
 
   <data name="FilterArea.Description" xml:space="preserve">
-    <value>配列内の要素の面積を計算することによる要素のフィルタリング</value>
+    <value>配列内の要素の面積を計算してリスト内の要素をフィルタする</value>
   </data>
   <data name="FilterArea.Title" xml:space="preserve">
-    <value>めんせきろか</value>
+    <value>めんせきふるいわけ</value>
   </data>
 
   <data name="FilterPerimeter.Description" xml:space="preserve">
-    <value>ファイターペリメーター</value>
+    <value>配列内の要素の周囲を計算し、条件を満たす要素をフィルタする</value>
   </data>
   <data name="FilterPerimeter.Title" xml:space="preserve">
-    <value>ファイターペリメーター</value>
+    <value>周長フィルタリング</value>
   </data>
 
   <data name="ColorPercentage.Description" xml:space="preserve">
@@ -1782,21 +1785,21 @@
   </data>
 
   <data name="TypeColor.Description" xml:space="preserve">
-    <value>色</value>
+    <value>カラータイプの定義</value>
   </data>
   <data name="TypeColor.Title" xml:space="preserve">
     <value>色</value>
   </data>
 
-  <data name="DrawDetectResults.Description" xml:space="preserve">
-    <value>描画オブジェクトの検出結果</value>
+  <data name="DrawDetectionResult.Description" xml:space="preserve">
+    <value>描画オブジェクトの検出結果(通常は長方形のボックスを含む)</value>
   </data>
-  <data name="DrawDetectResults.Title" xml:space="preserve">
-    <value>オブジェクトにタグを付ける</value>
+  <data name="DrawDetectionResult.Title" xml:space="preserve">
+    <value>ドラフトチェック結果</value>
   </data>
 
   <data name="FilterEllipse.Description" xml:space="preserve">
-    <value>楕円の特性によって円または楕円をフィルタします。</value>
+    <value>楕円または円の特性を使用して、楕円リスト内の要素をフィルタします。</value>
   </data>
   <data name="FilterEllipse.Title" xml:space="preserve">
     <value>楕円フィルタリング</value>
@@ -1824,10 +1827,10 @@
   </data>
 
   <data name="FilterWindows.Description" xml:space="preserve">
-    <value>ウィンドウのフィルタリング</value>
+    <value>現在のオペレーティング・システムの条件を満たすウィンドウをフィルタリング</value>
   </data>
   <data name="FilterWindows.Title" xml:space="preserve">
-    <value>Filterwindows</value>
+    <value>ウィンドウフィルタ</value>
   </data>
 
   <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
@@ -1841,7 +1844,7 @@
   </data>
 
   <data name="MatchTemplate.Description" xml:space="preserve">
-    <value>簡単な画像検索。通常は、より小さい画像を検索するために使用されます。</value>
+    <value>単純な画像検索。通常、小さい画像や特徴の少ない画像を検索するために使用されます。</value>
   </data>
   <data name="MatchTemplate.Title" xml:space="preserve">
     <value>テンプレートマッチング</value>
@@ -1849,10 +1852,10 @@
 
 
   <data name="LogicalOperator.Description" xml:space="preserve">
-    <value>Logicaloperator</value>
+    <value>ろんりえんざん</value>
   </data>
   <data name="LogicalOperator.Title" xml:space="preserve">
-    <value>Logicaloperator</value>
+    <value>ろんりえんざん</value>
   </data>
 
 
@@ -1873,10 +1876,21 @@
 
 
   <data name="TypeString.Description" xml:space="preserve">
-    <value>文字列の定義</value>
+    <value>文字列型の定義</value>
   </data>
   <data name="TypeString.Title" xml:space="preserve">
     <value>文字列</value>
+  </data>
+
+
+  <data name="WindowRect.Description" xml:space="preserve">
+    <value>指定されたウィンドウの枠長方形のサイズを取得します。このサイズは、画面座標の左上角を基準にした画面座標で与えられます。</value>
+  </data>
+  <data name="WindowRect.Title" xml:space="preserve">
+    <value>ウィンドウ長方形</value>
+  </data>
+  <data name="WindowRect.ToolTip" xml:space="preserve">
+    <value>Windowrect</value>
   </data>
 
 

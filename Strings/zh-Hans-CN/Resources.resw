@@ -130,6 +130,12 @@
   <data name="Delete.Label" xml:space="preserve">
     <value>删除</value>
   </data>
+  <data name="MoveUp.Label" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="MoveDown.Label" xml:space="preserve">
+    <value>下移</value>
+  </data>
   <data name="Document.Text" xml:space="preserve">
     <value>流程已经修改，是否保存?</value>
   </data>
@@ -153,13 +159,6 @@
   </data>
   <data name="Simple.Text" xml:space="preserve">
     <value>WinUi++</value>
-    <comment>应用程序标题</comment>
-  </data>
-  <data name="Blank.Project.Text" xml:space="preserve">
-    <value>点击 '新建' 创建项目</value>
-  </data>
-  <data name="Reminder.Text" xml:space="preserve">
-    <value>温馨提醒</value>
   </data>
   <data name="Version.Text" xml:space="preserve">
     <value>版本</value>
@@ -253,9 +252,6 @@
   </data>
   <data name="ActionProperty.Header.Text" xml:space="preserve">
     <value>动作属性</value>
-  </data>
-  <data name="Process.Created.Header" xml:space="preserve">
-    <value>创建日期</value>
   </data>
   <data name="Process.Hide.Header" xml:space="preserve">
     <value>运行时隐藏窗口</value>
@@ -387,11 +383,11 @@
     <value>移动鼠标</value>
   </data>
   <data name="MovePointer.Title" xml:space="preserve">
-    <value>移动鼠标</value>
+    <value>模拟鼠标移动</value>
   </data>
 
   <data name="Click.Description" xml:space="preserve">
-    <value>鼠标点击</value>
+    <value>模拟鼠标点击</value>
   </data>
   <data name="Click.Title" xml:space="preserve">
     <value>点击</value>
@@ -405,21 +401,21 @@
   </data>
 
   <data name="DoubleClick.Description" xml:space="preserve">
-    <value>双击鼠标</value>
+    <value>模拟鼠标双击动作</value>
   </data>
   <data name="DoubleClick.Title" xml:space="preserve">
     <value>双击</value>
   </data>
 
   <data name="RightClick.Description" xml:space="preserve">
-    <value>右键点击</value>
+    <value>模拟鼠标右键点击</value>
   </data>
   <data name="RightClick.Title" xml:space="preserve">
     <value>右键点击</value>
   </data>
 
   <data name="DragPointer.Description" xml:space="preserve">
-    <value>拖动鼠标</value>
+    <value>模拟鼠标拖动操作</value>
   </data>
   <data name="DragPointer.Title" xml:space="preserve">
     <value>拖动</value>
@@ -460,7 +456,7 @@
   </data>
 
   <data name="WindowCapture.Description" xml:space="preserve">
-    <value>此动作用来对选择的窗口进行截图</value>
+    <value>此动作用来对指定的窗口进行截图</value>
   </data>
   <data name="WindowCapture.Title" xml:space="preserve">
     <value>窗口截图</value>
@@ -474,14 +470,14 @@
   </data>
 
   <data name="PlayRecord.Description" xml:space="preserve">
-    <value>播放录制</value>
+    <value>播放录制的键盘和鼠标宏。</value>
   </data>
   <data name="PlayRecord.Title" xml:space="preserve">
     <value>播放录制</value>
   </data>
 
   <data name="Timer.Description" xml:space="preserve">
-    <value>定时器可以按照一定的时间间隔，重复执行一些动作。</value>
+    <value>可以按照一定的时间间隔，重复执行子流程。</value>
   </data>
   <data name="Timer.Title" xml:space="preserve">
     <value>定时器</value>
@@ -501,49 +497,49 @@
     <value>类型</value>
   </data>
   <data name="TypeUri.Description" xml:space="preserve">
-    <value>创建一个Url</value>
+    <value>创建一个 网址 类型</value>
   </data>
   <data name="TypeUri.Title" xml:space="preserve">
-    <value>URI</value>
+    <value>网址</value>
   </data>
 
   <data name="TypePassword.Description" xml:space="preserve">
-    <value>定义密码</value>
+    <value>定义 密码，字符串类型</value>
   </data>
   <data name="TypePassword.Title" xml:space="preserve">
     <value>密码</value>
   </data>
 
   <data name="TypePoint.Description" xml:space="preserve">
-    <value>定义一个坐标点</value>
+    <value>定义一个 坐标 类型</value>
   </data>
   <data name="TypePoint.Title" xml:space="preserve">
     <value>坐标</value>
   </data>
 
   <data name="TypeFile.Description" xml:space="preserve">
-    <value>定义文件类型</value>
+    <value>定义 文件 类型</value>
   </data>
   <data name="TypeFile.Title" xml:space="preserve">
     <value>文件</value>
   </data>
 
   <data name="TypeFolder.Description" xml:space="preserve">
-    <value>定义文件夹</value>
+    <value>定义 文件夹 类型</value>
   </data>
   <data name="TypeFolder.Title" xml:space="preserve">
     <value>文件夹</value>
   </data>
 
   <data name="ClipboardValue.Description" xml:space="preserve">
-    <value>获取剪切板当前的内容</value>
+    <value>获取 剪切板 当前的内容</value>
   </data>
   <data name="ClipboardValue.Title" xml:space="preserve">
     <value>剪切板</value>
   </data>
 
   <data name="TypeShortcut.Description" xml:space="preserve">
-    <value>定义一个快捷键</value>
+    <value>定义一个 快捷键 类型</value>
   </data>
   <data name="TypeShortcut.Title" xml:space="preserve">
     <value>快捷键</value>
@@ -556,7 +552,7 @@
     <value>窗口类</value>
   </data>
   <data name="FindWindow.Description" xml:space="preserve">
-    <value>查找Windows系统中的窗口，该动作通过窗口标题或者窗口类搜索窗口。</value>
+    <value>查找 Windows 系统中的窗口，该动作通过窗口标题或者窗口类搜索窗口。</value>
   </data>
   <data name="FindWindow.Title" xml:space="preserve">
     <value>查找窗口</value>
@@ -569,7 +565,7 @@
     <value>逻辑</value>
   </data>
   <data name="For.Description" xml:space="preserve">
-    <value>循环</value>
+    <value>循环，主要用来迭代容器</value>
   </data>
   <data name="For.Title" xml:space="preserve">
     <value>循环</value>
@@ -590,7 +586,7 @@
   </data>
 
   <data name="Break.Description" xml:space="preserve">
-    <value>停止循环
+    <value>停止循环，主要用在子流程当中，比如 循环 动作中
 </value>
   </data>
   <data name="Break.Title" xml:space="preserve">
@@ -605,7 +601,7 @@
   </data>
 
   <data name="Code.Description" xml:space="preserve">
-    <value>该动作可以执行一些Python脚本。</value>
+    <value>该动作可以执行Python脚本。</value>
   </data>
   <data name="Code.Title" xml:space="preserve">
     <value>脚本</value>
@@ -618,7 +614,7 @@
     <value>媒体</value>
   </data>
   <data name="MediaPlay.Description" xml:space="preserve">
-    <value>声音播放</value>
+    <value>播放声音文件</value>
   </data>
   <data name="MediaPlay.Title" xml:space="preserve">
     <value>声音播放</value>
@@ -645,14 +641,14 @@
   </data>
 
   <data name="PressKey.Description" xml:space="preserve">
-    <value>按下按键</value>
+    <value>按下按键，不会释放按键</value>
   </data>
   <data name="PressKey.Title" xml:space="preserve">
     <value>按下按键</value>
   </data>
 
   <data name="ReleaseKey.Description" xml:space="preserve">
-    <value>释放按键</value>
+    <value>释放按下的键盘按键</value>
   </data>
   <data name="ReleaseKey.Title" xml:space="preserve">
     <value>释放按键</value>
@@ -714,7 +710,7 @@
   </data>
 
   <data name="QuitThread.Description" xml:space="preserve">
-    <value>可用于结束正在执行的线程动作。</value>
+    <value>可用于结束正在执行的 线程 动作。</value>
   </data>
   <data name="QuitThread.Title" xml:space="preserve">
     <value>结束线程</value>
@@ -766,7 +762,7 @@
     <value>绘图</value>
   </data>
   <data name="TypeResource.Description" xml:space="preserve">
-    <value>定义资源</value>
+    <value>定义 资源 类型</value>
   </data>
   <data name="TypeResource.Title" xml:space="preserve">
     <value>资源</value>
@@ -814,10 +810,10 @@
   </data>
 
   <data name="AccessSize.Description" xml:space="preserve">
-    <value>获取数组的长度。访问的动作必须是一个数组。</value>
+    <value>获取 数组 的长度。</value>
   </data>
   <data name="AccessSize.Title" xml:space="preserve">
-    <value>长度*数组</value>
+    <value>数组长度</value>
   </data>
 
   <data name="Web.Description" xml:space="preserve">
@@ -915,11 +911,11 @@
     <value>形态学操作</value>
   </data>
 
-  <data name="PaddleTextDetection.Description" xml:space="preserve">
-    <value>文本检测</value>
+  <data name="TextDetection.Description" xml:space="preserve">
+    <value>检测图像上的文本区域。</value>
   </data>
-  <data name="PaddleTextDetection.Title" xml:space="preserve">
-    <value>文本检测</value>
+  <data name="TextDetection.Title" xml:space="preserve">
+    <value>文本块检测</value>
   </data>
 
   <data name="NetUserAdd.Description" xml:space="preserve">
@@ -930,7 +926,7 @@
   </data>
 
   <data name="TypeRect.Description" xml:space="preserve">
-    <value>定义一个矩形</value>
+    <value>定义一个 矩形 类型</value>
   </data>
   <data name="TypeRect.Title" xml:space="preserve">
     <value>矩形</value>
@@ -944,10 +940,10 @@
   </data>
 
   <data name="TypeScalar.Description" xml:space="preserve">
-    <value>标量包含 4 个数值</value>
+    <value>定义 标量 类型，标量 包含 4 个数值</value>
   </data>
   <data name="TypeScalar.Title" xml:space="preserve">
-    <value>Scalar</value>
+    <value>标量</value>
   </data>
 
   <data name="SpecialWindow.Description" xml:space="preserve">
@@ -985,10 +981,10 @@
     <value>打开文件</value>
   </data>
 
-  <data name="PaddleTextRecognition.Description" xml:space="preserve">
+  <data name="TextRecognition.Description" xml:space="preserve">
     <value>文本识别</value>
   </data>
-  <data name="PaddleTextRecognition.Title" xml:space="preserve">
+  <data name="TextRecognition.Title" xml:space="preserve">
     <value>文本识别</value>
   </data>
 
@@ -1021,7 +1017,7 @@
   </data>
 
   <data name="When.Description" xml:space="preserve">
-    <value>该动作会开启一个线程不停的检测，直到条件成立。</value>
+    <value>该动作会开启一个线程不停的检测条件，直到条件成立,当条件成立时，则会去执行子流程。</value>
   </data>
   <data name="When.Title" xml:space="preserve">
     <value>当...成立</value>
@@ -1035,7 +1031,7 @@
   </data>
 
   <data name="PressAndReleaseKey.Description" xml:space="preserve">
-    <value>按下并释放</value>
+    <value>按下键盘按键一定的时间，然后释放按键</value>
   </data>
   <data name="PressAndReleaseKey.Title" xml:space="preserve">
     <value>按下并释放</value>
@@ -1077,21 +1073,21 @@
   </data>
 
   <data name="WinRun.Description" xml:space="preserve">
-    <value>打开操作系统中的运行对话框</value>
+    <value>打开操作系统中的 运行 对话框</value>
   </data>
   <data name="WinRun.Title" xml:space="preserve">
     <value>运行对话框</value>
   </data>
 
   <data name="HttpGet.Description" xml:space="preserve">
-    <value>基于 HTTP 的Get 请求</value>
+    <value>发送基于 HTTP 的Get 请求</value>
   </data>
   <data name="HttpGet.Title" xml:space="preserve">
     <value>Get</value>
   </data>
 
   <data name="ONNXModel.Description" xml:space="preserve">
-    <value>加载ONNX模型文件</value>
+    <value>加载 ONNX 模型文件</value>
   </data>
   <data name="ONNXModel.Title" xml:space="preserve">
     <value>模型</value>
@@ -1126,10 +1122,10 @@
   </data>
 
   <data name="FilterVertex.Description" xml:space="preserve">
-    <value>根据轮廓的形状过滤数组</value>
+    <value>根据轮廓的形状筛选轮廓</value>
   </data>
   <data name="FilterVertex.Title" xml:space="preserve">
-    <value>轮廓形状过滤</value>
+    <value>形状筛选</value>
   </data>
 
   <data name="CalculateCenter.Description" xml:space="preserve">
@@ -1154,10 +1150,10 @@
   </data>
 
   <data name="YoutubeDownload.Description" xml:space="preserve">
-    <value>Youtube 视频下载，需要能访问 Youtube 的网络</value>
+    <value>目前只支持 Youtube 视频下载，需要能访问 Youtube 的网络。</value>
   </data>
   <data name="YoutubeDownload.Title" xml:space="preserve">
-    <value>Youtube 视频下载</value>
+    <value>视频下载</value>
   </data>
 
   <data name="DirectoryIterator.Description" xml:space="preserve">
@@ -1175,7 +1171,7 @@
   </data>
 
   <data name="CodeExpression.Description" xml:space="preserve">
-    <value>此动作可以执行Python的表达式。</value>
+    <value>此动作可以执行 Python 的表达式。</value>
   </data>
   <data name="CodeExpression.Title" xml:space="preserve">
     <value>表达式</value>
@@ -1203,10 +1199,10 @@
   </data>
 
   <data name="FastLineDetection.Description" xml:space="preserve">
-    <value>使用快速直线检测算法检测直线</value>
+    <value>使用快速直线检测算法查找直线</value>
   </data>
   <data name="FastLineDetection.Title" xml:space="preserve">
-    <value>快速直线检测</value>
+    <value>快速直线检查找</value>
   </data>
 
   <data name="EdgeLineDetection.Description" xml:space="preserve">
@@ -1224,7 +1220,7 @@
   </data>
 
   <data name="CvtColor.Description" xml:space="preserve">
-    <value>颜色转换</value>
+    <value>对图像进行颜色转换</value>
   </data>
   <data name="CvtColor.Title" xml:space="preserve">
     <value>颜色转换</value>
@@ -1266,7 +1262,7 @@
   </data>
 
   <data name="ImageBlur.Description" xml:space="preserve">
-    <value>模糊</value>
+    <value>图像模糊</value>
   </data>
   <data name="ImageBlur.Title" xml:space="preserve">
     <value>模糊</value>
@@ -1315,14 +1311,14 @@
   </data>
 
   <data name="HttpPost.Description" xml:space="preserve">
-    <value>基于 HTTP 的Post 请求</value>
+    <value>发送基于 HTTP 的Post 请求</value>
   </data>
   <data name="HttpPost.Title" xml:space="preserve">
     <value>Post</value>
   </data>
 
   <data name="HttpHead.Description" xml:space="preserve">
-    <value>基于 HTTP 的Head 请求</value>
+    <value>发送基于 HTTP 的Head 请求</value>
   </data>
   <data name="HttpHead.Title" xml:space="preserve">
     <value>Head</value>
@@ -1373,7 +1369,7 @@
     <value>查看模拟器网卡配置</value>
   </data>
   <data name="AdbIfConfig.Title" xml:space="preserve">
-    <value>查看网卡配置</value>
+    <value>网卡配置</value>
   </data>
 
   <data name="AdbRemoveForward.Description" xml:space="preserve">
@@ -1426,10 +1422,10 @@
   </data>
 
   <data name="AccessArray.Description" xml:space="preserve">
-    <value>根据索引获取 数组 当中的值。</value>
+    <value>根据索引获取 数组 当中的元素。</value>
   </data>
   <data name="AccessArray.Title" xml:space="preserve">
-    <value>索引*数组</value>
+    <value>访问数组</value>
   </data>
 
   <data name="BaiduTranslate.Description" xml:space="preserve">
@@ -1443,14 +1439,14 @@
     <value>该动作可以打开安卓模拟器上的 App。</value>
   </data>
   <data name="AdbStartApp.Title" xml:space="preserve">
-    <value>打开App</value>
+    <value>打开应用</value>
   </data>
 
   <data name="AccessKey.Description" xml:space="preserve">
     <value>根据指定的名称，获取 对象 的值。</value>
   </data>
   <data name="AccessKey.Title" xml:space="preserve">
-    <value>名称*对象</value>
+    <value>访问对象</value>
   </data>
 
   <data name="CaptureForground.Description" xml:space="preserve">
@@ -1473,7 +1469,7 @@
     <value>Xml</value>
   </data>
   <data name="XmlLoadDocument.Description" xml:space="preserve">
-    <value>Xml 文档</value>
+    <value>加载Xml 文档</value>
   </data>
   <data name="XmlLoadDocument.Title" xml:space="preserve">
     <value>文档</value>
@@ -1500,21 +1496,21 @@
   </data>
 
   <data name="FilterText.Description" xml:space="preserve">
-    <value>该动作可以过滤含文本元素的列表。</value>
+    <value>在数组或者列表中，筛选包含指定文本元素。</value>
   </data>
   <data name="FilterText.Title" xml:space="preserve">
-    <value>过滤文本</value>
+    <value>文本筛选</value>
   </data>
 
   <data name="XmlDocumentElement.Description" xml:space="preserve">
-    <value>Xml 文档元素</value>
+    <value>Xml 元素</value>
   </data>
   <data name="XmlDocumentElement.Title" xml:space="preserve">
     <value>元素</value>
   </data>
 
   <data name="XmlReplaceText.Description" xml:space="preserve">
-    <value>替换节点文本</value>
+    <value>替换 节点 文本</value>
   </data>
   <data name="XmlReplaceText.Title" xml:space="preserve">
     <value>文本替换</value>
@@ -1566,10 +1562,10 @@
   <data name="InputFlyoutItem.Range.Text" xml:space="preserve">
     <value>范围</value>
   </data>
-    <data name="InputFlyoutItem.Color.Text" xml:space="preserve">
+  <data name="InputFlyoutItem.Color.Text" xml:space="preserve">
     <value>颜色</value>
   </data>
-    <data name="InputFlyoutItem.Rect.Text" xml:space="preserve">
+  <data name="InputFlyoutItem.Rect.Text" xml:space="preserve">
     <value>矩形</value>
   </data>
   <data name="ProcessID.Description" xml:space="preserve">
@@ -1579,15 +1575,22 @@
     <value>进程标志</value>
   </data>
 
-  <data name="PaddleTextDirectionClassifier.Description" xml:space="preserve">
-    <value>文本方向分类</value>
+  <data name="IsEmpty.Description" xml:space="preserve">
+    <value>判断 容器 或者 列表 是否为空</value>
   </data>
-  <data name="PaddleTextDirectionClassifier.Title" xml:space="preserve">
-    <value>文本方向分类</value>
+  <data name="IsEmpty.Title" xml:space="preserve">
+    <value>判空</value>
+  </data>
+
+  <data name="QRCode.Description" xml:space="preserve">
+    <value>识别图片中的二维码。</value>
+  </data>
+  <data name="QRCode.Title" xml:space="preserve">
+    <value>二维码识别</value>
   </data>
 
   <data name="InputParam.Description" xml:space="preserve">
-    <value>通常做为子动作，其值由相应的父动作传入。通常列表都会支持子动作，列表的每个元素都会传递给该子动作。</value>
+    <value>通常做为子动作，其值由相应的父动作传入。通常列表都会支持子动作，列表的每个元素都会传递给该动作。</value>
   </data>
   <data name="InputParam.Title" xml:space="preserve">
     <value>传入参数</value>
@@ -1699,10 +1702,10 @@
   </data>
 
   <data name="LoggingEnabled.Description" xml:space="preserve">
-    <value>该动作用来单独控制输出日志</value>
+    <value>该动作用来在流程中控制输出日志</value>
   </data>
   <data name="LoggingEnabled.Title" xml:space="preserve">
-    <value>输出</value>
+    <value>输出控制</value>
   </data>
 
   <data name="AdaptiveThreshold.Description" xml:space="preserve">
@@ -1755,17 +1758,17 @@
   </data>
 
   <data name="FilterArea.Description" xml:space="preserve">
-    <value>通过计算数组中元素的面积来过滤元素</value>
+    <value>通过计算数组中元素的面积来筛选列表中的元素</value>
   </data>
   <data name="FilterArea.Title" xml:space="preserve">
-    <value>面积过滤</value>
+    <value>面积筛选</value>
   </data>
 
   <data name="FilterPerimeter.Description" xml:space="preserve">
-    <value>FilterPerimeter</value>
+    <value>计算数组中元素的周长，筛选符合条件的元素</value>
   </data>
   <data name="FilterPerimeter.Title" xml:space="preserve">
-    <value>FilterPerimeter</value>
+    <value>周长筛选</value>
   </data>
 
   <data name="ColorPercentage.Description" xml:space="preserve">
@@ -1783,24 +1786,24 @@
   </data>
 
   <data name="TypeColor.Description" xml:space="preserve">
-    <value>颜色</value>
+    <value>定义 颜色 类型</value>
   </data>
   <data name="TypeColor.Title" xml:space="preserve">
     <value>颜色</value>
   </data>
 
-  <data name="DrawDetectResults.Description" xml:space="preserve">
-    <value>绘制对象检测结果</value>
+  <data name="DrawDetectionResult.Description" xml:space="preserve">
+    <value>绘制对象检测结果，通常包含一个矩形框</value>
   </data>
-  <data name="DrawDetectResults.Title" xml:space="preserve">
-    <value>标记对象</value>
+  <data name="DrawDetectionResult.Title" xml:space="preserve">
+    <value>绘制检测结果</value>
   </data>
 
   <data name="FilterEllipse.Description" xml:space="preserve">
-    <value>通过 椭圆 的特征过滤 圆 或者 椭圆。</value>
+    <value>通过 椭圆 或者 圆 的特征筛选 椭圆 列表中的元素。</value>
   </data>
   <data name="FilterEllipse.Title" xml:space="preserve">
-    <value>椭圆过滤</value>
+    <value>椭圆筛选</value>
   </data>
 
   <data name="CloseHandle.Description" xml:space="preserve">
@@ -1825,10 +1828,10 @@
   </data>
 
   <data name="FilterWindows.Description" xml:space="preserve">
-    <value>窗口过滤</value>
+    <value>筛选当前操作系统中，符合条件的窗口</value>
   </data>
   <data name="FilterWindows.Title" xml:space="preserve">
-    <value>FilterWindows</value>
+    <value>窗口筛选</value>
   </data>
 
   <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
@@ -1842,7 +1845,7 @@
   </data>
 
   <data name="MatchTemplate.Description" xml:space="preserve">
-    <value>简单的图片查找，通常用于查找较小的图像。</value>
+    <value>简单的图片查找，通常用于查找较小的图像,或者特征比较少的图像。</value>
   </data>
   <data name="MatchTemplate.Title" xml:space="preserve">
     <value>模板匹配</value>
@@ -1850,10 +1853,10 @@
 
 
   <data name="LogicalOperator.Description" xml:space="preserve">
-    <value>LogicalOperator</value>
+    <value>逻辑运算</value>
   </data>
   <data name="LogicalOperator.Title" xml:space="preserve">
-    <value>LogicalOperator</value>
+    <value>逻辑运算</value>
   </data>
 
 
@@ -1874,10 +1877,21 @@
 
 
   <data name="TypeString.Description" xml:space="preserve">
-    <value>定义一个字符串</value>
+    <value>定义一个 字符串 类型</value>
   </data>
   <data name="TypeString.Title" xml:space="preserve">
     <value>字符串</value>
+  </data>
+
+
+  <data name="WindowRect.Description" xml:space="preserve">
+    <value>获取指定窗口的边框矩形的大小,该尺寸以相对于屏幕坐标左上角的屏幕坐标给出。</value>
+  </data>
+  <data name="WindowRect.Title" xml:space="preserve">
+    <value>窗口矩形</value>
+  </data>
+  <data name="WindowRect.ToolTip" xml:space="preserve">
+    <value>WindowRect</value>
   </data>
 
 
