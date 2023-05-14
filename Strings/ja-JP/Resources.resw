@@ -211,6 +211,9 @@
   <data name="Settings.Shortcut.Content" xml:space="preserve">
     <value>ショートカットの設定</value>
   </data>
+    <data name="Settings.Drawing.Font.Header" xml:space="preserve">
+    <value>フォント</value>
+  </data>
   <data name="Settings.Drawing.Content" xml:space="preserve">
     <value>図形描画</value>
   </data>
