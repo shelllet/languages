@@ -1,0 +1,1593 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing"
+  mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework
+  object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0,
+      Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0,
+      Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+  
+ 
+ 
+ 
+ 
+
+  <data name="Mouse.Description" xml:space="preserve">
+    <value>鼠标动作</value>
+  </data>
+  <data name="Mouse.Title" xml:space="preserve">
+    <value>鼠标</value>
+  </data>
+  <data name="MovePointer.Description" xml:space="preserve">
+    <value>模拟鼠标移动</value>
+  </data>
+  <data name="MovePointer.Title" xml:space="preserve">
+    <value>鼠标移动</value>
+  </data>
+
+  <data name="Click.Description" xml:space="preserve">
+    <value>模拟鼠标点击</value>
+  </data>
+  <data name="Click.Title" xml:space="preserve">
+    <value>点击</value>
+  </data>
+
+  <data name="MoveClick.Description" xml:space="preserve">
+    <value>移动鼠标，到达位置后点击鼠标相应的键</value>
+  </data>
+  <data name="MoveClick.Title" xml:space="preserve">
+    <value>移动并点击</value>
+  </data>
+
+  <data name="DoubleClick.Description" xml:space="preserve">
+    <value>模拟鼠标双击动作</value>
+  </data>
+  <data name="DoubleClick.Title" xml:space="preserve">
+    <value>双击</value>
+  </data>
+
+  <data name="RightClick.Description" xml:space="preserve">
+    <value>模拟鼠标右键点击</value>
+  </data>
+  <data name="RightClick.Title" xml:space="preserve">
+    <value>右键点击</value>
+  </data>
+
+  <data name="DragPointer.Description" xml:space="preserve">
+    <value>模拟鼠标拖动操作</value>
+  </data>
+  <data name="DragPointer.Title" xml:space="preserve">
+    <value>拖动</value>
+  </data>
+
+  <data name="ListenMouse.Description" xml:space="preserve">
+    <value>监听鼠标</value>
+  </data>
+  <data name="ListenMouse.Title" xml:space="preserve">
+    <value>监听鼠标</value>
+  </data>
+
+  <data name="System.Description" xml:space="preserve">
+    <value>系统</value>
+  </data>
+  <data name="System.Title" xml:space="preserve">
+    <value>系统</value>
+  </data>
+  <data name="Wait.Description" xml:space="preserve">
+    <value>等待，又可以称为休眠。它可以让动作停止一段时间再继续运行。</value>
+  </data>
+  <data name="Wait.Title" xml:space="preserve">
+    <value>等待</value>
+  </data>
+
+  <data name="FileQuery.Description" xml:space="preserve">
+    <value>搜索文件</value>
+  </data>
+  <data name="FileQuery.Title" xml:space="preserve">
+    <value>搜索文件</value>
+  </data>
+
+  <data name="StartProcess.Description" xml:space="preserve">
+    <value>启动进程</value>
+  </data>
+  <data name="StartProcess.Title" xml:space="preserve">
+    <value>启动进程</value>
+  </data>
+
+  <data name="WindowCapture.Description" xml:space="preserve">
+    <value>此动作用来对指定的窗口进行截图</value>
+  </data>
+  <data name="WindowCapture.Title" xml:space="preserve">
+    <value>窗口截图</value>
+  </data>
+
+  <data name="CropImage.Description" xml:space="preserve">
+    <value>该动作可以在一张图片上选择一块区域，进行裁切。</value>
+  </data>
+  <data name="CropImage.Title" xml:space="preserve">
+    <value>裁切图片</value>
+  </data>
+
+  <data name="PlayRecord.Description" xml:space="preserve">
+    <value>播放录制的键盘和鼠标宏。</value>
+  </data>
+  <data name="PlayRecord.Title" xml:space="preserve">
+    <value>播放录制</value>
+  </data>
+
+  <data name="Timer.Description" xml:space="preserve">
+    <value>可以按照一定的时间间隔，重复执行子流程。</value>
+  </data>
+  <data name="Timer.Title" xml:space="preserve">
+    <value>定时器</value>
+  </data>
+
+  <data name="ONNXClassification.Description" xml:space="preserve">
+    <value>目标分类，建议使用 *Yolo5 *网络训练的 ONNX 的模型。其它网络模型，可能需要通过脚本自定义输出。</value>
+  </data>
+  <data name="ONNXClassification.Title" xml:space="preserve">
+    <value>目标分类</value>
+  </data>
+
+  <data name="Type.Description" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Type.Title" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="TypeUri.Description" xml:space="preserve">
+    <value>创建一个 网址 类型</value>
+  </data>
+  <data name="TypeUri.Title" xml:space="preserve">
+    <value>网址</value>
+  </data>
+
+  <data name="TypePassword.Description" xml:space="preserve">
+    <value>定义 密码，字符串类型</value>
+  </data>
+  <data name="TypePassword.Title" xml:space="preserve">
+    <value>密码</value>
+  </data>
+
+  <data name="TypePoint.Description" xml:space="preserve">
+    <value>定义一个 坐标 类型</value>
+  </data>
+  <data name="TypePoint.Title" xml:space="preserve">
+    <value>坐标</value>
+  </data>
+
+  <data name="TypeFile.Description" xml:space="preserve">
+    <value>定义 文件 类型</value>
+  </data>
+  <data name="TypeFile.Title" xml:space="preserve">
+    <value>文件</value>
+  </data>
+
+  <data name="TypeFolder.Description" xml:space="preserve">
+    <value>定义 文件夹 类型</value>
+  </data>
+  <data name="TypeFolder.Title" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+
+  <data name="ClipboardValue.Description" xml:space="preserve">
+    <value>获取 剪切板 当前的内容</value>
+  </data>
+  <data name="ClipboardValue.Title" xml:space="preserve">
+    <value>剪切板</value>
+  </data>
+
+  <data name="TypeShortcut.Description" xml:space="preserve">
+    <value>定义一个 快捷键 类型</value>
+  </data>
+  <data name="TypeShortcut.Title" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+
+  <data name="Window.Description" xml:space="preserve">
+    <value>窗口类</value>
+  </data>
+  <data name="Window.Title" xml:space="preserve">
+    <value>窗口类</value>
+  </data>
+  <data name="FindWindow.Description" xml:space="preserve">
+    <value>查找 Windows 系统中的窗口，该动作通过窗口标题或者窗口类搜索窗口。</value>
+  </data>
+  <data name="FindWindow.Title" xml:space="preserve">
+    <value>查找窗口</value>
+  </data>
+
+  <data name="Control.Description" xml:space="preserve">
+    <value>逻辑</value>
+  </data>
+  <data name="Control.Title" xml:space="preserve">
+    <value>逻辑</value>
+  </data>
+  <data name="For.Description" xml:space="preserve">
+    <value>循环，主要用来迭代容器</value>
+  </data>
+  <data name="For.Title" xml:space="preserve">
+    <value>循环</value>
+  </data>
+
+  <data name="If.Description" xml:space="preserve">
+    <value>条件判断，相当于python 中的 if语句，该动作有两条分支，如果条件成立，执行左边的流程分支，否则，执行右边的流程分支</value>
+  </data>
+  <data name="If.Title" xml:space="preserve">
+    <value>判断</value>
+  </data>
+
+  <data name="Invoke.Description" xml:space="preserve">
+    <value>此动作可以调用其他流程（非子流程）。</value>
+  </data>
+  <data name="Invoke.Title" xml:space="preserve">
+    <value>调用</value>
+  </data>
+
+  <data name="Break.Description" xml:space="preserve">
+    <value>停止循环，主要用在子流程当中，比如 循环 动作中
+</value>
+  </data>
+  <data name="Break.Title" xml:space="preserve">
+    <value>停止循环</value>
+  </data>
+
+  <data name="OpenUri.Description" xml:space="preserve">
+    <value>该动作可以启动浏览器打开指定的网址</value>
+  </data>
+  <data name="OpenUri.Title" xml:space="preserve">
+    <value>打开链接</value>
+  </data>
+
+  <data name="Code.Description" xml:space="preserve">
+    <value>该动作可以执行Python脚本。</value>
+  </data>
+  <data name="Code.Title" xml:space="preserve">
+    <value>脚本</value>
+  </data>
+
+  <data name="Media.Description" xml:space="preserve">
+    <value>媒体,包括截图、声音播放等动作</value>
+  </data>
+  <data name="Media.Title" xml:space="preserve">
+    <value>媒体</value>
+  </data>
+  <data name="MediaPlay.Description" xml:space="preserve">
+    <value>播放声音文件</value>
+  </data>
+  <data name="MediaPlay.Title" xml:space="preserve">
+    <value>声音播放</value>
+  </data>
+
+  <data name="Keyboard.Description" xml:space="preserve">
+    <value>键盘</value>
+  </data>
+  <data name="Keyboard.Title" xml:space="preserve">
+    <value>键盘</value>
+  </data>
+  <data name="SendKey.Description" xml:space="preserve">
+    <value>发送按键</value>
+  </data>
+  <data name="SendKey.Title" xml:space="preserve">
+    <value>发送按键</value>
+  </data>
+
+  <data name="SendText.Description" xml:space="preserve">
+    <value>发送文本</value>
+  </data>
+  <data name="SendText.Title" xml:space="preserve">
+    <value>发送文本</value>
+  </data>
+
+  <data name="PressKey.Description" xml:space="preserve">
+    <value>按下按键，不会释放按键</value>
+  </data>
+  <data name="PressKey.Title" xml:space="preserve">
+    <value>按下按键</value>
+  </data>
+
+  <data name="ReleaseKey.Description" xml:space="preserve">
+    <value>释放按下的键盘按键</value>
+  </data>
+  <data name="ReleaseKey.Title" xml:space="preserve">
+    <value>释放按键</value>
+  </data>
+
+  <data name="ListenKeyboard.Description" xml:space="preserve">
+    <value>监听键盘</value>
+  </data>
+  <data name="ListenKeyboard.Title" xml:space="preserve">
+    <value>监听键盘</value>
+  </data>
+
+  <data name="Image.Description" xml:space="preserve">
+    <value>图像处理</value>
+  </data>
+  <data name="Image.Title" xml:space="preserve">
+    <value>图像处理</value>
+  </data>
+  <data name="ImageSave.Description" xml:space="preserve">
+    <value>把流程当中的图片类型保存到本地磁盘上面。</value>
+  </data>
+  <data name="ImageSave.Title" xml:space="preserve">
+    <value>保存图片</value>
+  </data>
+
+  <data name="FeatureDetect.Description" xml:space="preserve">
+    <value>此动作可以在一张图片当中查找具有某些特征的图像</value>
+  </data>
+  <data name="FeatureDetect.Title" xml:space="preserve">
+    <value>图像查找</value>
+  </data>
+
+  <data name="ExitApp.Description" xml:space="preserve">
+    <value>退出流程执行</value>
+  </data>
+  <data name="ExitApp.Title" xml:space="preserve">
+    <value>退出</value>
+  </data>
+
+  <data name="ImageLoad.Description" xml:space="preserve">
+    <value>从本地磁盘加载图像</value>
+  </data>
+  <data name="ImageLoad.Title" xml:space="preserve">
+    <value>加载图像</value>
+  </data>
+
+  <data name="ONNXDetection.Description" xml:space="preserve">
+    <value>目标检测,仅支持 Yolo5格式的 ONNX 模型，其它 ONNX 检测模型需要通过脚本自已解析输出</value>
+  </data>
+  <data name="ONNXDetection.Title" xml:space="preserve">
+    <value>目标检测</value>
+  </data>
+
+  <data name="PointConvert.Description" xml:space="preserve">
+    <value>窗口坐标转屏幕坐标，或者屏幕坐标转窗口坐标</value>
+  </data>
+  <data name="PointConvert.Title" xml:space="preserve">
+    <value>坐标转换</value>
+  </data>
+
+  <data name="QuitThread.Description" xml:space="preserve">
+    <value>可用于结束正在执行的 线程 动作。</value>
+  </data>
+  <data name="QuitThread.Title" xml:space="preserve">
+    <value>结束线程</value>
+  </data>
+
+  <data name="AdbPackages.Description" xml:space="preserve">
+    <value>此动作可以获取安卓模拟器当中的所有安装包。</value>
+  </data>
+  <data name="AdbPackages.Title" xml:space="preserve">
+    <value>安装包</value>
+  </data>
+
+  <data name="Filesystem.Description" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Filesystem.Title" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="FileRead.Description" xml:space="preserve">
+    <value>读取文件</value>
+  </data>
+  <data name="FileRead.Title" xml:space="preserve">
+    <value>读取文件</value>
+  </data>
+
+  <data name="FileWrite.Description" xml:space="preserve">
+    <value>文件写入</value>
+  </data>
+  <data name="FileWrite.Title" xml:space="preserve">
+    <value>文件写入</value>
+  </data>
+
+  <data name="Detection.Description" xml:space="preserve">
+    <value>图像检测</value>
+  </data>
+  <data name="Detection.Title" xml:space="preserve">
+    <value>图像检测</value>
+  </data>
+  <data name="Dnn.Description" xml:space="preserve">
+    <value>深度学习</value>
+  </data>
+  <data name="Dnn.Title" xml:space="preserve">
+    <value>深度学习</value>
+  </data>
+  <data name="Drawing.Description" xml:space="preserve">
+    <value>绘图</value>
+  </data>
+  <data name="Drawing.Title" xml:space="preserve">
+    <value>绘图</value>
+  </data>
+  <data name="TypeResource.Description" xml:space="preserve">
+    <value>定义 资源 类型</value>
+  </data>
+  <data name="TypeResource.Title" xml:space="preserve">
+    <value>资源</value>
+  </data>
+
+  <data name="MatchShapes.Description" xml:space="preserve">
+    <value>从图像上查找形状,即使形状旋转也不会对匹配产生太大影响。</value>
+  </data>
+  <data name="MatchShapes.Title" xml:space="preserve">
+    <value>形状匹配</value>
+  </data>
+
+  <data name="ReadJson.Description" xml:space="preserve">
+    <value>读取 Json</value>
+  </data>
+  <data name="ReadJson.Title" xml:space="preserve">
+    <value>读取 Json</value>
+  </data>
+
+  <data name="RandomNumber.Description" xml:space="preserve">
+    <value>生成随机数</value>
+  </data>
+  <data name="RandomNumber.Title" xml:space="preserve">
+    <value>随机数</value>
+  </data>
+
+  <data name="Database.Description" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="Database.Title" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="WebWaitFrameAvailable.Description" xml:space="preserve">
+    <value>检查给定的框架是否可以切换到。</value>
+  </data>
+  <data name="WebWaitFrameAvailable.Title" xml:space="preserve">
+    <value>等待*框架可切换</value>
+  </data>
+
+  <data name="WebWaitVisibilityByLocator.Description" xml:space="preserve">
+    <value>通过定位策略，检查已知存在于页面 DOM 上的元素是否可见，可见性意味着元素不仅被显示而且高度和宽度都大于 0</value>
+  </data>
+  <data name="WebWaitVisibilityByLocator.Title" xml:space="preserve">
+    <value>等待*可见（定位器）</value>
+  </data>
+
+  <data name="AccessSize.Description" xml:space="preserve">
+    <value>获取 数组 的长度。</value>
+  </data>
+  <data name="AccessSize.Title" xml:space="preserve">
+    <value>数组长度</value>
+  </data>
+
+  <data name="Web.Description" xml:space="preserve">
+    <value>浏览器操作</value>
+  </data>
+  <data name="Web.Title" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="Network.Description" xml:space="preserve">
+    <value>网络</value>
+  </data>
+  <data name="Network.Title" xml:space="preserve">
+    <value>网络</value>
+  </data>
+  <data name="WebOpen.Description" xml:space="preserve">
+    <value>打开浏览器，支持，打开 Chrome 和 Edge浏览器。</value>
+  </data>
+  <data name="WebOpen.Title" xml:space="preserve">
+    <value>打开浏览器</value>
+  </data>
+
+  <data name="WebWaitTitle.Description" xml:space="preserve">
+    <value>检查标题是否包含区分大小写的字符串。</value>
+  </data>
+  <data name="WebWaitTitle.Title" xml:space="preserve">
+    <value>等待*标题</value>
+  </data>
+
+  <data name="WebElementSubmit.Description" xml:space="preserve">
+    <value>表单提交</value>
+  </data>
+  <data name="WebElementSubmit.Title" xml:space="preserve">
+    <value>表单提交</value>
+  </data>
+
+  <data name="WebGetElement.Description" xml:space="preserve">
+    <value>查找 Web 元素</value>
+  </data>
+  <data name="WebGetElement.Title" xml:space="preserve">
+    <value>查找元素</value>
+  </data>
+
+  <data name="HttpDownload.Description" xml:space="preserve">
+    <value>此动作通过 HTTP 协议下载网络文件。</value>
+  </data>
+  <data name="HttpDownload.Title" xml:space="preserve">
+    <value>下载</value>
+  </data>
+
+  <data name="WebElementAttribute.Description" xml:space="preserve">
+    <value>获取属性</value>
+  </data>
+  <data name="WebElementAttribute.Title" xml:space="preserve">
+    <value>获取属性</value>
+  </data>
+
+  <data name="WebCookies.Description" xml:space="preserve">
+    <value>获取 Cookies</value>
+  </data>
+  <data name="WebCookies.Title" xml:space="preserve">
+    <value>获取 Cookies</value>
+  </data>
+
+  <data name="WebWaitPresence.Description" xml:space="preserve">
+    <value>检查元素是否存在于页面的 DOM 中，这并不一定意味着该元素是可见的。</value>
+  </data>
+  <data name="WebWaitPresence.Title" xml:space="preserve">
+    <value>等待*元素呈现</value>
+  </data>
+
+  <data name="ArithmeticCalculate.Description" xml:space="preserve">
+    <value>进行(+ - * / ) 算术运算，源数据必须支持算术运行。</value>
+  </data>
+  <data name="ArithmeticCalculate.Title" xml:space="preserve">
+    <value>算术运行</value>
+  </data>
+
+  <data name="Algorithm.Description" xml:space="preserve">
+    <value>算法</value>
+  </data>
+  <data name="Algorithm.Title" xml:space="preserve">
+    <value>算法</value>
+  </data>
+  <data name="FindContours.Description" xml:space="preserve">
+    <value>查找轮廓</value>
+  </data>
+  <data name="FindContours.Title" xml:space="preserve">
+    <value>查找轮廓</value>
+  </data>
+
+  <data name="ImageMorphological.Description" xml:space="preserve">
+    <value>形态学操作是一组基于形状处理图像的操作。他们将结构化元素应用于输入图像并生成输出图像。 </value>
+  </data>
+  <data name="ImageMorphological.Title" xml:space="preserve">
+    <value>形态学操作</value>
+  </data>
+
+  <data name="TextDetection.Description" xml:space="preserve">
+    <value>检测图像上的文本区域。</value>
+  </data>
+  <data name="TextDetection.Title" xml:space="preserve">
+    <value>文本块检测</value>
+  </data>
+
+  <data name="NetUserAdd.Description" xml:space="preserve">
+    <value>该动作可以在操作系统中增加账户。</value>
+  </data>
+  <data name="NetUserAdd.Title" xml:space="preserve">
+    <value>添加用户</value>
+  </data>
+
+  <data name="TypeRect.Description" xml:space="preserve">
+    <value>定义一个 矩形 类型</value>
+  </data>
+  <data name="TypeRect.Title" xml:space="preserve">
+    <value>矩形</value>
+  </data>
+
+  <data name="SplitString.Description" xml:space="preserve">
+    <value>分割字符串</value>
+  </data>
+  <data name="SplitString.Title" xml:space="preserve">
+    <value>分割字符串</value>
+  </data>
+
+  <data name="TypeScalar.Description" xml:space="preserve">
+    <value>定义 标量 类型，标量 包含 4 个数值</value>
+  </data>
+  <data name="TypeScalar.Title" xml:space="preserve">
+    <value>标量</value>
+  </data>
+
+  <data name="SpecialWindow.Description" xml:space="preserve">
+    <value>此动作用来选择已知的特定窗口。</value>
+  </data>
+  <data name="SpecialWindow.Title" xml:space="preserve">
+    <value>特定窗口</value>
+  </data>
+
+  <data name="SendKeyMessage.Description" xml:space="preserve">
+    <value>向窗口发送键盘消息</value>
+  </data>
+  <data name="SendKeyMessage.Title" xml:space="preserve">
+    <value>发送键盘消息</value>
+  </data>
+
+  <data name="OpenApplication.Description" xml:space="preserve">
+    <value>打开Windows系统当中的软件。该动作不会等待程序结束。</value>
+  </data>
+  <data name="OpenApplication.Title" xml:space="preserve">
+    <value>打开应用</value>
+  </data>
+
+  <data name="NameAlias.Description" xml:space="preserve">
+    <value>此动作通过 名称 引用流程当中，可以被使用的路过动作。</value>
+  </data>
+  <data name="NameAlias.Title" xml:space="preserve">
+    <value>引用动作（名称）</value>
+  </data>
+
+  <data name="LaunchFile.Description" xml:space="preserve">
+    <value>该动作可以打开在操作系统中关联过文件类型的文件。</value>
+  </data>
+  <data name="LaunchFile.Title" xml:space="preserve">
+    <value>打开文件</value>
+  </data>
+
+  <data name="TextRecognition.Description" xml:space="preserve">
+    <value>文本识别</value>
+  </data>
+  <data name="TextRecognition.Title" xml:space="preserve">
+    <value>文本识别</value>
+  </data>
+
+  <data name="WebSwitchToFrame.Description" xml:space="preserve">
+    <value>将焦点切换到指定的框架</value>
+  </data>
+  <data name="WebSwitchToFrame.Title" xml:space="preserve">
+    <value>切换框架</value>
+  </data>
+
+  <data name="WebFocusFrameDefault.Description" xml:space="preserve">
+    <value>将焦点切换到默认框架。</value>
+  </data>
+  <data name="WebFocusFrameDefault.Title" xml:space="preserve">
+    <value>框架*设置焦点</value>
+  </data>
+
+  <data name="WebActionChainsCreated.Description" xml:space="preserve">
+    <value>创建 Web 动作链</value>
+  </data>
+  <data name="WebActionChainsCreated.Title" xml:space="preserve">
+    <value>动作链*创建</value>
+  </data>
+
+  <data name="WebActionClick.Description" xml:space="preserve">
+    <value>单击一个 Web 元素, 此动作需要加入到动作链当中。</value>
+  </data>
+  <data name="WebActionClick.Title" xml:space="preserve">
+    <value>动作链.点击</value>
+  </data>
+
+  <data name="When.Description" xml:space="preserve">
+    <value>该动作会开启一个线程不停的检测条件，直到条件成立,当条件成立时，则会去执行子流程。</value>
+  </data>
+  <data name="When.Title" xml:space="preserve">
+    <value>当...成立</value>
+  </data>
+
+  <data name="WebScreenshot.Description" xml:space="preserve">
+    <value>元素截图或者页面截图</value>
+  </data>
+  <data name="WebScreenshot.Title" xml:space="preserve">
+    <value>元素截图</value>
+  </data>
+
+  <data name="PressAndReleaseKey.Description" xml:space="preserve">
+    <value>按下键盘按键一定的时间，然后释放按键</value>
+  </data>
+  <data name="PressAndReleaseKey.Title" xml:space="preserve">
+    <value>按下并释放</value>
+  </data>
+
+  <data name="ShowMessageBox.Description" xml:space="preserve">
+    <value>显示一个提示框</value>
+  </data>
+  <data name="ShowMessageBox.Title" xml:space="preserve">
+    <value>提示框</value>
+  </data>
+
+  <data name="MoveOffset.Description" xml:space="preserve">
+    <value>以鼠标当前的位置为起始位置，按照偏移量来移动鼠标。</value>
+  </data>
+  <data name="MoveOffset.Title" xml:space="preserve">
+    <value>偏移移动</value>
+  </data>
+
+  <data name="TextChinese.Description" xml:space="preserve">
+    <value>识别图片中的中文文字。</value>
+  </data>
+  <data name="TextChinese.Title" xml:space="preserve">
+    <value>中文识别</value>
+  </data>
+
+  <data name="ResizeImage.Description" xml:space="preserve">
+    <value>调整尺寸</value>
+  </data>
+  <data name="ResizeImage.Title" xml:space="preserve">
+    <value>调整尺寸</value>
+  </data>
+
+  <data name="CenterCropImage.Description" xml:space="preserve">
+    <value>从中心位置开始裁切图片。</value>
+  </data>
+  <data name="CenterCropImage.Title" xml:space="preserve">
+    <value>裁切图片</value>
+  </data>
+
+  <data name="WinRun.Description" xml:space="preserve">
+    <value>打开操作系统中的 运行 对话框</value>
+  </data>
+  <data name="WinRun.Title" xml:space="preserve">
+    <value>运行对话框</value>
+  </data>
+
+  <data name="HttpGet.Description" xml:space="preserve">
+    <value>发送基于 HTTP 的Get 请求</value>
+  </data>
+  <data name="HttpGet.Title" xml:space="preserve">
+    <value>Get</value>
+  </data>
+
+  <data name="ONNXModel.Description" xml:space="preserve">
+    <value>加载 ONNX 模型文件</value>
+  </data>
+  <data name="ONNXModel.Title" xml:space="preserve">
+    <value>模型</value>
+  </data>
+
+  <data name="WebWaitVisibilityByElement.Description" xml:space="preserve">
+    <value>通过已知元素，检查已知存在于页面 DOM 上的元素是否可见，可见性意味着元素不仅被显示而且高度和宽度都大于 0</value>
+  </data>
+  <data name="WebWaitVisibilityByElement.Title" xml:space="preserve">
+    <value>等待*可见</value>
+  </data>
+
+  <data name="WebWaitAlert.Description" xml:space="preserve">
+    <value>检查当前是否存在警报并切换到它。</value>
+  </data>
+  <data name="WebWaitAlert.Title" xml:space="preserve">
+    <value>等待*警告框</value>
+  </data>
+
+  <data name="WebWaitClickable.Description" xml:space="preserve">
+    <value>用于检查元素是可见的并已启用，以便您可以单击它。</value>
+  </data>
+  <data name="WebWaitClickable.Title" xml:space="preserve">
+    <value>等待*可点击</value>
+  </data>
+
+  <data name="BlobDetect.Description" xml:space="preserve">
+    <value>Blob 是图像中与周围区域在属性（例如亮度、颜色）上不同的区域。</value>
+  </data>
+  <data name="BlobDetect.Title" xml:space="preserve">
+    <value>Blob 查找</value>
+  </data>
+
+  <data name="FilterVertex.Description" xml:space="preserve">
+    <value>根据轮廓的形状筛选轮廓</value>
+  </data>
+  <data name="FilterVertex.Title" xml:space="preserve">
+    <value>形状筛选</value>
+  </data>
+
+  <data name="CalculateCenter.Description" xml:space="preserve">
+    <value>计算矩形框，或者轮廓的中心位置。 </value>
+  </data>
+  <data name="CalculateCenter.Title" xml:space="preserve">
+    <value>中心坐标</value>
+  </data>
+
+  <data name="CaptureFullScreen.Description" xml:space="preserve">
+    <value>全屏截图</value>
+  </data>
+  <data name="CaptureFullScreen.Title" xml:space="preserve">
+    <value>全屏截图</value>
+  </data>
+
+  <data name="SendMouseClick.Description" xml:space="preserve">
+    <value>发送鼠标消息</value>
+  </data>
+  <data name="SendMouseClick.Title" xml:space="preserve">
+    <value>发送鼠标消息</value>
+  </data>
+
+  <data name="YoutubeDownload.Description" xml:space="preserve">
+    <value>目前只支持 Youtube 视频下载，需要能访问 Youtube 的网络。</value>
+  </data>
+  <data name="YoutubeDownload.Title" xml:space="preserve">
+    <value>视频下载</value>
+  </data>
+
+  <data name="DirectoryIterator.Description" xml:space="preserve">
+    <value>遍历文件夹</value>
+  </data>
+  <data name="DirectoryIterator.Title" xml:space="preserve">
+    <value>遍历文件夹</value>
+  </data>
+
+  <data name="CopyFile.Description" xml:space="preserve">
+    <value>复制文件</value>
+  </data>
+  <data name="CopyFile.Title" xml:space="preserve">
+    <value>复制文件</value>
+  </data>
+
+  <data name="CodeExpression.Description" xml:space="preserve">
+    <value>此动作可以执行 Python 的表达式。</value>
+  </data>
+  <data name="CodeExpression.Title" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+
+  <data name="KillProcess.Description" xml:space="preserve">
+    <value>该动作可以结束操作系统中的进程</value>
+  </data>
+  <data name="KillProcess.Title" xml:space="preserve">
+    <value>终止进程</value>
+  </data>
+
+  <data name="ActionAlias.Description" xml:space="preserve">
+    <value>此动作是用来引用流程当中，可以被使用的路过动作。</value>
+  </data>
+  <data name="ActionAlias.Title" xml:space="preserve">
+    <value>引用动作</value>
+  </data>
+
+  <data name="WindowTitle.Description" xml:space="preserve">
+    <value>获取或者设置窗口标题</value>
+  </data>
+  <data name="WindowTitle.Title" xml:space="preserve">
+    <value>窗口标题</value>
+  </data>
+
+  <data name="FastLineDetection.Description" xml:space="preserve">
+    <value>使用快速直线检测算法查找直线</value>
+  </data>
+  <data name="FastLineDetection.Title" xml:space="preserve">
+    <value>快速直线检查找</value>
+  </data>
+
+  <data name="EdgeLineDetection.Description" xml:space="preserve">
+    <value>通过边缘检测来查找线段</value>
+  </data>
+  <data name="EdgeLineDetection.Title" xml:space="preserve">
+    <value>线段检测</value>
+  </data>
+
+  <data name="EllipseDetection.Description" xml:space="preserve">
+    <value>检测图像中的圆或者椭圆</value>
+  </data>
+  <data name="EllipseDetection.Title" xml:space="preserve">
+    <value>椭圆检测</value>
+  </data>
+
+  <data name="CvtColor.Description" xml:space="preserve">
+    <value>对图像进行颜色转换</value>
+  </data>
+  <data name="CvtColor.Title" xml:space="preserve">
+    <value>颜色转换</value>
+  </data>
+
+  <data name="ImageCanny.Description" xml:space="preserve">
+    <value>边缘检测</value>
+  </data>
+  <data name="ImageCanny.Title" xml:space="preserve">
+    <value>边缘检测</value>
+  </data>
+
+  <data name="ImageThreshold.Description" xml:space="preserve">
+    <value>该动作可以对图像进行阈值化操作。在该阈值操作中，值大于指定阈值的像素被分配一个标准值。该阈值操作是全局的，即图像中的所有像素都使用相同的阈值。</value>
+  </data>
+  <data name="ImageThreshold.Title" xml:space="preserve">
+    <value>阈值</value>
+  </data>
+
+  <data name="ImageInRange.Description" xml:space="preserve">
+    <value>指定一个色彩范围，抓取影像中符合色彩范围内的颜色，透过这个方式，就可以筛选出影像中的特定颜色物件。</value>
+  </data>
+  <data name="ImageInRange.Title" xml:space="preserve">
+    <value>颜色筛选</value>
+  </data>
+
+  <data name="MoveDoubleClick.Description" xml:space="preserve">
+    <value>移动鼠标，到达位置后双击鼠标相应的键</value>
+  </data>
+  <data name="MoveDoubleClick.Title" xml:space="preserve">
+    <value>移动并双击</value>
+  </data>
+
+  <data name="ConnectedComponents.Description" xml:space="preserve">
+    <value>通过对二值图像中 Bolb（斑点）区域的连通性分析，可以让我们对二值图像中的斑点进行更细粒度的过滤。</value>
+  </data>
+  <data name="ConnectedComponents.Title" xml:space="preserve">
+    <value>连通域分析</value>
+  </data>
+
+  <data name="ImageBlur.Description" xml:space="preserve">
+    <value>图像模糊</value>
+  </data>
+  <data name="ImageBlur.Title" xml:space="preserve">
+    <value>模糊</value>
+  </data>
+
+  <data name="ApproxPolyDP.Description" xml:space="preserve">
+    <value>将一个轮廓的形状逼近到另一个由较少数量的顶点组成的形状，使得形状的轮廓之间的距离等于指定精度或小于指定精度的过程称为形状的近似轮廓</value>
+  </data>
+  <data name="ApproxPolyDP.Title" xml:space="preserve">
+    <value>近似轮廓</value>
+  </data>
+
+  <data name="FindNonZero.Description" xml:space="preserve">
+    <value>在一张图片上，查找非零像素位置。</value>
+  </data>
+  <data name="FindNonZero.Title" xml:space="preserve">
+    <value>非零像素点</value>
+  </data>
+
+  <data name="WorkThread.Description" xml:space="preserve">
+    <value>线程可以用于异步执行一些动作。</value>
+  </data>
+  <data name="WorkThread.Title" xml:space="preserve">
+    <value>线程</value>
+  </data>
+
+  <data name="SetForegroundWindow.Description" xml:space="preserve">
+    <value>设置前置窗口</value>
+  </data>
+  <data name="SetForegroundWindow.Title" xml:space="preserve">
+    <value>前置窗口</value>
+  </data>
+
+  <data name="ShutdownSystem.Description" xml:space="preserve">
+    <value>该动作可以关闭操作系统，也就是电脑关机。</value>
+  </data>
+  <data name="ShutdownSystem.Title" xml:space="preserve">
+    <value>关机</value>
+  </data>
+
+  <data name="TimedTask.Description" xml:space="preserve">
+    <value>该动作在指定的时间触发，并且可以执行相应的子动作。</value>
+  </data>
+  <data name="TimedTask.Title" xml:space="preserve">
+    <value>定时任务</value>
+  </data>
+
+  <data name="HttpPost.Description" xml:space="preserve">
+    <value>发送基于 HTTP 的Post 请求</value>
+  </data>
+  <data name="HttpPost.Title" xml:space="preserve">
+    <value>Post</value>
+  </data>
+
+  <data name="HttpHead.Description" xml:space="preserve">
+    <value>发送基于 HTTP 的Head 请求</value>
+  </data>
+  <data name="HttpHead.Title" xml:space="preserve">
+    <value>Head</value>
+  </data>
+
+  <data name="Android.Description" xml:space="preserve">
+    <value>安卓</value>
+  </data>
+  <data name="Android.Title" xml:space="preserve">
+    <value>安卓</value>
+  </data>
+  <data name="AdbKillServer.Description" xml:space="preserve">
+    <value>终止安卓模拟器服务，结束进程 Adb.exe。</value>
+  </data>
+  <data name="AdbKillServer.Title" xml:space="preserve">
+    <value>终止服务</value>
+  </data>
+
+  <data name="AdbDevices.Description" xml:space="preserve">
+    <value>查询系统中已经启动的安卓模拟器。</value>
+  </data>
+  <data name="AdbDevices.Title" xml:space="preserve">
+    <value>设备列表</value>
+  </data>
+
+  <data name="AdbStartServer.Description" xml:space="preserve">
+    <value>启动 Adb 服务</value>
+  </data>
+  <data name="AdbStartServer.Title" xml:space="preserve">
+    <value>启动服务</value>
+  </data>
+
+  <data name="AdbForward.Description" xml:space="preserve">
+    <value>把安卓系统的端口映射到本地端口。</value>
+  </data>
+  <data name="AdbForward.Title" xml:space="preserve">
+    <value>转发</value>
+  </data>
+
+  <data name="AdbConnect.Description" xml:space="preserve">
+    <value>连接模拟器，主要应用在模拟器在远程电脑上面。</value>
+  </data>
+  <data name="AdbConnect.Title" xml:space="preserve">
+    <value>连接</value>
+  </data>
+
+  <data name="AdbIfConfig.Description" xml:space="preserve">
+    <value>查看模拟器网卡配置</value>
+  </data>
+  <data name="AdbIfConfig.Title" xml:space="preserve">
+    <value>网卡配置</value>
+  </data>
+
+  <data name="AdbRemoveForward.Description" xml:space="preserve">
+    <value>在当前系统当中移除端口转发。</value>
+  </data>
+  <data name="AdbRemoveForward.Title" xml:space="preserve">
+    <value>移除转发</value>
+  </data>
+
+  <data name="ReadLines.Description" xml:space="preserve">
+    <value>读取多行文件</value>
+  </data>
+  <data name="ReadLines.Title" xml:space="preserve">
+    <value>读取多行文件</value>
+  </data>
+
+  <data name="AdbSwipe.Description" xml:space="preserve">
+    <value>在安卓模拟器当中实现滑动操作。</value>
+  </data>
+  <data name="AdbSwipe.Title" xml:space="preserve">
+    <value>滑动</value>
+  </data>
+
+  <data name="AdbInput.Description" xml:space="preserve">
+    <value>在安卓模拟器中模拟输入文本，此动作不支持中文输入。</value>
+  </data>
+  <data name="AdbInput.Title" xml:space="preserve">
+    <value>输入</value>
+  </data>
+
+  <data name="AdbKey.Description" xml:space="preserve">
+    <value>在安卓模拟器中模拟按键。</value>
+  </data>
+  <data name="AdbKey.Title" xml:space="preserve">
+    <value>按键</value>
+  </data>
+
+  <data name="AdbTap.Description" xml:space="preserve">
+    <value>在安卓模拟器中模拟点击。</value>
+  </data>
+  <data name="AdbTap.Title" xml:space="preserve">
+    <value>点击</value>
+  </data>
+
+  <data name="AdbScreenCap.Description" xml:space="preserve">
+    <value>模拟器屏幕截图。</value>
+  </data>
+  <data name="AdbScreenCap.Title" xml:space="preserve">
+    <value>截图</value>
+  </data>
+
+  <data name="AccessArray.Description" xml:space="preserve">
+    <value>根据索引获取 数组 当中的元素。</value>
+  </data>
+  <data name="AccessArray.Title" xml:space="preserve">
+    <value>访问数组</value>
+  </data>
+
+  <data name="BaiduTranslate.Description" xml:space="preserve">
+    <value>百度翻译</value>
+  </data>
+  <data name="BaiduTranslate.Title" xml:space="preserve">
+    <value>百度翻译</value>
+  </data>
+
+  <data name="AdbStartApp.Description" xml:space="preserve">
+    <value>该动作可以打开安卓模拟器上的 App。</value>
+  </data>
+  <data name="AdbStartApp.Title" xml:space="preserve">
+    <value>打开应用</value>
+  </data>
+
+  <data name="AccessKey.Description" xml:space="preserve">
+    <value>根据指定的名称，获取 对象 的值。</value>
+  </data>
+  <data name="AccessKey.Title" xml:space="preserve">
+    <value>访问对象</value>
+  </data>
+
+  <data name="CaptureForground.Description" xml:space="preserve">
+    <value>前置窗口截图。</value>
+  </data>
+  <data name="CaptureForground.Title" xml:space="preserve">
+    <value>前置窗口截图</value>
+  </data>
+
+  <data name="Cloud.Description" xml:space="preserve">
+    <value>Cloud</value>
+  </data>
+  <data name="Cloud.Title" xml:space="preserve">
+    <value>Cloud</value>
+  </data>
+  <data name="Xml.Description" xml:space="preserve">
+    <value>Xml</value>
+  </data>
+  <data name="Xml.Title" xml:space="preserve">
+    <value>Xml</value>
+  </data>
+  <data name="XmlLoadDocument.Description" xml:space="preserve">
+    <value>加载Xml 文档</value>
+  </data>
+  <data name="XmlLoadDocument.Title" xml:space="preserve">
+    <value>文档</value>
+  </data>
+
+  <data name="Json.Description" xml:space="preserve">
+    <value>Json</value>
+  </data>
+  <data name="Json.Title" xml:space="preserve">
+    <value>Json</value>
+  </data>
+  <data name="XmlGetNodeList.Description" xml:space="preserve">
+    <value>获取 Xml 节点</value>
+  </data>
+  <data name="XmlGetNodeList.Title" xml:space="preserve">
+    <value>获取节点</value>
+  </data>
+
+  <data name="XmlNodeName.Description" xml:space="preserve">
+    <value>Xml 节点名称</value>
+  </data>
+  <data name="XmlNodeName.Title" xml:space="preserve">
+    <value>节点名称</value>
+  </data>
+
+  <data name="FilterText.Description" xml:space="preserve">
+    <value>在数组或者列表中，筛选包含指定文本元素。</value>
+  </data>
+  <data name="FilterText.Title" xml:space="preserve">
+    <value>文本筛选</value>
+  </data>
+
+  <data name="XmlDocumentElement.Description" xml:space="preserve">
+    <value>Xml 元素</value>
+  </data>
+  <data name="XmlDocumentElement.Title" xml:space="preserve">
+    <value>元素</value>
+  </data>
+
+  <data name="XmlReplaceText.Description" xml:space="preserve">
+    <value>替换 节点 文本</value>
+  </data>
+  <data name="XmlReplaceText.Title" xml:space="preserve">
+    <value>文本替换</value>
+  </data>
+
+  <data name="XmlSaveDocument.Description" xml:space="preserve">
+    <value>保存 Xml 文件</value>
+  </data>
+  <data name="XmlSaveDocument.Title" xml:space="preserve">
+    <value>保存</value>
+  </data>
+
+  <data name="ProcessID.Description" xml:space="preserve">
+    <value>流程可以并发执行，并发执行的时候，会开启多个进程，每个正在运行的进程都有一个唯一的数字标志，该标志从0 开始递增。</value>
+  </data>
+  <data name="ProcessID.Title" xml:space="preserve">
+    <value>进程标志</value>
+  </data>
+
+  <data name="IsEmpty.Description" xml:space="preserve">
+    <value>判断 容器 或者 列表 是否为空</value>
+  </data>
+  <data name="IsEmpty.Title" xml:space="preserve">
+    <value>判空</value>
+  </data>
+
+  <data name="QRCode.Description" xml:space="preserve">
+    <value>识别图片中的二维码。</value>
+  </data>
+  <data name="QRCode.Title" xml:space="preserve">
+    <value>二维码识别</value>
+  </data>
+
+  <data name="InputParam.Description" xml:space="preserve">
+    <value>通常做为子动作，其值由相应的父动作传入。通常列表都会支持子动作，列表的每个元素都会传递给该动作。</value>
+  </data>
+  <data name="InputParam.Title" xml:space="preserve">
+    <value>传入参数</value>
+  </data>
+
+  <data name="WebActionChainsPerform.Description" xml:space="preserve">
+    <value>执行创建的动作链。</value>
+  </data>
+  <data name="WebActionChainsPerform.Title" xml:space="preserve">
+    <value>动作链*执行</value>
+  </data>
+
+  <data name="WebElementSendKey.Description" xml:space="preserve">
+    <value>发送按键</value>
+  </data>
+  <data name="WebElementSendKey.Title" xml:space="preserve">
+    <value>发送按键</value>
+  </data>
+
+  <data name="WebElementClick.Description" xml:space="preserve">
+    <value>点击</value>
+  </data>
+  <data name="WebElementClick.Title" xml:space="preserve">
+    <value>点击</value>
+  </data>
+
+  <data name="WebElementClear.Description" xml:space="preserve">
+    <value>如果文本是文本输入元素，则清除文本。</value>
+  </data>
+  <data name="WebElementClear.Title" xml:space="preserve">
+    <value>清除文本</value>
+  </data>
+
+  <data name="WebElementIsSelect.Description" xml:space="preserve">
+    <value>返回元素是否被选中，可用于检查复选框或单选按钮是否被选中。</value>
+  </data>
+  <data name="WebElementIsSelect.Title" xml:space="preserve">
+    <value>选中检查</value>
+  </data>
+
+  <data name="WebElementSendText.Description" xml:space="preserve">
+    <value>向当前有焦点的 Web 元素发送文本。</value>
+  </data>
+  <data name="WebElementSendText.Title" xml:space="preserve">
+    <value>发送文本</value>
+  </data>
+
+  <data name="WebActionClickHold.Description" xml:space="preserve">
+    <value>在元素上按住鼠标左键, 此动作需要加入到动作链当中。</value>
+  </data>
+  <data name="WebActionClickHold.Title" xml:space="preserve">
+    <value>动作链.点按</value>
+  </data>
+
+  <data name="WebActionDoubleClick.Description" xml:space="preserve">
+    <value>双击一个元素, 此动作需要加入到动作链当中。</value>
+  </data>
+  <data name="WebActionDoubleClick.Title" xml:space="preserve">
+    <value>动作链.双击</value>
+  </data>
+
+  <data name="WebActionMoveTo.Description" xml:space="preserve">
+    <value>将鼠标移动到元素上。</value>
+  </data>
+  <data name="WebActionMoveTo.Title" xml:space="preserve">
+    <value>动作链.移动</value>
+  </data>
+
+  <data name="WebActionRelease.Description" xml:space="preserve">
+    <value>释放元素上按住的鼠标按钮。</value>
+  </data>
+  <data name="WebActionRelease.Title" xml:space="preserve">
+    <value>动作链.释放</value>
+  </data>
+
+  <data name="WebActionDragDrop.Description" xml:space="preserve">
+    <value>在源元素上按住鼠标左键，然后移动到目标元素并释放鼠标。</value>
+  </data>
+  <data name="WebActionDragDrop.Title" xml:space="preserve">
+    <value>动作链.拖放</value>
+  </data>
+
+  <data name="WebActionKeyDown.Description" xml:space="preserve">
+    <value>仅发送按键，不释放。只能与（Control、Alt 和 Shift）一起使用。</value>
+  </data>
+  <data name="WebActionKeyDown.Title" xml:space="preserve">
+    <value>动作链.按键</value>
+  </data>
+
+  <data name="WebActionKeyUp.Description" xml:space="preserve">
+    <value>释放修改键</value>
+  </data>
+  <data name="WebActionKeyUp.Title" xml:space="preserve">
+    <value>动作链.释放按键</value>
+  </data>
+
+  <data name="WebActionMoveOffset.Description" xml:space="preserve">
+    <value>将鼠标移动到当前鼠标位置的或指定 Web 元素的偏移量。</value>
+  </data>
+  <data name="WebActionMoveOffset.Title" xml:space="preserve">
+    <value>动作链.移动（偏移）</value>
+  </data>
+
+  <data name="WebActionSendText.Description" xml:space="preserve">
+    <value>设置文本</value>
+  </data>
+  <data name="WebActionSendText.Title" xml:space="preserve">
+    <value>动作链.发送文本</value>
+  </data>
+
+  <data name="LoggingEnabled.Description" xml:space="preserve">
+    <value>该动作用来在流程中控制输出日志</value>
+  </data>
+  <data name="LoggingEnabled.Title" xml:space="preserve">
+    <value>输出控制</value>
+  </data>
+
+  <data name="AdaptiveThreshold.Description" xml:space="preserve">
+    <value>自适应阈值是针对较小的区域计算阈值，因此对于不同的区域会有不同的阈值。</value>
+  </data>
+  <data name="AdaptiveThreshold.Title" xml:space="preserve">
+    <value>自适应阈值</value>
+  </data>
+
+  <data name="GroupAction.Description" xml:space="preserve">
+    <value>该动作可以把视图上相关动作分组，使逻辑更清晰。</value>
+  </data>
+  <data name="GroupAction.Title" xml:space="preserve">
+    <value>分组</value>
+  </data>
+
+  <data name="AdbMove.Description" xml:space="preserve">
+    <value>上下左右移动，类似游戏当中的 WASD 功能。</value>
+  </data>
+  <data name="AdbMove.Title" xml:space="preserve">
+    <value>移动</value>
+  </data>
+
+  <data name="TcpListen.Description" xml:space="preserve">
+    <value>此动作用来创建TCP或者UDP服务端。</value>
+  </data>
+  <data name="TcpListen.Title" xml:space="preserve">
+    <value>监听</value>
+  </data>
+
+  <data name="TcpSend.Description" xml:space="preserve">
+    <value>此动作通过TCP或者UDP发送数据。</value>
+  </data>
+  <data name="TcpSend.Title" xml:space="preserve">
+    <value>发送</value>
+  </data>
+
+  <data name="TcpReceive.Description" xml:space="preserve">
+    <value>此动作通过TCP或者UDP接收数据。</value>
+  </data>
+  <data name="TcpReceive.Title" xml:space="preserve">
+    <value>接收</value>
+  </data>
+
+  <data name="TcpConnect.Description" xml:space="preserve">
+    <value>此动作通过TCP或者UDP连接服务端。</value>
+  </data>
+  <data name="TcpConnect.Title" xml:space="preserve">
+    <value>连接</value>
+  </data>
+
+  <data name="FilterArea.Description" xml:space="preserve">
+    <value>通过计算数组中元素的面积来筛选列表中的元素</value>
+  </data>
+  <data name="FilterArea.Title" xml:space="preserve">
+    <value>面积筛选</value>
+  </data>
+
+  <data name="FilterPerimeter.Description" xml:space="preserve">
+    <value>计算数组中元素的周长，筛选符合条件的元素</value>
+  </data>
+  <data name="FilterPerimeter.Title" xml:space="preserve">
+    <value>周长筛选</value>
+  </data>
+
+  <data name="ColorPercentage.Description" xml:space="preserve">
+    <value>此动作可以统计某一颜色在图像当中所占的比例</value>
+  </data>
+  <data name="ColorPercentage.Title" xml:space="preserve">
+    <value>颜色统计</value>
+  </data>
+
+  <data name="WindowVisible.Description" xml:space="preserve">
+    <value>此动作用来设置窗口显示或者隐藏。</value>
+  </data>
+  <data name="WindowVisible.Title" xml:space="preserve">
+    <value>窗口可视</value>
+  </data>
+
+  <data name="TypeColor.Description" xml:space="preserve">
+    <value>定义 颜色 类型</value>
+  </data>
+  <data name="TypeColor.Title" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+
+  <data name="DrawDetectionResult.Description" xml:space="preserve">
+    <value>绘制对象检测结果，通常包含一个矩形框</value>
+  </data>
+  <data name="DrawDetectionResult.Title" xml:space="preserve">
+    <value>绘制检测结果</value>
+  </data>
+
+  <data name="FilterEllipse.Description" xml:space="preserve">
+    <value>通过 椭圆 或者 圆 的特征筛选 椭圆 列表中的元素。</value>
+  </data>
+  <data name="FilterEllipse.Title" xml:space="preserve">
+    <value>椭圆筛选</value>
+  </data>
+
+  <data name="CloseHandle.Description" xml:space="preserve">
+    <value>关闭应用程度打开的句柄</value>
+  </data>
+  <data name="CloseHandle.Title" xml:space="preserve">
+    <value>关闭句柄</value>
+  </data>
+
+  <data name="Empty.Description" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="Empty.Title" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+
+  <data name="EnumWindows.Description" xml:space="preserve">
+    <value>枚举窗口</value>
+  </data>
+  <data name="EnumWindows.Title" xml:space="preserve">
+    <value>枚举窗口</value>
+  </data>
+
+  <data name="FilterWindows.Description" xml:space="preserve">
+    <value>筛选当前操作系统中，符合条件的窗口</value>
+  </data>
+  <data name="FilterWindows.Title" xml:space="preserve">
+    <value>窗口筛选</value>
+  </data>
+
+  <data name="MatchTemplate.Description" xml:space="preserve">
+    <value>简单的图片查找，通常用于查找较小的图像,或者特征比较少的图像。</value>
+  </data>
+  <data name="MatchTemplate.Title" xml:space="preserve">
+    <value>模板匹配</value>
+  </data>
+
+
+  <data name="LogicalOperator.Description" xml:space="preserve">
+    <value>逻辑运算</value>
+  </data>
+  <data name="LogicalOperator.Title" xml:space="preserve">
+    <value>逻辑运算</value>
+  </data>
+
+
+  <data name="RelationalOperator.Description" xml:space="preserve">
+    <value>关系运算用来比较两个操作数值，关系运算返回一个布尔值，即根据操作数的值返回True或False。</value>
+  </data>
+  <data name="RelationalOperator.Title" xml:space="preserve">
+    <value>关系运算</value>
+  </data>
+
+
+  <data name="ImageMarkROI.Description" xml:space="preserve">
+    <value>标记图片感兴趣的区域，比如在找图时，只从该区域查找图片。</value>
+  </data>
+  <data name="ImageMarkROI.Title" xml:space="preserve">
+    <value>标记ROI</value>
+  </data>
+
+
+  <data name="TypeString.Description" xml:space="preserve">
+    <value>定义一个 字符串 类型</value>
+  </data>
+  <data name="TypeString.Title" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+
+
+  <data name="WindowRect.Description" xml:space="preserve">
+    <value>获取指定窗口的边框矩形的大小,该尺寸以相对于屏幕坐标左上角的屏幕坐标给出。</value>
+  </data>
+  <data name="WindowRect.Title" xml:space="preserve">
+    <value>窗口矩形</value>
+  </data>
+  </root>

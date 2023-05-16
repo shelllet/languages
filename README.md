@@ -41,3 +41,7 @@
 *  ja-JP
   
     .\makepri new /pr .\Strings\ja-JP /cf .\config\ja-JP\priconfig.xml /o /of ./Translations/ja-JP
+
+# [dump](https://learn.microsoft.com/en-us/windows/uwp/app-resources/localize-strings-ui-manifest)
+
+    .\makepri dump /if ./Translations/zh-Hans-CN.pri /o /of resources.pri.xml
