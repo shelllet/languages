@@ -1,67 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing"
-  mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework
-  object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+  <xsd:schema xmlns=""
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -114,12 +55,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0,
-      Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0,
-      Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Language" xml:space="preserve">
     <value>简体中文</value>
@@ -136,21 +75,13 @@
   <data name="MoveDown.Label" xml:space="preserve">
     <value>下移</value>
   </data>
-  <data name="Document.Text" xml:space="preserve">
-    <value>流程已经修改，是否保存?</value>
+  <data name="Workflow.Title" xml:space="preserve">
+    <value>工作流</value>
   </data>
   <data name="Recording.Title" xml:space="preserve">
     <value>正在录制...</value>
   </data>
-  <data name="Save.Text" xml:space="preserve">
-    <value>保存</value>
-  </data>
-  <data name="Cancel.Text" xml:space="preserve">
-    <value>取消</value>
-  </data>
-  <data name="Ok.Text" xml:space="preserve">
-    <value>确定</value>
-  </data>
+
   <data name="Publish.Text" xml:space="preserve">
     <value>发布</value>
   </data>
@@ -166,8 +97,8 @@
   <data name="Version.Title.Text" xml:space="preserve">
     <value>版本：</value>
   </data>
-  <data name="Version.New" xml:space="preserve">
-    <value>发现新版本： {}</value>
+  <data name="App.Version.Update.Text" xml:space="preserve">
+    <value>发现了一个较新的版本：{}，单击此处下载。</value>
   </data>
   <data name="Home.Title.Text" xml:space="preserve">
     <value>网站：</value>
@@ -210,16 +141,15 @@
   </data>
   <data name="Settings.Shortcut.Content" xml:space="preserve">
     <value>快捷键设置</value>
-
   </data>
-        <data name="Settings.Drawing.Font.Header" xml:space="preserve">
+  <data name="Settings.Drawing.Font.Header" xml:space="preserve">
     <value>字体</value>
   </data>
   <data name="Settings.Drawing.Content" xml:space="preserve">
     <value>绘图</value>
   </data>
-  <data name="Settings.Process.Content" xml:space="preserve">
-    <value>流程</value>
+  <data name="Settings.Workflow.Content" xml:space="preserve">
+    <value>工作流</value>
   </data>
   <data name="Settings.Language.Header" xml:space="preserve">
     <value>语言</value>
@@ -233,7 +163,6 @@
   <data name="Settings.RigisterFileType.Header" xml:space="preserve">
     <value>关联类型</value>
   </data>
-
   <data name="Settings.Drawing.Thickness.Text" xml:space="preserve">
     <value>边框大小</value>
   </data>
@@ -252,28 +181,31 @@
   <data name="Settings.Basic_RandomTitle.Header" xml:space="preserve">
     <value>随机标题</value>
   </data>
-  <data name="ProcessOptions.Header.Text" xml:space="preserve">
-    <value>项目选项</value>
+  <data name="WorkflowOptions.Header.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="WorkflowOptions.Basic.Text" xml:space="preserve">
+    <value>基础</value>
   </data>
   <data name="ActionProperty.Header.Text" xml:space="preserve">
     <value>动作属性</value>
   </data>
-  <data name="Process.Hide.Header" xml:space="preserve">
-    <value>运行时隐藏窗口</value>
+  <data name="Workflow.HideWindow.Header" xml:space="preserve">
+    <value>隐藏窗口</value>
   </data>
-  <data name="Process.Times.Header" xml:space="preserve">
-    <value>运行次数</value>
+  <data name="Workflow.Delayed.Header" xml:space="preserve">
+    <value>延迟时间（秒）</value>
   </data>
-  <data name="Process.Concurrently.Header" xml:space="preserve">
-    <value>并发数量</value>
+  <data name="Workflow.Process.Header" xml:space="preserve">
+    <value>进程</value>
   </data>
-  <data name="Process.Output.Header" xml:space="preserve">
-    <value>输出更多日志</value>
+  <data name="Workflow.Output.Header" xml:space="preserve">
+    <value>更多输出</value>
   </data>
-  <data name="Process.Process.Header" xml:space="preserve">
+  <data name="Workflow.Index.Header" xml:space="preserve">
     <value>主流程</value>
   </data>
-  <data name="Process.Description.Text" xml:space="preserve">
+  <data name="Workflow.Description.Text" xml:space="preserve">
     <value>描述</value>
   </data>
   <data name="Page.Output.Header" xml:space="preserve">
@@ -369,7 +301,7 @@
   <data name="Shortcut.WorkPause.Text" xml:space="preserve">
     <value>暂停流程</value>
   </data>
-  <data name="RecordWindow.Title" xml:space="preserve">
+  <data name="Record.Title" xml:space="preserve">
     <value>录制</value>
   </data>
   <data name="StartToRun.Title" xml:space="preserve">
@@ -432,31 +364,49 @@
   <data name="Workflow.MenuItem.Locate.Text" xml:space="preserve">
     <value>定位</value>
   </data>
-<data name="Standard.Copy.Text" xml:space="preserve">
-    <value>Copy</value>
+  <data name="Save.Text" xml:space="preserve">
+    <value>保存</value>
   </data>
-  <data name="Standard.Name.Text" xml:space="preserve">
-    <value>Name</value>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>取消</value>
   </data>
-  <data name="Standard.Name.Header" xml:space="preserve">
-    <value>Name</value>
+  <data name="Ok.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Comment.Header" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="Clear.Text" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Copy.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="Name.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Name.Header" xml:space="preserve">
+    <value>名称</value>
   </data>
   <data name="Resource.MenuFlyoutItem.Delete.Text" xml:space="preserve">
-    <value>Delete</value>
+    <value>删除</value>
   </data>
   <data name="Resource.MenuFlyoutItem.File.Text" xml:space="preserve">
-    <value>File</value>
+    <value>文件</value>
   </data>
   <data name="Resource.MenuFlyoutItem.Rename.Text" xml:space="preserve">
-    <value>Rename</value>
+    <value>重命名</value>
   </data>
   <data name="Resource.MenuFlyoutItem.Replace.Text" xml:space="preserve">
-    <value>Replace</value>
+    <value>替换</value>
   </data>
   <data name="Resource.MenuFlyoutItem.ReplaceImage.Text" xml:space="preserve">
-    <value>Replace Image(Clipboard)</value>
+    <value>替换图像 （剪切板）</value>
   </data>
   <data name="Resource.MenuFlyoutItem.PastImage.Text" xml:space="preserve">
-    <value>Paste Image(Clipboard)</value>
+    <value>粘贴图像 （剪切板）</value>
+  </data>
+  <data name="Workflow.Run.Completed.Text" xml:space="preserve">
+    <value>当前流程已经执行完毕。</value>
   </data>
 </root>

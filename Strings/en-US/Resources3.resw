@@ -1,106 +1,47 @@
 <?xml version='1.0' encoding='utf-8'?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing"
-  mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework
-  object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+  <xsd:schema xmlns=""
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string"/>
-              <xsd:attribute name="type" type="xsd:string"/>
-              <xsd:attribute name="mimetype" type="xsd:string"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string"/>
-              <xsd:attribute name="name" type="xsd:string"/>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
-              <xsd:attribute ref="xml:space"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required"/>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -114,16 +55,11 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0,
-      Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0,
-      Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
-
-
   <data name="Mouse.Description" xml:space="preserve">
     <value>Mouse action</value>
   </data>
@@ -136,49 +72,42 @@
   <data name="MovePointer.Title" xml:space="preserve">
     <value>Simulate the mouse move</value>
   </data>
-
   <data name="Click.Description" xml:space="preserve">
     <value>Simulate the mouse click</value>
   </data>
   <data name="Click.Title" xml:space="preserve">
     <value>Click</value>
   </data>
-
   <data name="MoveClick.Description" xml:space="preserve">
     <value>Move the mouse and click the corresponding button of the mouse after reaching the position</value>
   </data>
   <data name="MoveClick.Title" xml:space="preserve">
     <value>Move and Click</value>
   </data>
-
   <data name="DoubleClick.Description" xml:space="preserve">
     <value>Simulate the mouse-double-click action</value>
   </data>
   <data name="DoubleClick.Title" xml:space="preserve">
     <value>Double Click</value>
   </data>
-
   <data name="RightClick.Description" xml:space="preserve">
     <value>Simulate right mouse click</value>
   </data>
   <data name="RightClick.Title" xml:space="preserve">
     <value>Right Click</value>
   </data>
-
   <data name="DragPointer.Description" xml:space="preserve">
     <value>Simulate the mouse drag operation</value>
   </data>
   <data name="DragPointer.Title" xml:space="preserve">
     <value>Drag</value>
   </data>
-
   <data name="ListenMouse.Description" xml:space="preserve">
     <value>Listen to the mouse</value>
   </data>
   <data name="ListenMouse.Title" xml:space="preserve">
     <value>Listen</value>
   </data>
-
   <data name="System.Description" xml:space="preserve">
     <value>System</value>
   </data>
@@ -191,56 +120,48 @@
   <data name="Wait.Title" xml:space="preserve">
     <value>Wait</value>
   </data>
-
   <data name="FileQuery.Description" xml:space="preserve">
     <value>Search for files</value>
   </data>
   <data name="FileQuery.Title" xml:space="preserve">
     <value>FileQuery</value>
   </data>
-
   <data name="StartProcess.Description" xml:space="preserve">
     <value>Start the process</value>
   </data>
   <data name="StartProcess.Title" xml:space="preserve">
     <value>StartProcess</value>
   </data>
-
   <data name="WindowCapture.Description" xml:space="preserve">
     <value>This action is used to take screenshots of the specified window</value>
   </data>
   <data name="WindowCapture.Title" xml:space="preserve">
     <value>Window screenshots</value>
   </data>
-
   <data name="CropImage.Description" xml:space="preserve">
     <value>This action can be selected on a picture of an area, to be cut.</value>
   </data>
   <data name="CropImage.Title" xml:space="preserve">
     <value>Cut the picture</value>
   </data>
-
   <data name="PlayRecord.Description" xml:space="preserve">
     <value>Play the recorded keyboard and mouse macro.</value>
   </data>
   <data name="PlayRecord.Title" xml:space="preserve">
     <value>Play recording</value>
   </data>
-
   <data name="Timer.Description" xml:space="preserve">
     <value>The subprocess can be repeated at certain time intervals.</value>
   </data>
   <data name="Timer.Title" xml:space="preserve">
     <value>Timer</value>
   </data>
-
   <data name="ONNXClassification.Description" xml:space="preserve">
     <value>Target classification, a suggested model of onnx trained using the * yolo5 * network. other network models that may need to customize the output through a script.</value>
   </data>
   <data name="ONNXClassification.Title" xml:space="preserve">
     <value>Target classification</value>
   </data>
-
   <data name="Type.Description" xml:space="preserve">
     <value>Type</value>
   </data>
@@ -253,49 +174,42 @@
   <data name="TypeUri.Title" xml:space="preserve">
     <value>Url</value>
   </data>
-
   <data name="TypePassword.Description" xml:space="preserve">
     <value>Define the password, the string type</value>
   </data>
   <data name="TypePassword.Title" xml:space="preserve">
     <value>Password</value>
   </data>
-
   <data name="TypePoint.Description" xml:space="preserve">
     <value>Define a coordinate type</value>
   </data>
   <data name="TypePoint.Title" xml:space="preserve">
     <value>Coordinate</value>
   </data>
-
   <data name="TypeFile.Description" xml:space="preserve">
     <value>Define the file type</value>
   </data>
   <data name="TypeFile.Title" xml:space="preserve">
     <value>Document</value>
   </data>
-
   <data name="TypeFolder.Description" xml:space="preserve">
     <value>Defines the folder type</value>
   </data>
   <data name="TypeFolder.Title" xml:space="preserve">
     <value>File</value>
   </data>
-
   <data name="ClipboardValue.Description" xml:space="preserve">
     <value>Gets the current content of the clipboard</value>
   </data>
   <data name="ClipboardValue.Title" xml:space="preserve">
     <value>Shear plate</value>
   </data>
-
   <data name="TypeShortcut.Description" xml:space="preserve">
     <value>Defines a shortcut key type</value>
   </data>
   <data name="TypeShortcut.Title" xml:space="preserve">
     <value>Keyboard shortcuts</value>
   </data>
-
   <data name="Window.Description" xml:space="preserve">
     <value>Window class</value>
   </data>
@@ -308,7 +222,6 @@
   <data name="FindWindow.Title" xml:space="preserve">
     <value>Find the window</value>
   </data>
-
   <data name="Control.Description" xml:space="preserve">
     <value>Logic</value>
   </data>
@@ -321,42 +234,36 @@
   <data name="For.Title" xml:space="preserve">
     <value>Recurrence</value>
   </data>
-
   <data name="If.Description" xml:space="preserve">
     <value>Conditional judgment, equivalent to the if statement in python, the action has two branches, if the condition holds, execute the process branch on the left, otherwise, execute the process branch on the right</value>
   </data>
   <data name="If.Title" xml:space="preserve">
     <value>Judge</value>
   </data>
-
   <data name="Invoke.Description" xml:space="preserve">
     <value>This action can invoke other processes (non-sub-processes).</value>
   </data>
   <data name="Invoke.Title" xml:space="preserve">
     <value>Transfer temporarily for a specific task</value>
   </data>
-
   <data name="Break.Description" xml:space="preserve">
     <value>Stop cycling, mainly used in subprocesses, such as cycle actions</value>
   </data>
   <data name="Break.Title" xml:space="preserve">
     <value>Stop the cycle</value>
   </data>
-
   <data name="OpenUri.Description" xml:space="preserve">
     <value>This action can start the browser to open the specified url</value>
   </data>
   <data name="OpenUri.Title" xml:space="preserve">
     <value>Open the link</value>
   </data>
-
   <data name="Code.Description" xml:space="preserve">
     <value>This action can execute a python script.</value>
   </data>
   <data name="Code.Title" xml:space="preserve">
     <value>Script</value>
   </data>
-
   <data name="Media.Description" xml:space="preserve">
     <value>Media, including screenshots, sound playback and other actions</value>
   </data>
@@ -369,7 +276,6 @@
   <data name="MediaPlay.Title" xml:space="preserve">
     <value>Sound play</value>
   </data>
-
   <data name="Keyboard.Description" xml:space="preserve">
     <value>Fingerboard</value>
   </data>
@@ -382,35 +288,30 @@
   <data name="SendKey.Title" xml:space="preserve">
     <value>Send the button</value>
   </data>
-
   <data name="SendText.Description" xml:space="preserve">
     <value>Send text</value>
   </data>
   <data name="SendText.Title" xml:space="preserve">
     <value>Send text</value>
   </data>
-
   <data name="PressKey.Description" xml:space="preserve">
     <value>Press the button will not release the key</value>
   </data>
   <data name="PressKey.Title" xml:space="preserve">
     <value>Press the button</value>
   </data>
-
   <data name="ReleaseKey.Description" xml:space="preserve">
     <value>Release the pressed keyboard key</value>
   </data>
   <data name="ReleaseKey.Title" xml:space="preserve">
     <value>Release the button</value>
   </data>
-
   <data name="ListenKeyboard.Description" xml:space="preserve">
     <value>Listen to the keyboard</value>
   </data>
   <data name="ListenKeyboard.Title" xml:space="preserve">
     <value>Listen to the keyboard</value>
   </data>
-
   <data name="Image.Description" xml:space="preserve">
     <value>Image processing</value>
   </data>
@@ -423,56 +324,48 @@
   <data name="ImageSave.Title" xml:space="preserve">
     <value>Save the image</value>
   </data>
-
   <data name="FeatureDetect.Description" xml:space="preserve">
     <value>This action looks for an image with certain features in an image</value>
   </data>
   <data name="FeatureDetect.Title" xml:space="preserve">
     <value>Image search</value>
   </data>
-
   <data name="ExitApp.Description" xml:space="preserve">
     <value>Exit process execution</value>
   </data>
   <data name="ExitApp.Title" xml:space="preserve">
     <value>Withdraw from</value>
   </data>
-
   <data name="ImageLoad.Description" xml:space="preserve">
     <value>Load the images from the local disk</value>
   </data>
   <data name="ImageLoad.Title" xml:space="preserve">
     <value>Load the image</value>
   </data>
-
   <data name="ONNXDetection.Description" xml:space="preserve">
     <value>Target detection, only support onnx models in yolo 5 format, other onnx detection models need to be output through scripts</value>
   </data>
   <data name="ONNXDetection.Title" xml:space="preserve">
     <value>Object detection</value>
   </data>
-
   <data name="PointConvert.Description" xml:space="preserve">
     <value>Window coordinates to screen coordinates, or screen coordinates to window coordinates</value>
   </data>
   <data name="PointConvert.Title" xml:space="preserve">
     <value>Coordinate transformation</value>
   </data>
-
   <data name="QuitThread.Description" xml:space="preserve">
     <value>Can be used to end the thread action being performed.</value>
   </data>
   <data name="QuitThread.Title" xml:space="preserve">
     <value>End thread</value>
   </data>
-
   <data name="AdbPackages.Description" xml:space="preserve">
     <value>This action gets all the installation packages in the android emulator.</value>
   </data>
   <data name="AdbPackages.Title" xml:space="preserve">
     <value>Installation package</value>
   </data>
-
   <data name="Filesystem.Description" xml:space="preserve">
     <value>Document</value>
   </data>
@@ -485,14 +378,12 @@
   <data name="FileRead.Title" xml:space="preserve">
     <value>Read the file</value>
   </data>
-
   <data name="FileWrite.Description" xml:space="preserve">
     <value>File writing</value>
   </data>
   <data name="FileWrite.Title" xml:space="preserve">
     <value>File writing</value>
   </data>
-
   <data name="Detection.Description" xml:space="preserve">
     <value>Image detection</value>
   </data>
@@ -517,28 +408,24 @@
   <data name="TypeResource.Title" xml:space="preserve">
     <value>Resource</value>
   </data>
-
   <data name="MatchShapes.Description" xml:space="preserve">
     <value>Finding shapes from the image, even if the shape rotation does not have much impact on the match.</value>
   </data>
   <data name="MatchShapes.Title" xml:space="preserve">
     <value>Shape matching</value>
   </data>
-
   <data name="ReadJson.Description" xml:space="preserve">
     <value>Fetch json</value>
   </data>
   <data name="ReadJson.Title" xml:space="preserve">
     <value>Fetch json</value>
   </data>
-
   <data name="RandomNumber.Description" xml:space="preserve">
     <value>Generate random numbers</value>
   </data>
   <data name="RandomNumber.Title" xml:space="preserve">
     <value>Random number</value>
   </data>
-
   <data name="Database.Description" xml:space="preserve">
     <value>Data base</value>
   </data>
@@ -551,21 +438,18 @@
   <data name="WebWaitFrameAvailable.Title" xml:space="preserve">
     <value>Wait for * frame switchable</value>
   </data>
-
   <data name="WebWaitVisibilityByLocator.Description" xml:space="preserve">
     <value>By location strategy to check whether elements known to exist on the page dom are visible, visibility means that elements are not only displayed but also with height and width greater than 0</value>
   </data>
   <data name="WebWaitVisibilityByLocator.Title" xml:space="preserve">
     <value>Wait for * visible (positioner)</value>
   </data>
-
   <data name="AccessSize.Description" xml:space="preserve">
     <value>Get the length of the array.</value>
   </data>
   <data name="AccessSize.Title" xml:space="preserve">
     <value>Array length</value>
   </data>
-
   <data name="Web.Description" xml:space="preserve">
     <value>Browser operation</value>
   </data>
@@ -584,63 +468,54 @@
   <data name="WebOpen.Title" xml:space="preserve">
     <value>Open the browser</value>
   </data>
-
   <data name="WebWaitTitle.Description" xml:space="preserve">
     <value>Check that the header contains a case-sensitive string.</value>
   </data>
   <data name="WebWaitTitle.Title" xml:space="preserve">
     <value>Waiting for * title</value>
   </data>
-
   <data name="WebElementSubmit.Description" xml:space="preserve">
     <value>Form submission</value>
   </data>
   <data name="WebElementSubmit.Title" xml:space="preserve">
     <value>Form submission</value>
   </data>
-
   <data name="WebGetElement.Description" xml:space="preserve">
     <value>Find the web element</value>
   </data>
   <data name="WebGetElement.Title" xml:space="preserve">
     <value>Find elements</value>
   </data>
-
   <data name="HttpDownload.Description" xml:space="preserve">
     <value>This action downloads the network files through the http protocol.</value>
   </data>
   <data name="HttpDownload.Title" xml:space="preserve">
     <value>Download</value>
   </data>
-
   <data name="WebElementAttribute.Description" xml:space="preserve">
     <value>Get properties</value>
   </data>
   <data name="WebElementAttribute.Title" xml:space="preserve">
     <value>Get properties</value>
   </data>
-
   <data name="WebCookies.Description" xml:space="preserve">
     <value>Get the cookies</value>
   </data>
   <data name="WebCookies.Title" xml:space="preserve">
     <value>Get the cookies</value>
   </data>
-
   <data name="WebWaitPresence.Description" xml:space="preserve">
     <value>Check that an element is present in the dom of the page does not necessarily mean that the element is visible.</value>
   </data>
   <data name="WebWaitPresence.Title" xml:space="preserve">
     <value>Wait for the * elements to appear</value>
   </data>
-
   <data name="ArithmeticCalculate.Description" xml:space="preserve">
     <value>Conduct the (+ - * /) arithmetic operations, and the source data must support the arithmetic operation.</value>
   </data>
   <data name="ArithmeticCalculate.Title" xml:space="preserve">
     <value>Arithmetic operation</value>
   </data>
-
   <data name="Algorithm.Description" xml:space="preserve">
     <value>Algorithm</value>
   </data>
@@ -653,427 +528,366 @@
   <data name="FindContours.Title" xml:space="preserve">
     <value>Find the outline</value>
   </data>
-
   <data name="ImageMorphological.Description" xml:space="preserve">
     <value>Morphological manipulation is a set of operations based on shape-processing images. they apply the structured elements to the input image and generate the output image.</value>
   </data>
   <data name="ImageMorphological.Title" xml:space="preserve">
     <value>Morphological operation</value>
   </data>
-
   <data name="TextDetection.Description" xml:space="preserve">
     <value>Detection text areas on the image.</value>
   </data>
   <data name="TextDetection.Title" xml:space="preserve">
     <value>Text block detection</value>
   </data>
-
   <data name="NetUserAdd.Description" xml:space="preserve">
     <value>This action can add an account to the operating system.</value>
   </data>
   <data name="NetUserAdd.Title" xml:space="preserve">
     <value>Add users</value>
   </data>
-
   <data name="TypeRect.Description" xml:space="preserve">
     <value>Define a rectangular type</value>
   </data>
   <data name="TypeRect.Title" xml:space="preserve">
     <value>Rectangle</value>
   </data>
-
   <data name="SplitString.Description" xml:space="preserve">
     <value>Split the string</value>
   </data>
   <data name="SplitString.Title" xml:space="preserve">
     <value>Split the string</value>
   </data>
-
   <data name="TypeScalar.Description" xml:space="preserve">
     <value>Deine the scalar type, the scalar contains 4 values</value>
   </data>
   <data name="TypeScalar.Title" xml:space="preserve">
     <value>Scalar</value>
   </data>
-
   <data name="SpecialWindow.Description" xml:space="preserve">
     <value>This action is used to select a known specific window.</value>
   </data>
   <data name="SpecialWindow.Title" xml:space="preserve">
     <value>Specific window</value>
   </data>
-
   <data name="SendKeyMessage.Description" xml:space="preserve">
     <value>Send a keyboard message to the window</value>
   </data>
   <data name="SendKeyMessage.Title" xml:space="preserve">
     <value>Send keyboard messages</value>
   </data>
-
   <data name="OpenApplication.Description" xml:space="preserve">
     <value>Open the software in the windows system. this action does not wait for the program to end.</value>
   </data>
   <data name="OpenApplication.Title" xml:space="preserve">
     <value>Open the application</value>
   </data>
-
   <data name="NameAlias.Description" xml:space="preserve">
     <value>This action is the passing action that can be used in the name reference process.</value>
   </data>
   <data name="NameAlias.Title" xml:space="preserve">
     <value>Reference action (name)</value>
   </data>
-
   <data name="LaunchFile.Description" xml:space="preserve">
     <value>This action opens a file associated in the operating system.</value>
   </data>
   <data name="LaunchFile.Title" xml:space="preserve">
     <value>Open-file</value>
   </data>
-
   <data name="TextRecognition.Description" xml:space="preserve">
     <value>Text recognition</value>
   </data>
   <data name="TextRecognition.Title" xml:space="preserve">
     <value>Text recognition</value>
   </data>
-
   <data name="WebSwitchToFrame.Description" xml:space="preserve">
     <value>Switch the focus to the specified frame</value>
   </data>
   <data name="WebSwitchToFrame.Title" xml:space="preserve">
     <value>Switch frame</value>
   </data>
-
   <data name="WebFocusFrameDefault.Description" xml:space="preserve">
     <value>Switch the focus to the default frame.</value>
   </data>
   <data name="WebFocusFrameDefault.Title" xml:space="preserve">
     <value>Frame * sets the focus</value>
   </data>
-
   <data name="WebActionChainsCreated.Description" xml:space="preserve">
     <value>Create the web, and the action chain</value>
   </data>
   <data name="WebActionChainsCreated.Title" xml:space="preserve">
     <value>Action chain * created</value>
   </data>
-
   <data name="WebActionClick.Description" xml:space="preserve">
     <value>Click on a web element, and this action needs to be added to the action chain.</value>
   </data>
   <data name="WebActionClick.Title" xml:space="preserve">
     <value>Action chain. click</value>
   </data>
-
   <data name="When.Description" xml:space="preserve">
     <value>The action opens a thread-constant detection condition until the condition is established, and when the condition holds, the sub-process is executed.</value>
   </data>
   <data name="When.Title" xml:space="preserve">
     <value>When... established</value>
   </data>
-
   <data name="WebScreenshot.Description" xml:space="preserve">
     <value>Element screenshots or page screenshots</value>
   </data>
   <data name="WebScreenshot.Title" xml:space="preserve">
     <value>Elemental screenshots</value>
   </data>
-
   <data name="PressAndReleaseKey.Description" xml:space="preserve">
     <value>Press the keyboard button for a certain amount of time, and then release the key</value>
   </data>
   <data name="PressAndReleaseKey.Title" xml:space="preserve">
     <value>Press and release</value>
   </data>
-
   <data name="ShowMessageBox.Description" xml:space="preserve">
     <value>A prompt box is displayed</value>
   </data>
   <data name="ShowMessageBox.Title" xml:space="preserve">
     <value>Tooltip</value>
   </data>
-
   <data name="MoveOffset.Description" xml:space="preserve">
     <value>With the current position of the mouse as the starting position and move the mouse by the offset.</value>
   </data>
   <data name="MoveOffset.Title" xml:space="preserve">
     <value>Offset movement</value>
   </data>
-
   <data name="TextChinese.Description" xml:space="preserve">
     <value>Identify the chinese text in the picture.</value>
   </data>
   <data name="TextChinese.Title" xml:space="preserve">
     <value>Chinese recognition</value>
   </data>
-
   <data name="ResizeImage.Description" xml:space="preserve">
     <value>Adjust the size</value>
   </data>
   <data name="ResizeImage.Title" xml:space="preserve">
     <value>Adjust the size</value>
   </data>
-
   <data name="CenterCropImage.Description" xml:space="preserve">
     <value>Cut the picture from the center position.</value>
   </data>
   <data name="CenterCropImage.Title" xml:space="preserve">
     <value>Cut the picture</value>
   </data>
-
   <data name="WinRun.Description" xml:space="preserve">
     <value>Opens the run dialog box in the operating system</value>
   </data>
   <data name="WinRun.Title" xml:space="preserve">
     <value>Run dialog</value>
   </data>
-
   <data name="HttpGet.Description" xml:space="preserve">
     <value>Send a get request based on http</value>
   </data>
   <data name="HttpGet.Title" xml:space="preserve">
     <value>Get</value>
   </data>
-
   <data name="ONNXModel.Description" xml:space="preserve">
     <value>Load the onnx, the model file</value>
   </data>
   <data name="ONNXModel.Title" xml:space="preserve">
     <value>Model</value>
   </data>
-
   <data name="WebWaitVisibilityByElement.Description" xml:space="preserve">
     <value>With known elements to check whether the elements known to exist on the page dom are visible, visibility means that the elements are not only displayed but also the height and width are greater than 0</value>
   </data>
   <data name="WebWaitVisibilityByElement.Title" xml:space="preserve">
     <value>Waiting for * visible</value>
   </data>
-
   <data name="WebWaitAlert.Description" xml:space="preserve">
     <value>Check if the alert currently exists and switch to it.</value>
   </data>
   <data name="WebWaitAlert.Title" xml:space="preserve">
     <value>Wait for the * warning box</value>
   </data>
-
   <data name="WebWaitClickable.Description" xml:space="preserve">
     <value>Use to check that the element is visible and enabled, so that you can click on it.</value>
   </data>
   <data name="WebWaitClickable.Title" xml:space="preserve">
     <value>Wait * click</value>
   </data>
-
   <data name="BlobDetect.Description" xml:space="preserve">
     <value>Blob is an area in an image with different properties (such as brightness, color).</value>
   </data>
   <data name="BlobDetect.Title" xml:space="preserve">
     <value>Blob seek</value>
   </data>
-
   <data name="FilterVertex.Description" xml:space="preserve">
     <value>Sen the profile against the shape of the profile</value>
   </data>
   <data name="FilterVertex.Title" xml:space="preserve">
     <value>Shape screening</value>
   </data>
-
   <data name="CalculateCenter.Description" xml:space="preserve">
     <value>Calculate the rectangular box, or the center position of the outline.</value>
   </data>
   <data name="CalculateCenter.Title" xml:space="preserve">
     <value>Center coordinates</value>
   </data>
-
   <data name="CaptureFullScreen.Description" xml:space="preserve">
     <value>Full screen screenshots</value>
   </data>
   <data name="CaptureFullScreen.Title" xml:space="preserve">
     <value>Full screen screenshots</value>
   </data>
-
   <data name="SendMouseClick.Description" xml:space="preserve">
     <value>Send a mouse message</value>
   </data>
   <data name="SendMouseClick.Title" xml:space="preserve">
     <value>Send a mouse message</value>
   </data>
-
   <data name="YoutubeDownload.Description" xml:space="preserve">
     <value>Currently, only youtube video download is supported, requiring access to the youtube network.</value>
   </data>
   <data name="YoutubeDownload.Title" xml:space="preserve">
     <value>Video download</value>
   </data>
-
   <data name="DirectoryIterator.Description" xml:space="preserve">
     <value>Evolve the folder</value>
   </data>
   <data name="DirectoryIterator.Title" xml:space="preserve">
     <value>Evolve the folder</value>
   </data>
-
   <data name="CopyFile.Description" xml:space="preserve">
     <value>Copy file</value>
   </data>
   <data name="CopyFile.Title" xml:space="preserve">
     <value>Copy file</value>
   </data>
-
   <data name="CodeExpression.Description" xml:space="preserve">
     <value>This action can execute an expression of the python.</value>
   </data>
   <data name="CodeExpression.Title" xml:space="preserve">
     <value>Representation</value>
   </data>
-
   <data name="KillProcess.Description" xml:space="preserve">
     <value>This action can end a process in the operating system</value>
   </data>
   <data name="KillProcess.Title" xml:space="preserve">
     <value>Termination process</value>
   </data>
-
   <data name="ActionAlias.Description" xml:space="preserve">
     <value>This action is used to reference the passing actions that can be used in the process.</value>
   </data>
   <data name="ActionAlias.Title" xml:space="preserve">
     <value>Quote action</value>
   </data>
-
   <data name="WindowTitle.Description" xml:space="preserve">
     <value>Get, or set, the window header</value>
   </data>
   <data name="WindowTitle.Title" xml:space="preserve">
     <value>Window title</value>
   </data>
-
   <data name="FastLineDetection.Description" xml:space="preserve">
     <value>Find lines using a fast line detection algorithm</value>
   </data>
   <data name="FastLineDetection.Title" xml:space="preserve">
     <value>Quick straight line check</value>
   </data>
-
   <data name="EdgeLineDetection.Description" xml:space="preserve">
     <value>Find line segments by edge detection</value>
   </data>
   <data name="EdgeLineDetection.Title" xml:space="preserve">
     <value>Line segment detection</value>
   </data>
-
   <data name="EllipseDetection.Description" xml:space="preserve">
     <value>Detect the circles or ellipses in the image</value>
   </data>
   <data name="EllipseDetection.Title" xml:space="preserve">
     <value>Oval detection</value>
   </data>
-
   <data name="CvtColor.Description" xml:space="preserve">
     <value>The image were color-transformed</value>
   </data>
   <data name="CvtColor.Title" xml:space="preserve">
     <value>Color conversion</value>
   </data>
-
   <data name="ImageCanny.Description" xml:space="preserve">
     <value>Edge detection</value>
   </data>
   <data name="ImageCanny.Title" xml:space="preserve">
     <value>Edge detection</value>
   </data>
-
   <data name="ImageThreshold.Description" xml:space="preserve">
     <value>This action allows for the thresholding operation of the image. in this threshold operation, pixels whose value is greater than the specified threshold are assigned a standard value. this threshold operation is global, that is, the same threshold is used for all pixels in the image.</value>
   </data>
   <data name="ImageThreshold.Title" xml:space="preserve">
     <value>Threshold</value>
   </data>
-
   <data name="ImageInRange.Description" xml:space="preserve">
     <value>Specify a color range, capture the color in the image within the color range, through this way, you can screen out the specific color objects in the image.</value>
   </data>
   <data name="ImageInRange.Title" xml:space="preserve">
     <value>Color screening</value>
   </data>
-
   <data name="MoveDoubleClick.Description" xml:space="preserve">
     <value>Move the mouse and double-click the corresponding mouse to the position</value>
   </data>
   <data name="MoveDoubleClick.Title" xml:space="preserve">
     <value>Move and double-click</value>
   </data>
-
   <data name="ConnectedComponents.Description" xml:space="preserve">
     <value>Connected connectivity analysis of the bolb (spot) region in the binary image allows us to perform a more fine-grained filtering of the spots in the binary image.</value>
   </data>
   <data name="ConnectedComponents.Title" xml:space="preserve">
     <value>Connectivity domain analysis</value>
   </data>
-
   <data name="ImageBlur.Description" xml:space="preserve">
     <value>Image blurring</value>
   </data>
   <data name="ImageBlur.Title" xml:space="preserve">
     <value>Vague</value>
   </data>
-
   <data name="ApproxPolyDP.Description" xml:space="preserve">
     <value>The process of approximating the shape of one contour to another shape consisting of a smaller number of vertices so that the distance between the contour of the shape is equal to or less than the specified precision is called the approximate contour of the shape</value>
   </data>
   <data name="ApproxPolyDP.Title" xml:space="preserve">
     <value>Approximate outline</value>
   </data>
-
   <data name="FindNonZero.Description" xml:space="preserve">
     <value>On one image, look for non-zero pixel locations.</value>
   </data>
   <data name="FindNonZero.Title" xml:space="preserve">
     <value>Non-zero pixel point</value>
   </data>
-
   <data name="WorkThread.Description" xml:space="preserve">
     <value>Threading can be used to perform some actions asynchronously.</value>
   </data>
   <data name="WorkThread.Title" xml:space="preserve">
     <value>Thread</value>
   </data>
-
   <data name="SetForegroundWindow.Description" xml:space="preserve">
     <value>Set the front window</value>
   </data>
   <data name="SetForegroundWindow.Title" xml:space="preserve">
     <value>Front window</value>
   </data>
-
   <data name="ShutdownSystem.Description" xml:space="preserve">
     <value>This action can turn off the operating system, where the computer is turned off.</value>
   </data>
   <data name="ShutdownSystem.Title" xml:space="preserve">
     <value>Shut down</value>
   </data>
-
   <data name="TimedTask.Description" xml:space="preserve">
     <value>The action is triggered at a specified time, and the corresponding subaction may be performed.</value>
   </data>
   <data name="TimedTask.Title" xml:space="preserve">
     <value>Timed task</value>
   </data>
-
   <data name="HttpPost.Description" xml:space="preserve">
     <value>Send the http-based post requests</value>
   </data>
   <data name="HttpPost.Title" xml:space="preserve">
     <value>Post</value>
   </data>
-
   <data name="HttpHead.Description" xml:space="preserve">
     <value>Send the head requests based on the http</value>
   </data>
   <data name="HttpHead.Title" xml:space="preserve">
     <value>Head</value>
   </data>
-
   <data name="Android.Description" xml:space="preserve">
     <value>Android</value>
   </data>
@@ -1086,126 +900,108 @@
   <data name="AdbKillServer.Title" xml:space="preserve">
     <value>Termination of service</value>
   </data>
-
   <data name="AdbDevices.Description" xml:space="preserve">
     <value>Query the android simulator that is already started in the system.</value>
   </data>
   <data name="AdbDevices.Title" xml:space="preserve">
     <value>List of equipment</value>
   </data>
-
   <data name="AdbStartServer.Description" xml:space="preserve">
     <value>Start the adb service</value>
   </data>
   <data name="AdbStartServer.Title" xml:space="preserve">
     <value>Start the service</value>
   </data>
-
   <data name="AdbForward.Description" xml:space="preserve">
     <value>Map your android port to your local port.</value>
   </data>
   <data name="AdbForward.Title" xml:space="preserve">
     <value>Retransmission</value>
   </data>
-
   <data name="AdbConnect.Description" xml:space="preserve">
     <value>Connect the simulator, mainly used in the simulator on the remote computer above.</value>
   </data>
   <data name="AdbConnect.Title" xml:space="preserve">
     <value>Linkage</value>
   </data>
-
   <data name="AdbIfConfig.Description" xml:space="preserve">
     <value>View the simulator network configuration</value>
   </data>
   <data name="AdbIfConfig.Title" xml:space="preserve">
     <value>Network card configuration</value>
   </data>
-
   <data name="AdbRemoveForward.Description" xml:space="preserve">
     <value>Remove the port forwarding in the current system.</value>
   </data>
   <data name="AdbRemoveForward.Title" xml:space="preserve">
     <value>Remove forwarding</value>
   </data>
-
   <data name="ReadLines.Description" xml:space="preserve">
     <value>Read multiple lines of files</value>
   </data>
   <data name="ReadLines.Title" xml:space="preserve">
     <value>Read multiple lines of files</value>
   </data>
-
   <data name="AdbSwipe.Description" xml:space="preserve">
     <value>Slide the operation in the android simulator.</value>
   </data>
   <data name="AdbSwipe.Title" xml:space="preserve">
     <value>Slither</value>
   </data>
-
   <data name="AdbInput.Description" xml:space="preserve">
     <value>Simulate input text in the android simulator, this action does not support chinese input.</value>
   </data>
   <data name="AdbInput.Title" xml:space="preserve">
     <value>Import</value>
   </data>
-
   <data name="AdbKey.Description" xml:space="preserve">
     <value>Simulate the keys in an android simulator.</value>
   </data>
   <data name="AdbKey.Title" xml:space="preserve">
     <value>Key</value>
   </data>
-
   <data name="AdbTap.Description" xml:space="preserve">
     <value>Simulate clicks in an android simulator.</value>
   </data>
   <data name="AdbTap.Title" xml:space="preserve">
     <value>Click</value>
   </data>
-
   <data name="AdbScreenCap.Description" xml:space="preserve">
     <value>Simulator screen capture.</value>
   </data>
   <data name="AdbScreenCap.Title" xml:space="preserve">
     <value>Screenshot</value>
   </data>
-
   <data name="AccessArray.Description" xml:space="preserve">
     <value>Get the elements in the array from the index.</value>
   </data>
   <data name="AccessArray.Title" xml:space="preserve">
     <value>Access the array</value>
   </data>
-
   <data name="BaiduTranslate.Description" xml:space="preserve">
     <value>Baidu translate</value>
   </data>
   <data name="BaiduTranslate.Title" xml:space="preserve">
     <value>Baidu translate</value>
   </data>
-
   <data name="AdbStartApp.Description" xml:space="preserve">
     <value>This action opens the app on the android emulator.</value>
   </data>
   <data name="AdbStartApp.Title" xml:space="preserve">
     <value>Open the application</value>
   </data>
-
   <data name="AccessKey.Description" xml:space="preserve">
     <value>Gets the value of the object by the specified name.</value>
   </data>
   <data name="AccessKey.Title" xml:space="preserve">
     <value>Access object</value>
   </data>
-
   <data name="CaptureForground.Description" xml:space="preserve">
     <value>Front-end window screenshot.</value>
   </data>
   <data name="CaptureForground.Title" xml:space="preserve">
     <value>Screenshot of front window</value>
   </data>
-
   <data name="Cloud.Description" xml:space="preserve">
     <value>Cloud</value>
   </data>
@@ -1224,7 +1020,6 @@
   <data name="XmlLoadDocument.Title" xml:space="preserve">
     <value>D</value>
   </data>
-
   <data name="Json.Description" xml:space="preserve">
     <value>Json</value>
   </data>
@@ -1237,352 +1032,298 @@
   <data name="XmlGetNodeList.Title" xml:space="preserve">
     <value>Get the node</value>
   </data>
-
   <data name="XmlNodeName.Description" xml:space="preserve">
     <value>The xml node name</value>
   </data>
   <data name="XmlNodeName.Title" xml:space="preserve">
     <value>Node name</value>
   </data>
-
   <data name="FilterText.Description" xml:space="preserve">
     <value>In the array or list, the filter contains the specified text elements.</value>
   </data>
   <data name="FilterText.Title" xml:space="preserve">
     <value>Text screening</value>
   </data>
-
   <data name="XmlDocumentElement.Description" xml:space="preserve">
     <value>Xml element</value>
   </data>
   <data name="XmlDocumentElement.Title" xml:space="preserve">
     <value>Element</value>
   </data>
-
   <data name="XmlReplaceText.Description" xml:space="preserve">
     <value>Replace the node text</value>
   </data>
   <data name="XmlReplaceText.Title" xml:space="preserve">
     <value>Textual substitution</value>
   </data>
-
   <data name="XmlSaveDocument.Description" xml:space="preserve">
     <value>Save the xml file</value>
   </data>
   <data name="XmlSaveDocument.Title" xml:space="preserve">
     <value>Preserve</value>
   </data>
-
   <data name="ProcessID.Description" xml:space="preserve">
     <value>The process can be executed concurrently, and multiple processes are opened, with each running process having a unique digital flag that increments from 0.</value>
   </data>
   <data name="ProcessID.Title" xml:space="preserve">
     <value>Process tag</value>
   </data>
-
   <data name="IsEmpty.Description" xml:space="preserve">
     <value>Determine whether the container or the list is empty</value>
   </data>
   <data name="IsEmpty.Title" xml:space="preserve">
     <value>The empty</value>
   </data>
-
   <data name="QRCode.Description" xml:space="preserve">
     <value>Identify the qr code in the picture.</value>
   </data>
   <data name="QRCode.Title" xml:space="preserve">
     <value>Qr code identification</value>
   </data>
-
   <data name="InputParam.Description" xml:space="preserve">
     <value>Usually done as a child action, its value is transmitted by the corresponding parent action. usually the list supports a child action, and each element of the list is passed to the action.</value>
   </data>
   <data name="InputParam.Title" xml:space="preserve">
     <value>Input parameter</value>
   </data>
-
   <data name="WebActionChainsPerform.Description" xml:space="preserve">
     <value>Perform the created action chain.</value>
   </data>
   <data name="WebActionChainsPerform.Title" xml:space="preserve">
     <value>Action chain * execution</value>
   </data>
-
   <data name="WebElementSendKey.Description" xml:space="preserve">
     <value>Send the button</value>
   </data>
   <data name="WebElementSendKey.Title" xml:space="preserve">
     <value>Send the button</value>
   </data>
-
   <data name="WebElementClick.Description" xml:space="preserve">
     <value>Click</value>
   </data>
   <data name="WebElementClick.Title" xml:space="preserve">
     <value>Click</value>
   </data>
-
   <data name="WebElementClear.Description" xml:space="preserve">
     <value>If the text is a text input element, clear the text.</value>
   </data>
   <data name="WebElementClear.Title" xml:space="preserve">
     <value>Clear the text</value>
   </data>
-
   <data name="WebElementIsSelect.Description" xml:space="preserve">
     <value>Return element is selected and can be used to check whether the check box or radio buttons are selected.</value>
   </data>
   <data name="WebElementIsSelect.Title" xml:space="preserve">
     <value>Check</value>
   </data>
-
   <data name="WebElementSendText.Description" xml:space="preserve">
     <value>Send text to web elements that currently have a focus.</value>
   </data>
   <data name="WebElementSendText.Title" xml:space="preserve">
     <value>Send text</value>
   </data>
-
   <data name="WebActionClickHold.Description" xml:space="preserve">
     <value>Hold down the left mouse button on the element, which needs to be added to the action chain.</value>
   </data>
   <data name="WebActionClickHold.Title" xml:space="preserve">
     <value>Action chain. point press</value>
   </data>
-
   <data name="WebActionDoubleClick.Description" xml:space="preserve">
     <value>Double-click on an element, and this action needs to be added to the action chain.</value>
   </data>
   <data name="WebActionDoubleClick.Title" xml:space="preserve">
     <value>Action chain. double click</value>
   </data>
-
   <data name="WebActionMoveTo.Description" xml:space="preserve">
     <value>Move the mouse over to the element.</value>
   </data>
   <data name="WebActionMoveTo.Title" xml:space="preserve">
     <value>Action chain. shift</value>
   </data>
-
   <data name="WebActionRelease.Description" xml:space="preserve">
     <value>Release the pressed mouse button on the element.</value>
   </data>
   <data name="WebActionRelease.Title" xml:space="preserve">
     <value>Action chain. release</value>
   </data>
-
   <data name="WebActionDragDrop.Description" xml:space="preserve">
     <value>Press and hold the left mouse button on the source element, then move to the target element and release the mouse.</value>
   </data>
   <data name="WebActionDragDrop.Title" xml:space="preserve">
     <value>Action chain. drag and drop</value>
   </data>
-
   <data name="WebActionKeyDown.Description" xml:space="preserve">
     <value>Send the keys only, and do not release them. use it only with (control, alt, and shift).</value>
   </data>
   <data name="WebActionKeyDown.Title" xml:space="preserve">
     <value>Action chain. key</value>
   </data>
-
   <data name="WebActionKeyUp.Description" xml:space="preserve">
     <value>Release the modification key</value>
   </data>
   <data name="WebActionKeyUp.Title" xml:space="preserve">
     <value>Action chain. release the key button</value>
   </data>
-
   <data name="WebActionMoveOffset.Description" xml:space="preserve">
     <value>Move the mouse to the current mouse location or specify the offset of the web element.</value>
   </data>
   <data name="WebActionMoveOffset.Title" xml:space="preserve">
     <value>Action chain. move (offset)</value>
   </data>
-
   <data name="WebActionSendText.Description" xml:space="preserve">
     <value>Set the text</value>
   </data>
   <data name="WebActionSendText.Title" xml:space="preserve">
     <value>Action chain. send out the text</value>
   </data>
-
   <data name="LoggingEnabled.Description" xml:space="preserve">
     <value>This action is used to control the output logs in the process</value>
   </data>
   <data name="LoggingEnabled.Title" xml:space="preserve">
     <value>Outgoing control</value>
   </data>
-
   <data name="AdaptiveThreshold.Description" xml:space="preserve">
     <value>The adaptive thresholds are calculated for smaller regions, and so there are different thresholds for different regions.</value>
   </data>
   <data name="AdaptiveThreshold.Title" xml:space="preserve">
     <value>Adaptive threshold</value>
   </data>
-
   <data name="GroupAction.Description" xml:space="preserve">
     <value>This action groups the relevant actions on the view to make the logic clearer.</value>
   </data>
   <data name="GroupAction.Title" xml:space="preserve">
     <value>Divide into groups</value>
   </data>
-
   <data name="AdbMove.Description" xml:space="preserve">
     <value>Move up and down, left and right, similar to the wasd feature in a game.</value>
   </data>
   <data name="AdbMove.Title" xml:space="preserve">
     <value>Shift</value>
   </data>
-
   <data name="TcpListen.Description" xml:space="preserve">
     <value>This action is used to create a tcp or a udp server.</value>
   </data>
   <data name="TcpListen.Title" xml:space="preserve">
     <value>Monitor</value>
   </data>
-
   <data name="TcpSend.Description" xml:space="preserve">
     <value>This action sends data through either tcp or udp.</value>
   </data>
   <data name="TcpSend.Title" xml:space="preserve">
     <value>Transmit by radio</value>
   </data>
-
   <data name="TcpReceive.Description" xml:space="preserve">
     <value>This action receives the data through either the tcp or the udp.</value>
   </data>
   <data name="TcpReceive.Title" xml:space="preserve">
     <value>Receive</value>
   </data>
-
   <data name="TcpConnect.Description" xml:space="preserve">
     <value>This action connects to the server through either tcp or udp.</value>
   </data>
   <data name="TcpConnect.Title" xml:space="preserve">
     <value>Linkage</value>
   </data>
-
   <data name="FilterArea.Description" xml:space="preserve">
     <value>Filter the elements in the list by calculating the area of the elements in the array</value>
   </data>
   <data name="FilterArea.Title" xml:space="preserve">
     <value>Area screening</value>
   </data>
-
   <data name="FilterPerimeter.Description" xml:space="preserve">
     <value>Calculate the circumference of the elements in the array and filter the eligible elements</value>
   </data>
   <data name="FilterPerimeter.Title" xml:space="preserve">
     <value>Peripheral screening</value>
   </data>
-
   <data name="ColorPercentage.Description" xml:space="preserve">
     <value>This action can count the percentage of a color in the image</value>
   </data>
   <data name="ColorPercentage.Title" xml:space="preserve">
     <value>ColorPercentage</value>
   </data>
-
   <data name="WindowVisible.Description" xml:space="preserve">
     <value>This action is used to set the window display or hide.</value>
   </data>
   <data name="WindowVisible.Title" xml:space="preserve">
     <value>WindowVisible</value>
   </data>
-
   <data name="TypeColor.Description" xml:space="preserve">
     <value>Define the color type</value>
   </data>
   <data name="TypeColor.Title" xml:space="preserve">
     <value>Color</value>
   </data>
-
   <data name="DrawDetectionResult.Description" xml:space="preserve">
     <value>Draw the object detection results, usually containing a rectangular box</value>
   </data>
   <data name="DrawDetectionResult.Title" xml:space="preserve">
     <value>DrawDetectionResult</value>
   </data>
-
   <data name="FilterEllipse.Description" xml:space="preserve">
     <value>Filter the elements in the ellipse list by the features of the ellipse or circle.</value>
   </data>
   <data name="FilterEllipse.Title" xml:space="preserve">
     <value>FilterEllipse</value>
   </data>
-
   <data name="CloseHandle.Description" xml:space="preserve">
     <value>Close the application degree open handle</value>
   </data>
   <data name="CloseHandle.Title" xml:space="preserve">
     <value>CloseHandle</value>
   </data>
-
   <data name="Empty.Description" xml:space="preserve">
     <value>Empty</value>
   </data>
   <data name="Empty.Title" xml:space="preserve">
     <value>Empty</value>
   </data>
-
   <data name="EnumWindows.Description" xml:space="preserve">
     <value>Enumeration window</value>
   </data>
   <data name="EnumWindows.Title" xml:space="preserve">
     <value>EnumWindows</value>
   </data>
-
   <data name="FilterWindows.Description" xml:space="preserve">
     <value>Filter the eligible windows in the current operating system</value>
   </data>
   <data name="FilterWindows.Title" xml:space="preserve">
     <value>FilterWindows</value>
   </data>
-
   <data name="MatchTemplate.Description" xml:space="preserve">
     <value>Simple picture lookup is usually used to find smaller images, or images with fewer features.</value>
   </data>
   <data name="MatchTemplate.Title" xml:space="preserve">
     <value>MatchTemplate</value>
   </data>
-
-
   <data name="LogicalOperator.Description" xml:space="preserve">
     <value>Logical operation</value>
   </data>
   <data name="LogicalOperator.Title" xml:space="preserve">
     <value>LogicalOperator</value>
   </data>
-
-
   <data name="RelationalOperator.Description" xml:space="preserve">
     <value>The relationship operation is used to compare the values of two operations, which returns a boolean value, either true or false based on the value of the operand.</value>
   </data>
   <data name="RelationalOperator.Title" xml:space="preserve">
     <value>RelationalOperator</value>
   </data>
-
-
   <data name="ImageMarkROI.Description" xml:space="preserve">
     <value>Mark the area of interest, such as when looking for a picture, and only find the image from that area.</value>
   </data>
   <data name="ImageMarkROI.Title" xml:space="preserve">
     <value>ImageMarkROI</value>
   </data>
-
-
   <data name="TypeString.Description" xml:space="preserve">
     <value>Define a string type</value>
   </data>
   <data name="TypeString.Title" xml:space="preserve">
     <value>String</value>
   </data>
-
-
   <data name="WindowRect.Description" xml:space="preserve">
     <value>Gets the size of the border rectangle for the specified window, given by the screen coordinates relative to the upper left corner of the screen coordinates.</value>
   </data>
   <data name="WindowRect.Title" xml:space="preserve">
     <value>WindowRect</value>
   </data>
-  </root>
+</root>
