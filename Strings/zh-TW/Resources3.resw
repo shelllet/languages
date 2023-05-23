@@ -127,10 +127,10 @@
     <value>蒐索檔案</value>
   </data>
   <data name="StartProcess.Description" xml:space="preserve">
-    <value>啟動行程</value>
+    <value>啟動應用程序</value>
   </data>
   <data name="StartProcess.Title" xml:space="preserve">
-    <value>啟動行程</value>
+    <value>啟動應用程序</value>
   </data>
   <data name="WindowCapture.Description" xml:space="preserve">
     <value>此動作用來對指定的視窗進行截圖</value>
@@ -1326,4 +1326,14 @@
   <data name="WindowRect.Title" xml:space="preserve">
     <value>視窗矩形</value>
   </data>
+
+
+  <data name="WindowSize.Description" xml:space="preserve">
+    <value>WindowSize</value>
+  </data>
+  <data name="WindowSize.Title" xml:space="preserve">
+    <value>WindowSize</value>
+  </data>
+
+
 </root>

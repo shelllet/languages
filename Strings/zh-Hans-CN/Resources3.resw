@@ -127,10 +127,10 @@
     <value>搜索文件</value>
   </data>
   <data name="StartProcess.Description" xml:space="preserve">
-    <value>启动进程</value>
+    <value>启动应用程序</value>
   </data>
   <data name="StartProcess.Title" xml:space="preserve">
-    <value>启动进程</value>
+    <value>启动应用程序</value>
   </data>
   <data name="WindowCapture.Description" xml:space="preserve">
     <value>此动作用来对指定的窗口进行截图</value>
@@ -1327,4 +1327,14 @@
   <data name="WindowRect.Title" xml:space="preserve">
     <value>窗口矩形</value>
   </data>
+
+
+  <data name="WindowSize.Description" xml:space="preserve">
+    <value>WindowSize</value>
+  </data>
+  <data name="WindowSize.Title" xml:space="preserve">
+    <value>WindowSize</value>
+  </data>
+
+
 </root>

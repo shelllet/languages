@@ -64,5 +64,31 @@
   <data name="Action.Wait.Header" xml:space="preserve">
     <value>待って</value>
   </data>
-  
+    <data name="Action.StartProcess.Application.Header" xml:space="preserve">
+    <value>応用</value>
+  </data>
+  <data name="Action.StartProcess.CommandLine.Header" xml:space="preserve">
+    <value>コマンドライン</value>
+  </data>
+  <data name="Action.StartProcess.NoWindow.Header" xml:space="preserve">
+    <value>ディスプレイウィンドウはありません</value>
+  </data>
+  <data name="Action.StartProcess.WorkingDirectory.Header" xml:space="preserve">
+    <value>ワークリスト</value>
+  </data>
+  <data name="Action.StartProcess.Environment.Header" xml:space="preserve">
+    <value>環境変数</value>
+  </data>
+<data name="Action.WindowRect.Window.Header" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Action.WindowRect.Rect.Header" xml:space="preserve">
+    <value>Rect</value>
+  </data>
+  <data name="Action.WindowSize.Window.Header" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Action.WindowSize.Size.Header" xml:space="preserve">
+    <value>Size</value>
+  </data>
 </root>

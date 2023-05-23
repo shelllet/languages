@@ -127,10 +127,10 @@
     <value>ファイルの検索</value>
   </data>
   <data name="StartProcess.Description" xml:space="preserve">
-    <value>プロセスの開始</value>
+    <value>アプリケーションを開始します</value>
   </data>
   <data name="StartProcess.Title" xml:space="preserve">
-    <value>プロセスの開始</value>
+    <value>アプリケーションを開始します</value>
   </data>
   <data name="WindowCapture.Description" xml:space="preserve">
     <value>このアクションは、指定したウィンドウをスクリーンショットします</value>
@@ -1326,4 +1326,14 @@
   <data name="WindowRect.Title" xml:space="preserve">
     <value>ウィンドウ長方形</value>
   </data>
+
+
+  <data name="WindowSize.Description" xml:space="preserve">
+    <value>WindowSize</value>
+  </data>
+  <data name="WindowSize.Title" xml:space="preserve">
+    <value>WindowSize</value>
+  </data>
+
+
 </root>

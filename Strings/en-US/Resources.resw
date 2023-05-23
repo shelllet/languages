@@ -408,4 +408,10 @@
   <data name="Workflow.Run.Completed.Text" xml:space="preserve">
     <value>The current workflow run is completed.</value>
   </data>
+  <data name="Publish.Folder.Header" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Publish.Password.Header" xml:space="preserve">
+    <value>Password</value>
+  </data>
 </root>

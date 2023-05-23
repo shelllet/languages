@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <root>
-  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+  <xsd:schema xmlns=""
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
@@ -53,15 +55,39 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0,
-      Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0,
-      Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Action.Wait.Header" xml:space="preserve">
     <value>等待</value>
   </data>
-  
+  <data name="Action.StartProcess.Application.Header" xml:space="preserve">
+    <value>應用程序</value>
+  </data>
+  <data name="Action.StartProcess.CommandLine.Header" xml:space="preserve">
+    <value>命令行</value>
+  </data>
+  <data name="Action.StartProcess.NoWindow.Header" xml:space="preserve">
+    <value>不顯示窗口</value>
+  </data>
+  <data name="Action.StartProcess.WorkingDirectory.Header" xml:space="preserve">
+    <value>工作目錄</value>
+  </data>
+  <data name="Action.StartProcess.Environment.Header" xml:space="preserve">
+    <value>環境變量</value>
+  </data>
+  <data name="Action.WindowRect.Window.Header" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Action.WindowRect.Rect.Header" xml:space="preserve">
+    <value>Rect</value>
+  </data>
+  <data name="Action.WindowSize.Window.Header" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Action.WindowSize.Size.Header" xml:space="preserve">
+    <value>Size</value>
+  </data>
 </root>

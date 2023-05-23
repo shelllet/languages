@@ -408,4 +408,10 @@
   <data name="Workflow.Run.Completed.Text" xml:space="preserve">
     <value>當前流程已經執行完畢。</value>
   </data>
+  <data name="Publish.Folder.Header" xml:space="preserve">
+    <value>文件夾</value>
+  </data>
+  <data name="Publish.Password.Header" xml:space="preserve">
+    <value>密碼</value>
+  </data>
 </root>

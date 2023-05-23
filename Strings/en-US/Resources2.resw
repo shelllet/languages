@@ -64,5 +64,31 @@
   <data name="Action.Wait.Header" xml:space="preserve">
     <value>Wait</value>
   </data>
-
+  <data name="Action.StartProcess.Application.Header" xml:space="preserve">
+    <value>application</value>
+  </data>
+  <data name="Action.StartProcess.CommandLine.Header" xml:space="preserve">
+    <value>CommandLine</value>
+  </data>
+  <data name="Action.StartProcess.NoWindow.Header" xml:space="preserve">
+    <value>NoWindow</value>
+  </data>
+  <data name="Action.StartProcess.WorkingDirectory.Header" xml:space="preserve">
+    <value>WorkingDirectory</value>
+  </data>
+  <data name="Action.StartProcess.Environment.Header" xml:space="preserve">
+    <value>Environment</value>
+  </data>
+  <data name="Action.WindowRect.Window.Header" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Action.WindowRect.Rect.Header" xml:space="preserve">
+    <value>Rect</value>
+  </data>
+  <data name="Action.WindowSize.Window.Header" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Action.WindowSize.Size.Header" xml:space="preserve">
+    <value>Size</value>
+  </data>
 </root>
