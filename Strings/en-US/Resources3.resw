@@ -127,7 +127,7 @@
     <value>FileQuery</value>
   </data>
   <data name="StartProcess.Description" xml:space="preserve">
-    <value>Start the application</value>
+    <value>Start the application and wait for the end</value>
   </data>
   <data name="StartProcess.Title" xml:space="preserve">
     <value>StartProcess</value>
@@ -1321,18 +1321,31 @@
     <value>String</value>
   </data>
   <data name="WindowRect.Description" xml:space="preserve">
-    <value>Gets the size of the border rectangle for the specified window, given by the screen coordinates relative to the upper left corner of the screen coordinates.</value>
+    <value>Get or set the size and location of the specified window. This position is given by the screen coordinates in the upper left corner of the screen coordinate.</value>
   </data>
   <data name="WindowRect.Title" xml:space="preserve">
     <value>WindowRect</value>
   </data>
 
+  <data name="TypeJson.Description" xml:space="preserve">
+    <value>Define the JSON data format</value>
+  </data>
+  <data name="TypeJson.Title" xml:space="preserve">
+    <value>JSON</value>
+  </data>
 
   <data name="WindowSize.Description" xml:space="preserve">
-    <value>WindowSize</value>
+    <value>Get or set the window size (Width and Height)</value>
   </data>
   <data name="WindowSize.Title" xml:space="preserve">
     <value>WindowSize</value>
+  </data>
+
+  <data name="ExistProcess.Description" xml:space="preserve">
+    <value>Check whether the application runs</value>
+  </data>
+  <data name="ExistProcess.Title" xml:space="preserve">
+    <value>Check Process</value>
   </data>
 
 

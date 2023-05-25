@@ -127,7 +127,7 @@
     <value>蒐索檔案</value>
   </data>
   <data name="StartProcess.Description" xml:space="preserve">
-    <value>啟動應用程序</value>
+    <value>啟動應用程序，並等待結束</value>
   </data>
   <data name="StartProcess.Title" xml:space="preserve">
     <value>啟動應用程序</value>
@@ -1321,18 +1321,33 @@
     <value>字串</value>
   </data>
   <data name="WindowRect.Description" xml:space="preserve">
-    <value>獲取指定視窗的邊框矩形的大小，該尺寸以相對於荧幕座標左上角的荧幕座標給出。</value>
+    <value>获取或设置指定窗口的尺寸和位置，該位置相對於屏幕坐標左上角的屏幕坐標給出。</value>
   </data>
   <data name="WindowRect.Title" xml:space="preserve">
     <value>視窗矩形</value>
   </data>
-
+  <data name="TypeJson.Description" xml:space="preserve">
+    <value>定義JSON數據格式</value>
+  </data>
+  <data name="TypeJson.Title" xml:space="preserve">
+    <value>JSON</value>
+  </data>
 
   <data name="WindowSize.Description" xml:space="preserve">
-    <value>WindowSize</value>
+    <value>獲取或設置窗口尺寸（長和寬）</value>
   </data>
   <data name="WindowSize.Title" xml:space="preserve">
-    <value>WindowSize</value>
+    <value>窗口尺寸</value>
+  </data>
+
+
+
+
+  <data name="ExistProcess.Description" xml:space="preserve">
+    <value>檢查應用程序是否運行</value>
+  </data>
+  <data name="ExistProcess.Title" xml:space="preserve">
+    <value>檢測應用程序</value>
   </data>
 
 

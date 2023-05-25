@@ -79,16 +79,19 @@
   <data name="Action.StartProcess.Environment.Header" xml:space="preserve">
     <value>环境变量</value>
   </data>
-<data name="Action.WindowRect.Window.Header" xml:space="preserve">
-    <value>Window</value>
+  <data name="Action.WindowRect.Wnd.Header" xml:space="preserve">
+    <value>窗口</value>
   </data>
   <data name="Action.WindowRect.Rect.Header" xml:space="preserve">
-    <value>Rect</value>
+    <value>矩形</value>
   </data>
   <data name="Action.WindowSize.Window.Header" xml:space="preserve">
-    <value>Window</value>
+    <value>窗口</value>
   </data>
   <data name="Action.WindowSize.Size.Header" xml:space="preserve">
-    <value>Size</value>
+    <value>尺寸</value>
+  </data>
+  <data name="Action.ExistProcess.Path.Header" xml:space="preserve">
+    <value>文件路径</value>
   </data>
 </root>

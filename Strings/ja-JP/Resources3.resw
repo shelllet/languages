@@ -127,7 +127,7 @@
     <value>ファイルの検索</value>
   </data>
   <data name="StartProcess.Description" xml:space="preserve">
-    <value>アプリケーションを開始します</value>
+    <value>アプリケーションを開始し、終了を待ちます</value>
   </data>
   <data name="StartProcess.Title" xml:space="preserve">
     <value>アプリケーションを開始します</value>
@@ -1321,18 +1321,30 @@
     <value>文字列</value>
   </data>
   <data name="WindowRect.Description" xml:space="preserve">
-    <value>指定されたウィンドウの枠長方形のサイズを取得します。このサイズは、画面座標の左上角を基準にした画面座標で与えられます。</value>
+    <value>指定されたウィンドウのサイズと位置を取得または設定します。これは、画面座標の左上隅の画面座標で与えられます。</value>
   </data>
   <data name="WindowRect.Title" xml:space="preserve">
     <value>ウィンドウ長方形</value>
   </data>
-
+  <data name="TypeJson.Description" xml:space="preserve">
+    <value>JSONデータ形式を定義します</value>
+  </data>
+  <data name="TypeJson.Title" xml:space="preserve">
+    <value>JSON</value>
+  </data>
 
   <data name="WindowSize.Description" xml:space="preserve">
-    <value>WindowSize</value>
+    <value>ウィンドウサイズ（長さと幅）を取得または設定します</value>
   </data>
   <data name="WindowSize.Title" xml:space="preserve">
-    <value>WindowSize</value>
+    <value>ウィンドウサイズ</value>
+  </data>
+
+  <data name="ExistProcess.Description" xml:space="preserve">
+    <value>アプリケーションが実行されるかどうかを確認します</value>
+  </data>
+  <data name="ExistProcess.Title" xml:space="preserve">
+    <value>アプリケーションを検出します</value>
   </data>
 
 
