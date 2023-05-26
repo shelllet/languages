@@ -414,4 +414,7 @@
   <data name="Publish.Password.Header" xml:space="preserve">
     <value>Password</value>
   </data>
+    <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
+    <value>Administrator Required</value>
+  </data>
 </root>

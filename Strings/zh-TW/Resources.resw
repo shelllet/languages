@@ -414,4 +414,7 @@
   <data name="Publish.Password.Header" xml:space="preserve">
     <value>密碼</value>
   </data>
+      <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
+    <value>管理員权限</value>
+  </data>
 </root>

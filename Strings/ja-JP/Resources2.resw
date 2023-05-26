@@ -94,4 +94,10 @@
   <data name="Action.ExistProcess.Path.Header" xml:space="preserve">
     <value>ファイルパス</value>
   </data>
+  <data name="Action.NetUserAdd.Account.Header" xml:space="preserve">
+    <value>アカウント</value>
+  </data>
+  <data name="Action.NetUserAdd.Password.Header" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
 </root>
