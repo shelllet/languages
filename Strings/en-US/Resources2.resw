@@ -93,10 +93,22 @@
   <data name="Action.ExistProcess.Path.Header" xml:space="preserve">
     <value>File Path</value>
   </data>
-    <data name="Action.NetUserAdd.Account.Header" xml:space="preserve">
+  <data name="Action.NetUserAdd.Account.Header" xml:space="preserve">
     <value>Account</value>
   </data>
-    <data name="Action.NetUserAdd.Password.Header" xml:space="preserve">
+  <data name="Action.NetUserAdd.Password.Header" xml:space="preserve">
     <value>Password</value>
+  </data>
+  <data name="Action.RandomPoint.Center.Header" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="Action.RandomPoint.Radius.Header" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="Action.QuitThread.Thread.Header" xml:space="preserve">
+    <value>Thread</value>
+  </data>
+  <data name="Action.BeginThread.Thread.Header" xml:space="preserve">
+    <value>Thread</value>
   </data>
 </root>

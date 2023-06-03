@@ -114,6 +114,12 @@
   <data name="System.Title" xml:space="preserve">
     <value>システム</value>
   </data>
+      <data name="Async.Description" xml:space="preserve">
+    <value>タイマー、スレッドなどの非同期操作をサポートする一連のアクション</value>
+  </data>
+  <data name="Async.Title" xml:space="preserve">
+    <value>非同期操作</value>
+  </data>
   <data name="Wait.Description" xml:space="preserve">
     <value>待機は、休眠とも呼ばれる。アクションをしばらく停止させてから、実行を続行します。</value>
   </data>
@@ -150,10 +156,10 @@
   <data name="PlayRecord.Title" xml:space="preserve">
     <value>録画を再生</value>
   </data>
-  <data name="Timer.Description" xml:space="preserve">
+  <data name="WorkTimer.Description" xml:space="preserve">
     <value>サブフローは一定の時間間隔で繰り返し実行することができる。</value>
   </data>
-  <data name="Timer.Title" xml:space="preserve">
+  <data name="WorkTimer.Title" xml:space="preserve">
     <value>タイマー</value>
   </data>
   <data name="ONNXClassification.Description" xml:space="preserve">
@@ -856,7 +862,7 @@
     <value>スレッドを使用して、いくつかのアクションを非同期で実行できます。</value>
   </data>
   <data name="WorkThread.Title" xml:space="preserve">
-    <value>スレッド</value>
+    <value>作業スレッド</value>
   </data>
   <data name="SetForegroundWindow.Description" xml:space="preserve">
     <value>前面ウィンドウの設定</value>
@@ -1062,12 +1068,7 @@
   <data name="XmlSaveDocument.Title" xml:space="preserve">
     <value>保存</value>
   </data>
-  <data name="ProcessID.Description" xml:space="preserve">
-    <value>プロセスは同時に実行できます。同時に実行すると、複数のプロセスが起動されます。実行中の各プロセスには、0から増分する一意の数値フラグが付けられます。</value>
-  </data>
-  <data name="ProcessID.Title" xml:space="preserve">
-    <value>プロセスフラグ</value>
-  </data>
+
   <data name="IsEmpty.Description" xml:space="preserve">
     <value>コンテナまたはリストが空かどうかを判断します</value>
   </data>
@@ -1080,10 +1081,10 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>二次元コード認識</value>
   </data>
-  <data name="InputParam.Description" xml:space="preserve">
-    <value>通常は子アクションとして、その値は対応する親アクションから渡されます。通常、リストはサブアクションをサポートし、リストの各要素はそのアクションに渡されます。</value>
+  <data name="IterParam.Description" xml:space="preserve">
+    <value>通常、サブアクションとして、その値は対応する親アクションから導入されます。通常、複数の値がサブアクションに返され、リストの各要素がアクションに渡されます。</value>
   </data>
-  <data name="InputParam.Title" xml:space="preserve">
+  <data name="IterParam.Title" xml:space="preserve">
     <value>入力パラメータ</value>
   </data>
   <data name="WebActionChainsPerform.Description" xml:space="preserve">
@@ -1332,19 +1333,31 @@
   <data name="TypeJson.Title" xml:space="preserve">
     <value>JSON</value>
   </data>
-
   <data name="WindowSize.Description" xml:space="preserve">
     <value>ウィンドウサイズ（長さと幅）を取得または設定します</value>
   </data>
   <data name="WindowSize.Title" xml:space="preserve">
     <value>ウィンドウサイズ</value>
   </data>
-
   <data name="ExistProcess.Description" xml:space="preserve">
     <value>アプリケーションが実行されるかどうかを確認します</value>
   </data>
   <data name="ExistProcess.Title" xml:space="preserve">
     <value>アプリケーションを検出します</value>
+  </data>
+  <data name="RandomPoint.Description" xml:space="preserve">
+    <value>ランダムポイントを生成します</value>
+  </data>
+  <data name="RandomPoint.Title" xml:space="preserve">
+    <value>ランダム座標</value>
+  </data>
+
+
+  <data name="BeginThread.Description" xml:space="preserve">
+    <value>作業スレッドを開始します</value>
+  </data>
+  <data name="BeginThread.Title" xml:space="preserve">
+    <value>スレッドを開始します</value>
   </data>
 
 

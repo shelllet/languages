@@ -114,6 +114,12 @@
   <data name="System.Title" xml:space="preserve">
     <value>系统</value>
   </data>
+    <data name="Async.Description" xml:space="preserve">
+    <value>支持异步操作的一系列动作，比如定时器，线程</value>
+  </data>
+  <data name="Async.Title" xml:space="preserve">
+    <value>异步操作</value>
+  </data>
   <data name="Wait.Description" xml:space="preserve">
     <value>等待，又可以称为休眠。它可以让动作停止一段时间再继续运行。</value>
   </data>
@@ -150,10 +156,10 @@
   <data name="PlayRecord.Title" xml:space="preserve">
     <value>播放录制</value>
   </data>
-  <data name="Timer.Description" xml:space="preserve">
+  <data name="WorkTimer.Description" xml:space="preserve">
     <value>可以按照一定的时间间隔，重复执行子流程。</value>
   </data>
-  <data name="Timer.Title" xml:space="preserve">
+  <data name="WorkTimer.Title" xml:space="preserve">
     <value>定时器</value>
   </data>
   <data name="ONNXClassification.Description" xml:space="preserve">
@@ -857,7 +863,7 @@
     <value>线程可以用于异步执行一些动作。</value>
   </data>
   <data name="WorkThread.Title" xml:space="preserve">
-    <value>线程</value>
+    <value>工作线程</value>
   </data>
   <data name="SetForegroundWindow.Description" xml:space="preserve">
     <value>设置前置窗口</value>
@@ -1063,12 +1069,7 @@
   <data name="XmlSaveDocument.Title" xml:space="preserve">
     <value>保存</value>
   </data>
-  <data name="ProcessID.Description" xml:space="preserve">
-    <value>流程可以并发执行，并发执行的时候，会开启多个进程，每个正在运行的进程都有一个唯一的数字标志，该标志从0 开始递增。</value>
-  </data>
-  <data name="ProcessID.Title" xml:space="preserve">
-    <value>进程标志</value>
-  </data>
+
   <data name="IsEmpty.Description" xml:space="preserve">
     <value>判断 容器 或者 列表 是否为空</value>
   </data>
@@ -1081,11 +1082,11 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>二维码识别</value>
   </data>
-  <data name="InputParam.Description" xml:space="preserve">
-    <value>通常做为子动作，其值由相应的父动作传入。通常列表都会支持子动作，列表的每个元素都会传递给该动作。</value>
+  <data name="IterParam.Description" xml:space="preserve">
+    <value>通常做为子动作，其值由相应的父动作传入。通常返回多个值的动作都会支持子动作，列表的每个元素都会被迭代透传给该动作。</value>
   </data>
-  <data name="InputParam.Title" xml:space="preserve">
-    <value>传入参数</value>
+  <data name="IterParam.Title" xml:space="preserve">
+    <value>迭代参数</value>
   </data>
   <data name="WebActionChainsPerform.Description" xml:space="preserve">
     <value>执行创建的动作链。</value>
@@ -1333,19 +1334,31 @@
   <data name="TypeJson.Title" xml:space="preserve">
     <value>JSON</value>
   </data>
-
   <data name="WindowSize.Description" xml:space="preserve">
     <value>获取或设置窗口尺寸（长和宽）</value>
   </data>
   <data name="WindowSize.Title" xml:space="preserve">
     <value>窗口尺寸</value>
   </data>
-
   <data name="ExistProcess.Description" xml:space="preserve">
     <value>检查应用程序是否运行</value>
   </data>
   <data name="ExistProcess.Title" xml:space="preserve">
     <value>检测应用程序</value>
+  </data>
+  <data name="RandomPoint.Description" xml:space="preserve">
+    <value>生成随机坐标</value>
+  </data>
+  <data name="RandomPoint.Title" xml:space="preserve">
+    <value>随机坐标</value>
+  </data>
+
+
+  <data name="BeginThread.Description" xml:space="preserve">
+    <value>启动一个工作线程</value>
+  </data>
+  <data name="BeginThread.Title" xml:space="preserve">
+    <value>启动线程</value>
   </data>
 
 

@@ -100,4 +100,16 @@
   <data name="Action.NetUserAdd.Password.Header" xml:space="preserve">
     <value>密码</value>
   </data>
+  <data name="Action.RandomPoint.Center.Header" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="Action.RandomPoint.Radius.Header" xml:space="preserve">
+    <value>半径</value>
+  </data>
+  <data name="Action.QuitThread.Thread.Header" xml:space="preserve">
+    <value>线程</value>
+  </data>
+  <data name="Action.BeginThread.Thread.Header" xml:space="preserve">
+    <value>线程</value>
+  </data>
 </root>

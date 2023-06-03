@@ -318,6 +318,9 @@
   <data name="InputFlyoutItem.Text.Text" xml:space="preserve">
     <value>Text</value>
   </data>
+  <data name="InputFlyoutItem.Password.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
   <data name="InputFlyoutItem.Url.Text" xml:space="preserve">
     <value>Url</value>
   </data>
@@ -414,7 +417,7 @@
   <data name="Publish.Password.Header" xml:space="preserve">
     <value>Password</value>
   </data>
-    <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
+  <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
     <value>Administrator Required</value>
   </data>
 </root>

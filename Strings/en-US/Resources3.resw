@@ -114,6 +114,12 @@
   <data name="System.Title" xml:space="preserve">
     <value>System</value>
   </data>
+  <data name="Async.Description" xml:space="preserve">
+    <value>A series of actions that support asynchronous operations, such as timer, thread</value>
+  </data>
+  <data name="Async.Title" xml:space="preserve">
+    <value>Async</value>
+  </data>
   <data name="Wait.Description" xml:space="preserve">
     <value>Waiting, also can be called dormancy. it stops the action for a while before running.</value>
   </data>
@@ -150,10 +156,10 @@
   <data name="PlayRecord.Title" xml:space="preserve">
     <value>Play recording</value>
   </data>
-  <data name="Timer.Description" xml:space="preserve">
+  <data name="WorkTimer.Description" xml:space="preserve">
     <value>The subprocess can be repeated at certain time intervals.</value>
   </data>
-  <data name="Timer.Title" xml:space="preserve">
+  <data name="WorkTimer.Title" xml:space="preserve">
     <value>Timer</value>
   </data>
   <data name="ONNXClassification.Description" xml:space="preserve">
@@ -856,7 +862,7 @@
     <value>Threading can be used to perform some actions asynchronously.</value>
   </data>
   <data name="WorkThread.Title" xml:space="preserve">
-    <value>Thread</value>
+    <value>WorkThread</value>
   </data>
   <data name="SetForegroundWindow.Description" xml:space="preserve">
     <value>Set the front window</value>
@@ -1060,13 +1066,7 @@
     <value>Save the xml file</value>
   </data>
   <data name="XmlSaveDocument.Title" xml:space="preserve">
-    <value>Preserve</value>
-  </data>
-  <data name="ProcessID.Description" xml:space="preserve">
-    <value>The process can be executed concurrently, and multiple processes are opened, with each running process having a unique digital flag that increments from 0.</value>
-  </data>
-  <data name="ProcessID.Title" xml:space="preserve">
-    <value>Process tag</value>
+    <value>Save</value>
   </data>
   <data name="IsEmpty.Description" xml:space="preserve">
     <value>Determine whether the container or the list is empty</value>
@@ -1080,11 +1080,11 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>Qr code identification</value>
   </data>
-  <data name="InputParam.Description" xml:space="preserve">
-    <value>Usually done as a child action, its value is transmitted by the corresponding parent action. usually the list supports a child action, and each element of the list is passed to the action.</value>
+  <data name="IterParam.Description" xml:space="preserve">
+    <value>Usually as a child-action, its value is introduced from the corresponding parent actions.Usually, multiple values are returned by the action support children actions, and each element of the list will be passed on to the action.</value>
   </data>
-  <data name="InputParam.Title" xml:space="preserve">
-    <value>Input parameter</value>
+  <data name="IterParam.Title" xml:space="preserve">
+    <value>IterParam</value>
   </data>
   <data name="WebActionChainsPerform.Description" xml:space="preserve">
     <value>Perform the created action chain.</value>
@@ -1326,26 +1326,38 @@
   <data name="WindowRect.Title" xml:space="preserve">
     <value>WindowRect</value>
   </data>
-
   <data name="TypeJson.Description" xml:space="preserve">
     <value>Define the JSON data format</value>
   </data>
   <data name="TypeJson.Title" xml:space="preserve">
     <value>JSON</value>
   </data>
-
   <data name="WindowSize.Description" xml:space="preserve">
     <value>Get or set the window size (Width and Height)</value>
   </data>
   <data name="WindowSize.Title" xml:space="preserve">
     <value>WindowSize</value>
   </data>
-
   <data name="ExistProcess.Description" xml:space="preserve">
     <value>Check whether the application runs</value>
   </data>
   <data name="ExistProcess.Title" xml:space="preserve">
-    <value>Check Process</value>
+    <value>CheckProcess</value>
+  </data>
+  <data name="RandomPoint.Description" xml:space="preserve">
+    <value>Generate random point</value>
+  </data>
+  <data name="RandomPoint.Title" xml:space="preserve">
+    <value>RandomPoint</value>
+  </data>
+
+
+
+  <data name="BeginThread.Description" xml:space="preserve">
+    <value>Start a working thread</value>
+  </data>
+  <data name="BeginThread.Title" xml:space="preserve">
+    <value>BeginThread</value>
   </data>
 
 

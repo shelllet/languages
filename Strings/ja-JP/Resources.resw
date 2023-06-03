@@ -318,6 +318,9 @@
   <data name="InputFlyoutItem.Text.Text" xml:space="preserve">
     <value>テキスト</value>
   </data>
+    <data name="InputFlyoutItem.Password.Text" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
   <data name="InputFlyoutItem.Url.Text" xml:space="preserve">
     <value>ウェブアドレス</value>
   </data>
