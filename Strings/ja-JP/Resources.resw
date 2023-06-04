@@ -348,6 +348,9 @@
   <data name="InputFlyoutItem.Scalar.Text" xml:space="preserve">
     <value>スカラ</value>
   </data>
+    <data name="InputFlyoutItem.Size.Text" xml:space="preserve">
+    <value>サイズ</value>
+  </data>
   <data name="InputFlyoutItem.Range.Text" xml:space="preserve">
     <value>範囲</value>
   </data>

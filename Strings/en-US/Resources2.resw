@@ -105,10 +105,10 @@
   <data name="Action.RandomPoint.Radius.Header" xml:space="preserve">
     <value>Radius</value>
   </data>
-  <data name="Action.QuitThread.Thread.Header" xml:space="preserve">
+  <data name="Action.WorkExit.Thread.Header" xml:space="preserve">
     <value>Thread</value>
   </data>
-  <data name="Action.BeginThread.Thread.Header" xml:space="preserve">
+  <data name="Action.WorkBegin.Thread.Header" xml:space="preserve">
     <value>Thread</value>
   </data>
 </root>

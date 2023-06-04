@@ -349,6 +349,9 @@
   <data name="InputFlyoutItem.Scalar.Text" xml:space="preserve">
     <value>标量</value>
   </data>
+    <data name="InputFlyoutItem.Size.Text" xml:space="preserve">
+    <value>尺寸</value>
+  </data>
   <data name="InputFlyoutItem.Range.Text" xml:space="preserve">
     <value>范围</value>
   </data>

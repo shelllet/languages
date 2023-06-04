@@ -360,10 +360,10 @@
   <data name="PointConvert.Title" xml:space="preserve">
     <value>Coordinate transformation</value>
   </data>
-  <data name="QuitThread.Description" xml:space="preserve">
+  <data name="WorkExit.Description" xml:space="preserve">
     <value>Can be used to end the thread action being performed.</value>
   </data>
-  <data name="QuitThread.Title" xml:space="preserve">
+  <data name="WorkExit.Title" xml:space="preserve">
     <value>End thread</value>
   </data>
   <data name="AdbPackages.Description" xml:space="preserve">
@@ -1353,11 +1353,11 @@
 
 
 
-  <data name="BeginThread.Description" xml:space="preserve">
+  <data name="WorkBegin.Description" xml:space="preserve">
     <value>Start a working thread</value>
   </data>
-  <data name="BeginThread.Title" xml:space="preserve">
-    <value>BeginThread</value>
+  <data name="WorkBegin.Title" xml:space="preserve">
+    <value>WorkBegin</value>
   </data>
 
 

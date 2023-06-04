@@ -360,10 +360,10 @@
   <data name="PointConvert.Title" xml:space="preserve">
     <value>座標轉換</value>
   </data>
-  <data name="QuitThread.Description" xml:space="preserve">
+  <data name="WorkExit.Description" xml:space="preserve">
     <value>可用於結束正在執行的線程動作。</value>
   </data>
-  <data name="QuitThread.Title" xml:space="preserve">
+  <data name="WorkExit.Title" xml:space="preserve">
     <value>結束線程</value>
   </data>
   <data name="AdbPackages.Description" xml:space="preserve">
@@ -1353,10 +1353,10 @@
   </data>
 
 
-  <data name="BeginThread.Description" xml:space="preserve">
+  <data name="WorkBegin.Description" xml:space="preserve">
     <value>啟動一個工作線程</value>
   </data>
-  <data name="BeginThread.Title" xml:space="preserve">
+  <data name="WorkBegin.Title" xml:space="preserve">
     <value>啟動線程</value>
   </data>
 

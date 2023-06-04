@@ -360,10 +360,10 @@
   <data name="PointConvert.Title" xml:space="preserve">
     <value>座標変換</value>
   </data>
-  <data name="QuitThread.Description" xml:space="preserve">
+  <data name="WorkExit.Description" xml:space="preserve">
     <value>実行中のスレッドアクションを終了するために使用できます。</value>
   </data>
-  <data name="QuitThread.Title" xml:space="preserve">
+  <data name="WorkExit.Title" xml:space="preserve">
     <value>終了スレッド</value>
   </data>
   <data name="AdbPackages.Description" xml:space="preserve">
@@ -1353,10 +1353,10 @@
   </data>
 
 
-  <data name="BeginThread.Description" xml:space="preserve">
+  <data name="WorkBegin.Description" xml:space="preserve">
     <value>作業スレッドを開始します</value>
   </data>
-  <data name="BeginThread.Title" xml:space="preserve">
+  <data name="WorkBegin.Title" xml:space="preserve">
     <value>スレッドを開始します</value>
   </data>
 
