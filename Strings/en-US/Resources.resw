@@ -132,6 +132,12 @@
   <data name="ImagePreview.Title.Text" xml:space="preserve">
     <value>Preview</value>
   </data>
+  <data name="Button.Remove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="Button.Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
   <data name="Items.None" xml:space="preserve">
     <value>Empty</value>
   </data>
@@ -184,7 +190,10 @@
     <value>Options</value>
   </data>
   <data name="WorkflowOptions.Basic.Text" xml:space="preserve">
-    <value>Basic</value>
+    <value>Common</value>
+  </data>
+  <data name="WorkflowOptions.RuntimeParams.Text" xml:space="preserve">
+    <value>Runtime Params</value>
   </data>
   <data name="ActionProperty.Header.Text" xml:space="preserve">
     <value>Action properties</value>
@@ -254,6 +263,9 @@
   </data>
   <data name="Workflow.MenuItem.Remove.Text" xml:space="preserve">
     <value>Delete</value>
+  </data>
+  <data name="Workflow.Removed.Title" xml:space="preserve">
+    <value>Remove your workflow?</value>
   </data>
   <data name="Workflow.MenuItem.PreviewAll.Text" xml:space="preserve">
     <value>Enable Preview (All Actions)</value>
@@ -422,5 +434,20 @@
   </data>
   <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
     <value>Administrator Required</value>
+  </data>
+  <data name="Document.Tip.Saved" xml:space="preserve">
+    <value>The current document has been saved</value>
+  </data>
+  <data name="Document.Tip.Created" xml:space="preserve">
+    <value>The current document has been created successfully</value>
+  </data>
+  <data name="Document.Tip.Saved" xml:space="preserve">
+    <value>The current document has been saved</value>
+  </data>
+  <data name="Document.Tip.Loaded" xml:space="preserve">
+    <value>The current document has been loaded</value>
+  </data>
+  <data name="Workflow.Remove.Content" xml:space="preserve">
+    <value>Remove your current workflow?</value>
   </data>
 </root>

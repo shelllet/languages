@@ -595,7 +595,7 @@
     <value>Reference action (name)</value>
   </data>
   <data name="LaunchFile.Description" xml:space="preserve">
-    <value>This action opens a file associated in the operating system.</value>
+    <value>This action can open non -executable files in the operating system, such as (.txt|.docx|.pptx) and other types of files.</value>
   </data>
   <data name="LaunchFile.Title" xml:space="preserve">
     <value>Open-file</value>
@@ -1368,6 +1368,16 @@
   </data>
   <data name="LoginApplication.Title" xml:space="preserve">
     <value>LoginApplication</value>
+  </data>
+
+
+
+
+  <data name="PixelPoint.Description" xml:space="preserve">
+    <value>This Action retrieves the red, green, blue (RGB) color value of the pixel at the specified coordinates.</value>
+  </data>
+  <data name="PixelPoint.Title" xml:space="preserve">
+    <value>PixelPoint</value>
   </data>
 
 

@@ -132,6 +132,12 @@
   <data name="ImagePreview.Title.Text" xml:space="preserve">
     <value>プレビュー</value>
   </data>
+      <data name="Button.Remove.Text" xml:space="preserve">
+    <value>消去</value>
+  </data>
+    <data name="Button.Cancel.Text" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
   <data name="Items.None" xml:space="preserve">
     <value>空</value>
   </data>
@@ -185,6 +191,9 @@
   </data>
   <data name="WorkflowOptions.Basic.Text" xml:space="preserve">
     <value>ベース</value>
+  </data>
+    <data name="WorkflowOptions.RuntimeParams.Text" xml:space="preserve">
+    <value>ランタイムパラメーション</value>
   </data>
   <data name="ActionProperty.Header.Text" xml:space="preserve">
     <value>アクションのプロパティ</value>
@@ -260,6 +269,9 @@
   </data>
   <data name="Workflow.MenuItem.UnPreviewAll.Text" xml:space="preserve">
     <value>プレビューを閉じる(すべてのアクション)</value>
+  </data>
+      <data name="Workflow.Removed.Title" xml:space="preserve">
+    <value>ワークフローを削除しますか？</value>
   </data>
   <data name="ToolBar.New.Label" xml:space="preserve">
     <value>新規作成</value>
@@ -422,5 +434,17 @@
   </data>
       <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
     <value>管理者が必要です</value>
+  </data>
+  <data name="Document.Tip.Created" xml:space="preserve">
+    <value>現在のドキュメントは正常に作成されています</value>
+  </data>
+  <data name="Document.Tip.Saved" xml:space="preserve">
+    <value>現在のドキュメントが保存されています</value>
+  </data>
+  <data name="Document.Tip.Loaded" xml:space="preserve">
+    <value>現在のドキュメントはロードされています</value>
+  </data>
+    <data name="Workflow.Remove.Content" xml:space="preserve">
+    <value>現在のワークフローを削除しますか？</value>
   </data>
 </root>

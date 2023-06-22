@@ -132,4 +132,23 @@
   <data name="Action.OpenApplication.WorkingDirectory.Header" xml:space="preserve">
     <value>WorkingDirectory</value>
   </data>
+  <data name="Action.PixelPoint.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+
+  <data name="Action.PixelPoint.Point.Header" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Action.OpenUri.Url.Header" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Action.LaunchFile.File.Header" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Action.AdbDevices.Async.Header" xml:space="preserve">
+    <value>Async</value>
+  </data>
+  <data name="Action.PlayRecord.Radius.Header" xml:space="preserve">
+    <value>Radius</value>
+  </data>
 </root>

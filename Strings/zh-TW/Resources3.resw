@@ -114,7 +114,7 @@
   <data name="System.Title" xml:space="preserve">
     <value>系統</value>
   </data>
-      <data name="Async.Description" xml:space="preserve">
+  <data name="Async.Description" xml:space="preserve">
     <value>支持異步操作的一系列動作，比如定時器，線程</value>
   </data>
   <data name="Async.Title" xml:space="preserve">
@@ -595,7 +595,7 @@
     <value>引用動作（名稱）</value>
   </data>
   <data name="LaunchFile.Description" xml:space="preserve">
-    <value>該動作可以打開在作業系統中關聯過檔案類型的檔案。</value>
+    <value>該動作可以打開操作系統中非可執行文件，比如 (.txt|.docx|.pptx) 等類型的文件。</value>
   </data>
   <data name="LaunchFile.Title" xml:space="preserve">
     <value>打開文件</value>
@@ -1368,6 +1368,16 @@
   </data>
   <data name="LoginApplication.Title" xml:space="preserve">
     <value>登錄應用</value>
+  </data>
+
+
+
+
+  <data name="PixelPoint.Description" xml:space="preserve">
+    <value>這個動作檢索指定坐標處的像素的紅色，綠色，藍色（RGB）顏色值。</value>
+  </data>
+  <data name="PixelPoint.Title" xml:space="preserve">
+    <value>檢索顏色</value>
   </data>
 
 

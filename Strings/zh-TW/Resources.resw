@@ -106,7 +106,7 @@
     <value>已註冊</value>
   </data>
   <data name="UnRegistered.Text" xml:space="preserve">
-    <value>未註冊</value>
+    <value>試用版</value>
   </data>
   <data name="Registered.To.Text" xml:space="preserve">
     <value>當前產品註冊給:</value>
@@ -131,6 +131,12 @@
   </data>
   <data name="ImagePreview.Title.Text" xml:space="preserve">
     <value>預覽</value>
+  </data>
+    <data name="Button.Remove.Text" xml:space="preserve">
+    <value>刪除</value>
+  </data>
+    <data name="Button.Cancel.Text" xml:space="preserve">
+    <value>取消</value>
   </data>
   <data name="Items.None" xml:space="preserve">
     <value>空</value>
@@ -184,7 +190,10 @@
     <value>選項</value>
   </data>
   <data name="WorkflowOptions.Basic.Text" xml:space="preserve">
-    <value>基礎</value>
+    <value>常用</value>
+  </data>
+    <data name="WorkflowOptions.RuntimeParams.Text" xml:space="preserve">
+    <value>運行時參數</value>
   </data>
   <data name="ActionProperty.Header.Text" xml:space="preserve">
     <value>動作内容</value>
@@ -261,6 +270,9 @@
   <data name="Workflow.MenuItem.UnPreviewAll.Text" xml:space="preserve">
     <value>關閉預覽（所有動作）</value>
   </data>
+        <data name="Workflow.Removed.Title" xml:space="preserve">
+    <value>刪除你的工作流？</value>
+  </data>
   <data name="ToolBar.New.Label" xml:space="preserve">
     <value>新建</value>
   </data>
@@ -318,7 +330,7 @@
   <data name="InputFlyoutItem.Text.Text" xml:space="preserve">
     <value>文字</value>
   </data>
-    <data name="InputFlyoutItem.Password.Text" xml:space="preserve">
+  <data name="InputFlyoutItem.Password.Text" xml:space="preserve">
     <value>密碼</value>
   </data>
   <data name="InputFlyoutItem.Url.Text" xml:space="preserve">
@@ -348,7 +360,7 @@
   <data name="InputFlyoutItem.Scalar.Text" xml:space="preserve">
     <value>標量</value>
   </data>
-    <data name="InputFlyoutItem.Size.Text" xml:space="preserve">
+  <data name="InputFlyoutItem.Size.Text" xml:space="preserve">
     <value>尺寸</value>
   </data>
   <data name="InputFlyoutItem.Range.Text" xml:space="preserve">
@@ -382,7 +394,7 @@
     <value>清除</value>
   </data>
   <data name="Comment.Header" xml:space="preserve">
-    <value>備註</value>
+    <value>標題</value>
   </data>
   <data name="Copy.Text" xml:space="preserve">
     <value>複製</value>
@@ -420,7 +432,19 @@
   <data name="Publish.Password.Header" xml:space="preserve">
     <value>密碼</value>
   </data>
-      <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
+  <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
     <value>管理員权限</value>
+  </data>
+  <data name="Document.Tip.Created" xml:space="preserve">
+    <value>當前文檔已成功創建</value>
+  </data>
+  <data name="Document.Tip.Saved" xml:space="preserve">
+    <value>當前文檔已保存</value>
+  </data>
+  <data name="Document.Tip.Loaded" xml:space="preserve">
+    <value>當前文檔已加載</value>
+  </data>
+    <data name="Workflow.Remove.Content" xml:space="preserve">
+    <value>刪除您當前的工作流程？</value>
   </data>
 </root>
