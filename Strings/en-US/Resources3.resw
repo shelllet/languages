@@ -595,10 +595,10 @@
     <value>Reference action (name)</value>
   </data>
   <data name="LaunchFile.Description" xml:space="preserve">
-    <value>This action can open non -executable files in the operating system, such as (.txt|.docx|.pptx) and other types of files.</value>
+    <value>This action can open the associated files in the operating system, that is, non -executable files, such as (.txt | .docx | .pptx) and other types.</value>
   </data>
   <data name="LaunchFile.Title" xml:space="preserve">
-    <value>Open-file</value>
+    <value>LaunchFile</value>
   </data>
   <data name="TextRecognition.Description" xml:space="preserve">
     <value>Text recognition</value>

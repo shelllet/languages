@@ -111,6 +111,9 @@
   <data name="Registered.To.Text" xml:space="preserve">
     <value>Current product is registered to:</value>
   </data>
+  <data name="Device.Id.Text" xml:space="preserve">
+    <value>Device Id:</value>
+  </data>
   <data name="Blank.UserName.Text" xml:space="preserve">
     <value>User name:</value>
   </data>

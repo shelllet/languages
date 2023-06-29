@@ -146,10 +146,13 @@
   <data name="Action.LaunchFile.File.Header" xml:space="preserve">
     <value>文件</value>
   </data>
-    <data name="Action.AdbDevices.Async.Header" xml:space="preserve">
+  <data name="Action.AdbDevices.Async.Header" xml:space="preserve">
     <value>异步</value>
   </data>
   <data name="Action.PlayRecord.Radius.Header" xml:space="preserve">
     <value>半径</value>
+  </data>
+  <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
+    <value>静态</value>
   </data>
 </root>

@@ -3,7 +3,6 @@
 * en-US
 * zh-Hans-CN 
 * zh-TW
-* ja-JP
 
 # 生成配置
 
@@ -19,10 +18,6 @@
    
     .\makepri createconfig /cf .\config\zh-TW\priconfig.xml /dq lang-zh-TW /o /pv 10.0.0
 
-*  ja-JP
-  
-    .\makepri createconfig /cf .\config\ja-JP\priconfig.xml /dq lang-ja-JP /o /pv 10.0.0
-
 # 生成命令
 
 * en-US
@@ -37,10 +32,6 @@
 *  zh-TW
    
     .\makepri new /pr .\Strings\zh-TW /cf .\config\zh-TW\priconfig.xml /o /of ./Translations/zh-TW
-
-*  ja-JP
-  
-    .\makepri new /pr .\Strings\ja-JP /cf .\config\ja-JP\priconfig.xml /o /of ./Translations/ja-JP
 
 # [dump](https://learn.microsoft.com/en-us/windows/uwp/app-resources/localize-strings-ui-manifest)
 

@@ -596,10 +596,10 @@
     <value>引用动作（名称）</value>
   </data>
   <data name="LaunchFile.Description" xml:space="preserve">
-    <value>该动作可以打开操作系统中非可执行文件，比如 (.txt|.docx|.pptx) 等类型的文件。</value>
+    <value>该动作可以打开操作系统中的关联文件，即非可执行文件，比如 (.txt|.docx|.pptx) 等类型的文件。</value>
   </data>
   <data name="LaunchFile.Title" xml:space="preserve">
-    <value>打开文件</value>
+    <value>打开关联文件</value>
   </data>
   <data name="TextRecognition.Description" xml:space="preserve">
     <value>文本识别</value>

@@ -112,6 +112,9 @@
   <data name="Registered.To.Text" xml:space="preserve">
     <value>当前产品注册给: </value>
   </data>
+  <data name="Device.Id.Text" xml:space="preserve">
+    <value>设备 ID:</value>
+  </data>
   <data name="Blank.UserName.Text" xml:space="preserve">
     <value>用户名：</value>
   </data>
@@ -133,10 +136,10 @@
   <data name="ImagePreview.Title.Text" xml:space="preserve">
     <value>预览</value>
   </data>
-      <data name="Button.Remove.Text" xml:space="preserve">
+  <data name="Button.Remove.Text" xml:space="preserve">
     <value>删除</value>
   </data>
-    <data name="Button.Cancel.Text" xml:space="preserve">
+  <data name="Button.Cancel.Text" xml:space="preserve">
     <value>取消</value>
   </data>
   <data name="Items.None" xml:space="preserve">
@@ -193,7 +196,7 @@
   <data name="WorkflowOptions.Basic.Text" xml:space="preserve">
     <value>常用</value>
   </data>
-    <data name="WorkflowOptions.RuntimeParams.Text" xml:space="preserve">
+  <data name="WorkflowOptions.RuntimeParams.Text" xml:space="preserve">
     <value>运行时参数</value>
   </data>
   <data name="ActionProperty.Header.Text" xml:space="preserve">
@@ -271,7 +274,7 @@
   <data name="Workflow.MenuItem.UnPreviewAll.Text" xml:space="preserve">
     <value>关闭预览（所有动作）</value>
   </data>
-      <data name="Workflow.Removed.Title" xml:space="preserve">
+  <data name="Workflow.Removed.Title" xml:space="preserve">
     <value>删除你的工作流？</value>
   </data>
   <data name="ToolBar.New.Label" xml:space="preserve">
@@ -445,7 +448,7 @@
   <data name="Document.Tip.Loaded" xml:space="preserve">
     <value>当前文档已加载</value>
   </data>
-    <data name="Workflow.Remove.Content" xml:space="preserve">
+  <data name="Workflow.Remove.Content" xml:space="preserve">
     <value>要删除您当前的工作流程吗？</value>
   </data>
 </root>

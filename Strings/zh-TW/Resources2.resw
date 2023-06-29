@@ -152,5 +152,7 @@
   <data name="Action.PlayRecord.Radius.Header" xml:space="preserve">
     <value>半徑</value>
   </data>
-
+  <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
+    <value>静态</value>
+  </data>
 </root>
