@@ -1382,4 +1382,34 @@
   </data>
 
 
+
+
+  <data name="WorkSwitchStatus.Description" xml:space="preserve">
+    <value>切换异步动作的状态</value>
+  </data>
+  <data name="WorkSwitchStatus.Title" xml:space="preserve">
+    <value>异步状态切换</value>
+  </data>
+
+
+
+
+  <data name="Password.Description" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Password.Title" xml:space="preserve">
+    <value>Password</value>
+  </data>
+
+
+
+
+  <data name="Platform.Description" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+  <data name="Platform.Title" xml:space="preserve">
+    <value>Platform</value>
+  </data>
+
+
 </root>

@@ -155,4 +155,16 @@
   <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
     <value>静态</value>
   </data>
+    <data name="Action.WorkSwitchStatus.Value.Header" xml:space="preserve">
+    <value>数据源</value>
+  </data>
+    <data name="Action.CloseHandle.ExeFile.Header" xml:space="preserve">
+    <value>进程</value>
+  </data>
+  <data name="Action.CloseHandle.Type.Header" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Action.CloseHandle.HandleName.Header" xml:space="preserve">
+    <value>名称</value>
+  </data>
 </root>

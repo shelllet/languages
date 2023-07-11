@@ -81,9 +81,6 @@
   <data name="Recording.Title" xml:space="preserve">
     <value>正在錄製…</value>
   </data>
-  <data name="Publish.Text" xml:space="preserve">
-    <value>發佈</value>
-  </data>
   <data name="Stop.Text" xml:space="preserve">
     <value>停止</value>
   </data>
@@ -433,7 +430,10 @@
     <value>文件夾</value>
   </data>
   <data name="Publish.Password.Header" xml:space="preserve">
-    <value>密碼</value>
+    <value>值</value>
+  </data>
+  <data name="Publish.Name.Header" xml:space="preserve">
+    <value>名稱</value>
   </data>
   <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
     <value>管理員权限</value>
