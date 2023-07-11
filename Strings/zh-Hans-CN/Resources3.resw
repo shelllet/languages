@@ -1341,10 +1341,10 @@
     <value>窗口尺寸</value>
   </data>
   <data name="ExistProcess.Description" xml:space="preserve">
-    <value>检查应用程序是否运行</value>
+    <value>该动作可以检查系统当中的应用程序是否运行</value>
   </data>
   <data name="ExistProcess.Title" xml:space="preserve">
-    <value>检测应用程序</value>
+    <value>检测进程</value>
   </data>
   <data name="RandomPoint.Description" xml:space="preserve">
     <value>生成随机坐标</value>

@@ -88,7 +88,10 @@
     <value>尺寸</value>
   </data>
   <data name="Action.ExistProcess.Path.Header" xml:space="preserve">
-    <value>文件路徑</value>
+    <value>進程</value>
+  </data>
+  <data name="Action.KillProcess.Path.Header" xml:space="preserve">
+    <value>進程</value>
   </data>
   <data name="Action.UserAdd.Account.Header" xml:space="preserve">
     <value>帳戶</value>

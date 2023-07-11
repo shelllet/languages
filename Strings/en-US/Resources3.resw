@@ -1342,7 +1342,7 @@
     <value>Check whether the application runs</value>
   </data>
   <data name="ExistProcess.Title" xml:space="preserve">
-    <value>CheckProcess</value>
+    <value>ExistProcess</value>
   </data>
   <data name="RandomPoint.Description" xml:space="preserve">
     <value>Generate random point</value>

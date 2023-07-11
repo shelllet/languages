@@ -89,7 +89,10 @@
     <value>尺寸</value>
   </data>
   <data name="Action.ExistProcess.Path.Header" xml:space="preserve">
-    <value>文件路径</value>
+    <value>进程</value>
+  </data>
+  <data name="Action.KillProcess.Path.Header" xml:space="preserve">
+    <value>进程</value>
   </data>
   <data name="Action.UserAdd.Account.Header" xml:space="preserve">
     <value>账号</value>
@@ -155,10 +158,10 @@
   <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
     <value>静态</value>
   </data>
-    <data name="Action.WorkSwitchStatus.Value.Header" xml:space="preserve">
+  <data name="Action.WorkSwitchStatus.Value.Header" xml:space="preserve">
     <value>数据源</value>
   </data>
-    <data name="Action.CloseHandle.ExeFile.Header" xml:space="preserve">
+  <data name="Action.CloseHandle.ExeFile.Header" xml:space="preserve">
     <value>进程</value>
   </data>
   <data name="Action.CloseHandle.Type.Header" xml:space="preserve">

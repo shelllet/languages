@@ -1340,10 +1340,10 @@
     <value>窗口尺寸</value>
   </data>
   <data name="ExistProcess.Description" xml:space="preserve">
-    <value>檢查應用程序是否運行</value>
+    <value>該動作可以檢查系統當中的應用程序是否運行</value>
   </data>
   <data name="ExistProcess.Title" xml:space="preserve">
-    <value>檢測應用程序</value>
+    <value>檢測進程</value>
   </data>
   <data name="RandomPoint.Description" xml:space="preserve">
     <value>生成隨機點</value>
