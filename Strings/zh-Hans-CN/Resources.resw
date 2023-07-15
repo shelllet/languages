@@ -426,14 +426,14 @@
   <data name="Workflow.Run.Completed.Text" xml:space="preserve">
     <value>当前流程已经执行完毕。</value>
   </data>
-  <data name="Publish.Folder.Header" xml:space="preserve">
-    <value>文件夹</value>
+  <data name="Publish.File.Header" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Publish.Encrypted.Header" xml:space="preserve">
+    <value>加密方式</value>
   </data>
   <data name="Publish.Password.Header" xml:space="preserve">
     <value>值</value>
-  </data>
-    <data name="Publish.Name.Header" xml:space="preserve">
-    <value>名称</value>
   </data>
   <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
     <value>管理员权限</value>

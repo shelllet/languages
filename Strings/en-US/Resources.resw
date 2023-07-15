@@ -426,14 +426,14 @@
   <data name="Workflow.Run.Completed.Text" xml:space="preserve">
     <value>The current workflow run is completed.</value>
   </data>
-  <data name="Publish.Folder.Header" xml:space="preserve">
-    <value>Path</value>
+  <data name="Publish.File.Header" xml:space="preserve">
+    <value>File</value>
   </data>
   <data name="Publish.Password.Header" xml:space="preserve">
     <value>Value</value>
   </data>
-  <data name="Publish.Name.Header" xml:space="preserve">
-    <value>Name</value>
+  <data name="Publish.Encrypted.Header" xml:space="preserve">
+    <value>Encrypted</value>
   </data>
   <data name="ToolTipService.ToolTip.Administrator" xml:space="preserve">
     <value>Administrator Required</value>

@@ -169,4 +169,10 @@
   <data name="Action.CloseHandle.HandleName.Header" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="Action.Password.Text.Header" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Action.PointConvert.WithTitleBar.Header" xml:space="preserve">
+    <value>With Title Bar</value>
+  </data>
 </root>

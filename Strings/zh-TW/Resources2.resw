@@ -170,4 +170,10 @@
   <data name="Action.CloseHandle.HandleName.Header" xml:space="preserve">
     <value>名稱</value>
   </data>
+  <data name="Action.Password.Text.Header" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="Action.PointConvert.WithTitleBar.Header" xml:space="preserve">
+    <value>含標題欄</value>
+  </data>
 </root>

@@ -1395,20 +1395,20 @@
 
 
   <data name="Password.Description" xml:space="preserve">
-    <value>Password</value>
+    <value>密码验证方式</value>
   </data>
   <data name="Password.Title" xml:space="preserve">
-    <value>Password</value>
+    <value>密码</value>
   </data>
 
 
 
 
   <data name="Platform.Description" xml:space="preserve">
-    <value>Platform</value>
+    <value>平台验证方式</value>
   </data>
   <data name="Platform.Title" xml:space="preserve">
-    <value>Platform</value>
+    <value>平台</value>
   </data>
 
 
