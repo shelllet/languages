@@ -364,7 +364,7 @@
     <value>可用於結束正在執行的線程動作。</value>
   </data>
   <data name="WorkExit.Title" xml:space="preserve">
-    <value>結束線程</value>
+    <value>異步結束</value>
   </data>
   <data name="AdbPackages.Description" xml:space="preserve">
     <value>此動作可以獲取安卓模擬器當中的所有安裝包。</value>
@@ -876,10 +876,10 @@
   <data name="ShutdownSystem.Title" xml:space="preserve">
     <value>關機</value>
   </data>
-  <data name="TimedTask.Description" xml:space="preserve">
-    <value>該動作在指定的時間觸發，並且可以執行相應的子動作。</value>
+  <data name="ScheduledTask.Description" xml:space="preserve">
+    <value>該動作在指定的時間觸發，並且可以執行相應的子流程。</value>
   </data>
-  <data name="TimedTask.Title" xml:space="preserve">
+  <data name="ScheduledTask.Title" xml:space="preserve">
     <value>定時任務</value>
   </data>
   <data name="HttpPost.Description" xml:space="preserve">
@@ -1068,7 +1068,6 @@
   <data name="XmlSaveDocument.Title" xml:space="preserve">
     <value>保存</value>
   </data>
-
   <data name="IsEmpty.Description" xml:space="preserve">
     <value>判斷容器或者清單是否為空</value>
   </data>
@@ -1313,7 +1312,7 @@
     <value>標記圖片感興趣的區域，比如在找圖時，只從該區域查找圖片。</value>
   </data>
   <data name="ImageMarkROI.Title" xml:space="preserve">
-    <value>標記ROI</value>
+    <value>標記區域</value>
   </data>
   <data name="TypeString.Description" xml:space="preserve">
     <value>定義一個字串類型</value>
@@ -1351,64 +1350,63 @@
   <data name="RandomPoint.Title" xml:space="preserve">
     <value>隨機點</value>
   </data>
-
-
   <data name="WorkBegin.Description" xml:space="preserve">
     <value>啟動一個工作線程</value>
   </data>
   <data name="WorkBegin.Title" xml:space="preserve">
-    <value>啟動線程</value>
+    <value>異步啟動</value>
   </data>
-
-
-
-
   <data name="LoginApplication.Description" xml:space="preserve">
     <value>使用本地系統中的賬號打開應用程序</value>
   </data>
   <data name="LoginApplication.Title" xml:space="preserve">
     <value>登錄應用</value>
   </data>
-
-
-
-
   <data name="PixelPoint.Description" xml:space="preserve">
     <value>這個動作檢索指定坐標處的像素的紅色，綠色，藍色（RGB）顏色值。</value>
   </data>
   <data name="PixelPoint.Title" xml:space="preserve">
     <value>檢索顏色</value>
   </data>
-
-
-
-
-  <data name="WorkSwitchStatus.Description" xml:space="preserve">
-    <value>切換異步動作的狀態</value>
+  <data name="WorkPower.Description" xml:space="preserve">
+    <value>這個動作可用於切換異步動作的狀態（停止/運行）,比如線程和定時器。</value>
   </data>
-  <data name="WorkSwitchStatus.Title" xml:space="preserve">
-    <value>異步狀態切換</value>
+  <data name="WorkPower.Title" xml:space="preserve">
+    <value>狀態切換</value>
   </data>
-
-
-
-
   <data name="Password.Description" xml:space="preserve">
     <value>密碼驗證方式</value>
   </data>
   <data name="Password.Title" xml:space="preserve">
     <value>密碼</value>
   </data>
-
-
-
-
   <data name="Platform.Description" xml:space="preserve">
     <value>平台驗證方式</value>
   </data>
   <data name="Platform.Title" xml:space="preserve">
     <value>平台</value>
   </data>
+  <data name="ImageMarkRelativeROI.Description" xml:space="preserve">
+    <value>根據相對位置，標記圖片感興趣的區域，比如在找圖時，只從該區域查找圖片。</value>
+  </data>
+  <data name="ImageMarkRelativeROI.Title" xml:space="preserve">
+    <value>標記相對區域</value>
+  </data>
+  <data name="WindowPoint.Description" xml:space="preserve">
+    <value>這個動作可以獲取窗口當中幾個特定位置的窗口坐標。比如：左上角， 左下角，右上角，右下角，中心。</value>
+  </data>
+  <data name="WindowPoint.Title" xml:space="preserve">
+    <value>窗口坐標</value>
+  </data>
+
+
+  <data name="TypeEvent.Description" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="TypeEvent.Title" xml:space="preserve">
+    <value>事件</value>
+  </data>
+
 
 
 </root>

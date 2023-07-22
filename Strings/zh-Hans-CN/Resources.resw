@@ -372,6 +372,9 @@
   <data name="InputFlyoutItem.Rect.Text" xml:space="preserve">
     <value>矩形</value>
   </data>
+  <data name="InputFlyoutItem.TimeSpan.Text" xml:space="preserve">
+    <value>时长</value>
+  </data>
   <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
     <value>添加</value>
   </data>
@@ -449,5 +452,11 @@
   </data>
   <data name="Workflow.Remove.Content" xml:space="preserve">
     <value>要删除您当前的工作流程吗？</value>
+  </data>
+  <data name="DatePicker.Picker.Header" xml:space="preserve">
+    <value>选择日期</value>
+  </data>
+  <data name="TimePicker.Picker.Header" xml:space="preserve">
+    <value>选择时间</value>
   </data>
 </root>

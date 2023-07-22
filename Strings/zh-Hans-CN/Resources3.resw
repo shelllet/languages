@@ -114,7 +114,7 @@
   <data name="System.Title" xml:space="preserve">
     <value>系统</value>
   </data>
-    <data name="Async.Description" xml:space="preserve">
+  <data name="Async.Description" xml:space="preserve">
     <value>支持异步操作的一系列动作，比如定时器，线程</value>
   </data>
   <data name="Async.Title" xml:space="preserve">
@@ -365,7 +365,7 @@
     <value>可用于结束正在执行的 线程 动作。</value>
   </data>
   <data name="WorkExit.Title" xml:space="preserve">
-    <value>结束线程</value>
+    <value>异步结束</value>
   </data>
   <data name="AdbPackages.Description" xml:space="preserve">
     <value>此动作可以获取安卓模拟器当中的所有安装包。</value>
@@ -877,10 +877,10 @@
   <data name="ShutdownSystem.Title" xml:space="preserve">
     <value>关机</value>
   </data>
-  <data name="TimedTask.Description" xml:space="preserve">
-    <value>该动作在指定的时间触发，并且可以执行相应的子动作。</value>
+  <data name="ScheduledTask.Description" xml:space="preserve">
+    <value>该动作在指定的时间触发，并且可以执行相应的子流程。</value>
   </data>
-  <data name="TimedTask.Title" xml:space="preserve">
+  <data name="ScheduledTask.Title" xml:space="preserve">
     <value>定时任务</value>
   </data>
   <data name="HttpPost.Description" xml:space="preserve">
@@ -1069,7 +1069,6 @@
   <data name="XmlSaveDocument.Title" xml:space="preserve">
     <value>保存</value>
   </data>
-
   <data name="IsEmpty.Description" xml:space="preserve">
     <value>判断 容器 或者 列表 是否为空</value>
   </data>
@@ -1314,7 +1313,7 @@
     <value>标记图片感兴趣的区域，比如在找图时，只从该区域查找图片。</value>
   </data>
   <data name="ImageMarkROI.Title" xml:space="preserve">
-    <value>标记ROI</value>
+    <value>标记区域</value>
   </data>
   <data name="TypeString.Description" xml:space="preserve">
     <value>定义一个 字符串 类型</value>
@@ -1352,64 +1351,65 @@
   <data name="RandomPoint.Title" xml:space="preserve">
     <value>随机坐标</value>
   </data>
-
-
   <data name="WorkBegin.Description" xml:space="preserve">
     <value>启动一个工作线程</value>
   </data>
   <data name="WorkBegin.Title" xml:space="preserve">
-    <value>启动线程</value>
+    <value>异步启动</value>
   </data>
-
-
-
-
   <data name="LoginApplication.Description" xml:space="preserve">
     <value>使用本地系统中的账号打开应用程序</value>
   </data>
   <data name="LoginApplication.Title" xml:space="preserve">
     <value>登录应用</value>
   </data>
-
-
-
-
   <data name="PixelPoint.Description" xml:space="preserve">
     <value>这个动作检索指定坐标处的像素的红色，绿色，蓝色（RGB）颜色值。</value>
   </data>
   <data name="PixelPoint.Title" xml:space="preserve">
     <value>检索颜色</value>
   </data>
-
-
-
-
-  <data name="WorkSwitchStatus.Description" xml:space="preserve">
-    <value>切换异步动作的状态</value>
+  <data name="WorkPower.Description" xml:space="preserve">
+    <value>这个动作可用于切换异步动作的状态（停止/运行）,比如线程和定时器。</value>
   </data>
-  <data name="WorkSwitchStatus.Title" xml:space="preserve">
-    <value>异步状态切换</value>
+  <data name="WorkPower.Title" xml:space="preserve">
+    <value>状态切换</value>
   </data>
-
-
-
-
   <data name="Password.Description" xml:space="preserve">
     <value>密码验证方式</value>
   </data>
   <data name="Password.Title" xml:space="preserve">
     <value>密码</value>
   </data>
-
-
-
-
   <data name="Platform.Description" xml:space="preserve">
     <value>平台验证方式</value>
   </data>
   <data name="Platform.Title" xml:space="preserve">
     <value>平台</value>
   </data>
+  <data name="ImageMarkRelativeROI.Description" xml:space="preserve">
+    <value>根据相对位置，标记图片感兴趣的区域，比如在找图时，只从该区域查找图片。</value>
+  </data>
+  <data name="ImageMarkRelativeROI.Title" xml:space="preserve">
+    <value>标记相对区域</value>
+  </data>
+  <data name="WindowPoint.Description" xml:space="preserve">
+    <value>这个动作可以获取窗口当中几个特定位置的窗口坐标。比如：左上角， 左下角，右上角，右下角，中心。</value>
+  </data>
+  <data name="WindowPoint.Title" xml:space="preserve">
+    <value>窗口坐标</value>
+  </data>
+
+
+  <data name="TypeEvent.Description" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="TypeEvent.Title" xml:space="preserve">
+    <value>事件</value>
+  </data>
+
+
+
 
 
 </root>

@@ -372,6 +372,9 @@
   <data name="InputFlyoutItem.Rect.Text" xml:space="preserve">
     <value>Rectangle</value>
   </data>
+  <data name="InputFlyoutItem.TimeSpan.Text" xml:space="preserve">
+    <value>TimeSpan</value>
+  </data>
   <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
     <value>Add</value>
   </data>
@@ -452,5 +455,17 @@
   </data>
   <data name="Workflow.Remove.Content" xml:space="preserve">
     <value>Remove your current workflow?</value>
+  </data>
+  <data name="DatePicker.Picker.Header" xml:space="preserve">
+    <value>Pick Date</value>
+  </data>
+  <data name="TimePicker.Picker.Header" xml:space="preserve">
+    <value>Pick Time</value>
+  </data>
+  <data name="Action.When.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.When.Interval.Header" xml:space="preserve">
+    <value>Interval</value>
   </data>
 </root>

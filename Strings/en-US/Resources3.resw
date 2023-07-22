@@ -876,10 +876,10 @@
   <data name="ShutdownSystem.Title" xml:space="preserve">
     <value>Shut down</value>
   </data>
-  <data name="TimedTask.Description" xml:space="preserve">
-    <value>The action is triggered at a specified time, and the corresponding subaction may be performed.</value>
+  <data name="ScheduledTask.Description" xml:space="preserve">
+    <value>The action is triggered at a specified time, and the corresponding Sub-process may be performed.</value>
   </data>
-  <data name="TimedTask.Title" xml:space="preserve">
+  <data name="ScheduledTask.Title" xml:space="preserve">
     <value>Timed task</value>
   </data>
   <data name="HttpPost.Description" xml:space="preserve">
@@ -1350,65 +1350,63 @@
   <data name="RandomPoint.Title" xml:space="preserve">
     <value>RandomPoint</value>
   </data>
-
-
-
   <data name="WorkBegin.Description" xml:space="preserve">
     <value>Start a working thread</value>
   </data>
   <data name="WorkBegin.Title" xml:space="preserve">
     <value>WorkBegin</value>
   </data>
-
-
-
-
   <data name="LoginApplication.Description" xml:space="preserve">
     <value>Use an account in the local system to open the application</value>
   </data>
   <data name="LoginApplication.Title" xml:space="preserve">
     <value>LoginApplication</value>
   </data>
-
-
-
-
   <data name="PixelPoint.Description" xml:space="preserve">
     <value>This Action retrieves the red, green, blue (RGB) color value of the pixel at the specified coordinates.</value>
   </data>
   <data name="PixelPoint.Title" xml:space="preserve">
     <value>PixelPoint</value>
   </data>
-
-
-
-
-  <data name="WorkSwitchStatus.Description" xml:space="preserve">
-    <value>Switch asynchronous action status</value>
+  <data name="WorkPower.Description" xml:space="preserve">
+    <value>This action can be used to switch the status of asynchronous action (stopped/running), such as thread and timer.</value>
   </data>
-  <data name="WorkSwitchStatus.Title" xml:space="preserve">
-    <value>WorkSwitchStatus</value>
+  <data name="WorkPower.Title" xml:space="preserve">
+    <value>WorkPower</value>
   </data>
-
-
-
-
   <data name="Password.Description" xml:space="preserve">
     <value>Password</value>
   </data>
   <data name="Password.Title" xml:space="preserve">
     <value>Password</value>
   </data>
-
-
-
-
   <data name="Platform.Description" xml:space="preserve">
     <value>Platform</value>
   </data>
   <data name="Platform.Title" xml:space="preserve">
     <value>Platform</value>
   </data>
+  <data name="ImageMarkRelativeROI.Description" xml:space="preserve">
+    <value>According to the relative position of the image, the area where interested is interested</value>
+  </data>
+  <data name="ImageMarkRelativeROI.Title" xml:space="preserve">
+    <value>ImageMarkRelativeROI</value>
+  </data>
+  <data name="WindowPoint.Description" xml:space="preserve">
+    <value>This action can get several window coordinates in the window.For example: in the upper left corner, lower left corner, upper right corner, lower right corner, center.</value>
+  </data>
+  <data name="WindowPoint.Title" xml:space="preserve">
+    <value>WindowPoint</value>
+  </data>
+
+
+  <data name="TypeEvent.Description" xml:space="preserve">
+    <value>TypeEvent</value>
+  </data>
+  <data name="TypeEvent.Title" xml:space="preserve">
+    <value>TypeEvent</value>
+  </data>
+
 
 
 </root>
