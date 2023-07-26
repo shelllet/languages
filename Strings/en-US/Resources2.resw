@@ -109,10 +109,10 @@
     <value>Radius</value>
   </data>
   <data name="Action.WorkExit.Thread.Header" xml:space="preserve">
-    <value>Thread</value>
+    <value>Async Object</value>
   </data>
   <data name="Action.WorkBegin.Thread.Header" xml:space="preserve">
-    <value>Thread</value>
+    <value>Async Object</value>
   </data>
   <data name="Action.LoginApplication.App.Header" xml:space="preserve">
     <value>Application</value>
@@ -157,10 +157,10 @@
   <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
     <value>Static</value>
   </data>
-  <data name="Action.WorkPower.Value.Header" xml:space="preserve">
-    <value>Value</value>
+  <data name="Action.WorkReset.Value.Header" xml:space="preserve">
+    <value>Async Object</value>
   </data>
-  <data name="Action.WorkPower.State.Header" xml:space="preserve">
+  <data name="Action.WorkReset.State.Header" xml:space="preserve">
     <value>State</value>
   </data>
   <data name="Action.CloseHandle.ExeFile.Header" xml:space="preserve">
@@ -205,13 +205,14 @@
   <data name="Action.WindowPoint.Offset.Header" xml:space="preserve">
     <value>Offset</value>
   </data>
-  <data name="Action.When.Value.Header" xml:space="preserve">
-    <value>Value</value>
+
+  <data name="Action.WhenEvent.ManualReset.Header" xml:space="preserve">
+    <value>Manual Reset</value>
   </data>
-  <data name="Action.When.Interval.Header" xml:space="preserve">
-    <value>Interval</value>
+  <data name="Action.WhenEvent.InitialState.Header" xml:space="preserve">
+    <value>Initial State</value>
   </data>
-  <data name="Action.TypeEvent.InitialState.Header" xml:space="preserve">
-    <value>State</value>
+  <data name="Action.FileRead.File.Header" xml:space="preserve">
+    <value>File</value>
   </data>
 </root>

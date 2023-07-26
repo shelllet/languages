@@ -110,10 +110,10 @@
     <value>半径</value>
   </data>
   <data name="Action.WorkExit.Thread.Header" xml:space="preserve">
-    <value>线程</value>
+    <value>异步对象</value>
   </data>
   <data name="Action.WorkBegin.Thread.Header" xml:space="preserve">
-    <value>线程</value>
+    <value>异步对象</value>
   </data>
   <data name="Action.LoginApplication.App.Header" xml:space="preserve">
     <value>应用程序</value>
@@ -158,10 +158,10 @@
   <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
     <value>静态</value>
   </data>
-  <data name="Action.WorkPower.Value.Header" xml:space="preserve">
-    <value>值</value>
+  <data name="Action.WorkReset.Value.Header" xml:space="preserve">
+    <value>异步对象</value>
   </data>
-  <data name="Action.WorkPower.State.Header" xml:space="preserve">
+  <data name="Action.WorkReset.State.Header" xml:space="preserve">
     <value>状态</value>
   </data>
   <data name="Action.CloseHandle.ExeFile.Header" xml:space="preserve">
@@ -206,17 +206,14 @@
   <data name="Action.WindowPoint.Offset.Header" xml:space="preserve">
     <value>偏移</value>
   </data>
-  <data name="Action.When.Value.Header" xml:space="preserve">
-    <value>值</value>
+  <data name="Action.WhenEvent.ManualReset.Header" xml:space="preserve">
+    <value>是否手动重置</value>
   </data>
-  <data name="Action.When.Interval.Header" xml:space="preserve">
-    <value>间隔</value>
+  <data name="Action.WhenEvent.InitialState.Header" xml:space="preserve">
+    <value>初始状态</value>
   </data>
 
-  <data name="Action.TypeEvent.ManualReset.Header" xml:space="preserve">
-    <value>手动</value>
-  </data>
-  <data name="Action.TypeEvent.InitialState.Header" xml:space="preserve">
-    <value>状态</value>
+  <data name="Action.FileRead.File.Header" xml:space="preserve">
+    <value>文件</value>
   </data>
 </root>

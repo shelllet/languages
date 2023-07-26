@@ -630,11 +630,11 @@
   <data name="WebActionClick.Title" xml:space="preserve">
     <value>動作鏈.點擊</value>
   </data>
-  <data name="When.Description" xml:space="preserve">
-    <value>該動作會開啟一個線程不停的檢測條件，直到條件成立，當條件成立時，則會去執行子流程。</value>
+  <data name="WhenEvent.Description" xml:space="preserve">
+    <value>該動作會開啟一個異步線程不停的檢測事件狀態，直到狀態變為：`On` ,即為有信號時，則會去執行子流程。</value>
   </data>
-  <data name="When.Title" xml:space="preserve">
-    <value>當… 成立</value>
+  <data name="WhenEvent.Title" xml:space="preserve">
+    <value>等待事件</value>
   </data>
   <data name="WebScreenshot.Description" xml:space="preserve">
     <value>元素截圖或者頁面截圖</value>
@@ -876,10 +876,10 @@
   <data name="ShutdownSystem.Title" xml:space="preserve">
     <value>關機</value>
   </data>
-  <data name="ScheduledTask.Description" xml:space="preserve">
+  <data name="WorkTask.Description" xml:space="preserve">
     <value>該動作在指定的時間觸發，並且可以執行相應的子流程。</value>
   </data>
-  <data name="ScheduledTask.Title" xml:space="preserve">
+  <data name="WorkTask.Title" xml:space="preserve">
     <value>定時任務</value>
   </data>
   <data name="HttpPost.Description" xml:space="preserve">
@@ -1368,10 +1368,10 @@
   <data name="PixelPoint.Title" xml:space="preserve">
     <value>檢索顏色</value>
   </data>
-  <data name="WorkPower.Description" xml:space="preserve">
+  <data name="WorkReset.Description" xml:space="preserve">
     <value>這個動作可用於切換異步動作的狀態（停止/運行）,比如線程和定時器。</value>
   </data>
-  <data name="WorkPower.Title" xml:space="preserve">
+  <data name="WorkReset.Title" xml:space="preserve">
     <value>狀態切換</value>
   </data>
   <data name="Password.Description" xml:space="preserve">
@@ -1400,12 +1400,6 @@
   </data>
 
 
-  <data name="TypeEvent.Description" xml:space="preserve">
-    <value>事件</value>
-  </data>
-  <data name="TypeEvent.Title" xml:space="preserve">
-    <value>事件</value>
-  </data>
 
 
 

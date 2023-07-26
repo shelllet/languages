@@ -462,10 +462,4 @@
   <data name="TimePicker.Picker.Header" xml:space="preserve">
     <value>Pick Time</value>
   </data>
-  <data name="Action.When.Value.Header" xml:space="preserve">
-    <value>Value</value>
-  </data>
-  <data name="Action.When.Interval.Header" xml:space="preserve">
-    <value>Interval</value>
-  </data>
 </root>

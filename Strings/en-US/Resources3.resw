@@ -630,11 +630,11 @@
   <data name="WebActionClick.Title" xml:space="preserve">
     <value>Action chain. click</value>
   </data>
-  <data name="When.Description" xml:space="preserve">
-    <value>The action opens a thread-constant detection condition until the condition is established, and when the condition holds, the sub-process is executed.</value>
+  <data name="WhenEvent.Description" xml:space="preserve">
+    <value>This action will turn on an asynchronous thread to constantly detect the event status, until the state becomes: `On`, that is, when there is a signal, it will execute the sub -process.</value>
   </data>
-  <data name="When.Title" xml:space="preserve">
-    <value>When... established</value>
+  <data name="WhenEvent.Title" xml:space="preserve">
+    <value>WhenEvent</value>
   </data>
   <data name="WebScreenshot.Description" xml:space="preserve">
     <value>Element screenshots or page screenshots</value>
@@ -876,10 +876,10 @@
   <data name="ShutdownSystem.Title" xml:space="preserve">
     <value>Shut down</value>
   </data>
-  <data name="ScheduledTask.Description" xml:space="preserve">
+  <data name="WorkTask.Description" xml:space="preserve">
     <value>The action is triggered at a specified time, and the corresponding Sub-process may be performed.</value>
   </data>
-  <data name="ScheduledTask.Title" xml:space="preserve">
+  <data name="WorkTask.Title" xml:space="preserve">
     <value>Timed task</value>
   </data>
   <data name="HttpPost.Description" xml:space="preserve">
@@ -1368,11 +1368,11 @@
   <data name="PixelPoint.Title" xml:space="preserve">
     <value>PixelPoint</value>
   </data>
-  <data name="WorkPower.Description" xml:space="preserve">
+  <data name="WorkReset.Description" xml:space="preserve">
     <value>This action can be used to switch the status of asynchronous action (stopped/running), such as thread and timer.</value>
   </data>
-  <data name="WorkPower.Title" xml:space="preserve">
-    <value>WorkPower</value>
+  <data name="WorkReset.Title" xml:space="preserve">
+    <value>WorkReset</value>
   </data>
   <data name="Password.Description" xml:space="preserve">
     <value>Password</value>
@@ -1397,14 +1397,6 @@
   </data>
   <data name="WindowPoint.Title" xml:space="preserve">
     <value>WindowPoint</value>
-  </data>
-
-
-  <data name="TypeEvent.Description" xml:space="preserve">
-    <value>TypeEvent</value>
-  </data>
-  <data name="TypeEvent.Title" xml:space="preserve">
-    <value>TypeEvent</value>
   </data>
 
 
