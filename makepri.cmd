@@ -1,2 +1,2 @@
 @echo off
-".\bin\makepri.exe" %*
+"..\..\Bin\makepri.exe" %*

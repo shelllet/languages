@@ -22,6 +22,6 @@ for resw in resws:
         print(output)
 
     output = subprocess.check_output([makepri, 'new', '/pr', f'{lang_root}\\{lang}', '/cf',
-                                     f'.\\config\\{lang}\\priconfig.xml', '/o', '/of', f'./Translations/{lang}'], cwd='.', shell=True, universal_newlines=True)
+                                     f'.\\config\\{lang}\\priconfig.xml', '/o', '/of', f'../../Translations/{lang}'], cwd='.', shell=True, universal_newlines=True)
 
     print(output)
