@@ -215,4 +215,13 @@
   <data name="Action.FileRead.File.Header" xml:space="preserve">
     <value>File</value>
   </data>
+  <data name="Action.FileWrite.Text.Header" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Action.FileWrite.Folder.Header" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="Action.FileWrite.Name.Header" xml:space="preserve">
+    <value>Name</value>
+  </data>
 </root>

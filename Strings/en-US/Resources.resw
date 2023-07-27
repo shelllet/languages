@@ -235,7 +235,10 @@
     <value>Help</value>
   </data>
   <data name="ToolBar.Register.Label" xml:space="preserve">
-    <value>Register</value>
+    <value>Register...</value>
+  </data>
+  <data name="ToolBar.CheckUpdate.Label" xml:space="preserve">
+    <value>Check Update</value>
   </data>
   <data name="BlankPage.Buy.Text" xml:space="preserve">
     <value>Support to buy</value>
@@ -461,5 +464,8 @@
   </data>
   <data name="TimePicker.Picker.Header" xml:space="preserve">
     <value>Pick Time</value>
+  </data>
+  <data name="TeachingTip.ImagePreview.Title" xml:space="preserve">
+    <value>Preview</value>
   </data>
 </root>
