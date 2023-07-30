@@ -757,10 +757,10 @@
     <value>Evolve the folder</value>
   </data>
   <data name="CopyFile.Description" xml:space="preserve">
-    <value>Copy file</value>
+    <value>Copy the file from one position to another.</value>
   </data>
   <data name="CopyFile.Title" xml:space="preserve">
-    <value>Copy file</value>
+    <value>CopyFile</value>
   </data>
   <data name="CodeExpression.Description" xml:space="preserve">
     <value>This action can execute an expression of the python.</value>
@@ -943,10 +943,10 @@
     <value>Remove forwarding</value>
   </data>
   <data name="ReadLines.Description" xml:space="preserve">
-    <value>Read multiple lines of files</value>
+    <value>Read the text file, and disassemble the multi-line string according to the changing character's `\r\n`, which is a list of string.</value>
   </data>
   <data name="ReadLines.Title" xml:space="preserve">
-    <value>Read multiple lines of files</value>
+    <value>ReadLines</value>
   </data>
   <data name="AdbSwipe.Description" xml:space="preserve">
     <value>Slide the operation in the android simulator.</value>

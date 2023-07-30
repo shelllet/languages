@@ -757,10 +757,10 @@
     <value>遍歷資料夾</value>
   </data>
   <data name="CopyFile.Description" xml:space="preserve">
-    <value>複製檔案</value>
+    <value>把檔案從一個位置複製到另一個位置。</value>
   </data>
   <data name="CopyFile.Title" xml:space="preserve">
-    <value>複製檔案</value>
+    <value>檔案複製</value>
   </data>
   <data name="CodeExpression.Description" xml:space="preserve">
     <value>此動作可以執行python的運算式。</value>
@@ -943,10 +943,10 @@
     <value>移除轉發</value>
   </data>
   <data name="ReadLines.Description" xml:space="preserve">
-    <value>讀取多行檔案</value>
+    <value>讀取文本文件，並根據換行符 `\r\n`，拆分成多行字符串，也就是字符串列表。</value>
   </data>
   <data name="ReadLines.Title" xml:space="preserve">
-    <value>讀取多行檔案</value>
+    <value>按行讀取</value>
   </data>
   <data name="AdbSwipe.Description" xml:space="preserve">
     <value>在安卓模擬器當中實現滑動操作。</value>

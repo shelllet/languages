@@ -225,4 +225,34 @@
   <data name="Action.FileWrite.Name.Header" xml:space="preserve">
     <value>文件名</value>
   </data>
+  <data name="Action.ReadLines.File.Header" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Action.ReadLines.Async.Header" xml:space="preserve">
+    <value>异步处理子流程</value>
+  </data>
+  <data name="Action.CopyFile.From.Header" xml:space="preserve">
+    <value>源文件</value>
+  </data>
+  <data name="Action.CopyFile.Destination.Header" xml:space="preserve">
+    <value>目标位置</value>
+  </data>
+  <data name="Action.CopyFile.FileName.Header" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Action.DirectoryIterator.Path.Header" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="Action.DirectoryIterator.Recursive.Header" xml:space="preserve">
+    <value>是否递归遍历</value>
+  </data>
+  <data name="Action.DirectoryIterator.Async.Header" xml:space="preserve">
+    <value>异步处理子流程</value>
+  </data>
+  <data name="Action.FileQuery.Pattern.Header" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="Action.FileQuery.Option.Text" xml:space="preserve">
+    <value>行为</value>
+  </data>
 </root>

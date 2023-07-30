@@ -758,10 +758,10 @@
     <value>遍历文件夹</value>
   </data>
   <data name="CopyFile.Description" xml:space="preserve">
-    <value>复制文件</value>
+    <value>把文件从一个位置复制到另一个位置。</value>
   </data>
   <data name="CopyFile.Title" xml:space="preserve">
-    <value>复制文件</value>
+    <value>文件复制</value>
   </data>
   <data name="CodeExpression.Description" xml:space="preserve">
     <value>此动作可以执行 Python 的表达式。</value>
@@ -944,10 +944,10 @@
     <value>移除转发</value>
   </data>
   <data name="ReadLines.Description" xml:space="preserve">
-    <value>读取多行文件</value>
+    <value>读取文本文件，并根据换行符 `\r\n`，拆分成多行字符串，也就是字符串列表。</value>
   </data>
   <data name="ReadLines.Title" xml:space="preserve">
-    <value>读取多行文件</value>
+    <value>按行读取</value>
   </data>
   <data name="AdbSwipe.Description" xml:space="preserve">
     <value>在安卓模拟器当中实现滑动操作。</value>

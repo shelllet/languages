@@ -224,4 +224,34 @@
   <data name="Action.FileWrite.Name.Header" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="Action.ReadLines.File.Header" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Action.ReadLines.Async.Header" xml:space="preserve">
+    <value>Async Handle</value>
+  </data>
+  <data name="Action.CopyFile.From.Header" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Action.CopyFile.Destination.Header" xml:space="preserve">
+    <value>Destination</value>
+  </data>
+  <data name="Action.CopyFile.FileName.Header" xml:space="preserve">
+    <value>FileName</value>
+  </data>
+  <data name="Action.DirectoryIterator.Path.Header" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Action.DirectoryIterator.Recursive.Header" xml:space="preserve">
+    <value>Recursive</value>
+  </data>
+  <data name="Action.DirectoryIterator.Async.Header" xml:space="preserve">
+    <value>Async</value>
+  </data>
+  <data name="Action.FileQuery.Pattern.Header" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Action.FileQuery.Option.Text" xml:space="preserve">
+    <value>Option</value>
+  </data>
 </root>
