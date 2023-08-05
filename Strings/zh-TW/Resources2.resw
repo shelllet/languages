@@ -155,6 +155,9 @@
   <data name="Action.PlayRecord.Radius.Header" xml:space="preserve">
     <value>半徑</value>
   </data>
+  <data name="Action.PlayRecord.Records.Header" xml:space="preserve">
+    <value>鍵盤鼠標宏</value>
+  </data>
   <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
     <value>静态</value>
   </data>
@@ -250,5 +253,32 @@
   </data>
   <data name="Action.FileQuery.Option.Text" xml:space="preserve">
     <value>行為</value>
+  </data>
+  <data name="Action.ImageLoad.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.ImageSave.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.ImageSave.Folder.Header" xml:space="preserve">
+    <value>文件夾</value>
+  </data>
+  <data name="Action.ImageSave.Name.Header" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Action.SendKey.Key.Header" xml:space="preserve">
+    <value>按鍵</value>
+  </data>
+  <data name="Action.SendKey.Delayed.Header" xml:space="preserve">
+    <value>延遲</value>
+  </data>
+  <data name="Action.SendText.Text.Header" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Action.SendText.FollowEnter.Header" xml:space="preserve">
+    <value>發送回車鍵</value>
+  </data>
+  <data name="Action.PressKey.Key.Header" xml:space="preserve">
+    <value>按鍵</value>
   </data>
 </root>

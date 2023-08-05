@@ -226,7 +226,7 @@
     <value>变量</value>
   </data>
   <data name="Page.Record.Header" xml:space="preserve">
-    <value>录制</value>
+    <value>录制* 鼠标/键盘</value>
   </data>
   <data name="ToolBar.About.Label" xml:space="preserve">
     <value>关于</value>

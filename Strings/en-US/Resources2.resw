@@ -154,6 +154,9 @@
   <data name="Action.PlayRecord.Radius.Header" xml:space="preserve">
     <value>Radius</value>
   </data>
+  <data name="Action.PlayRecord.Records.Header" xml:space="preserve">
+    <value>Keyboard/Mouse Macros</value>
+  </data>
   <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
     <value>Static</value>
   </data>
@@ -253,5 +256,32 @@
   </data>
   <data name="Action.FileQuery.Option.Text" xml:space="preserve">
     <value>Option</value>
+  </data>
+  <data name="Action.ImageLoad.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.ImageSave.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.ImageSave.Folder.Header" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="Action.ImageSave.Name.Header" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Action.SendKey.Key.Header" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="Action.SendKey.Delayed.Header" xml:space="preserve">
+    <value>Delayed</value>
+  </data>
+  <data name="Action.SendText.Text.Header" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Action.SendText.FollowEnter.Header" xml:space="preserve">
+    <value>Follow Enter Key</value>
+  </data>
+  <data name="Action.PressKey.Key.Header" xml:space="preserve">
+    <value>Key</value>
   </data>
 </root>

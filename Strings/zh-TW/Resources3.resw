@@ -151,10 +151,10 @@
     <value>裁切圖片</value>
   </data>
   <data name="PlayRecord.Description" xml:space="preserve">
-    <value>播放錄製的鍵盤和滑鼠宏。</value>
+    <value>重放錄製的鍵盤和滑鼠宏。</value>
   </data>
   <data name="PlayRecord.Title" xml:space="preserve">
-    <value>播放錄製</value>
+    <value>重放鼠標/鍵盤</value>
   </data>
   <data name="WorkTimer.Description" xml:space="preserve">
     <value>可以按照一定的時間間隔，重複執行子流程。</value>
@@ -1398,7 +1398,12 @@
   <data name="WindowPoint.Title" xml:space="preserve">
     <value>窗口坐標</value>
   </data>
-
+  <data name="WorkWait.Description" xml:space="preserve">
+    <value>等待異步動作的結束</value>
+  </data>
+  <data name="WorkWait.Title" xml:space="preserve">
+    <value>異步等待</value>
+  </data>
 
 
 

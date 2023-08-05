@@ -154,7 +154,7 @@
     <value>播放录制的键盘和鼠标宏。</value>
   </data>
   <data name="PlayRecord.Title" xml:space="preserve">
-    <value>播放录制</value>
+    <value>重放鼠标/键盘</value>
   </data>
   <data name="WorkTimer.Description" xml:space="preserve">
     <value>可以按照一定的时间间隔，重复执行子流程。</value>
@@ -1400,7 +1400,12 @@
     <value>窗口坐标</value>
   </data>
 
-
+  <data name="WorkWait.Description" xml:space="preserve">
+    <value>等待异步动作的结束</value>
+  </data>
+  <data name="WorkWait.Title" xml:space="preserve">
+    <value>异步等待</value>
+  </data>
 
 
 

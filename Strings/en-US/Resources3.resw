@@ -154,7 +154,7 @@
     <value>Play the recorded keyboard and mouse macro.</value>
   </data>
   <data name="PlayRecord.Title" xml:space="preserve">
-    <value>Play recording</value>
+    <value>PlayRecord</value>
   </data>
   <data name="WorkTimer.Description" xml:space="preserve">
     <value>The subprocess can be repeated at certain time intervals.</value>
@@ -1398,7 +1398,12 @@
   <data name="WindowPoint.Title" xml:space="preserve">
     <value>WindowPoint</value>
   </data>
-
+  <data name="WorkWait.Description" xml:space="preserve">
+    <value>Waiting for the end of asynchronous action</value>
+  </data>
+  <data name="WorkWait.Title" xml:space="preserve">
+    <value>WorkWait</value>
+  </data>
 
 
 </root>
