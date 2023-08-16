@@ -231,6 +231,9 @@
   <data name="ToolBar.About.Label" xml:space="preserve">
     <value>關於</value>
   </data>
+  <data name="ToolBar.Import.Label" xml:space="preserve">
+    <value>導入</value>
+  </data>
   <data name="ToolBar.Help.Label" xml:space="preserve">
     <value>幫助</value>
   </data>
@@ -464,5 +467,11 @@
   </data>
   <data name="TeachingTip.ImagePreview.Title" xml:space="preserve">
     <value>預覽</value>
+  </data>
+  <data name="Range.Min.Text" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="Range.Max.Text" xml:space="preserve">
+    <value>最大值</value>
   </data>
 </root>

@@ -285,6 +285,9 @@
   <data name="ToolBar.Run.Label" xml:space="preserve">
     <value>运行</value>
   </data>
+  <data name="ToolBar.Import.Label" xml:space="preserve">
+    <value>导入</value>
+  </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>发布</value>
   </data>
@@ -464,5 +467,11 @@
   </data>
   <data name="TeachingTip.ImagePreview.Title" xml:space="preserve">
     <value>预览</value>
+  </data>
+  <data name="Range.Min.Text" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="Range.Max.Text" xml:space="preserve">
+    <value>最大值</value>
   </data>
 </root>

@@ -97,7 +97,7 @@
     <value>右键点击</value>
   </data>
   <data name="DragPointer.Description" xml:space="preserve">
-    <value>模拟鼠标拖动操作</value>
+    <value>模拟鼠标拖动操作，即在鼠标的当前位置按下鼠标左键，拖动鼠标到目标位置，然后释放鼠标左键。</value>
   </data>
   <data name="DragPointer.Title" xml:space="preserve">
     <value>拖动</value>
@@ -752,10 +752,10 @@
     <value>视频下载</value>
   </data>
   <data name="DirectoryIterator.Description" xml:space="preserve">
-    <value>遍历文件夹</value>
+    <value>遍历本地文件夹当中的所有文件</value>
   </data>
   <data name="DirectoryIterator.Title" xml:space="preserve">
-    <value>遍历文件夹</value>
+    <value>遍历文件</value>
   </data>
   <data name="CopyFile.Description" xml:space="preserve">
     <value>把文件从一个位置复制到另一个位置。</value>
@@ -1399,7 +1399,6 @@
   <data name="WindowPoint.Title" xml:space="preserve">
     <value>窗口坐标</value>
   </data>
-
   <data name="WorkWait.Description" xml:space="preserve">
     <value>等待异步动作的结束</value>
   </data>
@@ -1408,7 +1407,22 @@
   </data>
 
 
+  <data name="Camera.Description" xml:space="preserve">
+    <value>采集相机图像</value>
+  </data>
+  <data name="Camera.Title" xml:space="preserve">
+    <value>相机图像</value>
+  </data>
 
+
+
+
+  <data name="VideoFrame.Description" xml:space="preserve">
+    <value>获取相机当前图像帧</value>
+  </data>
+  <data name="VideoFrame.Title" xml:space="preserve">
+    <value>相机图像</value>
+  </data>
 
 
 </root>

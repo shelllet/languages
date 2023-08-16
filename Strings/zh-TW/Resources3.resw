@@ -97,7 +97,7 @@
     <value>右鍵點擊</value>
   </data>
   <data name="DragPointer.Description" xml:space="preserve">
-    <value>類比滑鼠拖動操作</value>
+    <value>模擬鼠標拖動操作，即在鼠標的當前位置按下鼠標左鍵，拖動鼠標到目標位置，然後釋放鼠標左鍵。</value>
   </data>
   <data name="DragPointer.Title" xml:space="preserve">
     <value>拖動</value>
@@ -751,10 +751,10 @@
     <value>視頻下載</value>
   </data>
   <data name="DirectoryIterator.Description" xml:space="preserve">
-    <value>遍歷資料夾</value>
+    <value>遍曆本地文件夾當中的所有文件</value>
   </data>
   <data name="DirectoryIterator.Title" xml:space="preserve">
-    <value>遍歷資料夾</value>
+    <value>遍歷文件</value>
   </data>
   <data name="CopyFile.Description" xml:space="preserve">
     <value>把檔案從一個位置複製到另一個位置。</value>
@@ -1406,6 +1406,22 @@
   </data>
 
 
+  <data name="Camera.Description" xml:space="preserve">
+    <value>採集相機圖像</value>
+  </data>
+  <data name="Camera.Title" xml:space="preserve">
+    <value>相機圖像</value>
+  </data>
+
+
+
+
+  <data name="VideoFrame.Description" xml:space="preserve">
+    <value>獲取相機當前圖像幀</value>
+  </data>
+  <data name="VideoFrame.Title" xml:space="preserve">
+    <value>相機圖像</value>
+  </data>
 
 
 </root>

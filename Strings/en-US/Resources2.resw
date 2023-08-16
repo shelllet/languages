@@ -284,4 +284,91 @@
   <data name="Action.PressKey.Key.Header" xml:space="preserve">
     <value>Key</value>
   </data>
+  <data name="Action.WorkWait.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.PressAndReleaseKey.Key.Header" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="Action.PressAndReleaseKey.Time.Header" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="Action.ReleaseKey.Input.Header" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="Action.Camera.Device.Header" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="Action.VideoFrame.Camera.Header" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="Action.ListenKeyboard.Key.Header" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+  <data name="Action.MovePointer.Point.Header" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Action.MovePointer.Animate.Header" xml:space="preserve">
+    <value>Animate</value>
+  </data>
+  <data name="Action.MovePointer.Radius.Header" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="Action.Click.Times.Header" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="Action.Click.Interval.Header" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Action.Click.Button.Header" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="Action.MoveClick.Point.Header" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Action.MoveClick.Animate.Header" xml:space="preserve">
+    <value>Animate</value>
+  </data>
+  <data name="Action.MoveClick.Radius.Header" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="Action.MoveClick.Button.Header" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="Action.MoveDoubleClick.Point.Header" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Action.MoveDoubleClick.Animate.Header" xml:space="preserve">
+    <value>Animate</value>
+  </data>
+  <data name="Action.MoveDoubleClick.Radius.Header" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="Action.MoveDoubleClick.Button.Header" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="Action.DoubleClick.Times.Header" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="Action.DoubleClick.Interval.Header" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Action.DoubleClick.Button.Header" xml:space="preserve">
+    <value>Button</value>
+  </data>
+  <data name="Action.RightClick.Times.Header" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="Action.RightClick.Interval.Header" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="Action.DragPointer.Point.Header" xml:space="preserve">
+    <value>Point</value>
+  </data>
+  <data name="Action.MoveOffset.Offset.Header" xml:space="preserve">
+    <value>Offset</value>
+  </data>
+  <data name="Action.MoveOffset.Radius.Header" xml:space="preserve">
+    <value>Radius</value>
+  </data>
 </root>

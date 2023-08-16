@@ -97,7 +97,7 @@
     <value>Right Click</value>
   </data>
   <data name="DragPointer.Description" xml:space="preserve">
-    <value>Simulate the mouse drag operation</value>
+    <value>Simulate the mouse drag operation, that is, press the left mouse button at the current position of the mouse, drag the mouse to the target position, and then release the left mouse button.</value>
   </data>
   <data name="DragPointer.Title" xml:space="preserve">
     <value>Drag</value>
@@ -751,10 +751,10 @@
     <value>Video download</value>
   </data>
   <data name="DirectoryIterator.Description" xml:space="preserve">
-    <value>Evolve the folder</value>
+    <value>Iterate all files in the local folder</value>
   </data>
   <data name="DirectoryIterator.Title" xml:space="preserve">
-    <value>Evolve the folder</value>
+    <value>DirectoryIterator</value>
   </data>
   <data name="CopyFile.Description" xml:space="preserve">
     <value>Copy the file from one position to another.</value>
@@ -1403,6 +1403,24 @@
   </data>
   <data name="WorkWait.Title" xml:space="preserve">
     <value>WorkWait</value>
+  </data>
+
+
+  <data name="Camera.Description" xml:space="preserve">
+    <value>Capture camera image</value>
+  </data>
+  <data name="Camera.Title" xml:space="preserve">
+    <value>Camera</value>
+  </data>
+
+
+
+
+  <data name="VideoFrame.Description" xml:space="preserve">
+    <value>Get the current image frame of the camera</value>
+  </data>
+  <data name="VideoFrame.Title" xml:space="preserve">
+    <value>VideoFrame</value>
   </data>
 
 

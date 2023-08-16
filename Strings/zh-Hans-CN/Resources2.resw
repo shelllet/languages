@@ -285,4 +285,91 @@
   <data name="Action.PressKey.Key.Header" xml:space="preserve">
     <value>按键</value>
   </data>
+  <data name="Action.WorkWait.Value.Header" xml:space="preserve">
+    <value>异步对象</value>
+  </data>
+  <data name="Action.PressAndReleaseKey.Key.Header" xml:space="preserve">
+    <value>按键</value>
+  </data>
+  <data name="Action.PressAndReleaseKey.Time.Header" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="Action.ReleaseKey.Input.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.Camera.Device.Header" xml:space="preserve">
+    <value>相机</value>
+  </data>
+  <data name="Action.VideoFrame.Camera.Header" xml:space="preserve">
+    <value>相机</value>
+  </data>
+  <data name="Action.ListenKeyboard.Key.Header" xml:space="preserve">
+    <value>按键</value>
+  </data>
+  <data name="Action.MovePointer.Point.Header" xml:space="preserve">
+    <value>坐标</value>
+  </data>
+  <data name="Action.MovePointer.Animate.Header" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="Action.MovePointer.Radius.Header" xml:space="preserve">
+    <value>半径</value>
+  </data>
+  <data name="Action.Click.Times.Header" xml:space="preserve">
+    <value>点击次数</value>
+  </data>
+  <data name="Action.Click.Interval.Header" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="Action.Click.Button.Header" xml:space="preserve">
+    <value>鼠标键</value>
+  </data>
+  <data name="Action.MoveClick.Point.Header" xml:space="preserve">
+    <value>坐标</value>
+  </data>
+  <data name="Action.MoveClick.Animate.Header" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="Action.MoveClick.Radius.Header" xml:space="preserve">
+    <value>半径</value>
+  </data>
+  <data name="Action.MoveClick.Button.Header" xml:space="preserve">
+    <value>鼠标键</value>
+  </data>
+  <data name="Action.MoveDoubleClick.Point.Header" xml:space="preserve">
+    <value>坐标</value>
+  </data>
+  <data name="Action.MoveDoubleClick.Animate.Header" xml:space="preserve">
+    <value>动画</value>
+  </data>
+  <data name="Action.MoveDoubleClick.Radius.Header" xml:space="preserve">
+    <value>半径</value>
+  </data>
+  <data name="Action.MoveDoubleClick.Button.Header" xml:space="preserve">
+    <value>鼠标键</value>
+  </data>
+  <data name="Action.DoubleClick.Times.Header" xml:space="preserve">
+    <value>次数</value>
+  </data>
+  <data name="Action.DoubleClick.Interval.Header" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="Action.DoubleClick.Button.Header" xml:space="preserve">
+    <value>鼠标键</value>
+  </data>
+  <data name="Action.RightClick.Times.Header" xml:space="preserve">
+    <value>次数</value>
+  </data>
+  <data name="Action.RightClick.Interval.Header" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="Action.DragPointer.Point.Header" xml:space="preserve">
+    <value>坐标位置</value>
+  </data>
+  <data name="Action.MoveOffset.Offset.Header" xml:space="preserve">
+    <value>偏移量</value>
+  </data>
+  <data name="Action.MoveOffset.Radius.Header" xml:space="preserve">
+    <value>半径</value>
+  </data>
 </root>
