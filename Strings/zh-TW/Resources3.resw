@@ -138,10 +138,10 @@
   <data name="StartProcess.Title" xml:space="preserve">
     <value>啟動應用程序</value>
   </data>
-  <data name="WindowCapture.Description" xml:space="preserve">
+  <data name="CaptureWindow.Description" xml:space="preserve">
     <value>此動作用來對指定的視窗進行截圖</value>
   </data>
-  <data name="WindowCapture.Title" xml:space="preserve">
+  <data name="CaptureWindow.Title" xml:space="preserve">
     <value>視窗截圖</value>
   </data>
   <data name="CropImage.Description" xml:space="preserve">

@@ -368,4 +368,40 @@
   <data name="Action.MoveOffset.Radius.Header" xml:space="preserve">
     <value>半徑</value>
   </data>
+  <data name="Action.ListenMouse.Message.Header" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="Action.PointBox.Point.Header" xml:space="preserve">
+    <value>坐標</value>
+  </data>
+  <data name="Action.FindWindow.Parent.Header" xml:space="preserve">
+    <value>父窗口</value>
+  </data>
+  <data name="Action.FindWindow.Title.Header" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="Action.FindWindow.ClassName.Header" xml:space="preserve">
+    <value>窗口類</value>
+  </data>
+  <data name="Action.SpecialWindow.Type.Header" xml:space="preserve">
+    <value>類型</value>
+  </data>
+  <data name="Action.CaptureWindow.Window.Header" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="Action.CaptureWindow.Center.Header" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="Action.CaptureWindow.Size.Header" xml:space="preserve">
+    <value>長寬</value>
+  </data>
+  <data name="Action.SendKeyMessage.Window.Header" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="Action.SendKeyMessage.Keys.Header" xml:space="preserve">
+    <value>按鍵</value>
+  </data>
+  <data name="Action.SendKeyMessage.Method.Header" xml:space="preserve">
+    <value>方式</value>
+  </data>
 </root>

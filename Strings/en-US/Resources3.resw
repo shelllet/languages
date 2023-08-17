@@ -138,11 +138,11 @@
   <data name="StartProcess.Title" xml:space="preserve">
     <value>StartProcess</value>
   </data>
-  <data name="WindowCapture.Description" xml:space="preserve">
+  <data name="CaptureWindow.Description" xml:space="preserve">
     <value>This action is used to take screenshots of the specified window</value>
   </data>
-  <data name="WindowCapture.Title" xml:space="preserve">
-    <value>Window screenshots</value>
+  <data name="CaptureWindow.Title" xml:space="preserve">
+    <value>CaptureWindow</value>
   </data>
   <data name="CropImage.Description" xml:space="preserve">
     <value>This action can be selected on a picture of an area, to be cut.</value>
