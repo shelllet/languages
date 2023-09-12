@@ -105,14 +105,11 @@
   <data name="UnRegistered.Text" xml:space="preserve">
     <value>试用版</value>
   </data>
-  <data name="Registered.To.Text" xml:space="preserve">
-    <value>当前产品注册给: </value>
+  <data name="Registered.Thanks.Text" xml:space="preserve">
+    <value>注册成功，谢谢您使用WinUi++！</value>
   </data>
   <data name="Device.Id.Text" xml:space="preserve">
     <value>设备 ID:</value>
-  </data>
-  <data name="Blank.UserName.Text" xml:space="preserve">
-    <value>用户名：</value>
   </data>
   <data name="Blank.SerialNumber.Text" xml:space="preserve">
     <value>序列号：</value>
@@ -255,8 +252,8 @@
   <data name="Close.Text" xml:space="preserve">
     <value>关闭</value>
   </data>
-  <data name="Workflow.MenuItem.Visible.Text" xml:space="preserve">
-    <value>显示</value>
+  <data name="Workflow.MenuItem.Disabled.Text" xml:space="preserve">
+    <value>禁用</value>
   </data>
   <data name="Workflow.MenuItem.Preview.Text" xml:space="preserve">
     <value>开启预览</value>
@@ -306,8 +303,8 @@
   <data name="Shortcut.MouseWindowPosition.Text" xml:space="preserve">
     <value>获取鼠标位置(窗口)</value>
   </data>
-  <data name="Shortcut.WindowTitle.Text" xml:space="preserve">
-    <value>获取窗口标题</value>
+  <data name="Shortcut.WindowInfo.Text" xml:space="preserve">
+    <value>获取窗口信息</value>
   </data>
   <data name="Shortcut.ColorPicker.Text" xml:space="preserve">
     <value>拾取颜色</value>

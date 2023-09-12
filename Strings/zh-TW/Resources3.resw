@@ -576,11 +576,11 @@
   <data name="SpecialWindow.Title" xml:space="preserve">
     <value>特定視窗</value>
   </data>
-  <data name="SendKeyMessage.Description" xml:space="preserve">
-    <value>向視窗發送鍵盤消息</value>
+  <data name="WindowAncestor.Description" xml:space="preserve">
+    <value>檢索指定窗口的祖先窗口</value>
   </data>
-  <data name="SendKeyMessage.Title" xml:space="preserve">
-    <value>發送鍵盤消息</value>
+  <data name="WindowAncestor.Title" xml:space="preserve">
+    <value>祖先窗口</value>
   </data>
   <data name="OpenApplication.Description" xml:space="preserve">
     <value>打開windows系統當中的軟件。 該動作不會等待程式結束。</value>
@@ -648,11 +648,11 @@
   <data name="PressAndReleaseKey.Title" xml:space="preserve">
     <value>按下並釋放</value>
   </data>
-  <data name="ShowMessageBox.Description" xml:space="preserve">
-    <value>顯示一個提示框</value>
+  <data name="MessageBox.Description" xml:space="preserve">
+    <value>彈出一個消息框，該動作會阻止流程繼續執行，直到消息框關閉。</value>
   </data>
-  <data name="ShowMessageBox.Title" xml:space="preserve">
-    <value>提示框</value>
+  <data name="MessageBox.Title" xml:space="preserve">
+    <value>消息框</value>
   </data>
   <data name="MoveOffset.Description" xml:space="preserve">
     <value>以滑鼠當前的位置為起始位置，按照偏移量來移動滑鼠。</value>
@@ -682,7 +682,7 @@
     <value>打開作業系統中的運行對話方塊</value>
   </data>
   <data name="WinRun.Title" xml:space="preserve">
-    <value>運行對話方塊</value>
+    <value>運行框</value>
   </data>
   <data name="HttpGet.Description" xml:space="preserve">
     <value>發送基於http的get請求</value>
@@ -738,11 +738,11 @@
   <data name="CaptureFullScreen.Title" xml:space="preserve">
     <value>全屏截圖</value>
   </data>
-  <data name="SendMouseClick.Description" xml:space="preserve">
-    <value>發送滑鼠消息</value>
+  <data name="PositionWindow.Description" xml:space="preserve">
+    <value>更改子窗口、彈出窗口或頂級窗口為頂層窗口或者非頂層窗口</value>
   </data>
-  <data name="SendMouseClick.Title" xml:space="preserve">
-    <value>發送滑鼠消息</value>
+  <data name="PositionWindow.Title" xml:space="preserve">
+    <value>窗口置顶</value>
   </data>
   <data name="YoutubeDownload.Description" xml:space="preserve">
     <value>現時只支持youtube視頻下載，需要能訪問youtube的網絡。</value>
@@ -780,10 +780,10 @@
   <data name="ActionAlias.Title" xml:space="preserve">
     <value>引用動作</value>
   </data>
-  <data name="WindowTitle.Description" xml:space="preserve">
+  <data name="WindowCaption.Description" xml:space="preserve">
     <value>獲取或者設定視窗標題</value>
   </data>
-  <data name="WindowTitle.Title" xml:space="preserve">
+  <data name="WindowCaption.Title" xml:space="preserve">
     <value>視窗標題</value>
   </data>
   <data name="FastLineDetection.Description" xml:space="preserve">
@@ -864,10 +864,10 @@
   <data name="WorkThread.Title" xml:space="preserve">
     <value>工作線程</value>
   </data>
-  <data name="SetForegroundWindow.Description" xml:space="preserve">
-    <value>設定前置視窗</value>
+  <data name="ForegroundWindow.Description" xml:space="preserve">
+    <value>将创建指定窗口的线程置于前台并激活该窗口</value>
   </data>
-  <data name="SetForegroundWindow.Title" xml:space="preserve">
+  <data name="ForegroundWindow.Title" xml:space="preserve">
     <value>前置視窗</value>
   </data>
   <data name="ShutdownSystem.Description" xml:space="preserve">
@@ -1320,11 +1320,11 @@
   <data name="TypeString.Title" xml:space="preserve">
     <value>字串</value>
   </data>
-  <data name="WindowRect.Description" xml:space="preserve">
-    <value>获取或设置指定窗口的尺寸和位置，該位置相對於屏幕坐標左上角的屏幕坐標給出。</value>
+  <data name="WindowXy.Description" xml:space="preserve">
+    <value>获取或设置指定窗口的位置，該位置相對於屏幕坐標左上角的屏幕坐標給出。</value>
   </data>
-  <data name="WindowRect.Title" xml:space="preserve">
-    <value>視窗矩形</value>
+  <data name="WindowXy.Title" xml:space="preserve">
+    <value>視窗位置</value>
   </data>
   <data name="TypeJson.Description" xml:space="preserve">
     <value>定義JSON數據格式</value>
@@ -1333,10 +1333,10 @@
     <value>JSON</value>
   </data>
   <data name="WindowSize.Description" xml:space="preserve">
-    <value>獲取或設置窗口尺寸（長和寬）</value>
+    <value>獲取或設置窗口的大小（長和寬）</value>
   </data>
   <data name="WindowSize.Title" xml:space="preserve">
-    <value>窗口尺寸</value>
+    <value>窗口大小</value>
   </data>
   <data name="ExistProcess.Description" xml:space="preserve">
     <value>該動作可以檢查系統當中的應用程序是否運行</value>
@@ -1421,6 +1421,16 @@
   </data>
   <data name="VideoFrame.Title" xml:space="preserve">
     <value>相機圖像</value>
+  </data>
+
+
+
+
+  <data name="Custom.Description" xml:space="preserve">
+    <value>自定義插件</value>
+  </data>
+  <data name="Custom.Title" xml:space="preserve">
+    <value>自定義</value>
   </data>
 
 

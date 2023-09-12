@@ -76,11 +76,11 @@
   <data name="Action.StartProcess.WorkingDirectory.Header" xml:space="preserve">
     <value>工作目录</value>
   </data>
-  <data name="Action.WindowRect.Wnd.Header" xml:space="preserve">
+  <data name="Action.WindowXy.Window.Header" xml:space="preserve">
     <value>窗口</value>
   </data>
-  <data name="Action.WindowRect.Rect.Header" xml:space="preserve">
-    <value>矩形</value>
+  <data name="Action.WindowXy.Xy.Header" xml:space="preserve">
+    <value>位置</value>
   </data>
   <data name="Action.WindowSize.Window.Header" xml:space="preserve">
     <value>窗口</value>
@@ -204,7 +204,7 @@
     <value>窗口</value>
   </data>
   <data name="Action.WindowPoint.Type.Header" xml:space="preserve">
-    <value>相对位置</value>
+    <value>位置</value>
   </data>
   <data name="Action.WindowPoint.Offset.Header" xml:space="preserve">
     <value>偏移</value>
@@ -364,7 +364,13 @@
     <value>间隔</value>
   </data>
   <data name="Action.DragPointer.Point.Header" xml:space="preserve">
-    <value>坐标位置</value>
+    <value>目标坐标</value>
+  </data>
+  <data name="Action.DragPointer.Duration.Header" xml:space="preserve">
+    <value>按下时长</value>
+  </data>
+  <data name="Action.DragPointer.Button.Header" xml:space="preserve">
+    <value>鼠标键</value>
   </data>
   <data name="Action.MoveOffset.Offset.Header" xml:space="preserve">
     <value>偏移量</value>
@@ -387,8 +393,8 @@
   <data name="Action.FindWindow.ClassName.Header" xml:space="preserve">
     <value>窗口类</value>
   </data>
-  <data name="Action.SpecialWindow.Type.Header" xml:space="preserve">
-    <value>类型</value>
+  <data name="Action.SpecialWindow.Known.Header" xml:space="preserve">
+    <value>已知窗口</value>
   </data>
   <data name="Action.CaptureWindow.Window.Header" xml:space="preserve">
     <value>窗口</value>
@@ -399,13 +405,130 @@
   <data name="Action.CaptureWindow.Size.Header" xml:space="preserve">
     <value>长宽</value>
   </data>
-  <data name="Action.SendKeyMessage.Window.Header" xml:space="preserve">
+  <data name="Action.MessageBox.Caption.Header" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="Action.MessageBox.Text.Header" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="Action.MessageBox.Flags.Header" xml:space="preserve">
+    <value>标志</value>
+  </data>
+  <data name="Action.ForegroundWindow.Window.Header" xml:space="preserve">
     <value>窗口</value>
   </data>
-  <data name="Action.SendKeyMessage.Keys.Header" xml:space="preserve">
-    <value>按键</value>
+  <data name="Action.WindowAncestor.Window.Header" xml:space="preserve">
+    <value>窗口</value>
   </data>
-  <data name="Action.SendKeyMessage.Method.Header" xml:space="preserve">
-    <value>方式</value>
+  <data name="Action.WindowAncestor.Ancestor.Header" xml:space="preserve">
+    <value>祖先</value>
+  </data>
+  <data name="Action.PositionWindow.Window.Header" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="Action.PositionWindow.Order.Header" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Action.WindowVisible.Window.Header" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="Action.WindowVisible.Action.Header" xml:space="preserve">
+    <value>动作</value>
+  </data>
+  <data name="Action.WindowCaption.Window.Header" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="Action.WindowCaption.Title.Header" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="Action.EnumWindows.Parent.Header" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="Action.EnumWindows.Async.Header" xml:space="preserve">
+    <value>异步</value>
+  </data>
+  <data name="Action.CvtColor.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.CvtColor.ConversionCode.Header" xml:space="preserve">
+    <value>转换代码</value>
+  </data>
+  <data name="Action.CropImage.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.CropImage.ROI.Header" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="Action.ResizeImage.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ResizeImage.Size.Header" xml:space="preserve">
+    <value>尺寸</value>
+  </data>
+  <data name="Action.CenterCropImage.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.CenterCropImage.Size.Header" xml:space="preserve">
+    <value>尺寸</value>
+  </data>
+  <data name="Action.ImageCanny.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ImageCanny.Threshold.Header" xml:space="preserve">
+    <value>阈值</value>
+  </data>
+  <data name="Action.ImageThreshold.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ImageThreshold.Threshold.Header" xml:space="preserve">
+    <value>阈值</value>
+  </data>
+  <data name="Action.ImageThreshold.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.ImageThreshold.Type.Header" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Action.ImageInRange.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ImageInRange.Lower.Header" xml:space="preserve">
+    <value>最小值</value>
+  </data>
+  <data name="Action.ImageInRange.Upper.Header" xml:space="preserve">
+    <value>最大值</value>
+  </data>
+  <data name="Action.ImageMorphological.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ImageMorphological.Kernel.Header" xml:space="preserve">
+    <value>内核</value>
+  </data>
+  <data name="Action.ImageMorphological.Operation.Header" xml:space="preserve">
+    <value>操作</value>
+  </data>
+  <data name="Action.ImageBlur.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ImageBlur.Kernel.Header" xml:space="preserve">
+    <value>内核</value>
+  </data>
+  <data name="Action.AdaptiveThreshold.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.AdaptiveThreshold.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.AdaptiveThreshold.BlockSize.Header" xml:space="preserve">
+    <value>块</value>
+  </data>
+  <data name="Action.AdaptiveThreshold.Type.Header" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Action.ImageMarkROI.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ImageMarkROI.ROI.Header" xml:space="preserve">
+    <value>区域</value>
   </data>
 </root>

@@ -70,7 +70,7 @@
     <value>Move Pointer</value>
   </data>
   <data name="MovePointer.Title" xml:space="preserve">
-    <value>Simulate the mouse move</value>
+    <value>MovePointer</value>
   </data>
   <data name="Click.Description" xml:space="preserve">
     <value>Simulate the mouse click</value>
@@ -82,19 +82,19 @@
     <value>Move the mouse and click the corresponding button of the mouse after reaching the position</value>
   </data>
   <data name="MoveClick.Title" xml:space="preserve">
-    <value>Move and Click</value>
+    <value>MoveClick</value>
   </data>
   <data name="DoubleClick.Description" xml:space="preserve">
     <value>Simulate the mouse-double-click action</value>
   </data>
   <data name="DoubleClick.Title" xml:space="preserve">
-    <value>Double Click</value>
+    <value>DoubleClick</value>
   </data>
   <data name="RightClick.Description" xml:space="preserve">
     <value>Simulate right mouse click</value>
   </data>
   <data name="RightClick.Title" xml:space="preserve">
-    <value>Right Click</value>
+    <value>RightClick</value>
   </data>
   <data name="DragPointer.Description" xml:space="preserve">
     <value>Simulate the mouse drag operation, that is, press the left mouse button at the current position of the mouse, drag the mouse to the target position, and then release the left mouse button.</value>
@@ -106,7 +106,7 @@
     <value>Listen to the mouse</value>
   </data>
   <data name="ListenMouse.Title" xml:space="preserve">
-    <value>Listen</value>
+    <value>ListenMouse</value>
   </data>
   <data name="System.Description" xml:space="preserve">
     <value>System</value>
@@ -148,7 +148,7 @@
     <value>This action can be selected on a picture of an area, to be cut.</value>
   </data>
   <data name="CropImage.Title" xml:space="preserve">
-    <value>Cut the picture</value>
+    <value>CropImage</value>
   </data>
   <data name="PlayRecord.Description" xml:space="preserve">
     <value>Play the recorded keyboard and mouse macro.</value>
@@ -166,7 +166,7 @@
     <value>Target classification, a suggested model of onnx trained using the * yolo5 * network. other network models that may need to customize the output through a script.</value>
   </data>
   <data name="ONNXClassification.Title" xml:space="preserve">
-    <value>Target classification</value>
+    <value>Classification</value>
   </data>
   <data name="Type.Description" xml:space="preserve">
     <value>Type</value>
@@ -576,11 +576,11 @@
   <data name="SpecialWindow.Title" xml:space="preserve">
     <value>Specific window</value>
   </data>
-  <data name="SendKeyMessage.Description" xml:space="preserve">
-    <value>Send a keyboard message to the window</value>
+  <data name="WindowAncestor.Description" xml:space="preserve">
+    <value>Retrieves the handle to the ancestor of the specified window.</value>
   </data>
-  <data name="SendKeyMessage.Title" xml:space="preserve">
-    <value>Send keyboard messages</value>
+  <data name="WindowAncestor.Title" xml:space="preserve">
+    <value>WindowAncestor</value>
   </data>
   <data name="OpenApplication.Description" xml:space="preserve">
     <value>Open the software in the windows system. this action does not wait for the program to end.</value>
@@ -648,17 +648,17 @@
   <data name="PressAndReleaseKey.Title" xml:space="preserve">
     <value>Press and release</value>
   </data>
-  <data name="ShowMessageBox.Description" xml:space="preserve">
-    <value>A prompt box is displayed</value>
+  <data name="MessageBox.Description" xml:space="preserve">
+    <value>A message box pops up, which will prevent the process from continuing to execute until the message box is closed.</value>
   </data>
-  <data name="ShowMessageBox.Title" xml:space="preserve">
-    <value>Tooltip</value>
+  <data name="MessageBox.Title" xml:space="preserve">
+    <value>MessageBox</value>
   </data>
   <data name="MoveOffset.Description" xml:space="preserve">
     <value>With the current position of the mouse as the starting position and move the mouse by the offset.</value>
   </data>
   <data name="MoveOffset.Title" xml:space="preserve">
-    <value>Offset movement</value>
+    <value>MoveOffset</value>
   </data>
   <data name="TextChinese.Description" xml:space="preserve">
     <value>Identify the chinese text in the picture.</value>
@@ -682,7 +682,7 @@
     <value>Opens the run dialog box in the operating system</value>
   </data>
   <data name="WinRun.Title" xml:space="preserve">
-    <value>Run dialog</value>
+    <value>WinRun</value>
   </data>
   <data name="HttpGet.Description" xml:space="preserve">
     <value>Send a get request based on http</value>
@@ -738,11 +738,11 @@
   <data name="CaptureFullScreen.Title" xml:space="preserve">
     <value>Full screen screenshots</value>
   </data>
-  <data name="SendMouseClick.Description" xml:space="preserve">
-    <value>Send a mouse message</value>
+  <data name="PositionWindow.Description" xml:space="preserve">
+    <value>Changes the position of a child, pop-up, or top-level window. </value>
   </data>
-  <data name="SendMouseClick.Title" xml:space="preserve">
-    <value>Send a mouse message</value>
+  <data name="PositionWindow.Title" xml:space="preserve">
+    <value>PositionWindow</value>
   </data>
   <data name="YoutubeDownload.Description" xml:space="preserve">
     <value>Currently, only youtube video download is supported, requiring access to the youtube network.</value>
@@ -780,10 +780,10 @@
   <data name="ActionAlias.Title" xml:space="preserve">
     <value>Quote action</value>
   </data>
-  <data name="WindowTitle.Description" xml:space="preserve">
+  <data name="WindowCaption.Description" xml:space="preserve">
     <value>Get, or set, the window header</value>
   </data>
-  <data name="WindowTitle.Title" xml:space="preserve">
+  <data name="WindowCaption.Title" xml:space="preserve">
     <value>Window title</value>
   </data>
   <data name="FastLineDetection.Description" xml:space="preserve">
@@ -864,11 +864,11 @@
   <data name="WorkThread.Title" xml:space="preserve">
     <value>WorkThread</value>
   </data>
-  <data name="SetForegroundWindow.Description" xml:space="preserve">
-    <value>Set the front window</value>
+  <data name="ForegroundWindow.Description" xml:space="preserve">
+    <value>Brings the thread that created the specified window into the foreground and activates the window</value>
   </data>
-  <data name="SetForegroundWindow.Title" xml:space="preserve">
-    <value>Front window</value>
+  <data name="ForegroundWindow.Title" xml:space="preserve">
+    <value>ForegroundWindow</value>
   </data>
   <data name="ShutdownSystem.Description" xml:space="preserve">
     <value>This action can turn off the operating system, where the computer is turned off.</value>
@@ -1320,11 +1320,11 @@
   <data name="TypeString.Title" xml:space="preserve">
     <value>String</value>
   </data>
-  <data name="WindowRect.Description" xml:space="preserve">
-    <value>Get or set the size and location of the specified window. This position is given by the screen coordinates in the upper left corner of the screen coordinate.</value>
+  <data name="WindowXy.Description" xml:space="preserve">
+    <value>Get or set location of the specified window. This position is given by the screen coordinates in the upper left corner of the screen coordinate.</value>
   </data>
-  <data name="WindowRect.Title" xml:space="preserve">
-    <value>WindowRect</value>
+  <data name="WindowXy.Title" xml:space="preserve">
+    <value>WindowXy</value>
   </data>
   <data name="TypeJson.Description" xml:space="preserve">
     <value>Define the JSON data format</value>
@@ -1423,5 +1423,12 @@
     <value>VideoFrame</value>
   </data>
 
+
+  <data name="Custom.Description" xml:space="preserve">
+    <value>Custom Plugins</value>
+  </data>
+  <data name="Custom.Title" xml:space="preserve">
+    <value>Custom</value>
+  </data>
 
 </root>
