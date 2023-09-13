@@ -676,7 +676,7 @@
     <value>從中心位置開始裁切圖片。</value>
   </data>
   <data name="CenterCropImage.Title" xml:space="preserve">
-    <value>裁切圖片</value>
+    <value>中心剪切</value>
   </data>
   <data name="WinRun.Description" xml:space="preserve">
     <value>打開作業系統中的運行對話方塊</value>
