@@ -823,7 +823,7 @@
     <value>Threshold</value>
   </data>
   <data name="ImageInRange.Description" xml:space="preserve">
-    <value>Specify a color range, capture the color in the image within the color range, through this way, you can screen out the specific color objects in the image.</value>
+    <value>Specify a color range to retain the color in the color range in the image. Through this method, you can screen the specific color objects in the image.</value>
   </data>
   <data name="ImageInRange.Title" xml:space="preserve">
     <value>Color screening</value>
@@ -844,7 +844,7 @@
     <value>Image blurring</value>
   </data>
   <data name="ImageBlur.Title" xml:space="preserve">
-    <value>Vague</value>
+    <value>ImageBlur</value>
   </data>
   <data name="ApproxPolyDP.Description" xml:space="preserve">
     <value>The process of approximating the shape of one contour to another shape consisting of a smaller number of vertices so that the distance between the contour of the shape is equal to or less than the specified precision is called the approximate contour of the shape</value>
@@ -1186,7 +1186,7 @@
     <value>The adaptive thresholds are calculated for smaller regions, and so there are different thresholds for different regions.</value>
   </data>
   <data name="AdaptiveThreshold.Title" xml:space="preserve">
-    <value>Adaptive threshold</value>
+    <value>AdaptiveThreshold</value>
   </data>
   <data name="GroupAction.Description" xml:space="preserve">
     <value>This action groups the relevant actions on the view to make the logic clearer.</value>

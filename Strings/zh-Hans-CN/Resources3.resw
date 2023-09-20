@@ -821,10 +821,10 @@
     <value>该动作可以对图像进行阈值化操作。在该阈值操作中，值大于指定阈值的像素被分配一个标准值。该阈值操作是全局的，即图像中的所有像素都使用相同的阈值。</value>
   </data>
   <data name="ImageThreshold.Title" xml:space="preserve">
-    <value>阈值</value>
+    <value>阈值操作</value>
   </data>
   <data name="ImageInRange.Description" xml:space="preserve">
-    <value>指定一个色彩范围，抓取影像中符合色彩范围内的颜色，透过这个方式，就可以筛选出影像中的特定颜色物件。</value>
+    <value>指定一个色彩范围，保留图像中符合色彩范围内的颜色，透过这个方式，就可以筛选出图像中的特定颜色物件。</value>
   </data>
   <data name="ImageInRange.Title" xml:space="preserve">
     <value>颜色筛选</value>
@@ -845,7 +845,7 @@
     <value>图像模糊</value>
   </data>
   <data name="ImageBlur.Title" xml:space="preserve">
-    <value>模糊</value>
+    <value>平滑/模糊</value>
   </data>
   <data name="ApproxPolyDP.Description" xml:space="preserve">
     <value>将一个轮廓的形状逼近到另一个由较少数量的顶点组成的形状，使得形状的轮廓之间的距离等于指定精度或小于指定精度的过程称为形状的近似轮廓</value>

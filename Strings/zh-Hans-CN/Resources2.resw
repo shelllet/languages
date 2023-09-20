@@ -513,6 +513,15 @@
   <data name="Action.ImageBlur.Kernel.Header" xml:space="preserve">
     <value>内核</value>
   </data>
+  <data name="Action.ImageBlur.Diameter.Header" xml:space="preserve">
+    <value>直径</value>
+  </data>
+  <data name="Action.ImageBlur.SigmaColor.Header" xml:space="preserve">
+    <value>颜色标准差</value>
+  </data>
+  <data name="Action.ImageBlur.SigmaSpace.Header" xml:space="preserve">
+    <value>空间标准差</value>
+  </data>
   <data name="Action.AdaptiveThreshold.Image.Header" xml:space="preserve">
     <value>图像</value>
   </data>
@@ -521,6 +530,9 @@
   </data>
   <data name="Action.AdaptiveThreshold.BlockSize.Header" xml:space="preserve">
     <value>块</value>
+  </data>
+  <data name="Action.AdaptiveThreshold.C.Header" xml:space="preserve">
+    <value>常量</value>
   </data>
   <data name="Action.AdaptiveThreshold.Type.Header" xml:space="preserve">
     <value>类型</value>

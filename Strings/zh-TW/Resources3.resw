@@ -820,10 +820,10 @@
     <value>該動作可以對影像進行閾值化操作。 在該閾值操作中，值大於指定閾值的點數被分配一個標準值。 該閾值操作是全域的，即影像中的所有點數都使用相同的閾值。</value>
   </data>
   <data name="ImageThreshold.Title" xml:space="preserve">
-    <value>閾值</value>
+    <value>閾值操作</value>
   </data>
   <data name="ImageInRange.Description" xml:space="preserve">
-    <value>指定一個色彩範圍，抓取影像中符合色彩範圍內的顏色，透過這個管道，就可以篩選出影像中的特定顏色物件。</value>
+    <value>指定一個色彩範圍，保留圖像中符合色彩範圍內的顏色，透過這個方式，就可以篩選出圖像中的特定顏色物件。</value>
   </data>
   <data name="ImageInRange.Title" xml:space="preserve">
     <value>顏色篩選</value>
@@ -844,7 +844,7 @@
     <value>影像模糊</value>
   </data>
   <data name="ImageBlur.Title" xml:space="preserve">
-    <value>模糊</value>
+    <value>平滑/模糊</value>
   </data>
   <data name="ApproxPolyDP.Description" xml:space="preserve">
     <value>將一個輪廓的形狀逼近到另一個由較少數量的頂點組成的形狀，使得形狀的輪廓之間的距離等於指定精度或小於指定精度的過程稱為形狀的近似輪廓</value>

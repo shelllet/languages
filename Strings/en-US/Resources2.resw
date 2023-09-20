@@ -512,6 +512,15 @@
   <data name="Action.ImageBlur.Kernel.Header" xml:space="preserve">
     <value>Kernel</value>
   </data>
+  <data name="Action.ImageBlur.Diameter.Header" xml:space="preserve">
+    <value>Diameter</value>
+  </data>
+  <data name="Action.ImageBlur.SigmaColor.Header" xml:space="preserve">
+    <value>Sigma Color</value>
+  </data>
+  <data name="Action.ImageBlur.SigmaSpace.Header" xml:space="preserve">
+    <value>Sigma Space</value>
+  </data>
   <data name="Action.AdaptiveThreshold.Image.Header" xml:space="preserve">
     <value>Image</value>
   </data>
@@ -520,6 +529,9 @@
   </data>
   <data name="Action.AdaptiveThreshold.BlockSize.Header" xml:space="preserve">
     <value>Block</value>
+  </data>
+  <data name="Action.AdaptiveThreshold.C.Header" xml:space="preserve">
+    <value>C</value>
   </data>
   <data name="Action.AdaptiveThreshold.Type.Header" xml:space="preserve">
     <value>Type</value>
