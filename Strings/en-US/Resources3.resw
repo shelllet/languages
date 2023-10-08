@@ -418,7 +418,7 @@
     <value>Finding shapes from the image, even if the shape rotation does not have much impact on the match.</value>
   </data>
   <data name="MatchShapes.Title" xml:space="preserve">
-    <value>Shape matching</value>
+    <value>MatchShapes</value>
   </data>
   <data name="ReadJson.Description" xml:space="preserve">
     <value>Fetch json</value>
@@ -718,7 +718,7 @@
     <value>Blob is an area in an image with different properties (such as brightness, color).</value>
   </data>
   <data name="BlobDetect.Title" xml:space="preserve">
-    <value>Blob seek</value>
+    <value>BlobDetect</value>
   </data>
   <data name="FilterVertex.Description" xml:space="preserve">
     <value>Sen the profile against the shape of the profile</value>
@@ -786,17 +786,17 @@
   <data name="WindowCaption.Title" xml:space="preserve">
     <value>Window title</value>
   </data>
-  <data name="FastLineDetection.Description" xml:space="preserve">
-    <value>Find lines using a fast line detection algorithm</value>
+  <data name="ImageDifference.Description" xml:space="preserve">
+    <value>Compare two images, or two contours and returns a metric showing the similarity.</value>
   </data>
-  <data name="FastLineDetection.Title" xml:space="preserve">
-    <value>Quick straight line check</value>
+  <data name="ImageDifference.Title" xml:space="preserve">
+    <value>ImageDifference</value>
   </data>
-  <data name="EdgeLineDetection.Description" xml:space="preserve">
-    <value>Find line segments by edge detection</value>
+  <data name="LineDetection.Description" xml:space="preserve">
+    <value>Detect lines in an image</value>
   </data>
-  <data name="EdgeLineDetection.Title" xml:space="preserve">
-    <value>Line segment detection</value>
+  <data name="LineDetection.Title" xml:space="preserve">
+    <value>LineDetection</value>
   </data>
   <data name="EllipseDetection.Description" xml:space="preserve">
     <value>Detect the circles or ellipses in the image</value>
@@ -846,17 +846,17 @@
   <data name="ImageBlur.Title" xml:space="preserve">
     <value>ImageBlur</value>
   </data>
-  <data name="ApproxPolyDP.Description" xml:space="preserve">
-    <value>The process of approximating the shape of one contour to another shape consisting of a smaller number of vertices so that the distance between the contour of the shape is equal to or less than the specified precision is called the approximate contour of the shape</value>
+  <data name="FillColor.Description" xml:space="preserve">
+    <value>Set a rectangular area on the image, fill in the specified color</value>
   </data>
-  <data name="ApproxPolyDP.Title" xml:space="preserve">
-    <value>Approximate outline</value>
+  <data name="FillColor.Title" xml:space="preserve">
+    <value>FillColor</value>
   </data>
   <data name="FindNonZero.Description" xml:space="preserve">
     <value>On one image, look for non-zero pixel locations.</value>
   </data>
   <data name="FindNonZero.Title" xml:space="preserve">
-    <value>Non-zero pixel point</value>
+    <value>FindNonZero</value>
   </data>
   <data name="WorkThread.Description" xml:space="preserve">
     <value>Threading can be used to perform some actions asynchronously.</value>
@@ -1430,5 +1430,15 @@
   <data name="Custom.Title" xml:space="preserve">
     <value>Custom</value>
   </data>
+
+
+
+  <data name="ShapeDetection.Description" xml:space="preserve">
+    <value>Find the common shapes on the image, such as: triangle, quadranges, squares.</value>
+  </data>
+  <data name="ShapeDetection.Title" xml:space="preserve">
+    <value>ShapeDetection</value>
+  </data>
+
 
 </root>

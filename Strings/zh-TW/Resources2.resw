@@ -539,4 +539,133 @@
   <data name="Action.ImageMarkROI.ROI.Header" xml:space="preserve">
     <value>區域</value>
   </data>
+  <data name="Action.LineDetection.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.LineDetection.Length.Header" xml:space="preserve">
+    <value>長度</value>
+  </data>
+  <data name="Action.LineDetection.Algorithm.Header" xml:space="preserve">
+    <value>算法</value>
+  </data>
+  <data name="Action.LineDetection.LengthThreshold.Header" xml:space="preserve">
+    <value>閾值</value>
+  </data>
+  <data name="Action.EllipseDetection.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.MatchShapes.Image.Header" xml:space="preserve">
+    <value>源圖像</value>
+  </data>
+  <data name="Action.MatchShapes.Target.Header" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="Action.MatchShapes.Metric.Header" xml:space="preserve">
+    <value>指標</value>
+  </data>
+  <data name="Action.MatchShapes.ApproximationMode.Header" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="Action.MatchShapes.Epsilon.Header" xml:space="preserve">
+    <value>逼近</value>
+  </data>
+  <data name="Action.ImageDifference.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.ImageDifference.Target.Header" xml:space="preserve">
+    <value>目標圖像</value>
+  </data>
+  <data name="Action.BlobDetect.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.BlobDetect.Step.Header" xml:space="preserve">
+    <value>步長</value>
+  </data>
+  <data name="Action.BlobDetect.Threshold.Header" xml:space="preserve">
+    <value>閾值</value>
+  </data>
+  <data name="Action.BlobDetect.FilterArea.Header" xml:space="preserve">
+    <value>面積</value>
+  </data>
+  <data name="Action.BlobDetect.FilterCircularity.Header" xml:space="preserve">
+    <value>圓形度</value>
+  </data>
+  <data name="Action.BlobDetect.FilterConvexity.Header" xml:space="preserve">
+    <value>凸性比</value>
+  </data>
+  <data name="Action.BlobDetect.FilterInertia.Header" xml:space="preserve">
+    <value>慣量比</value>
+  </data>
+  <data name="Action.ConnectedComponents.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.ConnectedComponents.Width.Header" xml:space="preserve">
+    <value>寬度過濾</value>
+  </data>
+  <data name="Action.ConnectedComponents.Height.Header" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="Action.ConnectedComponents.Area.Header" xml:space="preserve">
+    <value>面積</value>
+  </data>
+  <data name="Action.FindContours.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.FindContours.Mode.Header" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="Action.FindContours.Method.Header" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="Action.FindContours.Epsilon.Header" xml:space="preserve">
+    <value>逼近</value>
+  </data>
+  <data name="Action.FillColor.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.FillColor.Area.Header" xml:space="preserve">
+    <value>區域</value>
+  </data>
+  <data name="Action.FillColor.Color.Header" xml:space="preserve">
+    <value>顏色</value>
+  </data>
+  <data name="Action.ColorPercentage.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.ColorPercentage.Color.Header" xml:space="preserve">
+    <value>顏色</value>
+  </data>
+  <data name="Action.ColorPercentage.Diff.Header" xml:space="preserve">
+    <value>誤差</value>
+  </data>
+  <data name="Action.MatchTemplate.Source.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.MatchTemplate.Target.Header" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="Action.MatchTemplate.Precision.Header" xml:space="preserve">
+    <value>精度</value>
+  </data>
+  <data name="Action.FeatureDetect.Source.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.FeatureDetect.Target.Header" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="Action.FeatureDetect.Precision.Header" xml:space="preserve">
+    <value>精度</value>
+  </data>
+  <data name="Action.CalculateCenter.Source.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.ShapeDetection.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.ShapeDetection.Epsilon.Header" xml:space="preserve">
+    <value>逼近</value>
+  </data>
+  <data name="Action.ShapeDetection.Shape.Header" xml:space="preserve">
+    <value>形狀</value>
+  </data>
 </root>

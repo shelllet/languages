@@ -715,10 +715,10 @@
     <value>等待*可點擊</value>
   </data>
   <data name="BlobDetect.Description" xml:space="preserve">
-    <value>Blob是影像中與周圍區域在内容（例如亮度、顏色）上不同的區域。</value>
+    <value>斑點是圖像中與周圍區域在屬性（例如亮度、顏色）上不同的區域， 也可以稱為Blob查找。</value>
   </data>
   <data name="BlobDetect.Title" xml:space="preserve">
-    <value>Blob查找</value>
+    <value>斑點查找</value>
   </data>
   <data name="FilterVertex.Description" xml:space="preserve">
     <value>根據輪廓的形狀篩選輪廓</value>
@@ -786,17 +786,11 @@
   <data name="WindowCaption.Title" xml:space="preserve">
     <value>視窗標題</value>
   </data>
-  <data name="FastLineDetection.Description" xml:space="preserve">
-    <value>使用快速直線檢測算灋查找直線</value>
+  <data name="LineDetection.Description" xml:space="preserve">
+    <value>檢測圖像中的直線</value>
   </data>
-  <data name="FastLineDetection.Title" xml:space="preserve">
-    <value>快速直線檢查找</value>
-  </data>
-  <data name="EdgeLineDetection.Description" xml:space="preserve">
-    <value>通過邊緣檢測來查找線段</value>
-  </data>
-  <data name="EdgeLineDetection.Title" xml:space="preserve">
-    <value>線段檢測</value>
+  <data name="LineDetection.Title" xml:space="preserve">
+    <value>直線檢測</value>
   </data>
   <data name="EllipseDetection.Description" xml:space="preserve">
     <value>檢測影像中的圓或者橢圓</value>
@@ -846,11 +840,11 @@
   <data name="ImageBlur.Title" xml:space="preserve">
     <value>平滑/模糊</value>
   </data>
-  <data name="ApproxPolyDP.Description" xml:space="preserve">
-    <value>將一個輪廓的形狀逼近到另一個由較少數量的頂點組成的形狀，使得形狀的輪廓之間的距離等於指定精度或小於指定精度的過程稱為形狀的近似輪廓</value>
+  <data name="FillColor.Description" xml:space="preserve">
+    <value>在圖像上設置一塊矩形區域，填充指定的顏色</value>
   </data>
-  <data name="ApproxPolyDP.Title" xml:space="preserve">
-    <value>近似輪廓</value>
+  <data name="FillColor.Title" xml:space="preserve">
+    <value>填充顏色</value>
   </data>
   <data name="FindNonZero.Description" xml:space="preserve">
     <value>在一張圖片上，查找非零點數位置。</value>
@@ -1422,7 +1416,12 @@
   <data name="VideoFrame.Title" xml:space="preserve">
     <value>相機圖像</value>
   </data>
-
+  <data name="ImageDifference.Description" xml:space="preserve">
+    <value>比較兩個圖像，或兩個輪廓，並返回顯示相似性的度量標準。</value>
+  </data>
+  <data name="ImageDifference.Title" xml:space="preserve">
+    <value>圖像比較</value>
+  </data>
 
 
 
@@ -1431,6 +1430,16 @@
   </data>
   <data name="Custom.Title" xml:space="preserve">
     <value>自定義</value>
+  </data>
+
+
+
+
+  <data name="ShapeDetection.Description" xml:space="preserve">
+    <value>查找圖像上的基本形狀，如：三角形、四邊形、正方形。</value>
+  </data>
+  <data name="ShapeDetection.Title" xml:space="preserve">
+    <value>形狀查找</value>
   </data>
 
 
