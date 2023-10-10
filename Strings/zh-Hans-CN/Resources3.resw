@@ -403,10 +403,10 @@
   <data name="Dnn.Title" xml:space="preserve">
     <value>深度学习</value>
   </data>
-  <data name="Drawing.Description" xml:space="preserve">
+  <data name="Draw.Description" xml:space="preserve">
     <value>绘图</value>
   </data>
-  <data name="Drawing.Title" xml:space="preserve">
+  <data name="Draw.Title" xml:space="preserve">
     <value>绘图</value>
   </data>
   <data name="TypeResource.Description" xml:space="preserve">
@@ -1249,11 +1249,11 @@
   <data name="TypeColor.Title" xml:space="preserve">
     <value>颜色</value>
   </data>
-  <data name="DrawDetectionResult.Description" xml:space="preserve">
-    <value>绘制对象检测结果，通常包含一个矩形框</value>
+  <data name="DrawRect.Description" xml:space="preserve">
+    <value>在图像上绘制一个矩形框。</value>
   </data>
-  <data name="DrawDetectionResult.Title" xml:space="preserve">
-    <value>绘制检测结果</value>
+  <data name="DrawRect.Title" xml:space="preserve">
+    <value>绘制矩形</value>
   </data>
   <data name="FilterEllipse.Description" xml:space="preserve">
     <value>通过 椭圆 或者 圆 的特征筛选 椭圆 列表中的元素。</value>

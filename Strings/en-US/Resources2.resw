@@ -551,9 +551,6 @@
   <data name="Action.LineDetection.Algorithm.Header" xml:space="preserve">
     <value>Algorithm</value>
   </data>
-  <data name="Action.LineDetection.LengthThreshold.Header" xml:space="preserve">
-    <value>Threshold</value>
-  </data>
   <data name="Action.EllipseDetection.Image.Header" xml:space="preserve">
     <value>Image</value>
   </data>
@@ -567,7 +564,7 @@
     <value>Metric</value>
   </data>
   <data name="Action.MatchShapes.ApproximationMode.Header" xml:space="preserve">
-    <value>ApproximationMode</value>
+    <value>Mode</value>
   </data>
   <data name="Action.MatchShapes.Epsilon.Header" xml:space="preserve">
     <value>Epsilon</value>
@@ -670,5 +667,14 @@
   </data>
   <data name="Action.ShapeDetection.Shape.Header" xml:space="preserve">
     <value>Shape</value>
+  </data>
+  <data name="Action.DrawRect.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.DrawRect.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.DrawRect.Color.Header" xml:space="preserve">
+    <value>Color</value>
   </data>
 </root>

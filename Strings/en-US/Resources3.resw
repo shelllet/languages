@@ -394,19 +394,19 @@
     <value>Image detection</value>
   </data>
   <data name="Detection.Title" xml:space="preserve">
-    <value>Image detection</value>
+    <value>Detection</value>
   </data>
   <data name="Dnn.Description" xml:space="preserve">
     <value>Deep learning</value>
   </data>
   <data name="Dnn.Title" xml:space="preserve">
-    <value>Deep learning</value>
+    <value>DNN</value>
   </data>
-  <data name="Drawing.Description" xml:space="preserve">
-    <value>Plot</value>
+  <data name="Draw.Description" xml:space="preserve">
+    <value>Draw</value>
   </data>
-  <data name="Drawing.Title" xml:space="preserve">
-    <value>Plot</value>
+  <data name="Draw.Title" xml:space="preserve">
+    <value>Draw</value>
   </data>
   <data name="TypeResource.Description" xml:space="preserve">
     <value>Define the resource type</value>
@@ -1254,11 +1254,11 @@
   <data name="TypeColor.Title" xml:space="preserve">
     <value>Color</value>
   </data>
-  <data name="DrawDetectionResult.Description" xml:space="preserve">
+  <data name="DrawRect.Description" xml:space="preserve">
     <value>Draw the object detection results, usually containing a rectangular box</value>
   </data>
-  <data name="DrawDetectionResult.Title" xml:space="preserve">
-    <value>DrawDetectionResult</value>
+  <data name="DrawRect.Title" xml:space="preserve">
+    <value>DrawRect</value>
   </data>
   <data name="FilterEllipse.Description" xml:space="preserve">
     <value>Filter the elements in the ellipse list by the features of the ellipse or circle.</value>

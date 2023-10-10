@@ -548,9 +548,6 @@
   <data name="Action.LineDetection.Algorithm.Header" xml:space="preserve">
     <value>算法</value>
   </data>
-  <data name="Action.LineDetection.LengthThreshold.Header" xml:space="preserve">
-    <value>閾值</value>
-  </data>
   <data name="Action.EllipseDetection.Image.Header" xml:space="preserve">
     <value>圖像</value>
   </data>
@@ -667,5 +664,14 @@
   </data>
   <data name="Action.ShapeDetection.Shape.Header" xml:space="preserve">
     <value>形狀</value>
+  </data>
+  <data name="Action.DrawRect.Image.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.DrawRect.Value.Header" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Action.DrawRect.Color.Header" xml:space="preserve">
+    <value>顏色</value>
   </data>
 </root>
