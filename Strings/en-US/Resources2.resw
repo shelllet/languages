@@ -558,7 +558,7 @@
     <value>Image</value>
   </data>
   <data name="Action.MatchShapes.Target.Header" xml:space="preserve">
-    <value>Target</value>
+    <value>Shape</value>
   </data>
   <data name="Action.MatchShapes.Metric.Header" xml:space="preserve">
     <value>Metric</value>
@@ -653,8 +653,11 @@
   <data name="Action.FeatureDetect.Target.Header" xml:space="preserve">
     <value>Target</value>
   </data>
-  <data name="Action.FeatureDetect.Precision.Header" xml:space="preserve">
-    <value>Precision</value>
+  <data name="Action.FeatureDetect.Features.Header" xml:space="preserve">
+    <value>Features</value>
+  </data>
+  <data name="Action.FeatureDetect.Algorithm.Header" xml:space="preserve">
+    <value>Algorithm</value>
   </data>
   <data name="Action.CalculateCenter.Source.Header" xml:space="preserve">
     <value>Source</value>

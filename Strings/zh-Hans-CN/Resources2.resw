@@ -559,7 +559,7 @@
     <value>图像</value>
   </data>
   <data name="Action.MatchShapes.Target.Header" xml:space="preserve">
-    <value>目标</value>
+    <value>形状</value>
   </data>
   <data name="Action.MatchShapes.Metric.Header" xml:space="preserve">
     <value>指标</value>
@@ -654,8 +654,11 @@
   <data name="Action.FeatureDetect.Target.Header" xml:space="preserve">
     <value>模板</value>
   </data>
-  <data name="Action.FeatureDetect.Precision.Header" xml:space="preserve">
-    <value>精度</value>
+  <data name="Action.FeatureDetect.Features.Header" xml:space="preserve">
+    <value>特征</value>
+  </data>
+  <data name="Action.FeatureDetect.Algorithm.Header" xml:space="preserve">
+    <value>算法</value>
   </data>
   <data name="Action.CalculateCenter.Source.Header" xml:space="preserve">
     <value>值</value>

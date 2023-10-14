@@ -322,19 +322,19 @@
     <value>Image processing</value>
   </data>
   <data name="Image.Title" xml:space="preserve">
-    <value>Image processing</value>
+    <value>Image</value>
   </data>
   <data name="ImageSave.Description" xml:space="preserve">
     <value>Save the image type in the process to the local disk.</value>
   </data>
   <data name="ImageSave.Title" xml:space="preserve">
-    <value>Save the image</value>
+    <value>ImageSave</value>
   </data>
   <data name="FeatureDetect.Description" xml:space="preserve">
-    <value>This action looks for an image with certain features in an image</value>
+    <value>This action finds a template image in a image through feature matching.</value>
   </data>
   <data name="FeatureDetect.Title" xml:space="preserve">
-    <value>Image search</value>
+    <value>FeatureDetect</value>
   </data>
   <data name="ExitApp.Description" xml:space="preserve">
     <value>Exit process execution</value>
@@ -430,7 +430,7 @@
     <value>Generate random numbers</value>
   </data>
   <data name="RandomNumber.Title" xml:space="preserve">
-    <value>Random number</value>
+    <value>RandomNumber</value>
   </data>
   <data name="Database.Description" xml:space="preserve">
     <value>Data base</value>
