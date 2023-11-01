@@ -680,4 +680,94 @@
   <data name="Action.DrawRect.Color.Header" xml:space="preserve">
     <value>Color</value>
   </data>
+  <data name="Action.ImageStd.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.ImageStd.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.ImageMean.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.ImageMean.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.ScalePixel.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.ScalePixel.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.ImageClassification.Model.Header" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="Action.ImageClassification.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.ImageClassification.Labels.Header" xml:space="preserve">
+    <value>Labels</value>
+  </data>
+  <data name="Action.ImageClassification.Softmax.Header" xml:space="preserve">
+    <value>Softmax</value>
+  </data>
+  <data name="Action.ObjectDetection.Model.Header" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="Action.ObjectDetection.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.ObjectDetection.Confidence.Header" xml:space="preserve">
+    <value>Confidence</value>
+  </data>
+  <data name="Action.ObjectDetection.Framework.Header" xml:space="preserve">
+    <value>Framework</value>
+  </data>
+  <data name="Action.SplitString.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.SplitString.Seperator.Header" xml:space="preserve">
+    <value>Seperator</value>
+  </data>
+  <data name="Action.PushBack.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.PushBack.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.PopBack.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.TypeStrings.Value.Text" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.TextDetection.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.TextDetection.BoxScore.Header" xml:space="preserve">
+    <value>Box Score</value>
+  </data>
+  <data name="Action.TextChinese.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.QRCode.Image.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.TextChinese.Confidence.Header" xml:space="preserve">
+    <value>Confidence</value>
+  </data>
+  <data name="Action.TextChinese.BoxScore.Header" xml:space="preserve">
+    <value>Box Score</value>
+  </data>
+  <data name="Action.TextChinese.Cls.Header" xml:space="preserve">
+    <value>Angle Classifier</value>
+  </data>
+  <data name="Action.FilterText.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.FilterText.Text.Header" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Action.Resource.Resource.Text" xml:space="preserve">
+    <value>Resource</value>
+  </data>
 </root>

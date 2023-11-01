@@ -162,10 +162,10 @@
   <data name="WorkTimer.Title" xml:space="preserve">
     <value>定时器</value>
   </data>
-  <data name="ONNXClassification.Description" xml:space="preserve">
+  <data name="ImageClassification.Description" xml:space="preserve">
     <value>目标分类，建议使用 *Yolo5 *网络训练的 ONNX 的模型。其它网络模型，可能需要通过脚本自定义输出。</value>
   </data>
-  <data name="ONNXClassification.Title" xml:space="preserve">
+  <data name="ImageClassification.Title" xml:space="preserve">
     <value>目标分类</value>
   </data>
   <data name="Type.Description" xml:space="preserve">
@@ -349,10 +349,10 @@
   <data name="ImageLoad.Title" xml:space="preserve">
     <value>加载图像</value>
   </data>
-  <data name="ONNXDetection.Description" xml:space="preserve">
+  <data name="ObjectDetection.Description" xml:space="preserve">
     <value>目标检测,仅支持 Yolo5格式的 ONNX 模型，其它 ONNX 检测模型需要通过脚本自已解析输出</value>
   </data>
-  <data name="ONNXDetection.Title" xml:space="preserve">
+  <data name="ObjectDetection.Title" xml:space="preserve">
     <value>目标检测</value>
   </data>
   <data name="PointConvert.Description" xml:space="preserve">
@@ -1009,23 +1009,17 @@
   <data name="Cloud.Title" xml:space="preserve">
     <value>云</value>
   </data>
-  <data name="Xml.Description" xml:space="preserve">
-    <value>Xml数据格式</value>
+  <data name="Pandas.Description" xml:space="preserve">
+    <value>数据分析和操纵工具</value>
   </data>
-  <data name="Xml.Title" xml:space="preserve">
-    <value>Xml</value>
+  <data name="Pandas.Title" xml:space="preserve">
+    <value>数据分析</value>
   </data>
   <data name="XmlLoadDocument.Description" xml:space="preserve">
     <value>加载Xml 文档</value>
   </data>
   <data name="XmlLoadDocument.Title" xml:space="preserve">
     <value>文档</value>
-  </data>
-  <data name="Json.Description" xml:space="preserve">
-    <value>Json</value>
-  </data>
-  <data name="Json.Title" xml:space="preserve">
-    <value>Json</value>
   </data>
   <data name="XmlGetNodeList.Description" xml:space="preserve">
     <value>获取 Xml 节点</value>
@@ -1399,46 +1393,76 @@
   <data name="WorkWait.Title" xml:space="preserve">
     <value>异步等待</value>
   </data>
-
-
   <data name="Camera.Description" xml:space="preserve">
     <value>采集相机图像</value>
   </data>
   <data name="Camera.Title" xml:space="preserve">
     <value>相机图像</value>
   </data>
-
   <data name="ImageDifference.Description" xml:space="preserve">
     <value>比较两个图像，或两个轮廓，并返回显示相似性的度量标准。</value>
   </data>
   <data name="ImageDifference.Title" xml:space="preserve">
     <value>图像比较</value>
   </data>
-
-
   <data name="VideoFrame.Description" xml:space="preserve">
     <value>获取相机当前图像帧</value>
   </data>
   <data name="VideoFrame.Title" xml:space="preserve">
     <value>相机图像</value>
   </data>
-
-
   <data name="Custom.Description" xml:space="preserve">
     <value>自定义插件</value>
   </data>
   <data name="Custom.Title" xml:space="preserve">
     <value>自定义</value>
   </data>
-
-
-
   <data name="ShapeDetection.Description" xml:space="preserve">
     <value>查找图像上的基本形状，如：三角形、四边形、正方形。</value>
   </data>
   <data name="ShapeDetection.Title" xml:space="preserve">
     <value>形状查找</value>
   </data>
-
-
+  <data name="ScalePixel.Description" xml:space="preserve">
+    <value>对图像中的像素进行缩放，将比例因子乘以（缩放）我们的图像通道。</value>
+  </data>
+  <data name="ScalePixel.Title" xml:space="preserve">
+    <value>像素缩放</value>
+  </data>
+  <data name="ImageMean.Description" xml:space="preserve">
+    <value>从通道中减去平均值来标准化我们的像素值。</value>
+  </data>
+  <data name="ImageMean.Title" xml:space="preserve">
+    <value>均值</value>
+  </data>
+  <data name="ImageStd.Description" xml:space="preserve">
+    <value>计算图像中每个通道的标准差。</value>
+  </data>
+  <data name="ImageStd.Title" xml:space="preserve">
+    <value>标准差</value>
+  </data>
+  <data name="TypeStrings.Description" xml:space="preserve">
+    <value>定义一个字符串列表</value>
+  </data>
+  <data name="TypeStrings.Title" xml:space="preserve">
+    <value>Strings</value>
+  </data>
+  <data name="Method.Description" xml:space="preserve">
+    <value>包含一系列常用函数</value>
+  </data>
+  <data name="Method.Title" xml:space="preserve">
+    <value>函数</value>
+  </data>
+  <data name="PopBack.Description" xml:space="preserve">
+    <value>删除容器中的最后一个元素，有效地将容器大小减少一个。</value>
+  </data>
+  <data name="PopBack.Title" xml:space="preserve">
+    <value>PopBack</value>
+  </data>
+  <data name="PushBack.Description" xml:space="preserve">
+    <value>在容器的末尾添加一个新元素，位于其当前最后一个元素之后。</value>
+  </data>
+  <data name="PushBack.Title" xml:space="preserve">
+    <value>PushBack</value>
+  </data>
 </root>

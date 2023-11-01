@@ -162,10 +162,10 @@
   <data name="WorkTimer.Title" xml:space="preserve">
     <value>Timer</value>
   </data>
-  <data name="ONNXClassification.Description" xml:space="preserve">
+  <data name="ImageClassification.Description" xml:space="preserve">
     <value>Target classification, a suggested model of onnx trained using the * yolo5 * network. other network models that may need to customize the output through a script.</value>
   </data>
-  <data name="ONNXClassification.Title" xml:space="preserve">
+  <data name="ImageClassification.Title" xml:space="preserve">
     <value>Classification</value>
   </data>
   <data name="Type.Description" xml:space="preserve">
@@ -348,10 +348,10 @@
   <data name="ImageLoad.Title" xml:space="preserve">
     <value>Load the image</value>
   </data>
-  <data name="ONNXDetection.Description" xml:space="preserve">
+  <data name="ObjectDetection.Description" xml:space="preserve">
     <value>Target detection, only support onnx models in yolo 5 format, other onnx detection models need to be output through scripts</value>
   </data>
-  <data name="ONNXDetection.Title" xml:space="preserve">
+  <data name="ObjectDetection.Title" xml:space="preserve">
     <value>Object detection</value>
   </data>
   <data name="PointConvert.Description" xml:space="preserve">
@@ -1014,23 +1014,17 @@
   <data name="Cloud.Title" xml:space="preserve">
     <value>Cloud</value>
   </data>
-  <data name="Xml.Description" xml:space="preserve">
-    <value>Xml</value>
+  <data name="Pandas.Description" xml:space="preserve">
+    <value>Data analysis and manipulation tool</value>
   </data>
-  <data name="Xml.Title" xml:space="preserve">
-    <value>Xml</value>
+  <data name="Pandas.Title" xml:space="preserve">
+    <value>Pandas</value>
   </data>
   <data name="XmlLoadDocument.Description" xml:space="preserve">
     <value>Load the xml document</value>
   </data>
   <data name="XmlLoadDocument.Title" xml:space="preserve">
     <value>D</value>
-  </data>
-  <data name="Json.Description" xml:space="preserve">
-    <value>Json</value>
-  </data>
-  <data name="Json.Title" xml:space="preserve">
-    <value>Json</value>
   </data>
   <data name="XmlGetNodeList.Description" xml:space="preserve">
     <value>Get the xml node</value>
@@ -1404,41 +1398,70 @@
   <data name="WorkWait.Title" xml:space="preserve">
     <value>WorkWait</value>
   </data>
-
-
   <data name="Camera.Description" xml:space="preserve">
     <value>Capture camera image</value>
   </data>
   <data name="Camera.Title" xml:space="preserve">
     <value>Camera</value>
   </data>
-
-
-
-
   <data name="VideoFrame.Description" xml:space="preserve">
     <value>Get the current image frame of the camera</value>
   </data>
   <data name="VideoFrame.Title" xml:space="preserve">
     <value>VideoFrame</value>
   </data>
-
-
   <data name="Custom.Description" xml:space="preserve">
     <value>Custom Plugins</value>
   </data>
   <data name="Custom.Title" xml:space="preserve">
     <value>Custom</value>
   </data>
-
-
-
   <data name="ShapeDetection.Description" xml:space="preserve">
     <value>Find the common shapes on the image, such as: triangle, quadranges, squares.</value>
   </data>
   <data name="ShapeDetection.Title" xml:space="preserve">
     <value>ShapeDetection</value>
   </data>
-
-
+  <data name="ScalePixel.Description" xml:space="preserve">
+    <value>Substate the pixels in the image and multiply the proportional factor to (zoom) our image channel.</value>
+  </data>
+  <data name="ScalePixel.Title" xml:space="preserve">
+    <value>ScalePixel</value>
+  </data>
+  <data name="ImageMean.Description" xml:space="preserve">
+    <value>Image Mean</value>
+  </data>
+  <data name="ImageMean.Title" xml:space="preserve">
+    <value>ImageMean</value>
+  </data>
+  <data name="ImageStd.Description" xml:space="preserve">
+    <value>Image standard deviation</value>
+  </data>
+  <data name="ImageStd.Title" xml:space="preserve">
+    <value>ImageStd</value>
+  </data>
+  <data name="TypeStrings.Description" xml:space="preserve">
+    <value>Define a list of strings</value>
+  </data>
+  <data name="TypeStrings.Title" xml:space="preserve">
+    <value>Strings</value>
+  </data>
+  <data name="Method.Description" xml:space="preserve">
+    <value>Contains some commonly used methods</value>
+  </data>
+  <data name="Method.Title" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="PopBack.Description" xml:space="preserve">
+    <value>Removes the last element in the vector, effectively reducing the container size by one.</value>
+  </data>
+  <data name="PopBack.Title" xml:space="preserve">
+    <value>PopBack</value>
+  </data>
+  <data name="PushBack.Description" xml:space="preserve">
+    <value>Adds a new element at the end of the vector, after its current last element. </value>
+  </data>
+  <data name="PushBack.Title" xml:space="preserve">
+    <value>PushBack</value>
+  </data>
 </root>

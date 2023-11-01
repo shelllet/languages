@@ -681,4 +681,94 @@
   <data name="Action.DrawRect.Color.Header" xml:space="preserve">
     <value>颜色</value>
   </data>
+  <data name="Action.ImageStd.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ImageStd.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.ImageMean.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ImageMean.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.ScalePixel.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ScalePixel.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.ImageClassification.Model.Header" xml:space="preserve">
+    <value>模型</value>
+  </data>
+  <data name="Action.ImageClassification.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ImageClassification.Labels.Header" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="Action.ImageClassification.Softmax.Header" xml:space="preserve">
+    <value>归一化</value>
+  </data>
+  <data name="Action.ObjectDetection.Model.Header" xml:space="preserve">
+    <value>模型</value>
+  </data>
+  <data name="Action.ObjectDetection.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.ObjectDetection.Confidence.Header" xml:space="preserve">
+    <value>置信度</value>
+  </data>
+  <data name="Action.ObjectDetection.Framework.Header" xml:space="preserve">
+    <value>框架</value>
+  </data>
+  <data name="Action.SplitString.Source.Header" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Action.SplitString.Seperator.Header" xml:space="preserve">
+    <value>分隔符</value>
+  </data>
+  <data name="Action.PushBack.Source.Header" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Action.PushBack.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.PopBack.Source.Header" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Action.TypeStrings.Value.Text" xml:space="preserve">
+    <value>初始值</value>
+  </data>
+  <data name="Action.TextDetection.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.TextDetection.BoxScore.Header" xml:space="preserve">
+    <value>文本框分值</value>
+  </data>
+  <data name="Action.TextChinese.BoxScore.Header" xml:space="preserve">
+    <value>文本框分值</value>
+  </data>
+  <data name="Action.TextChinese.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.TextChinese.Confidence.Header" xml:space="preserve">
+    <value>置信度</value>
+  </data>
+  <data name="Action.TextChinese.Cls.Header" xml:space="preserve">
+    <value>角度分类器</value>
+  </data>
+  <data name="Action.FilterText.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.FilterText.Text.Header" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="Action.QRCode.Image.Header" xml:space="preserve">
+    <value>图像</value>
+  </data>
+  <data name="Action.Resource.Resource.Text" xml:space="preserve">
+    <value>资源</value>
+  </data>
 </root>
