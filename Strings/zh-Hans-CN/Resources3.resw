@@ -163,7 +163,7 @@
     <value>定时器</value>
   </data>
   <data name="ImageClassification.Description" xml:space="preserve">
-    <value>目标分类，建议使用 *Yolo5 *网络训练的 ONNX 的模型。其它网络模型，可能需要通过脚本自定义输出。</value>
+    <value>建议使用 *Yolo5 *网络训练的 ONNX 的模型。其它网络模型，可能需要通过脚本自定义输出。</value>
   </data>
   <data name="ImageClassification.Title" xml:space="preserve">
     <value>目标分类</value>
@@ -350,10 +350,10 @@
     <value>加载图像</value>
   </data>
   <data name="ObjectDetection.Description" xml:space="preserve">
-    <value>目标检测,仅支持 Yolo5格式的 ONNX 模型，其它 ONNX 检测模型需要通过脚本自已解析输出</value>
+    <value>仅支持 Yolo5格式的 ONNX 模型，其它 ONNX 检测模型需要通过脚本自已解析输出</value>
   </data>
   <data name="ObjectDetection.Title" xml:space="preserve">
-    <value>目标检测</value>
+    <value>对象检测</value>
   </data>
   <data name="PointConvert.Description" xml:space="preserve">
     <value>窗口坐标转屏幕坐标，或者屏幕坐标转窗口坐标</value>
@@ -1465,4 +1465,14 @@
   <data name="PushBack.Title" xml:space="preserve">
     <value>PushBack</value>
   </data>
+
+
+  <data name="JoinString.Description" xml:space="preserve">
+    <value>使用分隔符，合并字符串。</value>
+  </data>
+  <data name="JoinString.Title" xml:space="preserve">
+    <value>合并字符串</value>
+  </data>
+
+
 </root>

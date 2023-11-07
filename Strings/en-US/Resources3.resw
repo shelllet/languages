@@ -163,10 +163,10 @@
     <value>Timer</value>
   </data>
   <data name="ImageClassification.Description" xml:space="preserve">
-    <value>Target classification, a suggested model of onnx trained using the * yolo5 * network. other network models that may need to customize the output through a script.</value>
+    <value>A suggested model of onnx trained using the * yolo5 * network. other network models that may need to customize the output through a script.</value>
   </data>
   <data name="ImageClassification.Title" xml:space="preserve">
-    <value>Classification</value>
+    <value>ImageClassification</value>
   </data>
   <data name="Type.Description" xml:space="preserve">
     <value>Type</value>
@@ -349,10 +349,10 @@
     <value>Load the image</value>
   </data>
   <data name="ObjectDetection.Description" xml:space="preserve">
-    <value>Target detection, only support onnx models in yolo 5 format, other onnx detection models need to be output through scripts</value>
+    <value>Only support onnx models in yolo v5 format, other onnx detection models need to be output through scripts</value>
   </data>
   <data name="ObjectDetection.Title" xml:space="preserve">
-    <value>Object detection</value>
+    <value>ObjectDetection</value>
   </data>
   <data name="PointConvert.Description" xml:space="preserve">
     <value>Window coordinates to screen coordinates, or screen coordinates to window coordinates</value>
@@ -1464,4 +1464,14 @@
   <data name="PushBack.Title" xml:space="preserve">
     <value>PushBack</value>
   </data>
+
+
+  <data name="JoinString.Description" xml:space="preserve">
+    <value>Join string with seperator.</value>
+  </data>
+  <data name="JoinString.Title" xml:space="preserve">
+    <value>JoinString</value>
+  </data>
+
+
 </root>

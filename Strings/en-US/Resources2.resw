@@ -770,4 +770,13 @@
   <data name="Action.Resource.Resource.Text" xml:space="preserve">
     <value>Resource</value>
   </data>
+  <data name="Action.ClipboardValue.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.JoinString.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.JoinString.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
 </root>

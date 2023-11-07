@@ -163,7 +163,7 @@
     <value>計时器</value>
   </data>
   <data name="ImageClassification.Description" xml:space="preserve">
-    <value>目標分類，建議使用*yolo5 *網絡訓練的onnx的模型。 其它網絡模型，可能需要通過腳本自定義輸出。</value>
+    <value>建議使用*yolo5 *網絡訓練的onnx的模型。 其它網絡模型，可能需要通過腳本自定義輸出。</value>
   </data>
   <data name="ImageClassification.Title" xml:space="preserve">
     <value>目標分類</value>
@@ -349,10 +349,10 @@
     <value>加載影像</value>
   </data>
   <data name="ObjectDetection.Description" xml:space="preserve">
-    <value>目標檢測，僅支持yolo5格式的onnx模型，其它onnx檢測模型需要通過腳本自已解析輸出</value>
+    <value>僅支持yolo5格式的onnx模型，其它onnx檢測模型需要通過腳本自已解析輸出</value>
   </data>
   <data name="ObjectDetection.Title" xml:space="preserve">
-    <value>目標檢測</value>
+    <value>对象檢測</value>
   </data>
   <data name="PointConvert.Description" xml:space="preserve">
     <value>視窗座標轉荧幕座標，或者荧幕座標轉視窗座標</value>
@@ -1464,4 +1464,14 @@
   <data name="PushBack.Title" xml:space="preserve">
     <value>PushBack</value>
   </data>
+
+
+  <data name="JoinString.Description" xml:space="preserve">
+    <value>使用分隔符，合併字符串。</value>
+  </data>
+  <data name="JoinString.Title" xml:space="preserve">
+    <value>合併字符串</value>
+  </data>
+
+
 </root>

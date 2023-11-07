@@ -745,7 +745,7 @@
     <value>图像</value>
   </data>
   <data name="Action.TextDetection.BoxScore.Header" xml:space="preserve">
-    <value>文本框分值</value>
+    <value>文本框评分</value>
   </data>
   <data name="Action.TextChinese.BoxScore.Header" xml:space="preserve">
     <value>文本框分值</value>
@@ -770,5 +770,14 @@
   </data>
   <data name="Action.Resource.Resource.Text" xml:space="preserve">
     <value>资源</value>
+  </data>
+  <data name="Action.ClipboardValue.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.JoinString.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.JoinString.Source.Header" xml:space="preserve">
+    <value>源</value>
   </data>
 </root>
