@@ -1474,4 +1474,44 @@
   </data>
 
 
+
+
+  <data name="BarcodeCreate.Description" xml:space="preserve">
+    <value>Generate barcode image</value>
+  </data>
+  <data name="BarcodeCreate.Title" xml:space="preserve">
+    <value>BarcodeCreate</value>
+  </data>
+
+
+
+
+  <data name="DrawText.Description" xml:space="preserve">
+    <value>Draw text on the image</value>
+  </data>
+  <data name="DrawText.Title" xml:space="preserve">
+    <value>DrawText</value>
+  </data>
+
+
+
+
+  <data name="DrawImage.Description" xml:space="preserve">
+    <value>Draw images on the image</value>
+  </data>
+  <data name="DrawImage.Title" xml:space="preserve">
+    <value>DrawImage</value>
+  </data>
+
+
+
+
+  <data name="SubString.Description" xml:space="preserve">
+    <value>SubString</value>
+  </data>
+  <data name="SubString.Title" xml:space="preserve">
+    <value>SubString</value>
+  </data>
+
+
 </root>

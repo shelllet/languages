@@ -168,11 +168,11 @@
   <data name="Settings.Drawing.Thickness.Text" xml:space="preserve">
     <value>Thickness</value>
   </data>
-  <data name="Settings.Drawing.FontHeight.Text" xml:space="preserve">
-    <value>Font size</value>
+  <data name="Settings.Drawing.FontSize.Text" xml:space="preserve">
+    <value>Font Size</value>
   </data>
   <data name="Settings.Color.Text" xml:space="preserve">
-    <value>Foreground color</value>
+    <value>Foreground Color</value>
   </data>
   <data name="Settings.BackgroundColor.Text" xml:space="preserve">
     <value>Background Color</value>

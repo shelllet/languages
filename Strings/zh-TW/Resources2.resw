@@ -135,11 +135,9 @@
   <data name="Action.OpenApplication.WorkingDirectory.Header" xml:space="preserve">
     <value>工作目錄</value>
   </data>
-
   <data name="Action.PixelPoint.Source.Header" xml:space="preserve">
     <value>數據源</value>
   </data>
-
   <data name="Action.PixelPoint.Point.Header" xml:space="preserve">
     <value>坐标</value>
   </data>
@@ -196,6 +194,9 @@
   </data>
   <data name="Action.WorkTimer.Immediate.Header" xml:space="preserve">
     <value>立即觸發</value>
+  </data>
+  <data name="Action.WorkThread.Manual.Header" xml:space="preserve">
+    <value>手動</value>
   </data>
   <data name="Action.WindowPoint.Window.Header" xml:space="preserve">
     <value>窗口</value>
@@ -775,5 +776,107 @@
   </data>
   <data name="Action.JoinString.Source.Header" xml:space="preserve">
     <value>源</value>
+  </data>
+  <data name="Action.BarcodeCreate.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.DrawImage.Source.Header" xml:space="preserve">
+    <value>畫布</value>
+  </data>
+  <data name="Action.DrawImage.Value.Header" xml:space="preserve">
+    <value>圖像</value>
+  </data>
+  <data name="Action.DrawImage.Xy.Header" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Action.DrawText.Source.Header" xml:space="preserve">
+    <value>畫布</value>
+  </data>
+  <data name="Action.DrawText.Value.Header" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="Action.DrawText.FontSize.Header" xml:space="preserve">
+    <value>字體大小</value>
+  </data>
+  <data name="Action.DrawText.Xy.Header" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Action.DrawText.FontType.Header" xml:space="preserve">
+    <value>字體類型</value>
+  </data>
+  <data name="Action.DrawText.Color.Header" xml:space="preserve">
+    <value>字體顏色</value>
+  </data>
+  <data name="Action.MediaPlay.Media.Header" xml:space="preserve">
+    <value>媒體</value>
+  </data>
+  <data name="Action.CaptureFullScreen.Center.Header" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="Action.CaptureFullScreen.Size.Header" xml:space="preserve">
+    <value>長寬</value>
+  </data>
+  <data name="Action.CaptureForground.Center.Header" xml:space="preserve">
+    <value>中心</value>
+  </data>
+  <data name="Action.CaptureForground.Size.Header" xml:space="preserve">
+    <value>長寬</value>
+  </data>
+  <data name="Action.HttpDownload.Url.Header" xml:space="preserve">
+    <value>鏈接</value>
+  </data>
+  <data name="Action.HttpDownload.Folder.Header" xml:space="preserve">
+    <value>文件夾</value>
+  </data>
+  <data name="Action.HttpDownload.FileName.Header" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="Action.HttpGet.Url.Header" xml:space="preserve">
+    <value>鏈接</value>
+  </data>
+  <data name="Action.HttpHead.Url.Header" xml:space="preserve">
+    <value>鏈接</value>
+  </data>
+  <data name="Action.HttpPost.Url.Header" xml:space="preserve">
+    <value>鏈接</value>
+  </data>
+  <data name="Action.HttpPost.ContentType.Header" xml:space="preserve">
+    <value>數據類型</value>
+  </data>
+  <data name="Action.HttpPost.Content.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.TcpConnect.Host.Header" xml:space="preserve">
+    <value>主機</value>
+  </data>
+  <data name="Action.TcpConnect.Port.Header" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="Action.TcpConnect.Protocols.Header" xml:space="preserve">
+    <value>協定</value>
+  </data>
+  <data name="Action.TcpListen.Host.Header" xml:space="preserve">
+    <value>主機</value>
+  </data>
+  <data name="Action.TcpListen.Port.Header" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="Action.TcpListen.Protocols.Header" xml:space="preserve">
+    <value>協定</value>
+  </data>
+  <data name="Action.TcpReceive.Socket.Header" xml:space="preserve">
+    <value>套接字</value>
+  </data>
+  <data name="Action.TcpSend.Socket.Header" xml:space="preserve">
+    <value>套接字</value>
+  </data>
+  <data name="Action.TcpSend.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.YoutubeDownload.Url.Header" xml:space="preserve">
+    <value>網站</value>
+  </data>
+  <data name="Action.YoutubeDownload.Output.Header" xml:space="preserve">
+    <value>保存位置</value>
   </data>
 </root>

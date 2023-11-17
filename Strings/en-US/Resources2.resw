@@ -138,7 +138,6 @@
   <data name="Action.PixelPoint.Source.Header" xml:space="preserve">
     <value>Source</value>
   </data>
-
   <data name="Action.PixelPoint.Point.Header" xml:space="preserve">
     <value>Point</value>
   </data>
@@ -199,6 +198,9 @@
   <data name="Action.WorkTimer.Immediate.Header" xml:space="preserve">
     <value>Immediate</value>
   </data>
+  <data name="Action.WorkThread.Manual.Header" xml:space="preserve">
+    <value>Manual</value>
+  </data>
   <data name="Action.WindowPoint.Window.Header" xml:space="preserve">
     <value>Window</value>
   </data>
@@ -208,7 +210,6 @@
   <data name="Action.WindowPoint.Offset.Header" xml:space="preserve">
     <value>Offset</value>
   </data>
-
   <data name="Action.WhenEvent.ManualReset.Header" xml:space="preserve">
     <value>Manual Reset</value>
   </data>
@@ -778,5 +779,107 @@
   </data>
   <data name="Action.JoinString.Source.Header" xml:space="preserve">
     <value>Source</value>
+  </data>
+  <data name="Action.BarcodeCreate.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.DrawImage.Source.Header" xml:space="preserve">
+    <value>Canvas</value>
+  </data>
+  <data name="Action.DrawImage.Value.Header" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="Action.DrawImage.Xy.Header" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Action.DrawText.Source.Header" xml:space="preserve">
+    <value>Canvas</value>
+  </data>
+  <data name="Action.DrawText.Value.Header" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Action.DrawText.FontSize.Header" xml:space="preserve">
+    <value>Font Size</value>
+  </data>
+  <data name="Action.DrawText.Xy.Header" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Action.DrawText.FontType.Header" xml:space="preserve">
+    <value>Font Type</value>
+  </data>
+  <data name="Action.DrawText.Color.Header" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Action.MediaPlay.Media.Header" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="Action.CaptureFullScreen.Center.Header" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="Action.CaptureFullScreen.Size.Header" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Action.CaptureForground.Center.Header" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="Action.CaptureForground.Size.Header" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="Action.HttpDownload.Url.Header" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Action.HttpDownload.Folder.Header" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="Action.HttpDownload.FileName.Header" xml:space="preserve">
+    <value>FileName</value>
+  </data>
+  <data name="Action.HttpGet.Url.Header" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Action.HttpHead.Url.Header" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Action.HttpPost.Url.Header" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Action.HttpPost.ContentType.Header" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Action.HttpPost.Content.Header" xml:space="preserve">
+    <value>Content</value>
+  </data>
+  <data name="Action.TcpConnect.Host.Header" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="Action.TcpConnect.Port.Header" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Action.TcpConnect.Protocols.Header" xml:space="preserve">
+    <value>Protocols</value>
+  </data>
+  <data name="Action.TcpListen.Host.Header" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="Action.TcpListen.Port.Header" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="Action.TcpListen.Protocols.Header" xml:space="preserve">
+    <value>Protocols</value>
+  </data>
+  <data name="Action.TcpReceive.Socket.Header" xml:space="preserve">
+    <value>Socket</value>
+  </data>
+  <data name="Action.TcpSend.Socket.Header" xml:space="preserve">
+    <value>Socket</value>
+  </data>
+  <data name="Action.TcpSend.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.YoutubeDownload.Url.Header" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Action.YoutubeDownload.Output.Header" xml:space="preserve">
+    <value>Output</value>
   </data>
 </root>

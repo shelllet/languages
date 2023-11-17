@@ -168,7 +168,7 @@
   <data name="Settings.Drawing.Thickness.Text" xml:space="preserve">
     <value>边框大小</value>
   </data>
-  <data name="Settings.Drawing.FontHeight.Text" xml:space="preserve">
+  <data name="Settings.Drawing.FontSize.Text" xml:space="preserve">
     <value>字体大小</value>
   </data>
   <data name="Settings.Color.Text" xml:space="preserve">

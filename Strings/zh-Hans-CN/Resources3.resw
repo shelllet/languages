@@ -154,7 +154,7 @@
     <value>播放录制的键盘和鼠标宏。</value>
   </data>
   <data name="PlayRecord.Title" xml:space="preserve">
-    <value>重放鼠标/键盘</value>
+    <value>键盘/鼠标宏重放</value>
   </data>
   <data name="WorkTimer.Description" xml:space="preserve">
     <value>可以按照一定的时间间隔，重复执行子流程。</value>
@@ -1355,7 +1355,7 @@
     <value>这个动作检索指定坐标处的像素的红色，绿色，蓝色（RGB）颜色值。</value>
   </data>
   <data name="PixelPoint.Title" xml:space="preserve">
-    <value>检索颜色</value>
+    <value>屏幕取色</value>
   </data>
   <data name="WorkReset.Description" xml:space="preserve">
     <value>这个动作可用于切换异步动作的状态（停止/运行）,比如线程和定时器。</value>
@@ -1472,6 +1472,45 @@
   </data>
   <data name="JoinString.Title" xml:space="preserve">
     <value>合并字符串</value>
+  </data>
+
+
+
+
+  <data name="BarcodeCreate.Description" xml:space="preserve">
+    <value>生成条形码图片</value>
+  </data>
+  <data name="BarcodeCreate.Title" xml:space="preserve">
+    <value>生成条码</value>
+  </data>
+
+
+
+  <data name="DrawText.Description" xml:space="preserve">
+    <value>在图像上绘制文本</value>
+  </data>
+  <data name="DrawText.Title" xml:space="preserve">
+    <value>绘制文本</value>
+  </data>
+
+
+
+
+  <data name="DrawImage.Description" xml:space="preserve">
+    <value>在图像上绘制图像</value>
+  </data>
+  <data name="DrawImage.Title" xml:space="preserve">
+    <value>绘制图像</value>
+  </data>
+
+
+
+
+  <data name="SubString.Description" xml:space="preserve">
+    <value>SubString</value>
+  </data>
+  <data name="SubString.Title" xml:space="preserve">
+    <value>SubString</value>
   </data>
 
 
