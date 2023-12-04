@@ -234,11 +234,11 @@
   <data name="Control.Title" xml:space="preserve">
     <value>Logic</value>
   </data>
-  <data name="For.Description" xml:space="preserve">
-    <value>Cycles, mainly used to iterate over the container</value>
+  <data name="ForEach.Description" xml:space="preserve">
+    <value>Iterators, mainly used to iterate over the container</value>
   </data>
-  <data name="For.Title" xml:space="preserve">
-    <value>Recurrence</value>
+  <data name="ForEach.Title" xml:space="preserve">
+    <value>ForEach</value>
   </data>
   <data name="If.Description" xml:space="preserve">
     <value>Conditional judgment, equivalent to the if statement in python, the action has two branches, if the condition holds, execute the process branch on the left, otherwise, execute the process branch on the right</value>
@@ -340,7 +340,7 @@
     <value>Exit process execution</value>
   </data>
   <data name="ExitApp.Title" xml:space="preserve">
-    <value>Withdraw from</value>
+    <value>ExitApp</value>
   </data>
   <data name="ImageLoad.Description" xml:space="preserve">
     <value>Load the images from the local disk</value>
@@ -364,7 +364,7 @@
     <value>Can be used to end the thread action being performed.</value>
   </data>
   <data name="WorkExit.Title" xml:space="preserve">
-    <value>End thread</value>
+    <value>WorkExit</value>
   </data>
   <data name="AdbPackages.Description" xml:space="preserve">
     <value>This action gets all the installation packages in the android emulator.</value>
@@ -496,7 +496,7 @@
     <value>This action downloads the network files through the http protocol.</value>
   </data>
   <data name="HttpDownload.Title" xml:space="preserve">
-    <value>Download</value>
+    <value>HttpDownload</value>
   </data>
   <data name="WebElementAttribute.Description" xml:space="preserve">
     <value>Get properties</value>
@@ -685,10 +685,10 @@
     <value>WinRun</value>
   </data>
   <data name="HttpGet.Description" xml:space="preserve">
-    <value>Send a get request based on http</value>
+    <value>The HTTP GET request method is used to request data-specified resources from the server. </value>
   </data>
   <data name="HttpGet.Title" xml:space="preserve">
-    <value>Get</value>
+    <value>HttpGet</value>
   </data>
   <data name="ONNXModel.Description" xml:space="preserve">
     <value>Load the onnx, the model file</value>
@@ -886,13 +886,13 @@
     <value>Send the http-based post requests</value>
   </data>
   <data name="HttpPost.Title" xml:space="preserve">
-    <value>Post</value>
+    <value>HttpPost</value>
   </data>
   <data name="HttpHead.Description" xml:space="preserve">
-    <value>Send the head requests based on the http</value>
+    <value>The HTTP HEAD method requests HTTP headers from the server.</value>
   </data>
   <data name="HttpHead.Title" xml:space="preserve">
-    <value>Head</value>
+    <value>HttpHead</value>
   </data>
   <data name="Android.Description" xml:space="preserve">
     <value>Android</value>
@@ -1074,11 +1074,11 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>Qr code identification</value>
   </data>
-  <data name="IterParam.Description" xml:space="preserve">
+  <data name="IterValue.Description" xml:space="preserve">
     <value>Usually as a child-action, its value is introduced from the corresponding parent actions.Usually, multiple values are returned by the action support children actions, and each element of the list will be passed on to the action.</value>
   </data>
-  <data name="IterParam.Title" xml:space="preserve">
-    <value>IterParam</value>
+  <data name="IterValue.Title" xml:space="preserve">
+    <value>IterValue</value>
   </data>
   <data name="WebActionChainsPerform.Description" xml:space="preserve">
     <value>Perform the created action chain.</value>
@@ -1399,7 +1399,7 @@
     <value>WorkWait</value>
   </data>
   <data name="Camera.Description" xml:space="preserve">
-    <value>Capture camera image</value>
+    <value>Camera Device</value>
   </data>
   <data name="Camera.Title" xml:space="preserve">
     <value>Camera</value>
@@ -1507,10 +1507,44 @@
 
 
   <data name="SubString.Description" xml:space="preserve">
-    <value>SubString</value>
+    <value>This action can obtain part string according to a specific method.</value>
   </data>
   <data name="SubString.Title" xml:space="preserve">
     <value>SubString</value>
+  </data>
+
+
+
+
+  <data name="TypeDict.Description" xml:space="preserve">
+    <value>Dict are used to store data values in key:value pairs.</value>
+  </data>
+  <data name="TypeDict.Title" xml:space="preserve">
+    <value>Dict</value>
+  </data>
+
+  <data name="TypePair.Description" xml:space="preserve">
+    <value>TypePair</value>
+  </data>
+  <data name="TypePair.Title" xml:space="preserve">
+    <value>TypePair</value>
+  </data>
+
+  <data name="TypeTuple.Description" xml:space="preserve">
+    <value>Tuple are used to store multiple items in a single variable. </value>
+  </data>
+  <data name="TypeTuple.Title" xml:space="preserve">
+    <value>Tuple</value>
+  </data>
+
+
+
+
+  <data name="StandardPath.Description" xml:space="preserve">
+    <value>This action contains functions to query standard locations on the local filesystem, for common tasks such as user-specific directories or system-wide configuration directories.</value>
+  </data>
+  <data name="StandardPath.Title" xml:space="preserve">
+    <value>StandardPath</value>
   </data>
 
 

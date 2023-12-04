@@ -234,11 +234,11 @@
   <data name="Control.Title" xml:space="preserve">
     <value>逻辑</value>
   </data>
-  <data name="For.Description" xml:space="preserve">
-    <value>循环，主要用来迭代容器</value>
+  <data name="ForEach.Description" xml:space="preserve">
+    <value>迭代器，主要用来迭代容器</value>
   </data>
-  <data name="For.Title" xml:space="preserve">
-    <value>循环</value>
+  <data name="ForEach.Title" xml:space="preserve">
+    <value>迭代</value>
   </data>
   <data name="If.Description" xml:space="preserve">
     <value>条件判断，相当于python 中的 if语句，该动作有两条分支，如果条件成立，执行左边的流程分支，否则，执行右边的流程分支</value>
@@ -341,7 +341,7 @@
     <value>退出流程执行</value>
   </data>
   <data name="ExitApp.Title" xml:space="preserve">
-    <value>退出</value>
+    <value>结束流程</value>
   </data>
   <data name="ImageLoad.Description" xml:space="preserve">
     <value>从本地磁盘加载图像</value>
@@ -365,7 +365,7 @@
     <value>可用于结束正在执行的 线程 动作。</value>
   </data>
   <data name="WorkExit.Title" xml:space="preserve">
-    <value>异步结束</value>
+    <value>异步停止</value>
   </data>
   <data name="AdbPackages.Description" xml:space="preserve">
     <value>此动作可以获取安卓模拟器当中的所有安装包。</value>
@@ -497,7 +497,7 @@
     <value>此动作通过 HTTP 协议下载网络文件。</value>
   </data>
   <data name="HttpDownload.Title" xml:space="preserve">
-    <value>下载</value>
+    <value>文件下载</value>
   </data>
   <data name="WebElementAttribute.Description" xml:space="preserve">
     <value>获取属性</value>
@@ -686,10 +686,10 @@
     <value>运行框</value>
   </data>
   <data name="HttpGet.Description" xml:space="preserve">
-    <value>发送基于 HTTP 的Get 请求</value>
+    <value>发送基于 HTTP 的 GET 请求</value>
   </data>
   <data name="HttpGet.Title" xml:space="preserve">
-    <value>Get</value>
+    <value>GET 请求</value>
   </data>
   <data name="ONNXModel.Description" xml:space="preserve">
     <value>加载 ONNX 模型文件</value>
@@ -878,16 +878,16 @@
     <value>定时任务</value>
   </data>
   <data name="HttpPost.Description" xml:space="preserve">
-    <value>发送基于 HTTP 的Post 请求</value>
+    <value>发送基于 HTTP 的 POST 请求</value>
   </data>
   <data name="HttpPost.Title" xml:space="preserve">
-    <value>Post</value>
+    <value>POST 请求</value>
   </data>
   <data name="HttpHead.Description" xml:space="preserve">
-    <value>发送基于 HTTP 的Head 请求</value>
+    <value>用于向服务器请求指定的资源。</value>
   </data>
   <data name="HttpHead.Title" xml:space="preserve">
-    <value>Head</value>
+    <value>HEAD 请求</value>
   </data>
   <data name="Android.Description" xml:space="preserve">
     <value>安卓</value>
@@ -1069,11 +1069,11 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>二维码识别</value>
   </data>
-  <data name="IterParam.Description" xml:space="preserve">
+  <data name="IterValue.Description" xml:space="preserve">
     <value>通常做为子动作，其值由相应的父动作传入。通常返回多个值的动作都会支持子动作，列表的每个元素都会被迭代透传给该动作。</value>
   </data>
-  <data name="IterParam.Title" xml:space="preserve">
-    <value>迭代参数</value>
+  <data name="IterValue.Title" xml:space="preserve">
+    <value>迭代数据</value>
   </data>
   <data name="WebActionChainsPerform.Description" xml:space="preserve">
     <value>执行创建的动作链。</value>
@@ -1394,10 +1394,10 @@
     <value>异步等待</value>
   </data>
   <data name="Camera.Description" xml:space="preserve">
-    <value>采集相机图像</value>
+    <value>相机设备</value>
   </data>
   <data name="Camera.Title" xml:space="preserve">
-    <value>相机图像</value>
+    <value>相机</value>
   </data>
   <data name="ImageDifference.Description" xml:space="preserve">
     <value>比较两个图像，或两个轮廓，并返回显示相似性的度量标准。</value>
@@ -1507,10 +1507,50 @@
 
 
   <data name="SubString.Description" xml:space="preserve">
-    <value>SubString</value>
+    <value>该动作根据特定的方法，可以获取部分字符串。</value>
   </data>
   <data name="SubString.Title" xml:space="preserve">
-    <value>SubString</value>
+    <value>字符串提取</value>
+  </data>
+
+
+
+
+  <data name="TypeDict.Description" xml:space="preserve">
+    <value>字典 用于将数据值存储在（键/值）对中。</value>
+  </data>
+  <data name="TypeDict.Title" xml:space="preserve">
+    <value>字典</value>
+  </data>
+
+
+
+
+  <data name="TypePair.Description" xml:space="preserve">
+    <value>TypePair</value>
+  </data>
+  <data name="TypePair.Title" xml:space="preserve">
+    <value>TypePair</value>
+  </data>
+
+
+
+
+  <data name="TypeTuple.Description" xml:space="preserve">
+    <value>元组用于将多个项目存储在单个变量中。</value>
+  </data>
+  <data name="TypeTuple.Title" xml:space="preserve">
+    <value>元组</value>
+  </data>
+
+
+
+
+  <data name="StandardPath.Description" xml:space="preserve">
+    <value>此操作包含在本地文件系统上查询标准路径位置的功能，例如特定于用户目录或系统范围的配置目录等常见任务。</value>
+  </data>
+  <data name="StandardPath.Title" xml:space="preserve">
+    <value>标准路径</value>
   </data>
 
 

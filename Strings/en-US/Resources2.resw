@@ -837,11 +837,20 @@
   <data name="Action.HttpGet.Url.Header" xml:space="preserve">
     <value>Url</value>
   </data>
+  <data name="Action.HttpGet.Headers.Header" xml:space="preserve">
+    <value>Headers</value>
+  </data>
+  <data name="Action.HttpGet.Params.Header" xml:space="preserve">
+    <value>Params</value>
+  </data>
   <data name="Action.HttpHead.Url.Header" xml:space="preserve">
     <value>Url</value>
   </data>
   <data name="Action.HttpPost.Url.Header" xml:space="preserve">
     <value>Url</value>
+  </data>
+  <data name="Action.HttpPost.Headers.Header" xml:space="preserve">
+    <value>Header</value>
   </data>
   <data name="Action.HttpPost.ContentType.Header" xml:space="preserve">
     <value>Type</value>
@@ -881,5 +890,44 @@
   </data>
   <data name="Action.YoutubeDownload.Output.Header" xml:space="preserve">
     <value>Output</value>
+  </data>
+  <data name="Action.YoutubeDownload.OnlyAudio.Header" xml:space="preserve">
+    <value>Audio</value>
+  </data>
+  <data name="Action.YoutubeDownload.Itag.Header" xml:space="preserve">
+    <value>Itag</value>
+  </data>
+  <data name="Action.SubString.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.SubString.Pos.Header" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Action.SubString.Length.Header" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="Action.IterValue.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.Invoke.Process.Header" xml:space="preserve">
+    <value>Process</value>
+  </data>
+  <data name="Action.Invoke.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.StandardPath.KnownFolder.Header" xml:space="preserve">
+    <value>KnownFolder</value>
+  </data>
+  <data name="Action.TypeTuple.Key.Header" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="Action.TypeTuple.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.TypeDict.Key.Header" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="Action.TypeDict.Value.Header" xml:space="preserve">
+    <value>Value</value>
   </data>
 </root>

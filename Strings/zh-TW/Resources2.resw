@@ -834,11 +834,20 @@
   <data name="Action.HttpGet.Url.Header" xml:space="preserve">
     <value>鏈接</value>
   </data>
+  <data name="Action.HttpGet.Headers.Header" xml:space="preserve">
+    <value>標頭</value>
+  </data>
+  <data name="Action.HttpGet.Params.Header" xml:space="preserve">
+    <value>參數</value>
+  </data>
   <data name="Action.HttpHead.Url.Header" xml:space="preserve">
     <value>鏈接</value>
   </data>
   <data name="Action.HttpPost.Url.Header" xml:space="preserve">
     <value>鏈接</value>
+  </data>
+  <data name="Action.HttpPost.Headers.Header" xml:space="preserve">
+    <value>标头</value>
   </data>
   <data name="Action.HttpPost.ContentType.Header" xml:space="preserve">
     <value>數據類型</value>
@@ -877,6 +886,45 @@
     <value>網站</value>
   </data>
   <data name="Action.YoutubeDownload.Output.Header" xml:space="preserve">
-    <value>保存位置</value>
+    <value>目錄</value>
+  </data>
+  <data name="Action.YoutubeDownload.OnlyAudio.Header" xml:space="preserve">
+    <value>音頻</value>
+  </data>
+  <data name="Action.YoutubeDownload.Itag.Header" xml:space="preserve">
+    <value>標籤</value>
+  </data>
+  <data name="Action.SubString.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.SubString.Pos.Header" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Action.SubString.Length.Header" xml:space="preserve">
+    <value>长度</value>
+  </data>
+  <data name="Action.IterValue.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.Invoke.Process.Header" xml:space="preserve">
+    <value>流程</value>
+  </data>
+  <data name="Action.Invoke.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.StandardPath.KnownFolder.Header" xml:space="preserve">
+    <value>類型</value>
+  </data>
+  <data name="Action.TypeTuple.Key.Header" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Action.TypeTuple.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.TypeDict.Key.Header" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Action.TypeDict.Value.Header" xml:space="preserve">
+    <value>值</value>
   </data>
 </root>
