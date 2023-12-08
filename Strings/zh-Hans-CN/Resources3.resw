@@ -1069,11 +1069,11 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>二维码识别</value>
   </data>
-  <data name="IterValue.Description" xml:space="preserve">
-    <value>通常做为子动作，其值由相应的父动作传入。通常返回多个值的动作都会支持子动作，列表的每个元素都会被迭代透传给该动作。</value>
+  <data name="ParamGet.Description" xml:space="preserve">
+    <value>通常做为子动作，其值由相应的父动作传入。例如列表中的每个项都会被透传给该动作。</value>
   </data>
-  <data name="IterValue.Title" xml:space="preserve">
-    <value>迭代数据</value>
+  <data name="ParamGet.Title" xml:space="preserve">
+    <value>参数获取</value>
   </data>
   <data name="WebActionChainsPerform.Description" xml:space="preserve">
     <value>执行创建的动作链。</value>
@@ -1190,28 +1190,28 @@
     <value>移动</value>
   </data>
   <data name="TcpListen.Description" xml:space="preserve">
-    <value>此动作用来创建TCP或者UDP服务端。</value>
+    <value>创建一个网络服务端。</value>
   </data>
   <data name="TcpListen.Title" xml:space="preserve">
-    <value>监听</value>
+    <value>监听端口</value>
   </data>
   <data name="TcpSend.Description" xml:space="preserve">
-    <value>此动作通过TCP或者UDP发送数据。</value>
+    <value>通过网络，发送数据。</value>
   </data>
   <data name="TcpSend.Title" xml:space="preserve">
-    <value>发送</value>
+    <value>发送数据</value>
   </data>
   <data name="TcpReceive.Description" xml:space="preserve">
-    <value>此动作通过TCP或者UDP接收数据。</value>
+    <value>接收网络数据。</value>
   </data>
   <data name="TcpReceive.Title" xml:space="preserve">
-    <value>接收</value>
+    <value>接收数据</value>
   </data>
   <data name="TcpConnect.Description" xml:space="preserve">
-    <value>此动作通过TCP或者UDP连接服务端。</value>
+    <value>连接网络服务端。</value>
   </data>
   <data name="TcpConnect.Title" xml:space="preserve">
-    <value>连接</value>
+    <value>连接服务</value>
   </data>
   <data name="FilterArea.Description" xml:space="preserve">
     <value>通过计算数组中元素的面积来筛选列表中的元素</value>
@@ -1551,6 +1551,16 @@
   </data>
   <data name="StandardPath.Title" xml:space="preserve">
     <value>标准路径</value>
+  </data>
+
+
+
+
+  <data name="TypeSocketAddress.Description" xml:space="preserve">
+    <value> 代表Internet（IP）端点/套接字地址。该地址可以属于IPv4或IPv6地址家族，由主机地址和端口号组成。</value>
+  </data>
+  <data name="TypeSocketAddress.Title" xml:space="preserve">
+    <value>主机地址</value>
   </data>
 
 

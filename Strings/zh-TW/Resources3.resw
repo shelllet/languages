@@ -1068,11 +1068,11 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>二維碼識別</value>
   </data>
-  <data name="IterValue.Description" xml:space="preserve">
-    <value>通常做為子動作，其值由相應的父動作傳入。通常返回多个值的动作都会支持子動作，列表的每個元素都會被迭代透傳給該動作。</value>
+  <data name="ParamGet.Description" xml:space="preserve">
+    <value>通常做為子動作，其值由對應的父動作傳入。 例如清單中的每個項目都會被透傳給該動作。</value>
   </data>
-  <data name="IterValue.Title" xml:space="preserve">
-    <value>迭代數據</value>
+  <data name="ParamGet.Title" xml:space="preserve">
+    <value>参数获取</value>
   </data>
   <data name="WebActionChainsPerform.Description" xml:space="preserve">
     <value>執行創建的動作鏈。</value>
@@ -1189,28 +1189,28 @@
     <value>移動</value>
   </data>
   <data name="TcpListen.Description" xml:space="preserve">
-    <value>此動作用來創建tcp或者udp服務端。</value>
+    <value>創建一個網絡服務端。</value>
   </data>
   <data name="TcpListen.Title" xml:space="preserve">
-    <value>監聽</value>
+    <value>端口監聽</value>
   </data>
   <data name="TcpSend.Description" xml:space="preserve">
-    <value>此動作通過tcp或者udp發送數據。</value>
+    <value>通過網絡，發送數據。</value>
   </data>
   <data name="TcpSend.Title" xml:space="preserve">
-    <value>發送</value>
+    <value>數據發送</value>
   </data>
   <data name="TcpReceive.Description" xml:space="preserve">
-    <value>此動作通過tcp或者udp接收數據。</value>
+    <value>接收網絡數據。</value>
   </data>
   <data name="TcpReceive.Title" xml:space="preserve">
-    <value>接收</value>
+    <value>數據接收</value>
   </data>
   <data name="TcpConnect.Description" xml:space="preserve">
-    <value>此動作通過tcp或者udp連接服務端。</value>
+    <value>連接網絡服務端。</value>
   </data>
   <data name="TcpConnect.Title" xml:space="preserve">
-    <value>連接</value>
+    <value>服務連接</value>
   </data>
   <data name="FilterArea.Description" xml:space="preserve">
     <value>通過計算數組中元素的面積來篩選清單中的元素</value>
@@ -1551,6 +1551,16 @@
   </data>
   <data name="StandardPath.Title" xml:space="preserve">
     <value>标准路径</value>
+  </data>
+
+
+
+
+  <data name="TypeSocketAddress.Description" xml:space="preserve">
+    <value>代表Internet（IP）端點/套接字地址。該地址可以屬於IPv4或IPv6地址家族，由主機地址和端口號組成。</value>
+  </data>
+  <data name="TypeSocketAddress.Title" xml:space="preserve">
+    <value>主機地址</value>
   </data>
 
 

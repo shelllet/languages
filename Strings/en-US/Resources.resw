@@ -199,7 +199,7 @@
     <value>Hide Window</value>
   </data>
   <data name="Workflow.Delayed.Header" xml:space="preserve">
-    <value>Delay Time (Second)</value>
+    <value>Action Delay(Second)</value>
   </data>
   <data name="Workflow.Process.Header" xml:space="preserve">
     <value>Process</value>

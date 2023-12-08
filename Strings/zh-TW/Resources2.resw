@@ -858,26 +858,20 @@
   <data name="Action.TcpConnect.Host.Header" xml:space="preserve">
     <value>主機</value>
   </data>
-  <data name="Action.TcpConnect.Port.Header" xml:space="preserve">
-    <value>端口</value>
-  </data>
   <data name="Action.TcpConnect.Protocols.Header" xml:space="preserve">
     <value>協定</value>
   </data>
-  <data name="Action.TcpListen.Host.Header" xml:space="preserve">
+  <data name="Action.TcpListen.HostAddress.Header" xml:space="preserve">
     <value>主機</value>
-  </data>
-  <data name="Action.TcpListen.Port.Header" xml:space="preserve">
-    <value>端口</value>
   </data>
   <data name="Action.TcpListen.Protocols.Header" xml:space="preserve">
     <value>協定</value>
   </data>
-  <data name="Action.TcpReceive.Socket.Header" xml:space="preserve">
-    <value>套接字</value>
+  <data name="Action.TcpReceive.Host.Header" xml:space="preserve">
+    <value>主機</value>
   </data>
-  <data name="Action.TcpSend.Socket.Header" xml:space="preserve">
-    <value>套接字</value>
+  <data name="Action.TcpSend.Host.Header" xml:space="preserve">
+    <value>主機</value>
   </data>
   <data name="Action.TcpSend.Value.Header" xml:space="preserve">
     <value>數據</value>
@@ -903,8 +897,8 @@
   <data name="Action.SubString.Length.Header" xml:space="preserve">
     <value>长度</value>
   </data>
-  <data name="Action.IterValue.Value.Header" xml:space="preserve">
-    <value>數據</value>
+  <data name="Action.ParamGet.Value.Header" xml:space="preserve">
+    <value>參數</value>
   </data>
   <data name="Action.Invoke.Process.Header" xml:space="preserve">
     <value>流程</value>
@@ -926,5 +920,11 @@
   </data>
   <data name="Action.TypeDict.Value.Header" xml:space="preserve">
     <value>值</value>
+  </data>
+  <data name="Action.TypeSocketAddress.Host.Header" xml:space="preserve">
+    <value>主機</value>
+  </data>
+  <data name="Action.TypeSocketAddress.Port.Header" xml:space="preserve">
+    <value>端口</value>
   </data>
 </root>

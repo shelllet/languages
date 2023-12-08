@@ -861,26 +861,20 @@
   <data name="Action.TcpConnect.Host.Header" xml:space="preserve">
     <value>Host</value>
   </data>
-  <data name="Action.TcpConnect.Port.Header" xml:space="preserve">
-    <value>Port</value>
-  </data>
   <data name="Action.TcpConnect.Protocols.Header" xml:space="preserve">
     <value>Protocols</value>
   </data>
-  <data name="Action.TcpListen.Host.Header" xml:space="preserve">
+  <data name="Action.TcpListen.HostAddress.Header" xml:space="preserve">
     <value>Host</value>
-  </data>
-  <data name="Action.TcpListen.Port.Header" xml:space="preserve">
-    <value>Port</value>
   </data>
   <data name="Action.TcpListen.Protocols.Header" xml:space="preserve">
     <value>Protocols</value>
   </data>
-  <data name="Action.TcpReceive.Socket.Header" xml:space="preserve">
-    <value>Socket</value>
+  <data name="Action.TcpReceive.Host.Header" xml:space="preserve">
+    <value>Host</value>
   </data>
-  <data name="Action.TcpSend.Socket.Header" xml:space="preserve">
-    <value>Socket</value>
+  <data name="Action.TcpSend.Host.Header" xml:space="preserve">
+    <value>Host</value>
   </data>
   <data name="Action.TcpSend.Value.Header" xml:space="preserve">
     <value>Value</value>
@@ -906,8 +900,8 @@
   <data name="Action.SubString.Length.Header" xml:space="preserve">
     <value>Length</value>
   </data>
-  <data name="Action.IterValue.Value.Header" xml:space="preserve">
-    <value>Value</value>
+  <data name="Action.ParamGet.Value.Header" xml:space="preserve">
+    <value>Param</value>
   </data>
   <data name="Action.Invoke.Process.Header" xml:space="preserve">
     <value>Process</value>
@@ -929,5 +923,11 @@
   </data>
   <data name="Action.TypeDict.Value.Header" xml:space="preserve">
     <value>Value</value>
+  </data>
+  <data name="Action.TypeSocketAddress.Host.Header" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="Action.TypeSocketAddress.Port.Header" xml:space="preserve">
+    <value>Port</value>
   </data>
 </root>

@@ -199,7 +199,7 @@
     <value>隱藏視窗</value>
   </data>
   <data name="Workflow.Delayed.Header" xml:space="preserve">
-    <value>延遲时间（秒）</value>
+    <value>動作延遲（秒）</value>
   </data>
   <data name="Workflow.Process.Header" xml:space="preserve">
     <value>進程</value>
