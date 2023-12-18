@@ -855,37 +855,37 @@
   <data name="Action.HttpPost.Content.Header" xml:space="preserve">
     <value>數據</value>
   </data>
-  <data name="Action.TcpConnect.Host.Header" xml:space="preserve">
+  <data name="Action.NetworkConnect.Host.Header" xml:space="preserve">
     <value>主機</value>
   </data>
-  <data name="Action.TcpConnect.Protocols.Header" xml:space="preserve">
+  <data name="Action.NetworkConnect.Protocols.Header" xml:space="preserve">
     <value>協定</value>
   </data>
-  <data name="Action.TcpListen.HostAddress.Header" xml:space="preserve">
+  <data name="Action.NetworkListen.HostAddress.Header" xml:space="preserve">
     <value>主機</value>
   </data>
-  <data name="Action.TcpListen.Protocols.Header" xml:space="preserve">
+  <data name="Action.NetworkListen.Protocols.Header" xml:space="preserve">
     <value>協定</value>
   </data>
-  <data name="Action.TcpReceive.Host.Header" xml:space="preserve">
+  <data name="Action.NetworkReceive.Host.Header" xml:space="preserve">
     <value>主機</value>
   </data>
-  <data name="Action.TcpSend.Host.Header" xml:space="preserve">
+  <data name="Action.NetworkSend.Host.Header" xml:space="preserve">
     <value>主機</value>
   </data>
-  <data name="Action.TcpSend.Value.Header" xml:space="preserve">
+  <data name="Action.NetworkSend.Value.Header" xml:space="preserve">
     <value>數據</value>
   </data>
-  <data name="Action.YoutubeDownload.Url.Header" xml:space="preserve">
+  <data name="Action.VideoDownload.Url.Header" xml:space="preserve">
     <value>網站</value>
   </data>
-  <data name="Action.YoutubeDownload.Output.Header" xml:space="preserve">
+  <data name="Action.VideoDownload.Output.Header" xml:space="preserve">
     <value>目錄</value>
   </data>
-  <data name="Action.YoutubeDownload.OnlyAudio.Header" xml:space="preserve">
+  <data name="Action.VideoDownload.OnlyAudio.Header" xml:space="preserve">
     <value>音頻</value>
   </data>
-  <data name="Action.YoutubeDownload.Itag.Header" xml:space="preserve">
+  <data name="Action.VideoDownload.Itag.Header" xml:space="preserve">
     <value>標籤</value>
   </data>
   <data name="Action.SubString.Value.Header" xml:space="preserve">
@@ -897,8 +897,8 @@
   <data name="Action.SubString.Length.Header" xml:space="preserve">
     <value>长度</value>
   </data>
-  <data name="Action.ParamGet.Value.Header" xml:space="preserve">
-    <value>參數</value>
+  <data name="Action.Param.Value.Header" xml:space="preserve">
+    <value>預設值</value>
   </data>
   <data name="Action.Invoke.Process.Header" xml:space="preserve">
     <value>流程</value>
@@ -921,10 +921,10 @@
   <data name="Action.TypeDict.Value.Header" xml:space="preserve">
     <value>值</value>
   </data>
-  <data name="Action.TypeSocketAddress.Host.Header" xml:space="preserve">
+  <data name="Action.TypeHostAddress.Host.Header" xml:space="preserve">
     <value>主機</value>
   </data>
-  <data name="Action.TypeSocketAddress.Port.Header" xml:space="preserve">
+  <data name="Action.TypeHostAddress.Port.Header" xml:space="preserve">
     <value>端口</value>
   </data>
 </root>

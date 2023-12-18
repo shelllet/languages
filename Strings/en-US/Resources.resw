@@ -165,16 +165,16 @@
   <data name="Settings.RigisterFileType.Header" xml:space="preserve">
     <value>Association type</value>
   </data>
-  <data name="Settings.Drawing.Thickness.Text" xml:space="preserve">
+  <data name="Settings.Drawing.Thickness.Header" xml:space="preserve">
     <value>Thickness</value>
   </data>
-  <data name="Settings.Drawing.FontSize.Text" xml:space="preserve">
+  <data name="Settings.Drawing.FontSize.Header" xml:space="preserve">
     <value>Font Size</value>
   </data>
-  <data name="Settings.Color.Text" xml:space="preserve">
+  <data name="Settings.Color.Header" xml:space="preserve">
     <value>Foreground Color</value>
   </data>
-  <data name="Settings.BackgroundColor.Text" xml:space="preserve">
+  <data name="Settings.BackgroundColor.Header" xml:space="preserve">
     <value>Background Color</value>
   </data>
   <data name="Settings.Process_Inference.Header" xml:space="preserve">
@@ -468,10 +468,10 @@
   <data name="TeachingTip.ImagePreview.Title" xml:space="preserve">
     <value>Preview</value>
   </data>
-  <data name="Range.Min.Text" xml:space="preserve">
+  <data name="Range.Min.Header" xml:space="preserve">
     <value>Minimum</value>
   </data>
-  <data name="Range.Max.Text" xml:space="preserve">
+  <data name="Range.Max.Header" xml:space="preserve">
     <value>Maximum</value>
   </data>
 </root>

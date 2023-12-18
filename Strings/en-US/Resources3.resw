@@ -234,11 +234,11 @@
   <data name="Control.Title" xml:space="preserve">
     <value>Logic</value>
   </data>
-  <data name="ForEach.Description" xml:space="preserve">
-    <value>Iterators, mainly used to iterate over the container</value>
+  <data name="Iterate.Description" xml:space="preserve">
+    <value>Iterate through the elements of the range</value>
   </data>
-  <data name="ForEach.Title" xml:space="preserve">
-    <value>ForEach</value>
+  <data name="Iterate.Title" xml:space="preserve">
+    <value>Iterate</value>
   </data>
   <data name="If.Description" xml:space="preserve">
     <value>Conditional judgment, equivalent to the if statement in python, the action has two branches, if the condition holds, execute the process branch on the left, otherwise, execute the process branch on the right</value>
@@ -744,11 +744,11 @@
   <data name="PositionWindow.Title" xml:space="preserve">
     <value>PositionWindow</value>
   </data>
-  <data name="YoutubeDownload.Description" xml:space="preserve">
-    <value>Currently, only youtube video download is supported, requiring access to the youtube network.</value>
+  <data name="VideoDownload.Description" xml:space="preserve">
+    <value>Download videos</value>
   </data>
-  <data name="YoutubeDownload.Title" xml:space="preserve">
-    <value>Video download</value>
+  <data name="VideoDownload.Title" xml:space="preserve">
+    <value>VideoDownload</value>
   </data>
   <data name="DirectoryIterator.Description" xml:space="preserve">
     <value>Iterate all files in the local folder</value>
@@ -1074,11 +1074,11 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>Qr code identification</value>
   </data>
-  <data name="ParamGet.Description" xml:space="preserve">
-    <value>Usually as a child action, its value is passed in from the corresponding parent action. For example, each item in the list will be passed through to the action.</value>
+  <data name="Param.Description" xml:space="preserve">
+    <value>It is used to obtain data from the parent action.</value>
   </data>
-  <data name="ParamGet.Title" xml:space="preserve">
-    <value>ParamGet</value>
+  <data name="Param.Title" xml:space="preserve">
+    <value>Param</value>
   </data>
   <data name="WebActionChainsPerform.Description" xml:space="preserve">
     <value>Perform the created action chain.</value>
@@ -1194,29 +1194,29 @@
   <data name="AdbMove.Title" xml:space="preserve">
     <value>Shift</value>
   </data>
-  <data name="TcpListen.Description" xml:space="preserve">
-    <value>Create a network service side.</value>
+  <data name="NetworkListen.Description" xml:space="preserve">
+    <value>Create a network service.</value>
   </data>
-  <data name="TcpListen.Title" xml:space="preserve">
-    <value>TcpListen</value>
+  <data name="NetworkListen.Title" xml:space="preserve">
+    <value>NetworkListen</value>
   </data>
-  <data name="TcpSend.Description" xml:space="preserve">
+  <data name="NetworkSend.Description" xml:space="preserve">
     <value>Send data through the network.</value>
   </data>
-  <data name="TcpSend.Title" xml:space="preserve">
-    <value>TcpSend</value>
+  <data name="NetworkSend.Title" xml:space="preserve">
+    <value>NetworkSend</value>
   </data>
-  <data name="TcpReceive.Description" xml:space="preserve">
+  <data name="NetworkReceive.Description" xml:space="preserve">
     <value>Receive network data.</value>
   </data>
-  <data name="TcpReceive.Title" xml:space="preserve">
-    <value>TcpReceive</value>
+  <data name="NetworkReceive.Title" xml:space="preserve">
+    <value>NetworkReceive</value>
   </data>
-  <data name="TcpConnect.Description" xml:space="preserve">
+  <data name="NetworkConnect.Description" xml:space="preserve">
     <value>Connect to the network server.</value>
   </data>
-  <data name="TcpConnect.Title" xml:space="preserve">
-    <value>TcpConnect</value>
+  <data name="NetworkConnect.Title" xml:space="preserve">
+    <value>NetworkConnect</value>
   </data>
   <data name="FilterArea.Description" xml:space="preserve">
     <value>Filter the elements in the list by calculating the area of the elements in the array</value>
@@ -1464,98 +1464,58 @@
   <data name="PushBack.Title" xml:space="preserve">
     <value>PushBack</value>
   </data>
-
-
   <data name="JoinString.Description" xml:space="preserve">
     <value>Join string with seperator.</value>
   </data>
   <data name="JoinString.Title" xml:space="preserve">
     <value>JoinString</value>
   </data>
-
-
-
-
   <data name="BarcodeCreate.Description" xml:space="preserve">
     <value>Generate barcode image</value>
   </data>
   <data name="BarcodeCreate.Title" xml:space="preserve">
     <value>BarcodeCreate</value>
   </data>
-
-
-
-
   <data name="DrawText.Description" xml:space="preserve">
     <value>Draw text on the image</value>
   </data>
   <data name="DrawText.Title" xml:space="preserve">
     <value>DrawText</value>
   </data>
-
-
-
-
   <data name="DrawImage.Description" xml:space="preserve">
     <value>Draw images on the image</value>
   </data>
   <data name="DrawImage.Title" xml:space="preserve">
     <value>DrawImage</value>
   </data>
-
-
-
-
   <data name="SubString.Description" xml:space="preserve">
     <value>This action can obtain part string according to a specific method.</value>
   </data>
   <data name="SubString.Title" xml:space="preserve">
     <value>SubString</value>
   </data>
-
-
-
-
   <data name="TypeDict.Description" xml:space="preserve">
     <value>Dict are used to store data values in key:value pairs.</value>
   </data>
   <data name="TypeDict.Title" xml:space="preserve">
     <value>Dict</value>
   </data>
-
-  <data name="TypePair.Description" xml:space="preserve">
-    <value>TypePair</value>
-  </data>
-  <data name="TypePair.Title" xml:space="preserve">
-    <value>TypePair</value>
-  </data>
-
   <data name="TypeTuple.Description" xml:space="preserve">
     <value>Tuple are used to store multiple items in a single variable. </value>
   </data>
   <data name="TypeTuple.Title" xml:space="preserve">
     <value>Tuple</value>
   </data>
-
-
-
-
   <data name="StandardPath.Description" xml:space="preserve">
     <value>This action contains functions to query standard locations on the local filesystem, for common tasks such as user-specific directories or system-wide configuration directories.</value>
   </data>
   <data name="StandardPath.Title" xml:space="preserve">
     <value>StandardPath</value>
   </data>
-
-
-
-
-  <data name="TypeSocketAddress.Description" xml:space="preserve">
+  <data name="TypeHostAddress.Description" xml:space="preserve">
     <value>Represents an internet (IP) endpoint/socket address. The address can belong either to the IPv4 or the IPv6 address family and consists of a host address and a port number.</value>
   </data>
-  <data name="TypeSocketAddress.Title" xml:space="preserve">
-    <value>SocketAddress</value>
+  <data name="TypeHostAddress.Title" xml:space="preserve">
+    <value>Host</value>
   </data>
-
-
 </root>

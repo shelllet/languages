@@ -234,10 +234,10 @@
   <data name="Control.Title" xml:space="preserve">
     <value>逻辑</value>
   </data>
-  <data name="ForEach.Description" xml:space="preserve">
-    <value>迭代器，主要用来迭代容器</value>
+  <data name="Iterate.Description" xml:space="preserve">
+    <value>用来迭代相应的列表数据，遍历列表的每一个元素，也可称为*循环*。</value>
   </data>
-  <data name="ForEach.Title" xml:space="preserve">
+  <data name="Iterate.Title" xml:space="preserve">
     <value>迭代</value>
   </data>
   <data name="If.Description" xml:space="preserve">
@@ -745,10 +745,10 @@
   <data name="PositionWindow.Title" xml:space="preserve">
     <value>窗口置顶</value>
   </data>
-  <data name="YoutubeDownload.Description" xml:space="preserve">
-    <value>目前只支持 Youtube 视频下载，需要能访问 Youtube 的网络。</value>
+  <data name="VideoDownload.Description" xml:space="preserve">
+    <value>下载视频,目前只支持 Youtube 视频下载，需要有能访问 Youtube 的网络。</value>
   </data>
-  <data name="YoutubeDownload.Title" xml:space="preserve">
+  <data name="VideoDownload.Title" xml:space="preserve">
     <value>视频下载</value>
   </data>
   <data name="DirectoryIterator.Description" xml:space="preserve">
@@ -1069,11 +1069,11 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>二维码识别</value>
   </data>
-  <data name="ParamGet.Description" xml:space="preserve">
+  <data name="Param.Description" xml:space="preserve">
     <value>通常做为子动作，其值由相应的父动作传入。例如列表中的每个项都会被透传给该动作。</value>
   </data>
-  <data name="ParamGet.Title" xml:space="preserve">
-    <value>参数获取</value>
+  <data name="Param.Title" xml:space="preserve">
+    <value>参数</value>
   </data>
   <data name="WebActionChainsPerform.Description" xml:space="preserve">
     <value>执行创建的动作链。</value>
@@ -1189,28 +1189,28 @@
   <data name="AdbMove.Title" xml:space="preserve">
     <value>移动</value>
   </data>
-  <data name="TcpListen.Description" xml:space="preserve">
+  <data name="NetworkListen.Description" xml:space="preserve">
     <value>创建一个网络服务端。</value>
   </data>
-  <data name="TcpListen.Title" xml:space="preserve">
-    <value>监听端口</value>
+  <data name="NetworkListen.Title" xml:space="preserve">
+    <value>网络服务</value>
   </data>
-  <data name="TcpSend.Description" xml:space="preserve">
+  <data name="NetworkSend.Description" xml:space="preserve">
     <value>通过网络，发送数据。</value>
   </data>
-  <data name="TcpSend.Title" xml:space="preserve">
+  <data name="NetworkSend.Title" xml:space="preserve">
     <value>发送数据</value>
   </data>
-  <data name="TcpReceive.Description" xml:space="preserve">
+  <data name="NetworkReceive.Description" xml:space="preserve">
     <value>接收网络数据。</value>
   </data>
-  <data name="TcpReceive.Title" xml:space="preserve">
+  <data name="NetworkReceive.Title" xml:space="preserve">
     <value>接收数据</value>
   </data>
-  <data name="TcpConnect.Description" xml:space="preserve">
+  <data name="NetworkConnect.Description" xml:space="preserve">
     <value>连接网络服务端。</value>
   </data>
-  <data name="TcpConnect.Title" xml:space="preserve">
+  <data name="NetworkConnect.Title" xml:space="preserve">
     <value>连接服务</value>
   </data>
   <data name="FilterArea.Description" xml:space="preserve">
@@ -1465,103 +1465,58 @@
   <data name="PushBack.Title" xml:space="preserve">
     <value>PushBack</value>
   </data>
-
-
   <data name="JoinString.Description" xml:space="preserve">
     <value>使用分隔符，合并字符串。</value>
   </data>
   <data name="JoinString.Title" xml:space="preserve">
     <value>合并字符串</value>
   </data>
-
-
-
-
   <data name="BarcodeCreate.Description" xml:space="preserve">
     <value>生成条形码图片</value>
   </data>
   <data name="BarcodeCreate.Title" xml:space="preserve">
     <value>生成条码</value>
   </data>
-
-
-
   <data name="DrawText.Description" xml:space="preserve">
     <value>在图像上绘制文本</value>
   </data>
   <data name="DrawText.Title" xml:space="preserve">
     <value>绘制文本</value>
   </data>
-
-
-
-
   <data name="DrawImage.Description" xml:space="preserve">
     <value>在图像上绘制图像</value>
   </data>
   <data name="DrawImage.Title" xml:space="preserve">
     <value>绘制图像</value>
   </data>
-
-
-
-
   <data name="SubString.Description" xml:space="preserve">
     <value>该动作根据特定的方法，可以获取部分字符串。</value>
   </data>
   <data name="SubString.Title" xml:space="preserve">
     <value>字符串提取</value>
   </data>
-
-
-
-
   <data name="TypeDict.Description" xml:space="preserve">
     <value>字典 用于将数据值存储在（键/值）对中。</value>
   </data>
   <data name="TypeDict.Title" xml:space="preserve">
     <value>字典</value>
   </data>
-
-
-
-
-  <data name="TypePair.Description" xml:space="preserve">
-    <value>TypePair</value>
-  </data>
-  <data name="TypePair.Title" xml:space="preserve">
-    <value>TypePair</value>
-  </data>
-
-
-
-
   <data name="TypeTuple.Description" xml:space="preserve">
     <value>元组用于将多个项目存储在单个变量中。</value>
   </data>
   <data name="TypeTuple.Title" xml:space="preserve">
     <value>元组</value>
   </data>
-
-
-
-
   <data name="StandardPath.Description" xml:space="preserve">
     <value>此操作包含在本地文件系统上查询标准路径位置的功能，例如特定于用户目录或系统范围的配置目录等常见任务。</value>
   </data>
   <data name="StandardPath.Title" xml:space="preserve">
     <value>标准路径</value>
   </data>
-
-
-
-
-  <data name="TypeSocketAddress.Description" xml:space="preserve">
+  <data name="TypeHostAddress.Description" xml:space="preserve">
     <value> 代表Internet（IP）端点/套接字地址。该地址可以属于IPv4或IPv6地址家族，由主机地址和端口号组成。</value>
   </data>
-  <data name="TypeSocketAddress.Title" xml:space="preserve">
+  <data name="TypeHostAddress.Title" xml:space="preserve">
     <value>主机地址</value>
   </data>
-
-
 </root>
