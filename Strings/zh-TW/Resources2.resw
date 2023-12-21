@@ -267,6 +267,9 @@
   <data name="Action.ImageSave.Name.Header" xml:space="preserve">
     <value>名稱</value>
   </data>
+  <data name="Action.SendKey.Window.Header" xml:space="preserve">
+    <value>窗口</value>
+  </data>
   <data name="Action.SendKey.Key.Header" xml:space="preserve">
     <value>按鍵</value>
   </data>
@@ -439,10 +442,16 @@
     <value>標題</value>
   </data>
   <data name="Action.EnumWindows.Parent.Header" xml:space="preserve">
-    <value>窗口</value>
+    <value>父窗口</value>
   </data>
-  <data name="Action.EnumWindows.Async.Header" xml:space="preserve">
-    <value>異步</value>
+  <data name="Action.EnumWindows.AsyncHandle.Header" xml:space="preserve">
+    <value>異步处理</value>
+  </data>
+  <data name="Action.EnumWindows.FilterByTitle.Header" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="Action.EnumWindows.FilterByName.Header" xml:space="preserve">
+    <value>類名</value>
   </data>
   <data name="Action.CvtColor.Image.Header" xml:space="preserve">
     <value>圖像</value>
@@ -926,5 +935,8 @@
   </data>
   <data name="Action.TypeHostAddress.Port.Header" xml:space="preserve">
     <value>端口</value>
+  </data>
+  <data name="Action.FlashWindow.Value.Header" xml:space="preserve">
+    <value>窗口</value>
   </data>
 </root>

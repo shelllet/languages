@@ -217,10 +217,10 @@
     <value>快速鍵</value>
   </data>
   <data name="Window.Description" xml:space="preserve">
-    <value>視窗類</value>
+    <value>視窗</value>
   </data>
   <data name="Window.Title" xml:space="preserve">
-    <value>視窗類</value>
+    <value>視窗</value>
   </data>
   <data name="FindWindow.Description" xml:space="preserve">
     <value>查找windows系統中的視窗，該動作通過視窗標題或者視窗類蒐索視窗。</value>
@@ -1270,7 +1270,7 @@
     <value>枚舉視窗</value>
   </data>
   <data name="EnumWindows.Title" xml:space="preserve">
-    <value>枚舉視窗</value>
+    <value>枚舉操作系統中的窗口，並按照窗口所在進程的創建時間進行排序。</value>
   </data>
   <data name="FilterWindows.Description" xml:space="preserve">
     <value>篩選當前作業系統中，符合條件的視窗</value>
@@ -1517,5 +1517,11 @@
   </data>
   <data name="TypeHostAddress.Title" xml:space="preserve">
     <value>主機地址</value>
+  </data>
+  <data name="FlashWindow.Description" xml:space="preserve">
+    <value>閃爍指定的窗口，它不會更改窗口的活動狀態。</value>
+  </data>
+  <data name="FlashWindow.Title" xml:space="preserve">
+    <value>閃爍窗口</value>
   </data>
 </root>

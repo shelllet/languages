@@ -217,10 +217,10 @@
     <value>Keyboard shortcuts</value>
   </data>
   <data name="Window.Description" xml:space="preserve">
-    <value>Window class</value>
+    <value>Window</value>
   </data>
   <data name="Window.Title" xml:space="preserve">
-    <value>Window class</value>
+    <value>Window</value>
   </data>
   <data name="FindWindow.Description" xml:space="preserve">
     <value>Find a window in the windows system, which through the window title or window class.</value>
@@ -1273,7 +1273,7 @@
     <value>Empty</value>
   </data>
   <data name="EnumWindows.Description" xml:space="preserve">
-    <value>Enumeration window</value>
+    <value>Enumerate the window in the operating system and sort according to the creation time of the process of the window.</value>
   </data>
   <data name="EnumWindows.Title" xml:space="preserve">
     <value>EnumWindows</value>
@@ -1517,5 +1517,11 @@
   </data>
   <data name="TypeHostAddress.Title" xml:space="preserve">
     <value>Host</value>
+  </data>
+  <data name="FlashWindow.Description" xml:space="preserve">
+    <value>Flashes the specified window. It does not change the active state of the window.</value>
+  </data>
+  <data name="FlashWindow.Title" xml:space="preserve">
+    <value>FlashWindow</value>
   </data>
 </root>

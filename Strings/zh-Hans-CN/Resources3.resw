@@ -217,10 +217,10 @@
     <value>快捷键</value>
   </data>
   <data name="Window.Description" xml:space="preserve">
-    <value>窗口类</value>
+    <value>窗口</value>
   </data>
   <data name="Window.Title" xml:space="preserve">
-    <value>窗口类</value>
+    <value>窗口</value>
   </data>
   <data name="FindWindow.Description" xml:space="preserve">
     <value>查找 Windows 系统中的窗口，该动作通过窗口标题或者窗口类搜索窗口。</value>
@@ -1268,7 +1268,7 @@
     <value>Empty</value>
   </data>
   <data name="EnumWindows.Description" xml:space="preserve">
-    <value>枚举窗口</value>
+    <value>枚举操作系统中的窗口，并按照窗口所在进程的创建时间进行排序。</value>
   </data>
   <data name="EnumWindows.Title" xml:space="preserve">
     <value>枚举窗口</value>
@@ -1518,5 +1518,11 @@
   </data>
   <data name="TypeHostAddress.Title" xml:space="preserve">
     <value>主机地址</value>
+  </data>
+  <data name="FlashWindow.Description" xml:space="preserve">
+    <value>闪烁指定的窗口，它不会更改窗口的活动状态。</value>
+  </data>
+  <data name="FlashWindow.Title" xml:space="preserve">
+    <value>闪烁窗口</value>
   </data>
 </root>
