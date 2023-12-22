@@ -447,6 +447,9 @@
   <data name="Action.EnumWindows.AsyncHandle.Header" xml:space="preserve">
     <value>異步处理</value>
   </data>
+  <data name="Action.EnumWindows.Sort.Header" xml:space="preserve">
+    <value>排序</value>
+  </data>
   <data name="Action.EnumWindows.FilterByTitle.Header" xml:space="preserve">
     <value>標題</value>
   </data>

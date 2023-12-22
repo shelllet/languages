@@ -453,6 +453,9 @@
   <data name="Action.EnumWindows.FilterByTitle.Header" xml:space="preserve">
     <value>Title</value>
   </data>
+  <data name="Action.EnumWindows.Sort.Header" xml:space="preserve">
+    <value>Sort</value>
+  </data>
   <data name="Action.EnumWindows.FilterByName.Header" xml:space="preserve">
     <value>Name</value>
   </data>
