@@ -945,4 +945,43 @@
   <data name="Action.FlashWindow.Value.Header" xml:space="preserve">
     <value>Value</value>
   </data>
+  <data name="Action.LoadDocument.File.Header" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Action.LoadDocument.Type.Header" xml:space="preserve">
+    <value>File Type</value>
+  </data>
+  <data name="Action.LoadDocument.Args.Header" xml:space="preserve">
+    <value>Args</value>
+  </data>
+  <data name="Action.LoadDocument.FileType.Header" xml:space="preserve">
+    <value>File Type</value>
+  </data>
+  <data name="Action.SaveDocument.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.SaveDocument.Path.Header" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="Action.SaveDocument.FileName.Header" xml:space="preserve">
+    <value>FileName</value>
+  </data>
+  <data name="Action.SaveDocument.FileType.Header" xml:space="preserve">
+    <value>File Type</value>
+  </data>
+  <data name="Action.DataFrameSize.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.DataFrameQuery.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.DataFrameQuery.Expr.Header" xml:space="preserve">
+    <value>Expr</value>
+  </data>
+  <data name="Action.OutputString.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.OutputString.Level.Header" xml:space="preserve">
+    <value>Level</value>
+  </data>
 </root>

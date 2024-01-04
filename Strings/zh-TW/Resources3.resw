@@ -1014,17 +1014,17 @@
   <data name="Pandas.Title" xml:space="preserve">
     <value>數據分析</value>
   </data>
-  <data name="XmlLoadDocument.Description" xml:space="preserve">
+  <data name="LoadDocument.Description" xml:space="preserve">
     <value>加載xml檔案</value>
   </data>
-  <data name="XmlLoadDocument.Title" xml:space="preserve">
+  <data name="LoadDocument.Title" xml:space="preserve">
     <value>檔案</value>
   </data>
-  <data name="XmlGetNodeList.Description" xml:space="preserve">
-    <value>獲取xml節點</value>
+  <data name="DataFrameQuery.Description" xml:space="preserve">
+    <value>查询 DataFrame 的列</value>
   </data>
-  <data name="XmlGetNodeList.Title" xml:space="preserve">
-    <value>獲取節點</value>
+  <data name="DataFrameQuery.Title" xml:space="preserve">
+    <value>查詢</value>
   </data>
   <data name="XmlNodeName.Description" xml:space="preserve">
     <value>Xml節點名稱</value>
@@ -1038,22 +1038,22 @@
   <data name="FilterText.Title" xml:space="preserve">
     <value>文字篩選</value>
   </data>
-  <data name="XmlDocumentElement.Description" xml:space="preserve">
-    <value>Xml元素</value>
+  <data name="DataFrameSize.Description" xml:space="preserve">
+    <value>返回代表對像中元素數量的整數。</value>
   </data>
-  <data name="XmlDocumentElement.Title" xml:space="preserve">
-    <value>元素</value>
+  <data name="DataFrameSize.Title" xml:space="preserve">
+    <value>元素數量</value>
   </data>
-  <data name="XmlReplaceText.Description" xml:space="preserve">
+  <data name="OutputString.Description" xml:space="preserve">
     <value>替換節點文字</value>
   </data>
-  <data name="XmlReplaceText.Title" xml:space="preserve">
+  <data name="OutputString.Title" xml:space="preserve">
     <value>文本替換</value>
   </data>
-  <data name="XmlSaveDocument.Description" xml:space="preserve">
+  <data name="SaveDocument.Description" xml:space="preserve">
     <value>保存xml檔案</value>
   </data>
-  <data name="XmlSaveDocument.Title" xml:space="preserve">
+  <data name="SaveDocument.Title" xml:space="preserve">
     <value>保存</value>
   </data>
   <data name="IsEmpty.Description" xml:space="preserve">

@@ -1020,17 +1020,17 @@
   <data name="Pandas.Title" xml:space="preserve">
     <value>Pandas</value>
   </data>
-  <data name="XmlLoadDocument.Description" xml:space="preserve">
-    <value>Load the xml document</value>
+  <data name="LoadDocument.Description" xml:space="preserve">
+    <value>Load the document</value>
   </data>
-  <data name="XmlLoadDocument.Title" xml:space="preserve">
-    <value>D</value>
+  <data name="LoadDocument.Title" xml:space="preserve">
+    <value>LoadDocument</value>
   </data>
-  <data name="XmlGetNodeList.Description" xml:space="preserve">
-    <value>Get the xml node</value>
+  <data name="DataFrameQuery.Description" xml:space="preserve">
+    <value>Query the columns of a DataFrame</value>
   </data>
-  <data name="XmlGetNodeList.Title" xml:space="preserve">
-    <value>Get the node</value>
+  <data name="DataFrameQuery.Title" xml:space="preserve">
+    <value>DataFrameQuery</value>
   </data>
   <data name="XmlNodeName.Description" xml:space="preserve">
     <value>The xml node name</value>
@@ -1044,22 +1044,22 @@
   <data name="FilterText.Title" xml:space="preserve">
     <value>Text screening</value>
   </data>
-  <data name="XmlDocumentElement.Description" xml:space="preserve">
-    <value>Xml element</value>
+  <data name="DataFrameSize.Description" xml:space="preserve">
+    <value>Return an int representing the number of elements in object.</value>
   </data>
-  <data name="XmlDocumentElement.Title" xml:space="preserve">
-    <value>Element</value>
+  <data name="DataFrameSize.Title" xml:space="preserve">
+    <value>DataFrameSize</value>
   </data>
-  <data name="XmlReplaceText.Description" xml:space="preserve">
+  <data name="OutputString.Description" xml:space="preserve">
     <value>Replace the node text</value>
   </data>
-  <data name="XmlReplaceText.Title" xml:space="preserve">
+  <data name="OutputString.Title" xml:space="preserve">
     <value>Textual substitution</value>
   </data>
-  <data name="XmlSaveDocument.Description" xml:space="preserve">
+  <data name="SaveDocument.Description" xml:space="preserve">
     <value>Save the xml file</value>
   </data>
-  <data name="XmlSaveDocument.Title" xml:space="preserve">
+  <data name="SaveDocument.Title" xml:space="preserve">
     <value>Save</value>
   </data>
   <data name="IsEmpty.Description" xml:space="preserve">
