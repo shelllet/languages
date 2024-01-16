@@ -231,6 +231,9 @@
   <data name="ToolBar.Import.Label" xml:space="preserve">
     <value>導入</value>
   </data>
+  <data name="ToolBar.Share.Label" xml:space="preserve">
+    <value>分享</value>
+  </data>
   <data name="ToolBar.Help.Label" xml:space="preserve">
     <value>幫助</value>
   </data>

@@ -234,11 +234,11 @@
   <data name="Control.Title" xml:space="preserve">
     <value>Logic</value>
   </data>
-  <data name="Iterate.Description" xml:space="preserve">
+  <data name="For.Description" xml:space="preserve">
     <value>Iterate through the elements of the range</value>
   </data>
-  <data name="Iterate.Title" xml:space="preserve">
-    <value>Iterate</value>
+  <data name="For.Title" xml:space="preserve">
+    <value>For</value>
   </data>
   <data name="If.Description" xml:space="preserve">
     <value>Conditional judgment, equivalent to the if statement in python, the action has two branches, if the condition holds, execute the process branch on the left, otherwise, execute the process branch on the right</value>
@@ -420,11 +420,11 @@
   <data name="MatchShapes.Title" xml:space="preserve">
     <value>MatchShapes</value>
   </data>
-  <data name="ReadJson.Description" xml:space="preserve">
-    <value>Fetch json</value>
+  <data name="IndexLoc.Description" xml:space="preserve">
+    <value>Index-based to select rows and/or columns in pandas</value>
   </data>
-  <data name="ReadJson.Title" xml:space="preserve">
-    <value>Fetch json</value>
+  <data name="IndexLoc.Title" xml:space="preserve">
+    <value>IndexLoc</value>
   </data>
   <data name="RandomNumber.Description" xml:space="preserve">
     <value>Generate random numbers</value>
@@ -456,11 +456,11 @@
   <data name="AccessSize.Title" xml:space="preserve">
     <value>Array length</value>
   </data>
-  <data name="Web.Description" xml:space="preserve">
-    <value>Browser operation</value>
+  <data name="Browser.Description" xml:space="preserve">
+    <value>Automates browsers</value>
   </data>
-  <data name="Web.Title" xml:space="preserve">
-    <value>Web</value>
+  <data name="Browser.Title" xml:space="preserve">
+    <value>Browser</value>
   </data>
   <data name="Network.Description" xml:space="preserve">
     <value>Network</value>
@@ -472,7 +472,7 @@
     <value>Open the browser, support, and open the chrome and edge browser.</value>
   </data>
   <data name="WebOpen.Title" xml:space="preserve">
-    <value>Open the browser</value>
+    <value>WebOpen</value>
   </data>
   <data name="WebWaitTitle.Description" xml:space="preserve">
     <value>Check that the header contains a case-sensitive string.</value>
@@ -610,13 +610,13 @@
     <value>Switch the focus to the specified frame</value>
   </data>
   <data name="WebSwitchToFrame.Title" xml:space="preserve">
-    <value>Switch frame</value>
+    <value>WebSwitchToFrame</value>
   </data>
   <data name="WebFocusFrameDefault.Description" xml:space="preserve">
     <value>Switch the focus to the default frame.</value>
   </data>
   <data name="WebFocusFrameDefault.Title" xml:space="preserve">
-    <value>Frame * sets the focus</value>
+    <value>WebFocusFrameDefault</value>
   </data>
   <data name="WebActionChainsCreated.Description" xml:space="preserve">
     <value>Create the web, and the action chain</value>
@@ -1000,13 +1000,13 @@
     <value>Gets the value of the object by the specified name.</value>
   </data>
   <data name="AccessKey.Title" xml:space="preserve">
-    <value>Access object</value>
+    <value>AccessKey</value>
   </data>
-  <data name="CaptureForground.Description" xml:space="preserve">
-    <value>Front-end window screenshot.</value>
+  <data name="CaptureActiveWindow.Description" xml:space="preserve">
+    <value>To only capture the active window you're working in.</value>
   </data>
-  <data name="CaptureForground.Title" xml:space="preserve">
-    <value>Screenshot of front window</value>
+  <data name="CaptureActiveWindow.Title" xml:space="preserve">
+    <value>CaptureActiveWindow</value>
   </data>
   <data name="Cloud.Description" xml:space="preserve">
     <value>Cloud</value>
@@ -1032,11 +1032,11 @@
   <data name="DataFrameQuery.Title" xml:space="preserve">
     <value>DataFrameQuery</value>
   </data>
-  <data name="XmlNodeName.Description" xml:space="preserve">
-    <value>The xml node name</value>
+  <data name="NameLoc.Description" xml:space="preserve">
+    <value>Used to select rows and columns by names/labels of pandas DataFrame.</value>
   </data>
-  <data name="XmlNodeName.Title" xml:space="preserve">
-    <value>Node name</value>
+  <data name="NameLoc.Title" xml:space="preserve">
+    <value>NameLoc</value>
   </data>
   <data name="FilterText.Description" xml:space="preserve">
     <value>In the array or list, the filter contains the specified text elements.</value>
@@ -1044,17 +1044,17 @@
   <data name="FilterText.Title" xml:space="preserve">
     <value>Text screening</value>
   </data>
-  <data name="DataFrameSize.Description" xml:space="preserve">
+  <data name="RowsCount.Description" xml:space="preserve">
     <value>Return an int representing the number of elements in object.</value>
   </data>
-  <data name="DataFrameSize.Title" xml:space="preserve">
-    <value>DataFrameSize</value>
+  <data name="RowsCount.Title" xml:space="preserve">
+    <value>RowsCount</value>
   </data>
   <data name="OutputString.Description" xml:space="preserve">
-    <value>Replace the node text</value>
+    <value>Output String</value>
   </data>
   <data name="OutputString.Title" xml:space="preserve">
-    <value>Textual substitution</value>
+    <value>OutputString</value>
   </data>
   <data name="SaveDocument.Description" xml:space="preserve">
     <value>Save the xml file</value>
@@ -1162,7 +1162,7 @@
     <value>Move the mouse to the current mouse location or specify the offset of the web element.</value>
   </data>
   <data name="WebActionMoveOffset.Title" xml:space="preserve">
-    <value>Action chain. move (offset)</value>
+    <value>WebActionMoveOffset</value>
   </data>
   <data name="WebActionSendText.Description" xml:space="preserve">
     <value>Set the text</value>
@@ -1320,11 +1320,11 @@
   <data name="WindowXy.Title" xml:space="preserve">
     <value>WindowXy</value>
   </data>
-  <data name="TypeJson.Description" xml:space="preserve">
-    <value>Define the JSON data format</value>
+  <data name="IterRow.Description" xml:space="preserve">
+    <value>Iterate over DataFrame rows as (index, Series) pairs.</value>
   </data>
-  <data name="TypeJson.Title" xml:space="preserve">
-    <value>JSON</value>
+  <data name="IterRow.Title" xml:space="preserve">
+    <value>IterRow</value>
   </data>
   <data name="WindowSize.Description" xml:space="preserve">
     <value>Get or set the window size (Width and Height)</value>
@@ -1524,4 +1524,12 @@
   <data name="FlashWindow.Title" xml:space="preserve">
     <value>FlashWindow</value>
   </data>
+  <data name="TypeSlice.Description" xml:space="preserve">
+    <value>Type Slice</value>
+  </data>
+  <data name="TypeSlice.Title" xml:space="preserve">
+    <value>TypeSlice</value>
+  </data>
+
+
 </root>

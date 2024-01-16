@@ -237,6 +237,9 @@
   <data name="ToolBar.CheckUpdate.Label" xml:space="preserve">
     <value>检查更新</value>
   </data>
+  <data name="ToolBar.Share.Label" xml:space="preserve">
+    <value>分享</value>
+  </data>
   <data name="BlankPage.Buy.Text" xml:space="preserve">
     <value>支持购买</value>
   </data>

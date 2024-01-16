@@ -234,11 +234,11 @@
   <data name="Control.Title" xml:space="preserve">
     <value>邏輯</value>
   </data>
-  <data name="Iterate.Description" xml:space="preserve">
+  <data name="For.Description" xml:space="preserve">
     <value>用來迭代相應的列表數據，遍歷列表的每一個元素，也可稱為*循環*。</value>
   </data>
-  <data name="Iterate.Title" xml:space="preserve">
-    <value>迭代</value>
+  <data name="For.Title" xml:space="preserve">
+    <value>循环</value>
   </data>
   <data name="If.Description" xml:space="preserve">
     <value>條件判斷，相當於python中的if語句，該動作有兩條分支，如果條件成立，執行左邊的流程分支，否則，執行右邊的流程分支</value>
@@ -420,11 +420,11 @@
   <data name="MatchShapes.Title" xml:space="preserve">
     <value>形狀匹配</value>
   </data>
-  <data name="ReadJson.Description" xml:space="preserve">
-    <value>讀取json</value>
+  <data name="IndexLoc.Description" xml:space="preserve">
+    <value>基於索引來選擇 Pandas 中的行和/或列。</value>
   </data>
-  <data name="ReadJson.Title" xml:space="preserve">
-    <value>讀取json</value>
+  <data name="IndexLoc.Title" xml:space="preserve">
+    <value>行列選擇（索引）</value>
   </data>
   <data name="RandomNumber.Description" xml:space="preserve">
     <value>生成亂數</value>
@@ -456,11 +456,11 @@
   <data name="AccessSize.Title" xml:space="preserve">
     <value>數組長度</value>
   </data>
-  <data name="Web.Description" xml:space="preserve">
-    <value>瀏覽器操作</value>
+  <data name="Browser.Description" xml:space="preserve">
+    <value>瀏覽器操作自动化</value>
   </data>
-  <data name="Web.Title" xml:space="preserve">
-    <value>Web</value>
+  <data name="Browser.Title" xml:space="preserve">
+    <value>瀏覽器</value>
   </data>
   <data name="Network.Description" xml:space="preserve">
     <value>網絡</value>
@@ -616,7 +616,7 @@
     <value>將焦點切換到默認框架。</value>
   </data>
   <data name="WebFocusFrameDefault.Title" xml:space="preserve">
-    <value>框架*設定焦點</value>
+    <value>切換默認框架</value>
   </data>
   <data name="WebActionChainsCreated.Description" xml:space="preserve">
     <value>創建web動作鏈</value>
@@ -996,11 +996,11 @@
   <data name="AccessKey.Title" xml:space="preserve">
     <value>訪問對象</value>
   </data>
-  <data name="CaptureForground.Description" xml:space="preserve">
-    <value>前置視窗截圖。</value>
+  <data name="CaptureActiveWindow.Description" xml:space="preserve">
+    <value>截取當前活動窗口圖像。</value>
   </data>
-  <data name="CaptureForground.Title" xml:space="preserve">
-    <value>前置視窗截圖</value>
+  <data name="CaptureActiveWindow.Title" xml:space="preserve">
+    <value>活動窗口截圖</value>
   </data>
   <data name="Cloud.Description" xml:space="preserve">
     <value>雲</value>
@@ -1026,11 +1026,11 @@
   <data name="DataFrameQuery.Title" xml:space="preserve">
     <value>查詢</value>
   </data>
-  <data name="XmlNodeName.Description" xml:space="preserve">
-    <value>Xml節點名稱</value>
+  <data name="NameLoc.Description" xml:space="preserve">
+    <value>用於通過標籤選擇/過濾行和列。</value>
   </data>
-  <data name="XmlNodeName.Title" xml:space="preserve">
-    <value>節點名稱</value>
+  <data name="NameLoc.Title" xml:space="preserve">
+    <value>行列選擇（标签）</value>
   </data>
   <data name="FilterText.Description" xml:space="preserve">
     <value>在數組或者清單中，篩選包含指定文字元素。</value>
@@ -1038,17 +1038,17 @@
   <data name="FilterText.Title" xml:space="preserve">
     <value>文字篩選</value>
   </data>
-  <data name="DataFrameSize.Description" xml:space="preserve">
-    <value>返回代表對像中元素數量的整數。</value>
+  <data name="RowsCount.Description" xml:space="preserve">
+    <value>獲取數據的行數</value>
   </data>
-  <data name="DataFrameSize.Title" xml:space="preserve">
-    <value>元素數量</value>
+  <data name="RowsCount.Title" xml:space="preserve">
+    <value>行數</value>
   </data>
   <data name="OutputString.Description" xml:space="preserve">
-    <value>替換節點文字</value>
+    <value>輸出字符串</value>
   </data>
   <data name="OutputString.Title" xml:space="preserve">
-    <value>文本替換</value>
+    <value>輸出字符串</value>
   </data>
   <data name="SaveDocument.Description" xml:space="preserve">
     <value>保存xml檔案</value>
@@ -1156,7 +1156,7 @@
     <value>將滑鼠移動到當前滑鼠位置的或指定web元素的偏移量。</value>
   </data>
   <data name="WebActionMoveOffset.Title" xml:space="preserve">
-    <value>動作鏈.移動（偏移）</value>
+    <value>動作鏈.偏移移動</value>
   </data>
   <data name="WebActionSendText.Description" xml:space="preserve">
     <value>設定文字</value>
@@ -1314,11 +1314,11 @@
   <data name="WindowXy.Title" xml:space="preserve">
     <value>視窗位置</value>
   </data>
-  <data name="TypeJson.Description" xml:space="preserve">
-    <value>定義JSON數據格式</value>
+  <data name="IterRow.Description" xml:space="preserve">
+    <value>將 DataFrame 行作為（索引，數組）對進行迭代。</value>
   </data>
-  <data name="TypeJson.Title" xml:space="preserve">
-    <value>JSON</value>
+  <data name="IterRow.Title" xml:space="preserve">
+    <value>迭代行</value>
   </data>
   <data name="WindowSize.Description" xml:space="preserve">
     <value>獲取或設置窗口的大小（長和寬）</value>
@@ -1524,4 +1524,14 @@
   <data name="FlashWindow.Title" xml:space="preserve">
     <value>閃爍窗口</value>
   </data>
+
+
+  <data name="TypeSlice.Description" xml:space="preserve">
+    <value>Slice 類型</value>
+  </data>
+  <data name="TypeSlice.Title" xml:space="preserve">
+    <value>Slice</value>
+  </data>
+
+
 </root>

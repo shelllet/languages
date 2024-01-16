@@ -831,10 +831,10 @@
   <data name="Action.CaptureFullScreen.Size.Header" xml:space="preserve">
     <value>Size</value>
   </data>
-  <data name="Action.CaptureForground.Center.Header" xml:space="preserve">
+  <data name="Action.CaptureActiveWindow.Center.Header" xml:space="preserve">
     <value>Center</value>
   </data>
-  <data name="Action.CaptureForground.Size.Header" xml:space="preserve">
+  <data name="Action.CaptureActiveWindow.Size.Header" xml:space="preserve">
     <value>Size</value>
   </data>
   <data name="Action.HttpDownload.Url.Header" xml:space="preserve">
@@ -969,7 +969,7 @@
   <data name="Action.SaveDocument.FileType.Header" xml:space="preserve">
     <value>File Type</value>
   </data>
-  <data name="Action.DataFrameSize.Source.Header" xml:space="preserve">
+  <data name="Action.RowsCount.Source.Header" xml:space="preserve">
     <value>Source</value>
   </data>
   <data name="Action.DataFrameQuery.Source.Header" xml:space="preserve">
@@ -983,5 +983,236 @@
   </data>
   <data name="Action.OutputString.Level.Header" xml:space="preserve">
     <value>Level</value>
+  </data>
+  <data name="Action.NameLoc.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.NameLoc.Row.Header" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="Action.NameLoc.Column.Header" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="Action.IndexLoc.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.IndexLoc.Row.Header" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="Action.IndexLoc.Column.Header" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="Action.TypeSlice.Start.Header" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="Action.TypeSlice.Stop.Header" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="Action.TypeSlice.Stride.Header" xml:space="preserve">
+    <value>Stride</value>
+  </data>
+  <data name="Action.For.Times.Header" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="Action.IterRow.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.AccessArray.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.AccessArray.Index.Header" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="Action.WebOpen.Url.Header" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Action.WebOpen.Browser.Header" xml:space="preserve">
+    <value>Browser</value>
+  </data>
+  <data name="Action.WebGetElement.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebGetElement.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebGetElement.WebBy.Header" xml:space="preserve">
+    <value>WebBy</value>
+  </data>
+  <data name="Action.WebElementSendKey.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebElementSendKey.Key.Header" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="Action.WebElementSendText.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebElementSendText.Text.Header" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Action.WebElementClick.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebWaitClickable.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebWaitClickable.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebWaitClickable.Timeout.Header" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Action.WebWaitClickable.WebBy.Header" xml:space="preserve">
+    <value>WebBy</value>
+  </data>
+  <data name="Action.WebElementSubmit.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebElementClear.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebElementIsSelect.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebElementAttribute.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebElementAttribute.Attribute.Header" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Action.WebWaitPresence.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebWaitPresence.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebWaitPresence.Timeout.Header" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Action.WebWaitPresence.WebBy.Header" xml:space="preserve">
+    <value>WebBy</value>
+  </data>
+  <data name="Action.WebWaitPresence.Mode.Header" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="Action.WebWaitTitle.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebWaitTitle.Title.Header" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Action.WebWaitTitle.Timeout.Header" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Action.WebWaitTitle.Match.Header" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="Action.WebWaitTitle.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebWaitTitle.Timeout.Header" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Action.WebWaitFrameAvailable.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebWaitFrameAvailable.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebWaitFrameAvailable.Timeout.Header" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Action.WebWaitFrameAvailable.WebBy.Header" xml:space="preserve">
+    <value>WebBy</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByElement.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByElement.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByElement.Timeout.Header" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByElement.Option.Header" xml:space="preserve">
+    <value>Option</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.Timeout.Header" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.WebBy.Header" xml:space="preserve">
+    <value>WebBy</value>
+  </data>
+  <data name="Action.WebSwitchToFrame.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebSwitchToFrame.Name.Header" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Action.WebFocusFrameDefault.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebScreenshot.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebActionChainsCreated.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebActionClick.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebActionSendText.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebActionSendText.Text.Header" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Action.WebActionClickHold.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebActionDoubleClick.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebActionMoveTo.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebActionRelease.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebActionDragDrop.Source.Header" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="Action.WebActionDragDrop.Target.Header" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="Action.WebActionKeyDown.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebActionKeyDown.Key.Header" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="Action.WebActionKeyUp.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebActionKeyUp.Key.Header" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="Action.WebActionMoveOffset.Element.Header" xml:space="preserve">
+    <value>Element</value>
+  </data>
+  <data name="Action.WebActionMoveOffset.Position.Header" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Action.WebCookies.Driver.Header" xml:space="preserve">
+    <value>Driver</value>
+  </data>
+  <data name="Action.WebCookies.Key.Header" xml:space="preserve">
+    <value>Key</value>
   </data>
 </root>

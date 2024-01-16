@@ -240,6 +240,9 @@
   <data name="ToolBar.Import.Label" xml:space="preserve">
     <value>Import</value>
   </data>
+  <data name="ToolBar.Share.Label" xml:space="preserve">
+    <value>Share</value>
+  </data>
   <data name="BlankPage.Buy.Text" xml:space="preserve">
     <value>Support to buy</value>
   </data>

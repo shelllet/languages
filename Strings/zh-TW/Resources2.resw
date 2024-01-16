@@ -828,10 +828,10 @@
   <data name="Action.CaptureFullScreen.Size.Header" xml:space="preserve">
     <value>長寬</value>
   </data>
-  <data name="Action.CaptureForground.Center.Header" xml:space="preserve">
+  <data name="Action.CaptureActiveWindow.Center.Header" xml:space="preserve">
     <value>中心</value>
   </data>
-  <data name="Action.CaptureForground.Size.Header" xml:space="preserve">
+  <data name="Action.CaptureActiveWindow.Size.Header" xml:space="preserve">
     <value>長寬</value>
   </data>
   <data name="Action.HttpDownload.Url.Header" xml:space="preserve">
@@ -966,7 +966,7 @@
   <data name="Action.SaveDocument.FileType.Header" xml:space="preserve">
     <value>文件類型</value>
   </data>
-  <data name="Action.DataFrameSize.Source.Header" xml:space="preserve">
+  <data name="Action.RowsCount.Source.Header" xml:space="preserve">
     <value>數據源</value>
   </data>
   <data name="Action.DataFrameQuery.Source.Header" xml:space="preserve">
@@ -980,5 +980,236 @@
   </data>
   <data name="Action.OutputString.Level.Header" xml:space="preserve">
     <value>級別</value>
+  </data>
+  <data name="Action.NameLoc.Source.Header" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Action.NameLoc.Row.Header" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="Action.NameLoc.Column.Header" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="Action.IndexLoc.Source.Header" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Action.IndexLoc.Row.Header" xml:space="preserve">
+    <value>行</value>
+  </data>
+  <data name="Action.IndexLoc.Column.Header" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="Action.TypeSlice.Start.Header" xml:space="preserve">
+    <value>起始位置</value>
+  </data>
+  <data name="Action.TypeSlice.Stop.Header" xml:space="preserve">
+    <value>結束位置</value>
+  </data>
+  <data name="Action.TypeSlice.Stride.Header" xml:space="preserve">
+    <value>間距</value>
+  </data>
+  <data name="Action.For.Times.Header" xml:space="preserve">
+    <value>次數</value>
+  </data>
+  <data name="Action.IterRow.Source.Header" xml:space="preserve">
+    <value>數據源</value>
+  </data>
+  <data name="Action.AccessArray.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.AccessArray.Index.Header" xml:space="preserve">
+    <value>索引</value>
+  </data>
+  <data name="Action.WebOpen.Url.Header" xml:space="preserve">
+    <value>網址</value>
+  </data>
+  <data name="Action.WebOpen.Browser.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebGetElement.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebGetElement.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebGetElement.WebBy.Header" xml:space="preserve">
+    <value>方式</value>
+  </data>
+  <data name="Action.WebElementSendKey.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebElementSendKey.Key.Header" xml:space="preserve">
+    <value>按鍵</value>
+  </data>
+  <data name="Action.WebElementSendText.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebElementSendText.Text.Header" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="Action.WebElementClick.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebWaitClickable.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebWaitClickable.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebWaitClickable.Timeout.Header" xml:space="preserve">
+    <value>超時</value>
+  </data>
+  <data name="Action.WebWaitClickable.WebBy.Header" xml:space="preserve">
+    <value>方式</value>
+  </data>
+  <data name="Action.WebElementSubmit.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebElementClear.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebElementIsSelect.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebElementAttribute.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebElementAttribute.Attribute.Header" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="Action.WebWaitPresence.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebWaitPresence.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebWaitPresence.Timeout.Header" xml:space="preserve">
+    <value>超時</value>
+  </data>
+  <data name="Action.WebWaitPresence.WebBy.Header" xml:space="preserve">
+    <value>策略</value>
+  </data>
+  <data name="Action.WebWaitPresence.Mode.Header" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="Action.WebWaitTitle.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebWaitTitle.Title.Header" xml:space="preserve">
+    <value>標題</value>
+  </data>
+  <data name="Action.WebWaitTitle.Timeout.Header" xml:space="preserve">
+    <value>超時</value>
+  </data>
+  <data name="Action.WebWaitTitle.Match.Header" xml:space="preserve">
+    <value>匹配</value>
+  </data>
+  <data name="Action.WebWaitTitle.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebWaitTitle.Timeout.Header" xml:space="preserve">
+    <value>超時</value>
+  </data>
+  <data name="Action.WebWaitFrameAvailable.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebWaitFrameAvailable.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebWaitFrameAvailable.Timeout.Header" xml:space="preserve">
+    <value>超時</value>
+  </data>
+  <data name="Action.WebWaitFrameAvailable.WebBy.Header" xml:space="preserve">
+    <value>策略</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByElement.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByElement.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByElement.Timeout.Header" xml:space="preserve">
+    <value>超時</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByElement.Option.Header" xml:space="preserve">
+    <value>選項</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.Timeout.Header" xml:space="preserve">
+    <value>超時</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.WebBy.Header" xml:space="preserve">
+    <value>策略</value>
+  </data>
+  <data name="Action.WebSwitchToFrame.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebSwitchToFrame.Name.Header" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Action.WebFocusFrameDefault.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebScreenshot.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebActionChainsCreated.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebActionClick.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebActionSendText.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebActionSendText.Text.Header" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="Action.WebActionClickHold.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebActionDoubleClick.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebActionMoveTo.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebActionRelease.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebActionDragDrop.Source.Header" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Action.WebActionDragDrop.Target.Header" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="Action.WebActionKeyDown.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebActionKeyDown.Key.Header" xml:space="preserve">
+    <value>键</value>
+  </data>
+  <data name="Action.WebActionKeyUp.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebActionKeyUp.Key.Header" xml:space="preserve">
+    <value>键</value>
+  </data>
+  <data name="Action.WebActionMoveOffset.Element.Header" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="Action.WebActionMoveOffset.Position.Header" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="Action.WebCookies.Driver.Header" xml:space="preserve">
+    <value>瀏覽器</value>
+  </data>
+  <data name="Action.WebCookies.Key.Header" xml:space="preserve">
+    <value>名稱</value>
   </data>
 </root>
