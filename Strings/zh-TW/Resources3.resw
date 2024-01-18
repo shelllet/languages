@@ -421,7 +421,7 @@
     <value>形狀匹配</value>
   </data>
   <data name="IndexLoc.Description" xml:space="preserve">
-    <value>基於索引來選擇 Pandas 中的行和/或列。</value>
+    <value>基於索引來選擇 Pandas 中的行和列。</value>
   </data>
   <data name="IndexLoc.Title" xml:space="preserve">
     <value>行列選擇（索引）</value>
@@ -1015,13 +1015,13 @@
     <value>數據分析</value>
   </data>
   <data name="LoadDocument.Description" xml:space="preserve">
-    <value>加載xml檔案</value>
+    <value>加載檔案</value>
   </data>
   <data name="LoadDocument.Title" xml:space="preserve">
-    <value>檔案</value>
+    <value>加载檔案</value>
   </data>
   <data name="DataFrameQuery.Description" xml:space="preserve">
-    <value>查询 DataFrame 的列</value>
+    <value>查詢 DataFrame 數據結構</value>
   </data>
   <data name="DataFrameQuery.Title" xml:space="preserve">
     <value>查詢</value>
@@ -1042,7 +1042,7 @@
     <value>獲取數據的行數</value>
   </data>
   <data name="RowsCount.Title" xml:space="preserve">
-    <value>行數</value>
+    <value>統計行數</value>
   </data>
   <data name="OutputString.Description" xml:space="preserve">
     <value>輸出字符串</value>
@@ -1051,10 +1051,10 @@
     <value>輸出字符串</value>
   </data>
   <data name="SaveDocument.Description" xml:space="preserve">
-    <value>保存xml檔案</value>
+    <value>保存檔案</value>
   </data>
   <data name="SaveDocument.Title" xml:space="preserve">
-    <value>保存</value>
+    <value>保存檔案</value>
   </data>
   <data name="IsEmpty.Description" xml:space="preserve">
     <value>判斷容器或者清單是否為空</value>

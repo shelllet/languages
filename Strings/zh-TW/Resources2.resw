@@ -850,7 +850,7 @@
     <value>標頭</value>
   </data>
   <data name="Action.HttpGet.Params.Header" xml:space="preserve">
-    <value>參數</value>
+    <value>查詢字符串</value>
   </data>
   <data name="Action.HttpHead.Url.Header" xml:space="preserve">
     <value>鏈接</value>

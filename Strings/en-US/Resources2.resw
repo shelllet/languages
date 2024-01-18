@@ -853,7 +853,7 @@
     <value>Headers</value>
   </data>
   <data name="Action.HttpGet.Params.Header" xml:space="preserve">
-    <value>Params</value>
+    <value>Query String</value>
   </data>
   <data name="Action.HttpHead.Url.Header" xml:space="preserve">
     <value>Url</value>

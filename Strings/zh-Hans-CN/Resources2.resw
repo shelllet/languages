@@ -853,7 +853,7 @@
     <value>标头</value>
   </data>
   <data name="Action.HttpGet.Params.Header" xml:space="preserve">
-    <value>参数</value>
+    <value>查询字符串</value>
   </data>
   <data name="Action.HttpHead.Url.Header" xml:space="preserve">
     <value>链接</value>

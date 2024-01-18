@@ -1027,7 +1027,7 @@
     <value>LoadDocument</value>
   </data>
   <data name="DataFrameQuery.Description" xml:space="preserve">
-    <value>Query the columns of a DataFrame</value>
+    <value>Query the DataFrame</value>
   </data>
   <data name="DataFrameQuery.Title" xml:space="preserve">
     <value>DataFrameQuery</value>
@@ -1057,10 +1057,10 @@
     <value>OutputString</value>
   </data>
   <data name="SaveDocument.Description" xml:space="preserve">
-    <value>Save the xml file</value>
+    <value>Save the document</value>
   </data>
   <data name="SaveDocument.Title" xml:space="preserve">
-    <value>Save</value>
+    <value>SaveDocument</value>
   </data>
   <data name="IsEmpty.Description" xml:space="preserve">
     <value>Determine whether the container or the list is empty</value>
