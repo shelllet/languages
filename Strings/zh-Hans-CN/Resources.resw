@@ -210,7 +210,7 @@
   <data name="Workflow.Index.Header" xml:space="preserve">
     <value>主流程</value>
   </data>
-  <data name="Workflow.Description.Text" xml:space="preserve">
+  <data name="Workflow.Description.Header" xml:space="preserve">
     <value>描述</value>
   </data>
   <data name="Page.Output.Header" xml:space="preserve">
@@ -381,6 +381,9 @@
   <data name="InputFlyoutItem.TimeSpan.Text" xml:space="preserve">
     <value>时长</value>
   </data>
+  <data name="InputFlyoutItem.Path.Text" xml:space="preserve">
+    <value>路径</value>
+  </data>
   <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
     <value>添加</value>
   </data>
@@ -473,5 +476,11 @@
   </data>
   <data name="Range.Max.Header" xml:space="preserve">
     <value>最大值</value>
+  </data>
+  <data name="AndroidPackages.Device.Header" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="AndroidPackages.Packages.Header" xml:space="preserve">
+    <value>安装包</value>
   </data>
 </root>

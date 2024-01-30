@@ -371,7 +371,7 @@
     <value>此动作可以获取安卓模拟器当中的所有安装包。</value>
   </data>
   <data name="AdbPackages.Title" xml:space="preserve">
-    <value>安装包</value>
+    <value>应用列表</value>
   </data>
   <data name="Filesystem.Description" xml:space="preserve">
     <value>文件</value>
@@ -890,13 +890,13 @@
     <value>HEAD 请求</value>
   </data>
   <data name="Android.Description" xml:space="preserve">
-    <value>安卓</value>
+    <value>基于 ADB 的安卓操作</value>
   </data>
   <data name="Android.Title" xml:space="preserve">
     <value>安卓</value>
   </data>
   <data name="AdbKillServer.Description" xml:space="preserve">
-    <value>终止安卓模拟器服务，结束进程 Adb.exe。</value>
+    <value>终止 adb 服务进程。</value>
   </data>
   <data name="AdbKillServer.Title" xml:space="preserve">
     <value>终止服务</value>
@@ -905,10 +905,10 @@
     <value>查询系统中已经启动的安卓模拟器。</value>
   </data>
   <data name="AdbDevices.Title" xml:space="preserve">
-    <value>设备列表</value>
+    <value>设备</value>
   </data>
   <data name="AdbStartServer.Description" xml:space="preserve">
-    <value>启动 Adb 服务</value>
+    <value>如果 *adb*服务未启动，启动 adb 服务。</value>
   </data>
   <data name="AdbStartServer.Title" xml:space="preserve">
     <value>启动服务</value>
@@ -925,17 +925,17 @@
   <data name="AdbConnect.Title" xml:space="preserve">
     <value>连接</value>
   </data>
-  <data name="AdbIfConfig.Description" xml:space="preserve">
-    <value>查看模拟器网卡配置</value>
+  <data name="AdbPush.Description" xml:space="preserve">
+    <value>将本地文件/目录复制到 `Android` 设备。</value>
   </data>
-  <data name="AdbIfConfig.Title" xml:space="preserve">
-    <value>网卡配置</value>
+  <data name="AdbPush.Title" xml:space="preserve">
+    <value>上传文件</value>
   </data>
-  <data name="AdbRemoveForward.Description" xml:space="preserve">
-    <value>在当前系统当中移除端口转发。</value>
+  <data name="Adbkeyboard.Description" xml:space="preserve">
+    <value>发送键盘输入至 Android 设备，必须安装 `Adbkeyboard`，可支持中文输入。</value>
   </data>
-  <data name="AdbRemoveForward.Title" xml:space="preserve">
-    <value>移除转发</value>
+  <data name="Adbkeyboard.Title" xml:space="preserve">
+    <value>键盘输入</value>
   </data>
   <data name="ReadLines.Description" xml:space="preserve">
     <value>读取文本文件，并根据换行符 `\r\n`，拆分成多行字符串，也就是字符串列表。</value>
@@ -950,10 +950,10 @@
     <value>滑动</value>
   </data>
   <data name="AdbInput.Description" xml:space="preserve">
-    <value>在安卓模拟器中模拟输入文本，此动作不支持中文输入。</value>
+    <value>在安卓模拟器中模拟输入文本，此动作仅支持英文输入。</value>
   </data>
   <data name="AdbInput.Title" xml:space="preserve">
-    <value>输入</value>
+    <value>键盘输入 * 英文</value>
   </data>
   <data name="AdbKey.Description" xml:space="preserve">
     <value>在安卓模拟器中模拟按键。</value>
@@ -980,7 +980,7 @@
     <value>访问数组</value>
   </data>
   <data name="BaiduTranslate.Description" xml:space="preserve">
-    <value>百度翻译</value>
+    <value>基于百度云接口的在线翻译，将中文翻译成英文和其他语言，以及其他语言翻译成中文。</value>
   </data>
   <data name="BaiduTranslate.Title" xml:space="preserve">
     <value>百度翻译</value>
@@ -1075,11 +1075,11 @@
   <data name="Param.Title" xml:space="preserve">
     <value>参数</value>
   </data>
-  <data name="WebActionChainsPerform.Description" xml:space="preserve">
-    <value>执行创建的动作链。</value>
+  <data name="CellClick.Description" xml:space="preserve">
+    <value>移动鼠标至网格中的每个单元格并点击鼠标</value>
   </data>
-  <data name="WebActionChainsPerform.Title" xml:space="preserve">
-    <value>动作链*执行</value>
+  <data name="CellClick.Title" xml:space="preserve">
+    <value>点击 * 网格</value>
   </data>
   <data name="WebElementSendKey.Description" xml:space="preserve">
     <value>发送按键</value>
@@ -1165,10 +1165,10 @@
   <data name="WebActionSendText.Title" xml:space="preserve">
     <value>动作链.发送文本</value>
   </data>
-  <data name="LoggingEnabled.Description" xml:space="preserve">
+  <data name="LoggingControl.Description" xml:space="preserve">
     <value>该动作用来在流程中控制输出日志</value>
   </data>
-  <data name="LoggingEnabled.Title" xml:space="preserve">
+  <data name="LoggingControl.Title" xml:space="preserve">
     <value>输出控制</value>
   </data>
   <data name="AdaptiveThreshold.Description" xml:space="preserve">
@@ -1273,11 +1273,11 @@
   <data name="EnumWindows.Title" xml:space="preserve">
     <value>枚举窗口</value>
   </data>
-  <data name="FilterWindows.Description" xml:space="preserve">
-    <value>筛选当前操作系统中，符合条件的窗口</value>
+  <data name="AdbIsInstalled.Description" xml:space="preserve">
+    <value>检测 Android 应用程序包是否已经安装。</value>
   </data>
-  <data name="FilterWindows.Title" xml:space="preserve">
-    <value>窗口筛选</value>
+  <data name="AdbIsInstalled.Title" xml:space="preserve">
+    <value>应用检测</value>
   </data>
   <data name="MatchTemplate.Description" xml:space="preserve">
     <value>简单的图片查找，通常用于查找较小的图像,或者特征比较少的图像。</value>
@@ -1445,25 +1445,19 @@
     <value>定义一个字符串列表</value>
   </data>
   <data name="TypeStrings.Title" xml:space="preserve">
-    <value>Strings</value>
-  </data>
-  <data name="Method.Description" xml:space="preserve">
-    <value>包含一系列常用函数</value>
-  </data>
-  <data name="Method.Title" xml:space="preserve">
-    <value>函数</value>
+    <value>字符串列表</value>
   </data>
   <data name="PopBack.Description" xml:space="preserve">
     <value>删除容器中的最后一个元素，有效地将容器大小减少一个。</value>
   </data>
   <data name="PopBack.Title" xml:space="preserve">
-    <value>PopBack</value>
+    <value>尾部取出</value>
   </data>
   <data name="PushBack.Description" xml:space="preserve">
     <value>在容器的末尾添加一个新元素，位于其当前最后一个元素之后。</value>
   </data>
   <data name="PushBack.Title" xml:space="preserve">
-    <value>PushBack</value>
+    <value>尾部压入</value>
   </data>
   <data name="JoinString.Description" xml:space="preserve">
     <value>使用分隔符，合并字符串。</value>
@@ -1525,14 +1519,34 @@
   <data name="FlashWindow.Title" xml:space="preserve">
     <value>闪烁窗口</value>
   </data>
-
-
   <data name="TypeSlice.Description" xml:space="preserve">
-    <value>Slice 类型</value>
+    <value>切片类型</value>
   </data>
   <data name="TypeSlice.Title" xml:space="preserve">
-    <value>Slice</value>
+    <value>切片</value>
   </data>
-
-
+  <data name="AdbInstall.Description" xml:space="preserve">
+    <value>安装 APk 到安卓设备中。</value>
+  </data>
+  <data name="AdbInstall.Title" xml:space="preserve">
+    <value>安装 APK</value>
+  </data>
+  <data name="AdbClearText.Description" xml:space="preserve">
+    <value>清除当前输入框的文字，必须安装`Adbkeyboard`。</value>
+  </data>
+  <data name="AdbClearText.Title" xml:space="preserve">
+    <value>清除文字</value>
+  </data>
+  <data name="AdbPull.Description" xml:space="preserve">
+    <value>从设备复制文件/目录到本地计算机。</value>
+  </data>
+  <data name="AdbPull.Title" xml:space="preserve">
+    <value>拉取文件</value>
+  </data>
+  <data name="AdbLs.Description" xml:space="preserve">
+    <value>获取文件或者文件夹列表</value>
+  </data>
+  <data name="AdbLs.Title" xml:space="preserve">
+    <value>文件目录</value>
+  </data>
 </root>

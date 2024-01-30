@@ -901,46 +901,46 @@
     <value>Android</value>
   </data>
   <data name="AdbKillServer.Description" xml:space="preserve">
-    <value>Terminate the android simulator service and end the process adb.exe.</value>
+    <value>Terminate the adb server process.</value>
   </data>
   <data name="AdbKillServer.Title" xml:space="preserve">
-    <value>Termination of service</value>
+    <value>AdbKillServer</value>
   </data>
   <data name="AdbDevices.Description" xml:space="preserve">
     <value>Query the android simulator that is already started in the system.</value>
   </data>
   <data name="AdbDevices.Title" xml:space="preserve">
-    <value>List of equipment</value>
+    <value>AdbDevices</value>
   </data>
   <data name="AdbStartServer.Description" xml:space="preserve">
-    <value>Start the adb service</value>
+    <value>Starts the adb server if it is not running.</value>
   </data>
   <data name="AdbStartServer.Title" xml:space="preserve">
-    <value>Start the service</value>
+    <value>AdbStartServer</value>
   </data>
   <data name="AdbForward.Description" xml:space="preserve">
     <value>Map your android port to your local port.</value>
   </data>
   <data name="AdbForward.Title" xml:space="preserve">
-    <value>Retransmission</value>
+    <value>AdbForward</value>
   </data>
   <data name="AdbConnect.Description" xml:space="preserve">
     <value>Connect the simulator, mainly used in the simulator on the remote computer above.</value>
   </data>
   <data name="AdbConnect.Title" xml:space="preserve">
-    <value>Linkage</value>
+    <value>AdbConnect</value>
   </data>
-  <data name="AdbIfConfig.Description" xml:space="preserve">
-    <value>View the simulator network configuration</value>
+  <data name="AdbPush.Description" xml:space="preserve">
+    <value>Copy local files/directories to Android device</value>
   </data>
-  <data name="AdbIfConfig.Title" xml:space="preserve">
-    <value>Network card configuration</value>
+  <data name="AdbPush.Title" xml:space="preserve">
+    <value>AdbPush</value>
   </data>
-  <data name="AdbRemoveForward.Description" xml:space="preserve">
-    <value>Remove the port forwarding in the current system.</value>
+  <data name="Adbkeyboard.Description" xml:space="preserve">
+    <value>Send text input to android device, you must install 'ADBKeyBoard'，this action support chinese characters。</value>
   </data>
-  <data name="AdbRemoveForward.Title" xml:space="preserve">
-    <value>Remove forwarding</value>
+  <data name="Adbkeyboard.Title" xml:space="preserve">
+    <value>Adbkeyboard</value>
   </data>
   <data name="ReadLines.Description" xml:space="preserve">
     <value>Read the text file, and disassemble the multi-line string according to the changing character's `\r\n`, which is a list of string.</value>
@@ -952,13 +952,13 @@
     <value>Slide the operation in the android simulator.</value>
   </data>
   <data name="AdbSwipe.Title" xml:space="preserve">
-    <value>Slither</value>
+    <value>AdbSwipe</value>
   </data>
   <data name="AdbInput.Description" xml:space="preserve">
-    <value>Simulate input text in the android simulator, this action does not support chinese input.</value>
+    <value>Send text input to android device, this action only support ASCII characters.</value>
   </data>
   <data name="AdbInput.Title" xml:space="preserve">
-    <value>Import</value>
+    <value>AdbInput</value>
   </data>
   <data name="AdbKey.Description" xml:space="preserve">
     <value>Simulate the keys in an android simulator.</value>
@@ -985,10 +985,10 @@
     <value>Access the array</value>
   </data>
   <data name="BaiduTranslate.Description" xml:space="preserve">
-    <value>Baidu translate</value>
+    <value>Online translation based on Baidu Cloud interface translates Chinese into English and other languages, as well as other languages into Chinese.</value>
   </data>
   <data name="BaiduTranslate.Title" xml:space="preserve">
-    <value>Baidu translate</value>
+    <value>BaiduTranslate</value>
   </data>
   <data name="AdbStartApp.Description" xml:space="preserve">
     <value>This action opens the app on the android emulator.</value>
@@ -1080,11 +1080,11 @@
   <data name="Param.Title" xml:space="preserve">
     <value>Param</value>
   </data>
-  <data name="WebActionChainsPerform.Description" xml:space="preserve">
-    <value>Perform the created action chain.</value>
+  <data name="CellClick.Description" xml:space="preserve">
+    <value>Move the mouse to grid cell and click the mouse</value>
   </data>
-  <data name="WebActionChainsPerform.Title" xml:space="preserve">
-    <value>Action chain * execution</value>
+  <data name="CellClick.Title" xml:space="preserve">
+    <value>CellClick</value>
   </data>
   <data name="WebElementSendKey.Description" xml:space="preserve">
     <value>Send the button</value>
@@ -1170,10 +1170,10 @@
   <data name="WebActionSendText.Title" xml:space="preserve">
     <value>Action chain. send out the text</value>
   </data>
-  <data name="LoggingEnabled.Description" xml:space="preserve">
+  <data name="LoggingControl.Description" xml:space="preserve">
     <value>This action is used to control the output logs in the process</value>
   </data>
-  <data name="LoggingEnabled.Title" xml:space="preserve">
+  <data name="LoggingControl.Title" xml:space="preserve">
     <value>Outgoing control</value>
   </data>
   <data name="AdaptiveThreshold.Description" xml:space="preserve">
@@ -1278,11 +1278,11 @@
   <data name="EnumWindows.Title" xml:space="preserve">
     <value>EnumWindows</value>
   </data>
-  <data name="FilterWindows.Description" xml:space="preserve">
-    <value>Filter the eligible windows in the current operating system</value>
+  <data name="AdbIsInstalled.Description" xml:space="preserve">
+    <value>Check if an android application is installed on a device.</value>
   </data>
-  <data name="FilterWindows.Title" xml:space="preserve">
-    <value>FilterWindows</value>
+  <data name="AdbIsInstalled.Title" xml:space="preserve">
+    <value>AdbIsInstalled</value>
   </data>
   <data name="MatchTemplate.Description" xml:space="preserve">
     <value>Simple picture lookup is usually used to find smaller images, or images with fewer features.</value>
@@ -1446,12 +1446,6 @@
   <data name="TypeStrings.Title" xml:space="preserve">
     <value>Strings</value>
   </data>
-  <data name="Method.Description" xml:space="preserve">
-    <value>Contains some commonly used methods</value>
-  </data>
-  <data name="Method.Title" xml:space="preserve">
-    <value>Method</value>
-  </data>
   <data name="PopBack.Description" xml:space="preserve">
     <value>Removes the last element in the vector, effectively reducing the container size by one.</value>
   </data>
@@ -1530,6 +1524,28 @@
   <data name="TypeSlice.Title" xml:space="preserve">
     <value>TypeSlice</value>
   </data>
-
-
+  <data name="AdbInstall.Description" xml:space="preserve">
+    <value>Install an Apk file one the android device.</value>
+  </data>
+  <data name="AdbInstall.Title" xml:space="preserve">
+    <value>AdbInstall</value>
+  </data>
+  <data name="AdbClearText.Description" xml:space="preserve">
+    <value>Clear focused input text</value>
+  </data>
+  <data name="AdbClearText.Title" xml:space="preserve">
+    <value>AdbClearText</value>
+  </data>
+  <data name="AdbPull.Description" xml:space="preserve">
+    <value>Copy files/dirs from device</value>
+  </data>
+  <data name="AdbPull.Title" xml:space="preserve">
+    <value>AdbPull</value>
+  </data>
+  <data name="AdbLs.Description" xml:space="preserve">
+    <value>List Files and Directories</value>
+  </data>
+  <data name="AdbLs.Title" xml:space="preserve">
+    <value>AdbLs</value>
+  </data>
 </root>

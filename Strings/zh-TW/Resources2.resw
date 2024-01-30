@@ -159,6 +159,9 @@
   <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
     <value>静态</value>
   </data>
+  <data name="Action.ONNXModel.ModelFile.Header" xml:space="preserve">
+    <value>模型</value>
+  </data>
   <data name="Action.WorkReset.Value.Header" xml:space="preserve">
     <value>異步對象</value>
   </data>
@@ -178,7 +181,13 @@
     <value>密碼</value>
   </data>
   <data name="Action.PointConvert.WithTitleBar.Header" xml:space="preserve">
-    <value>含標題欄</value>
+    <value>標題欄</value>
+  </data>
+  <data name="Action.PointConvert.Window.Header" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="Action.PointConvert.Mode.Header" xml:space="preserve">
+    <value>方式</value>
   </data>
   <data name="Action.ImageMarkRelativeROI.Type.Header" xml:space="preserve">
     <value>相對位置</value>
@@ -909,10 +918,13 @@
   <data name="Action.SubString.Length.Header" xml:space="preserve">
     <value>长度</value>
   </data>
+  <data name="Action.Param.Index.Header" xml:space="preserve">
+    <value>索引</value>
+  </data>
   <data name="Action.Param.Value.Header" xml:space="preserve">
     <value>預設值</value>
   </data>
-  <data name="Action.Invoke.Process.Header" xml:space="preserve">
+  <data name="Action.Invoke.Workflow.Header" xml:space="preserve">
     <value>流程</value>
   </data>
   <data name="Action.Invoke.Value.Header" xml:space="preserve">
@@ -1211,5 +1223,287 @@
   </data>
   <data name="Action.WebCookies.Key.Header" xml:space="preserve">
     <value>名稱</value>
+  </data>
+  <data name="Action.CellClick.CellWidth.Header" xml:space="preserve">
+    <value>單元格寬度</value>
+  </data>
+  <data name="Action.CellClick.CellHeight.Header" xml:space="preserve">
+    <value>單元格高度</value>
+  </data>
+  <data name="Action.CellClick.Rows.Header" xml:space="preserve">
+    <value>線數</value>
+  </data>
+  <data name="Action.CellClick.Columns.Header" xml:space="preserve">
+    <value>列數</value>
+  </data>
+  <data name="Action.CellClick.Radius.Header" xml:space="preserve">
+    <value>半徑</value>
+  </data>
+  <data name="Action.CellClick.Button.Header" xml:space="preserve">
+    <value>按鍵</value>
+  </data>
+  <data name="Action.AdbConnect.Host.Header" xml:space="preserve">
+    <value>主機</value>
+  </data>
+  <data name="Action.AdbForward.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbForward.Local.Header" xml:space="preserve">
+    <value>本地端口</value>
+  </data>
+  <data name="Action.AdbForward.Remote.Header" xml:space="preserve">
+    <value>遠程端口</value>
+  </data>
+  <data name="Action.Adbkeyboard.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.Adbkeyboard.Text.Header" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="Action.AdbSwipe.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbSwipe.From.Header" xml:space="preserve">
+    <value>開始位置</value>
+  </data>
+  <data name="Action.AdbSwipe.To.Header" xml:space="preserve">
+    <value>終止位置</value>
+  </data>
+  <data name="Action.AdbSwipe.Time.Header" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Action.AdbInput.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbInput.Text.Header" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="Action.AdbKey.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbKey.Key.Header" xml:space="preserve">
+    <value>按鍵</value>
+  </data>
+  <data name="Action.AdbKey.Time.Header" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Action.AdbTap.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbTap.Point.Header" xml:space="preserve">
+    <value>坐標</value>
+  </data>
+  <data name="Action.AdbScreenCap.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbStartApp.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbStartApp.Package.Header" xml:space="preserve">
+    <value>應用</value>
+  </data>
+  <data name="Action.AdbPackages.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbMove.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbMove.Point.Header" xml:space="preserve">
+    <value>起始坐標</value>
+  </data>
+  <data name="Action.AdbMove.Orientation.Header" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="Action.AdbMove.Time.Header" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Action.AdbPush.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbPush.File.Header" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Action.AdbPush.Destination.Header" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="Action.AdbPull.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbPull.File.Header" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Action.AdbPull.Destination.Header" xml:space="preserve">
+    <value>目標</value>
+  </data>
+  <data name="Action.AdbIsInstalled.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbIsInstalled.Package.Header" xml:space="preserve">
+    <value>包名</value>
+  </data>
+  <data name="Action.AdbInstall.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbInstall.Apk.Header" xml:space="preserve">
+    <value>Apk 文件</value>
+  </data>
+  <data name="Action.AdbClearText.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbLs.Device.Header" xml:space="preserve">
+    <value>裝置</value>
+  </data>
+  <data name="Action.AdbLs.Root.Header" xml:space="preserve">
+    <value>目錄</value>
+  </data>
+  <data name="Action.BaiduTranslate.AppID.Header" xml:space="preserve">
+    <value>AppID</value>
+  </data>
+  <data name="Action.BaiduTranslate.Secret.Header" xml:space="preserve">
+    <value>Secret</value>
+  </data>
+  <data name="Action.BaiduTranslate.From.Header" xml:space="preserve">
+    <value>源語言</value>
+  </data>
+  <data name="Action.BaiduTranslate.To.Header" xml:space="preserve">
+    <value>目標語言</value>
+  </data>
+  <data name="Action.BaiduTranslate.Text.Header" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="Action.TypeColor.Color.Header" xml:space="preserve">
+    <value>顏色</value>
+  </data>
+  <data name="Action.TypeFile.File.Header" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Action.TypeFolder.Folder.Header" xml:space="preserve">
+    <value>文件夾</value>
+  </data>
+  <data name="Action.TypePassword.Password.Header" xml:space="preserve">
+    <value>密碼</value>
+  </data>
+  <data name="Action.TypeScalar.Value.Header" xml:space="preserve">
+    <value>標量</value>
+  </data>
+  <data name="Action.TypeRect.Value.Header" xml:space="preserve">
+    <value>矩形</value>
+  </data>
+  <data name="Action.TypeShortcut.Key.Header" xml:space="preserve">
+    <value>按鍵</value>
+  </data>
+  <data name="Action.RectBox.Point.Header" xml:space="preserve">
+    <value>坐標</value>
+  </data>
+  <data name="Action.RectBox.Width.Header" xml:space="preserve">
+    <value>寬</value>
+  </data>
+  <data name="Action.RectBox.Height.Header" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="Action.TypeUri.Url.Header" xml:space="preserve">
+    <value>網址</value>
+  </data>
+  <data name="Action.TypeString.Text.Header" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="Action.RandomNumber.Range.Header" xml:space="preserve">
+    <value>範圍</value>
+  </data>
+  <data name="Action.FilterEllipse.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.FilterEllipse.Minor.Header" xml:space="preserve">
+    <value>短軸</value>
+  </data>
+  <data name="Action.FilterEllipse.Major.Header" xml:space="preserve">
+    <value>長軸</value>
+  </data>
+  <data name="Action.FilterEllipse.Angle.Header" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="Action.FilterVertex.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.FilterVertex.Epsilon.Header" xml:space="preserve">
+    <value>精度</value>
+  </data>
+  <data name="Action.FilterVertex.Shape.Header" xml:space="preserve">
+    <value>形狀</value>
+  </data>
+  <data name="Action.FilterPerimeter.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.FilterPerimeter.Perimeter.Header" xml:space="preserve">
+    <value>周長</value>
+  </data>
+  <data name="Action.FilterArea.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.FilterArea.Area.Header" xml:space="preserve">
+    <value>面積</value>
+  </data>
+  <data name="Action.AccessSize.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.AccessKey.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.AccessKey.Key.Header" xml:space="preserve">
+    <value>對象</value>
+  </data>
+  <data name="Action.FindNonZero.Value.Header" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="Action.RelationalOperator.First.Header" xml:space="preserve">
+    <value>操作數</value>
+  </data>
+  <data name="Action.RelationalOperator.Operator.Header" xml:space="preserve">
+    <value>操作符</value>
+  </data>
+  <data name="Action.RelationalOperator.Second.Header" xml:space="preserve">
+    <value>操作數</value>
+  </data>
+  <data name="Action.LogicalOperator.First.Header" xml:space="preserve">
+    <value>操作數</value>
+  </data>
+  <data name="Action.LogicalOperator.Operator.Header" xml:space="preserve">
+    <value>操作符</value>
+  </data>
+  <data name="Action.LogicalOperator.Second.Header" xml:space="preserve">
+    <value>操作數</value>
+  </data>
+  <data name="Action.ArithmeticCalculate.First.Header" xml:space="preserve">
+    <value>操作數</value>
+  </data>
+  <data name="Action.ArithmeticCalculate.Operator.Header" xml:space="preserve">
+    <value>操作符</value>
+  </data>
+  <data name="Action.ArithmeticCalculate.Second.Header" xml:space="preserve">
+    <value>操作數</value>
+  </data>
+  <data name="Action.LoggingControl.Status.Header" xml:space="preserve">
+    <value>狀態</value>
+  </data>
+  <data name="Action.NameAlias.Name.Header" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Action.ActionAlias.Action.Header" xml:space="preserve">
+    <value>動作</value>
+  </data>
+  <data name="Action.ActionAlias.Workflow.Header" xml:space="preserve">
+    <value>流程</value>
+  </data>
+  <data name="Action.CodeExpression.Expression.Header" xml:space="preserve">
+    <value>表達式</value>
+  </data>
+  <data name="Action.Code.Python.Header" xml:space="preserve">
+    <value>腳本</value>
+  </data>
+  <data name="Action.IsEmpty.Value.Header" xml:space="preserve">
+    <value>数据</value>
+  </data>
+  <data name="Action.If.Source.Header" xml:space="preserve">
+    <value>数据</value>
   </data>
 </root>
