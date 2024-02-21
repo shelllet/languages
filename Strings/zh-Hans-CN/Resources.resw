@@ -300,22 +300,22 @@
   <data name="ToolBar.Settings.Label" xml:space="preserve">
     <value>设置</value>
   </data>
-  <data name="Shortcut.MouseGlobalPosition.Text" xml:space="preserve">
+  <data name="Shortcut.MouseGlobalPosition.Header" xml:space="preserve">
     <value>获取鼠标位置(全局)</value>
   </data>
-  <data name="Shortcut.MouseWindowPosition.Text" xml:space="preserve">
+  <data name="Shortcut.MouseWindowPosition.Header" xml:space="preserve">
     <value>获取鼠标位置(窗口)</value>
   </data>
-  <data name="Shortcut.WindowInfo.Text" xml:space="preserve">
+  <data name="Shortcut.WindowInfo.Header" xml:space="preserve">
     <value>获取窗口信息</value>
   </data>
-  <data name="Shortcut.ColorPicker.Text" xml:space="preserve">
+  <data name="Shortcut.ColorPicker.Header" xml:space="preserve">
     <value>拾取颜色</value>
   </data>
-  <data name="Shortcut.WorkRun.Text" xml:space="preserve">
+  <data name="Shortcut.WorkRun.Header" xml:space="preserve">
     <value>运行流程</value>
   </data>
-  <data name="Shortcut.WorkPause.Text" xml:space="preserve">
+  <data name="Shortcut.WorkPause.Header" xml:space="preserve">
     <value>暂停流程</value>
   </data>
   <data name="Record.Title" xml:space="preserve">
@@ -437,6 +437,9 @@
   </data>
   <data name="Workflow.Run.Completed.Text" xml:space="preserve">
     <value>当前流程已经执行完毕。</value>
+  </data>
+  <data name="Workflow.Run.Start.Text" xml:space="preserve">
+    <value>当前工作流程已经开始运行。</value>
   </data>
   <data name="Publish.File.Header" xml:space="preserve">
     <value>文件</value>

@@ -300,22 +300,22 @@
   <data name="ToolBar.Settings.Label" xml:space="preserve">
     <value>Settings</value>
   </data>
-  <data name="Shortcut.MouseGlobalPosition.Text" xml:space="preserve">
+  <data name="Shortcut.MouseGlobalPosition.Header" xml:space="preserve">
     <value>Mouse Position (Global)</value>
   </data>
-  <data name="Shortcut.MouseWindowPosition.Text" xml:space="preserve">
+  <data name="Shortcut.MouseWindowPosition.Header" xml:space="preserve">
     <value>Mouse Position (Window)</value>
   </data>
-  <data name="Shortcut.WindowInfo.Text" xml:space="preserve">
+  <data name="Shortcut.WindowInfo.Header" xml:space="preserve">
     <value>Get Window Info</value>
   </data>
-  <data name="Shortcut.ColorPicker.Text" xml:space="preserve">
+  <data name="Shortcut.ColorPicker.Header" xml:space="preserve">
     <value>Pick up the color</value>
   </data>
-  <data name="Shortcut.WorkRun.Text" xml:space="preserve">
+  <data name="Shortcut.WorkRun.Header" xml:space="preserve">
     <value>Run the process</value>
   </data>
-  <data name="Shortcut.WorkPause.Text" xml:space="preserve">
+  <data name="Shortcut.WorkPause.Header" xml:space="preserve">
     <value>Pause process</value>
   </data>
   <data name="Record.Title" xml:space="preserve">
@@ -437,6 +437,9 @@
   </data>
   <data name="Workflow.Run.Completed.Text" xml:space="preserve">
     <value>The current workflow run is completed.</value>
+  </data>
+  <data name="Workflow.Run.Start.Text" xml:space="preserve">
+    <value>The current workflow has started running.</value>
   </data>
   <data name="Publish.File.Header" xml:space="preserve">
     <value>File</value>

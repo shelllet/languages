@@ -156,10 +156,10 @@
   <data name="Action.PlayRecord.Records.Header" xml:space="preserve">
     <value>鍵盤鼠標宏</value>
   </data>
-  <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
+  <data name="Action.TypeModel.Static.Header" xml:space="preserve">
     <value>静态</value>
   </data>
-  <data name="Action.ONNXModel.ModelFile.Header" xml:space="preserve">
+  <data name="Action.TypeModel.ModelFile.Header" xml:space="preserve">
     <value>模型</value>
   </data>
   <data name="Action.WorkReset.Value.Header" xml:space="preserve">
@@ -756,7 +756,10 @@
   <data name="Action.PopBack.Source.Header" xml:space="preserve">
     <value>源</value>
   </data>
-  <data name="Action.TypeStrings.Value.Text" xml:space="preserve">
+  <data name="Action.TypeStrings.Value.Header" xml:space="preserve">
+    <value>初始值</value>
+  </data>
+  <data name="Action.TypeList.Value.Header" xml:space="preserve">
     <value>初始值</value>
   </data>
   <data name="Action.TextDetection.Image.Header" xml:space="preserve">
@@ -1443,7 +1446,7 @@
   <data name="Action.FilterArea.Area.Header" xml:space="preserve">
     <value>面積</value>
   </data>
-  <data name="Action.AccessSize.Value.Header" xml:space="preserve">
+  <data name="Action.ArraySize.Value.Header" xml:space="preserve">
     <value>數據</value>
   </data>
   <data name="Action.AccessKey.Value.Header" xml:space="preserve">
@@ -1505,5 +1508,11 @@
   </data>
   <data name="Action.If.Source.Header" xml:space="preserve">
     <value>数据</value>
+  </data>
+  <data name="Action.AccessBack.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Action.AccessFront.Value.Header" xml:space="preserve">
+    <value>值</value>
   </data>
 </root>

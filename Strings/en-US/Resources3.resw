@@ -450,10 +450,10 @@
   <data name="WebWaitVisibilityByLocator.Title" xml:space="preserve">
     <value>Wait for * visible (positioner)</value>
   </data>
-  <data name="AccessSize.Description" xml:space="preserve">
+  <data name="ArraySize.Description" xml:space="preserve">
     <value>Get the length of the array.</value>
   </data>
-  <data name="AccessSize.Title" xml:space="preserve">
+  <data name="ArraySize.Title" xml:space="preserve">
     <value>Array length</value>
   </data>
   <data name="Browser.Description" xml:space="preserve">
@@ -690,10 +690,10 @@
   <data name="HttpGet.Title" xml:space="preserve">
     <value>HttpGet</value>
   </data>
-  <data name="ONNXModel.Description" xml:space="preserve">
+  <data name="TypeModel.Description" xml:space="preserve">
     <value>Load the onnx, the model file</value>
   </data>
-  <data name="ONNXModel.Title" xml:space="preserve">
+  <data name="TypeModel.Title" xml:space="preserve">
     <value>Model</value>
   </data>
   <data name="WebWaitVisibilityByElement.Description" xml:space="preserve">
@@ -1398,10 +1398,10 @@
   <data name="WorkWait.Title" xml:space="preserve">
     <value>WorkWait</value>
   </data>
-  <data name="Camera.Description" xml:space="preserve">
+  <data name="TypeCamera.Description" xml:space="preserve">
     <value>Camera Device</value>
   </data>
-  <data name="Camera.Title" xml:space="preserve">
+  <data name="TypeCamera.Title" xml:space="preserve">
     <value>Camera</value>
   </data>
   <data name="VideoFrame.Description" xml:space="preserve">
@@ -1547,5 +1547,23 @@
   </data>
   <data name="AdbLs.Title" xml:space="preserve">
     <value>AdbLs</value>
+  </data>
+  <data name="TypeList.Description" xml:space="preserve">
+    <value>Type List</value>
+  </data>
+  <data name="TypeList.Title" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="AccessFront.Description" xml:space="preserve">
+    <value>Returns a reference to the first element in the vector.</value>
+  </data>
+  <data name="AccessFront.Title" xml:space="preserve">
+    <value>AccessFront</value>
+  </data>
+  <data name="AccessBack.Description" xml:space="preserve">
+    <value>Returns a reference to the last element in the vector.</value>
+  </data>
+  <data name="AccessBack.Title" xml:space="preserve">
+    <value>AccessBack</value>
   </data>
 </root>

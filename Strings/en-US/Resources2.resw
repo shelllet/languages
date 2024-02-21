@@ -156,10 +156,10 @@
   <data name="Action.PlayRecord.Records.Header" xml:space="preserve">
     <value>Keyboard/Mouse Macros</value>
   </data>
-  <data name="Action.ONNXModel.Static.Header" xml:space="preserve">
+  <data name="Action.TypeModel.Static.Header" xml:space="preserve">
     <value>Static</value>
   </data>
-  <data name="Action.ONNXModel.ModelFile.Header" xml:space="preserve">
+  <data name="Action.TypeModel.ModelFile.Header" xml:space="preserve">
     <value>Model</value>
   </data>
   <data name="Action.WorkReset.Value.Header" xml:space="preserve">
@@ -309,10 +309,10 @@
   <data name="Action.ReleaseKey.Input.Header" xml:space="preserve">
     <value>Input</value>
   </data>
-  <data name="Action.Camera.Device.Header" xml:space="preserve">
+  <data name="Action.TypeCamera.Device.Header" xml:space="preserve">
     <value>Camera</value>
   </data>
-  <data name="Action.VideoFrame.Camera.Header" xml:space="preserve">
+  <data name="Action.VideoFrame.TypeCamera.Header" xml:space="preserve">
     <value>Camera</value>
   </data>
   <data name="Action.ListenKeyboard.Key.Header" xml:space="preserve">
@@ -759,7 +759,10 @@
   <data name="Action.PopBack.Source.Header" xml:space="preserve">
     <value>Source</value>
   </data>
-  <data name="Action.TypeStrings.Value.Text" xml:space="preserve">
+  <data name="Action.TypeStrings.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.TypeList.Value.Header" xml:space="preserve">
     <value>Value</value>
   </data>
   <data name="Action.TextDetection.Image.Header" xml:space="preserve">
@@ -1446,7 +1449,7 @@
   <data name="Action.FilterArea.Area.Header" xml:space="preserve">
     <value>Area</value>
   </data>
-  <data name="Action.AccessSize.Value.Header" xml:space="preserve">
+  <data name="Action.ArraySize.Value.Header" xml:space="preserve">
     <value>Value</value>
   </data>
   <data name="Action.AccessKey.Value.Header" xml:space="preserve">
@@ -1507,6 +1510,12 @@
     <value>Value</value>
   </data>
   <data name="Action.If.Source.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.AccessBack.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Action.AccessFront.Value.Header" xml:space="preserve">
     <value>Value</value>
   </data>
 </root>

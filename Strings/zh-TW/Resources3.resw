@@ -450,10 +450,10 @@
   <data name="WebWaitVisibilityByLocator.Title" xml:space="preserve">
     <value>等待*可見（定位器）</value>
   </data>
-  <data name="AccessSize.Description" xml:space="preserve">
+  <data name="ArraySize.Description" xml:space="preserve">
     <value>獲取數組的長度。</value>
   </data>
-  <data name="AccessSize.Title" xml:space="preserve">
+  <data name="ArraySize.Title" xml:space="preserve">
     <value>數組長度</value>
   </data>
   <data name="Browser.Description" xml:space="preserve">
@@ -690,10 +690,10 @@
   <data name="HttpGet.Title" xml:space="preserve">
     <value>GET 請求</value>
   </data>
-  <data name="ONNXModel.Description" xml:space="preserve">
+  <data name="TypeModel.Description" xml:space="preserve">
     <value>加載onnx模型檔案</value>
   </data>
-  <data name="ONNXModel.Title" xml:space="preserve">
+  <data name="TypeModel.Title" xml:space="preserve">
     <value>模型</value>
   </data>
   <data name="WebWaitVisibilityByElement.Description" xml:space="preserve">
@@ -1392,10 +1392,10 @@
   <data name="WorkWait.Title" xml:space="preserve">
     <value>異步等待</value>
   </data>
-  <data name="Camera.Description" xml:space="preserve">
+  <data name="TypeCamera.Description" xml:space="preserve">
     <value>相機设备</value>
   </data>
-  <data name="Camera.Title" xml:space="preserve">
+  <data name="TypeCamera.Title" xml:space="preserve">
     <value>相機</value>
   </data>
   <data name="VideoFrame.Description" xml:space="preserve">
@@ -1548,4 +1548,22 @@
   <data name="AdbLs.Title" xml:space="preserve">
     <value>文件列表</value>
   </data>
+  <data name="TypeList.Description" xml:space="preserve">
+    <value>列表類型</value>
+  </data>
+  <data name="TypeList.Title" xml:space="preserve">
+    <value>列表</value>
+  </data>
+  <data name="AccessFront.Description" xml:space="preserve">
+    <value>獲取容器中的第一個元素</value>
+  </data>
+  <data name="AccessFront.Title" xml:space="preserve">
+    <value>首個元素</value>
+  </data>
+  <data name="AccessBack.Description" xml:space="preserve">
+    <value>獲取容器中的最後一個元素</value>
+  </data>
+  <data name="AccessBack.Title" xml:space="preserve">
+    <value>尾部元素</value>
+  </data>>
 </root>
