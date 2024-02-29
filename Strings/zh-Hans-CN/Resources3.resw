@@ -859,11 +859,11 @@
   <data name="WorkThread.Title" xml:space="preserve">
     <value>工作线程</value>
   </data>
-  <data name="ForegroundWindow.Description" xml:space="preserve">
+  <data name="ActiveWindow.Description" xml:space="preserve">
     <value>将创建指定窗口的线程置于前台并激活该窗口</value>
   </data>
-  <data name="ForegroundWindow.Title" xml:space="preserve">
-    <value>前置窗口</value>
+  <data name="ActiveWindow.Title" xml:space="preserve">
+    <value>激活窗口</value>
   </data>
   <data name="ShutdownSystem.Description" xml:space="preserve">
     <value>该动作可以关闭操作系统，也就是电脑关机。</value>

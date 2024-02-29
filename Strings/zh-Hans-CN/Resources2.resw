@@ -426,7 +426,7 @@
   <data name="Action.MessageBox.Flags.Header" xml:space="preserve">
     <value>标志</value>
   </data>
-  <data name="Action.ForegroundWindow.Window.Header" xml:space="preserve">
+  <data name="Action.ActiveWindow.Window.Header" xml:space="preserve">
     <value>窗口</value>
   </data>
   <data name="Action.WindowAncestor.Window.Header" xml:space="preserve">

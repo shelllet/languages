@@ -288,6 +288,9 @@
   <data name="ToolBar.Run.Label" xml:space="preserve">
     <value>運行</value>
   </data>
+  <data name="ToolBar.Debug.Label" xml:space="preserve">
+    <value>偵錯</value>
+  </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>發佈</value>
   </data>

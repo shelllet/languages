@@ -426,7 +426,7 @@
   <data name="Action.MessageBox.Flags.Header" xml:space="preserve">
     <value>Flags</value>
   </data>
-  <data name="Action.ForegroundWindow.Window.Header" xml:space="preserve">
+  <data name="Action.ActiveWindow.Window.Header" xml:space="preserve">
     <value>Window</value>
   </data>
   <data name="Action.PositionWindow.Window.Header" xml:space="preserve">

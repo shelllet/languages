@@ -288,6 +288,9 @@
   <data name="ToolBar.Run.Label" xml:space="preserve">
     <value>Run</value>
   </data>
+  <data name="ToolBar.Debug.Label" xml:space="preserve">
+    <value>Debug</value>
+  </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>Publish</value>
   </data>

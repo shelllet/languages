@@ -285,6 +285,9 @@
   <data name="ToolBar.Run.Label" xml:space="preserve">
     <value>运行</value>
   </data>
+  <data name="ToolBar.Debug.Label" xml:space="preserve">
+    <value>调试</value>
+  </data>
   <data name="ToolBar.Import.Label" xml:space="preserve">
     <value>导入</value>
   </data>

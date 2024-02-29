@@ -864,11 +864,11 @@
   <data name="WorkThread.Title" xml:space="preserve">
     <value>WorkThread</value>
   </data>
-  <data name="ForegroundWindow.Description" xml:space="preserve">
+  <data name="ActiveWindow.Description" xml:space="preserve">
     <value>Brings the thread that created the specified window into the foreground and activates the window</value>
   </data>
-  <data name="ForegroundWindow.Title" xml:space="preserve">
-    <value>ForegroundWindow</value>
+  <data name="ActiveWindow.Title" xml:space="preserve">
+    <value>ActiveWindow</value>
   </data>
   <data name="ShutdownSystem.Description" xml:space="preserve">
     <value>This action can turn off the operating system, where the computer is turned off.</value>
