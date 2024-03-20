@@ -864,10 +864,10 @@
   <data name="ActiveWindow.Title" xml:space="preserve">
     <value>激活窗口</value>
   </data>
-  <data name="ShutdownSystem.Description" xml:space="preserve">
-    <value>該動作可以關閉作業系統，也就是電腦關機。</value>
+  <data name="ExitWindows.Description" xml:space="preserve">
+    <value>注销交互式用戶，關閉系統或關閉並重新啟動系統。</value>
   </data>
-  <data name="ShutdownSystem.Title" xml:space="preserve">
+  <data name="ExitWindows.Title" xml:space="preserve">
     <value>關機</value>
   </data>
   <data name="WorkTask.Description" xml:space="preserve">

@@ -870,11 +870,11 @@
   <data name="ActiveWindow.Title" xml:space="preserve">
     <value>ActiveWindow</value>
   </data>
-  <data name="ShutdownSystem.Description" xml:space="preserve">
-    <value>This action can turn off the operating system, where the computer is turned off.</value>
+  <data name="ExitWindows.Description" xml:space="preserve">
+    <value>Logs off the interactive user, shuts down the system, or shuts down and restarts the system.</value>
   </data>
-  <data name="ShutdownSystem.Title" xml:space="preserve">
-    <value>Shut down</value>
+  <data name="ExitWindows.Title" xml:space="preserve">
+    <value>ExitWindows</value>
   </data>
   <data name="WorkTask.Description" xml:space="preserve">
     <value>The action is triggered at a specified time, and the corresponding Sub-process may be performed.</value>

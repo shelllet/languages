@@ -288,8 +288,14 @@
   <data name="ToolBar.Run.Label" xml:space="preserve">
     <value>Run</value>
   </data>
-  <data name="ToolBar.Debug.Label" xml:space="preserve">
+  <data name="ToolBar.Debug.Title" xml:space="preserve">
     <value>Debug</value>
+  </data>
+  <data name="ToolBar.DebugStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ToolBar.DebugStop.Text" xml:space="preserve">
+    <value>Stop</value>
   </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>Publish</value>
@@ -388,7 +394,7 @@
     <value>Path</value>
   </data>
   <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
-    <value>Add</value>
+    <value>Add Action</value>
   </data>
   <data name="Workflow.MenuItem.Copy.Text" xml:space="preserve">
     <value>Copy</value>

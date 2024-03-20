@@ -189,6 +189,9 @@
   <data name="Action.PointConvert.Mode.Header" xml:space="preserve">
     <value>Mode</value>
   </data>
+  <data name="Action.PointConvert.Point.Header" xml:space="preserve">
+    <value>Point</value>
+  </data>
   <data name="Action.ImageMarkRelativeROI.Image.Header" xml:space="preserve">
     <value>Image</value>
   </data>
@@ -1517,5 +1520,8 @@
   </data>
   <data name="Action.AccessFront.Value.Header" xml:space="preserve">
     <value>Value</value>
+  </data>
+  <data name="Action.ExitWindows.Options.Header" xml:space="preserve">
+    <value>Options</value>
   </data>
 </root>

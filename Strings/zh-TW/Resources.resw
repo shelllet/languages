@@ -288,8 +288,14 @@
   <data name="ToolBar.Run.Label" xml:space="preserve">
     <value>運行</value>
   </data>
-  <data name="ToolBar.Debug.Label" xml:space="preserve">
-    <value>偵錯</value>
+  <data name="ToolBar.Debug.Title" xml:space="preserve">
+    <value>調試</value>
+  </data>
+  <data name="ToolBar.DebugStart.Text" xml:space="preserve">
+    <value>開始調試</value>
+  </data>
+  <data name="ToolBar.DebugStop.Text" xml:space="preserve">
+    <value>停止調試</value>
   </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>發佈</value>
@@ -385,7 +391,7 @@
     <value>時長</value>
   </data>
   <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
-    <value>添加</value>
+    <value>添加動作</value>
   </data>
   <data name="Workflow.MenuItem.Copy.Text" xml:space="preserve">
     <value>複製</value>

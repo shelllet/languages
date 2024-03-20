@@ -865,11 +865,11 @@
   <data name="ActiveWindow.Title" xml:space="preserve">
     <value>激活窗口</value>
   </data>
-  <data name="ShutdownSystem.Description" xml:space="preserve">
-    <value>该动作可以关闭操作系统，也就是电脑关机。</value>
+  <data name="ExitWindows.Description" xml:space="preserve">
+    <value>注销交互式用户，关闭系统或关闭并重新启动系统。</value>
   </data>
-  <data name="ShutdownSystem.Title" xml:space="preserve">
-    <value>关机</value>
+  <data name="ExitWindows.Title" xml:space="preserve">
+    <value>退出系统</value>
   </data>
   <data name="WorkTask.Description" xml:space="preserve">
     <value>该动作在指定的时间触发，并且可以执行相应的子流程。</value>
