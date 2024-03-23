@@ -165,16 +165,16 @@
   <data name="Settings.RigisterFileType.Header" xml:space="preserve">
     <value>关联类型</value>
   </data>
-  <data name="Settings.Drawing.Thickness.Text" xml:space="preserve">
+  <data name="Settings.Drawing.Thickness.Header" xml:space="preserve">
     <value>边框大小</value>
   </data>
-  <data name="Settings.Drawing.FontSize.Text" xml:space="preserve">
+  <data name="Settings.Drawing.FontSize.Header" xml:space="preserve">
     <value>字体大小</value>
   </data>
-  <data name="Settings.Color.Text" xml:space="preserve">
+  <data name="Settings.Color.Header" xml:space="preserve">
     <value>前景色</value>
   </data>
-  <data name="Settings.BackgroundColor.Text" xml:space="preserve">
+  <data name="Settings.BackgroundColor.Header" xml:space="preserve">
     <value>背景色</value>
   </data>
   <data name="Settings.Process_Inference.Header" xml:space="preserve">
@@ -199,7 +199,7 @@
     <value>隐藏窗口</value>
   </data>
   <data name="Workflow.Delayed.Header" xml:space="preserve">
-    <value>延迟时间（秒）</value>
+    <value>动作延迟（秒）</value>
   </data>
   <data name="Workflow.Process.Header" xml:space="preserve">
     <value>进程</value>
@@ -210,7 +210,7 @@
   <data name="Workflow.Index.Header" xml:space="preserve">
     <value>主流程</value>
   </data>
-  <data name="Workflow.Description.Text" xml:space="preserve">
+  <data name="Workflow.Description.Header" xml:space="preserve">
     <value>描述</value>
   </data>
   <data name="Page.Output.Header" xml:space="preserve">
@@ -236,6 +236,9 @@
   </data>
   <data name="ToolBar.CheckUpdate.Label" xml:space="preserve">
     <value>检查更新</value>
+  </data>
+  <data name="ToolBar.Share.Label" xml:space="preserve">
+    <value>分享</value>
   </data>
   <data name="BlankPage.Buy.Text" xml:space="preserve">
     <value>支持购买</value>
@@ -282,6 +285,15 @@
   <data name="ToolBar.Run.Label" xml:space="preserve">
     <value>运行</value>
   </data>
+  <data name="ToolBar.Debug.Title" xml:space="preserve">
+    <value>调试</value>
+  </data>
+  <data name="ToolBar.DebugStart.Text" xml:space="preserve">
+    <value>开始调试</value>
+  </data>
+  <data name="ToolBar.DebugStop.Text" xml:space="preserve">
+    <value>停止调试</value>
+  </data>
   <data name="ToolBar.Import.Label" xml:space="preserve">
     <value>导入</value>
   </data>
@@ -297,22 +309,22 @@
   <data name="ToolBar.Settings.Label" xml:space="preserve">
     <value>设置</value>
   </data>
-  <data name="Shortcut.MouseGlobalPosition.Text" xml:space="preserve">
+  <data name="Shortcut.MouseGlobalPosition.Header" xml:space="preserve">
     <value>获取鼠标位置(全局)</value>
   </data>
-  <data name="Shortcut.MouseWindowPosition.Text" xml:space="preserve">
+  <data name="Shortcut.MouseWindowPosition.Header" xml:space="preserve">
     <value>获取鼠标位置(窗口)</value>
   </data>
-  <data name="Shortcut.WindowInfo.Text" xml:space="preserve">
+  <data name="Shortcut.WindowInfo.Header" xml:space="preserve">
     <value>获取窗口信息</value>
   </data>
-  <data name="Shortcut.ColorPicker.Text" xml:space="preserve">
+  <data name="Shortcut.ColorPicker.Header" xml:space="preserve">
     <value>拾取颜色</value>
   </data>
-  <data name="Shortcut.WorkRun.Text" xml:space="preserve">
+  <data name="Shortcut.WorkRun.Header" xml:space="preserve">
     <value>运行流程</value>
   </data>
-  <data name="Shortcut.WorkPause.Text" xml:space="preserve">
+  <data name="Shortcut.WorkPause.Header" xml:space="preserve">
     <value>暂停流程</value>
   </data>
   <data name="Record.Title" xml:space="preserve">
@@ -378,8 +390,11 @@
   <data name="InputFlyoutItem.TimeSpan.Text" xml:space="preserve">
     <value>时长</value>
   </data>
+  <data name="InputFlyoutItem.Path.Text" xml:space="preserve">
+    <value>路径</value>
+  </data>
   <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
-    <value>添加</value>
+    <value>添加动作</value>
   </data>
   <data name="Workflow.MenuItem.Copy.Text" xml:space="preserve">
     <value>复制</value>
@@ -432,6 +447,9 @@
   <data name="Workflow.Run.Completed.Text" xml:space="preserve">
     <value>当前流程已经执行完毕。</value>
   </data>
+  <data name="Workflow.Run.Start.Text" xml:space="preserve">
+    <value>当前工作流程已经开始运行。</value>
+  </data>
   <data name="Publish.File.Header" xml:space="preserve">
     <value>文件</value>
   </data>
@@ -465,10 +483,16 @@
   <data name="TeachingTip.ImagePreview.Title" xml:space="preserve">
     <value>预览</value>
   </data>
-  <data name="Range.Min.Text" xml:space="preserve">
+  <data name="Range.Min.Header" xml:space="preserve">
     <value>最小值</value>
   </data>
-  <data name="Range.Max.Text" xml:space="preserve">
+  <data name="Range.Max.Header" xml:space="preserve">
     <value>最大值</value>
+  </data>
+  <data name="AndroidPackages.Device.Header" xml:space="preserve">
+    <value>设备</value>
+  </data>
+  <data name="AndroidPackages.Packages.Header" xml:space="preserve">
+    <value>安装包</value>
   </data>
 </root>

@@ -217,10 +217,10 @@
     <value>Keyboard shortcuts</value>
   </data>
   <data name="Window.Description" xml:space="preserve">
-    <value>Window class</value>
+    <value>Window</value>
   </data>
   <data name="Window.Title" xml:space="preserve">
-    <value>Window class</value>
+    <value>Window</value>
   </data>
   <data name="FindWindow.Description" xml:space="preserve">
     <value>Find a window in the windows system, which through the window title or window class.</value>
@@ -235,10 +235,10 @@
     <value>Logic</value>
   </data>
   <data name="For.Description" xml:space="preserve">
-    <value>Cycles, mainly used to iterate over the container</value>
+    <value>Iterate through the elements of the range</value>
   </data>
   <data name="For.Title" xml:space="preserve">
-    <value>Recurrence</value>
+    <value>For</value>
   </data>
   <data name="If.Description" xml:space="preserve">
     <value>Conditional judgment, equivalent to the if statement in python, the action has two branches, if the condition holds, execute the process branch on the left, otherwise, execute the process branch on the right</value>
@@ -340,7 +340,7 @@
     <value>Exit process execution</value>
   </data>
   <data name="ExitApp.Title" xml:space="preserve">
-    <value>Withdraw from</value>
+    <value>ExitApp</value>
   </data>
   <data name="ImageLoad.Description" xml:space="preserve">
     <value>Load the images from the local disk</value>
@@ -364,7 +364,7 @@
     <value>Can be used to end the thread action being performed.</value>
   </data>
   <data name="WorkExit.Title" xml:space="preserve">
-    <value>End thread</value>
+    <value>WorkExit</value>
   </data>
   <data name="AdbPackages.Description" xml:space="preserve">
     <value>This action gets all the installation packages in the android emulator.</value>
@@ -420,11 +420,11 @@
   <data name="MatchShapes.Title" xml:space="preserve">
     <value>MatchShapes</value>
   </data>
-  <data name="ReadJson.Description" xml:space="preserve">
-    <value>Fetch json</value>
+  <data name="IndexLoc.Description" xml:space="preserve">
+    <value>Index-based to select rows and/or columns in pandas</value>
   </data>
-  <data name="ReadJson.Title" xml:space="preserve">
-    <value>Fetch json</value>
+  <data name="IndexLoc.Title" xml:space="preserve">
+    <value>IndexLoc</value>
   </data>
   <data name="RandomNumber.Description" xml:space="preserve">
     <value>Generate random numbers</value>
@@ -450,17 +450,17 @@
   <data name="WebWaitVisibilityByLocator.Title" xml:space="preserve">
     <value>Wait for * visible (positioner)</value>
   </data>
-  <data name="AccessSize.Description" xml:space="preserve">
+  <data name="ArraySize.Description" xml:space="preserve">
     <value>Get the length of the array.</value>
   </data>
-  <data name="AccessSize.Title" xml:space="preserve">
+  <data name="ArraySize.Title" xml:space="preserve">
     <value>Array length</value>
   </data>
-  <data name="Web.Description" xml:space="preserve">
-    <value>Browser operation</value>
+  <data name="Browser.Description" xml:space="preserve">
+    <value>Automates browsers</value>
   </data>
-  <data name="Web.Title" xml:space="preserve">
-    <value>Web</value>
+  <data name="Browser.Title" xml:space="preserve">
+    <value>Browser</value>
   </data>
   <data name="Network.Description" xml:space="preserve">
     <value>Network</value>
@@ -472,7 +472,7 @@
     <value>Open the browser, support, and open the chrome and edge browser.</value>
   </data>
   <data name="WebOpen.Title" xml:space="preserve">
-    <value>Open the browser</value>
+    <value>WebOpen</value>
   </data>
   <data name="WebWaitTitle.Description" xml:space="preserve">
     <value>Check that the header contains a case-sensitive string.</value>
@@ -496,7 +496,7 @@
     <value>This action downloads the network files through the http protocol.</value>
   </data>
   <data name="HttpDownload.Title" xml:space="preserve">
-    <value>Download</value>
+    <value>HttpDownload</value>
   </data>
   <data name="WebElementAttribute.Description" xml:space="preserve">
     <value>Get properties</value>
@@ -610,13 +610,13 @@
     <value>Switch the focus to the specified frame</value>
   </data>
   <data name="WebSwitchToFrame.Title" xml:space="preserve">
-    <value>Switch frame</value>
+    <value>WebSwitchToFrame</value>
   </data>
   <data name="WebFocusFrameDefault.Description" xml:space="preserve">
     <value>Switch the focus to the default frame.</value>
   </data>
   <data name="WebFocusFrameDefault.Title" xml:space="preserve">
-    <value>Frame * sets the focus</value>
+    <value>WebFocusFrameDefault</value>
   </data>
   <data name="WebActionChainsCreated.Description" xml:space="preserve">
     <value>Create the web, and the action chain</value>
@@ -685,15 +685,15 @@
     <value>WinRun</value>
   </data>
   <data name="HttpGet.Description" xml:space="preserve">
-    <value>Send a get request based on http</value>
+    <value>The HTTP GET request method is used to request data-specified resources from the server. </value>
   </data>
   <data name="HttpGet.Title" xml:space="preserve">
-    <value>Get</value>
+    <value>HttpGet</value>
   </data>
-  <data name="ONNXModel.Description" xml:space="preserve">
+  <data name="TypeModel.Description" xml:space="preserve">
     <value>Load the onnx, the model file</value>
   </data>
-  <data name="ONNXModel.Title" xml:space="preserve">
+  <data name="TypeModel.Title" xml:space="preserve">
     <value>Model</value>
   </data>
   <data name="WebWaitVisibilityByElement.Description" xml:space="preserve">
@@ -744,11 +744,11 @@
   <data name="PositionWindow.Title" xml:space="preserve">
     <value>PositionWindow</value>
   </data>
-  <data name="YoutubeDownload.Description" xml:space="preserve">
-    <value>Currently, only youtube video download is supported, requiring access to the youtube network.</value>
+  <data name="VideoDownload.Description" xml:space="preserve">
+    <value>Download videos</value>
   </data>
-  <data name="YoutubeDownload.Title" xml:space="preserve">
-    <value>Video download</value>
+  <data name="VideoDownload.Title" xml:space="preserve">
+    <value>VideoDownload</value>
   </data>
   <data name="DirectoryIterator.Description" xml:space="preserve">
     <value>Iterate all files in the local folder</value>
@@ -864,17 +864,17 @@
   <data name="WorkThread.Title" xml:space="preserve">
     <value>WorkThread</value>
   </data>
-  <data name="ForegroundWindow.Description" xml:space="preserve">
+  <data name="ActiveWindow.Description" xml:space="preserve">
     <value>Brings the thread that created the specified window into the foreground and activates the window</value>
   </data>
-  <data name="ForegroundWindow.Title" xml:space="preserve">
-    <value>ForegroundWindow</value>
+  <data name="ActiveWindow.Title" xml:space="preserve">
+    <value>ActiveWindow</value>
   </data>
-  <data name="ShutdownSystem.Description" xml:space="preserve">
-    <value>This action can turn off the operating system, where the computer is turned off.</value>
+  <data name="ExitWindows.Description" xml:space="preserve">
+    <value>Logs off the interactive user, shuts down the system, or shuts down and restarts the system.</value>
   </data>
-  <data name="ShutdownSystem.Title" xml:space="preserve">
-    <value>Shut down</value>
+  <data name="ExitWindows.Title" xml:space="preserve">
+    <value>ExitWindows</value>
   </data>
   <data name="WorkTask.Description" xml:space="preserve">
     <value>The action is triggered at a specified time, and the corresponding Sub-process may be performed.</value>
@@ -886,13 +886,13 @@
     <value>Send the http-based post requests</value>
   </data>
   <data name="HttpPost.Title" xml:space="preserve">
-    <value>Post</value>
+    <value>HttpPost</value>
   </data>
   <data name="HttpHead.Description" xml:space="preserve">
-    <value>Send the head requests based on the http</value>
+    <value>The HTTP HEAD method requests HTTP headers from the server.</value>
   </data>
   <data name="HttpHead.Title" xml:space="preserve">
-    <value>Head</value>
+    <value>HttpHead</value>
   </data>
   <data name="Android.Description" xml:space="preserve">
     <value>Android</value>
@@ -901,46 +901,46 @@
     <value>Android</value>
   </data>
   <data name="AdbKillServer.Description" xml:space="preserve">
-    <value>Terminate the android simulator service and end the process adb.exe.</value>
+    <value>Terminate the adb server process.</value>
   </data>
   <data name="AdbKillServer.Title" xml:space="preserve">
-    <value>Termination of service</value>
+    <value>AdbKillServer</value>
   </data>
   <data name="AdbDevices.Description" xml:space="preserve">
     <value>Query the android simulator that is already started in the system.</value>
   </data>
   <data name="AdbDevices.Title" xml:space="preserve">
-    <value>List of equipment</value>
+    <value>AdbDevices</value>
   </data>
   <data name="AdbStartServer.Description" xml:space="preserve">
-    <value>Start the adb service</value>
+    <value>Starts the adb server if it is not running.</value>
   </data>
   <data name="AdbStartServer.Title" xml:space="preserve">
-    <value>Start the service</value>
+    <value>AdbStartServer</value>
   </data>
   <data name="AdbForward.Description" xml:space="preserve">
     <value>Map your android port to your local port.</value>
   </data>
   <data name="AdbForward.Title" xml:space="preserve">
-    <value>Retransmission</value>
+    <value>AdbForward</value>
   </data>
   <data name="AdbConnect.Description" xml:space="preserve">
     <value>Connect the simulator, mainly used in the simulator on the remote computer above.</value>
   </data>
   <data name="AdbConnect.Title" xml:space="preserve">
-    <value>Linkage</value>
+    <value>AdbConnect</value>
   </data>
-  <data name="AdbIfConfig.Description" xml:space="preserve">
-    <value>View the simulator network configuration</value>
+  <data name="AdbPush.Description" xml:space="preserve">
+    <value>Copy local files/directories to Android device</value>
   </data>
-  <data name="AdbIfConfig.Title" xml:space="preserve">
-    <value>Network card configuration</value>
+  <data name="AdbPush.Title" xml:space="preserve">
+    <value>AdbPush</value>
   </data>
-  <data name="AdbRemoveForward.Description" xml:space="preserve">
-    <value>Remove the port forwarding in the current system.</value>
+  <data name="Adbkeyboard.Description" xml:space="preserve">
+    <value>Send text input to android device, you must install 'ADBKeyBoard'，this action support chinese characters。</value>
   </data>
-  <data name="AdbRemoveForward.Title" xml:space="preserve">
-    <value>Remove forwarding</value>
+  <data name="Adbkeyboard.Title" xml:space="preserve">
+    <value>Adbkeyboard</value>
   </data>
   <data name="ReadLines.Description" xml:space="preserve">
     <value>Read the text file, and disassemble the multi-line string according to the changing character's `\r\n`, which is a list of string.</value>
@@ -952,13 +952,13 @@
     <value>Slide the operation in the android simulator.</value>
   </data>
   <data name="AdbSwipe.Title" xml:space="preserve">
-    <value>Slither</value>
+    <value>AdbSwipe</value>
   </data>
   <data name="AdbInput.Description" xml:space="preserve">
-    <value>Simulate input text in the android simulator, this action does not support chinese input.</value>
+    <value>Send text input to android device, this action only support ASCII characters.</value>
   </data>
   <data name="AdbInput.Title" xml:space="preserve">
-    <value>Import</value>
+    <value>AdbInput</value>
   </data>
   <data name="AdbKey.Description" xml:space="preserve">
     <value>Simulate the keys in an android simulator.</value>
@@ -985,10 +985,10 @@
     <value>Access the array</value>
   </data>
   <data name="BaiduTranslate.Description" xml:space="preserve">
-    <value>Baidu translate</value>
+    <value>Online translation based on Baidu Cloud interface translates Chinese into English and other languages, as well as other languages into Chinese.</value>
   </data>
   <data name="BaiduTranslate.Title" xml:space="preserve">
-    <value>Baidu translate</value>
+    <value>BaiduTranslate</value>
   </data>
   <data name="AdbStartApp.Description" xml:space="preserve">
     <value>This action opens the app on the android emulator.</value>
@@ -1000,13 +1000,13 @@
     <value>Gets the value of the object by the specified name.</value>
   </data>
   <data name="AccessKey.Title" xml:space="preserve">
-    <value>Access object</value>
+    <value>AccessKey</value>
   </data>
-  <data name="CaptureForground.Description" xml:space="preserve">
-    <value>Front-end window screenshot.</value>
+  <data name="CaptureActiveWindow.Description" xml:space="preserve">
+    <value>To only capture the active window you're working in.</value>
   </data>
-  <data name="CaptureForground.Title" xml:space="preserve">
-    <value>Screenshot of front window</value>
+  <data name="CaptureActiveWindow.Title" xml:space="preserve">
+    <value>CaptureActiveWindow</value>
   </data>
   <data name="Cloud.Description" xml:space="preserve">
     <value>Cloud</value>
@@ -1020,23 +1020,23 @@
   <data name="Pandas.Title" xml:space="preserve">
     <value>Pandas</value>
   </data>
-  <data name="XmlLoadDocument.Description" xml:space="preserve">
-    <value>Load the xml document</value>
+  <data name="LoadDocument.Description" xml:space="preserve">
+    <value>Load the document</value>
   </data>
-  <data name="XmlLoadDocument.Title" xml:space="preserve">
-    <value>D</value>
+  <data name="LoadDocument.Title" xml:space="preserve">
+    <value>LoadDocument</value>
   </data>
-  <data name="XmlGetNodeList.Description" xml:space="preserve">
-    <value>Get the xml node</value>
+  <data name="DataFrameQuery.Description" xml:space="preserve">
+    <value>Query the DataFrame</value>
   </data>
-  <data name="XmlGetNodeList.Title" xml:space="preserve">
-    <value>Get the node</value>
+  <data name="DataFrameQuery.Title" xml:space="preserve">
+    <value>DataFrameQuery</value>
   </data>
-  <data name="XmlNodeName.Description" xml:space="preserve">
-    <value>The xml node name</value>
+  <data name="NameLoc.Description" xml:space="preserve">
+    <value>Used to select rows and columns by names/labels of pandas DataFrame.</value>
   </data>
-  <data name="XmlNodeName.Title" xml:space="preserve">
-    <value>Node name</value>
+  <data name="NameLoc.Title" xml:space="preserve">
+    <value>NameLoc</value>
   </data>
   <data name="FilterText.Description" xml:space="preserve">
     <value>In the array or list, the filter contains the specified text elements.</value>
@@ -1044,23 +1044,23 @@
   <data name="FilterText.Title" xml:space="preserve">
     <value>Text screening</value>
   </data>
-  <data name="XmlDocumentElement.Description" xml:space="preserve">
-    <value>Xml element</value>
+  <data name="RowsCount.Description" xml:space="preserve">
+    <value>Return an int representing the number of elements in object.</value>
   </data>
-  <data name="XmlDocumentElement.Title" xml:space="preserve">
-    <value>Element</value>
+  <data name="RowsCount.Title" xml:space="preserve">
+    <value>RowsCount</value>
   </data>
-  <data name="XmlReplaceText.Description" xml:space="preserve">
-    <value>Replace the node text</value>
+  <data name="OutputString.Description" xml:space="preserve">
+    <value>Output String</value>
   </data>
-  <data name="XmlReplaceText.Title" xml:space="preserve">
-    <value>Textual substitution</value>
+  <data name="OutputString.Title" xml:space="preserve">
+    <value>OutputString</value>
   </data>
-  <data name="XmlSaveDocument.Description" xml:space="preserve">
-    <value>Save the xml file</value>
+  <data name="SaveDocument.Description" xml:space="preserve">
+    <value>Save the document</value>
   </data>
-  <data name="XmlSaveDocument.Title" xml:space="preserve">
-    <value>Save</value>
+  <data name="SaveDocument.Title" xml:space="preserve">
+    <value>SaveDocument</value>
   </data>
   <data name="IsEmpty.Description" xml:space="preserve">
     <value>Determine whether the container or the list is empty</value>
@@ -1074,17 +1074,17 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>Qr code identification</value>
   </data>
-  <data name="IterParam.Description" xml:space="preserve">
-    <value>Usually as a child-action, its value is introduced from the corresponding parent actions.Usually, multiple values are returned by the action support children actions, and each element of the list will be passed on to the action.</value>
+  <data name="Param.Description" xml:space="preserve">
+    <value>It is used to obtain data from the parent action.</value>
   </data>
-  <data name="IterParam.Title" xml:space="preserve">
-    <value>IterParam</value>
+  <data name="Param.Title" xml:space="preserve">
+    <value>Param</value>
   </data>
-  <data name="WebActionChainsPerform.Description" xml:space="preserve">
-    <value>Perform the created action chain.</value>
+  <data name="CellClick.Description" xml:space="preserve">
+    <value>Move the mouse to grid cell and click the mouse</value>
   </data>
-  <data name="WebActionChainsPerform.Title" xml:space="preserve">
-    <value>Action chain * execution</value>
+  <data name="CellClick.Title" xml:space="preserve">
+    <value>CellClick</value>
   </data>
   <data name="WebElementSendKey.Description" xml:space="preserve">
     <value>Send the button</value>
@@ -1162,7 +1162,7 @@
     <value>Move the mouse to the current mouse location or specify the offset of the web element.</value>
   </data>
   <data name="WebActionMoveOffset.Title" xml:space="preserve">
-    <value>Action chain. move (offset)</value>
+    <value>WebActionMoveOffset</value>
   </data>
   <data name="WebActionSendText.Description" xml:space="preserve">
     <value>Set the text</value>
@@ -1170,10 +1170,10 @@
   <data name="WebActionSendText.Title" xml:space="preserve">
     <value>Action chain. send out the text</value>
   </data>
-  <data name="LoggingEnabled.Description" xml:space="preserve">
+  <data name="LoggingControl.Description" xml:space="preserve">
     <value>This action is used to control the output logs in the process</value>
   </data>
-  <data name="LoggingEnabled.Title" xml:space="preserve">
+  <data name="LoggingControl.Title" xml:space="preserve">
     <value>Outgoing control</value>
   </data>
   <data name="AdaptiveThreshold.Description" xml:space="preserve">
@@ -1194,29 +1194,29 @@
   <data name="AdbMove.Title" xml:space="preserve">
     <value>Shift</value>
   </data>
-  <data name="TcpListen.Description" xml:space="preserve">
-    <value>This action is used to create a tcp or a udp server.</value>
+  <data name="NetworkListen.Description" xml:space="preserve">
+    <value>Create a network service.</value>
   </data>
-  <data name="TcpListen.Title" xml:space="preserve">
-    <value>Monitor</value>
+  <data name="NetworkListen.Title" xml:space="preserve">
+    <value>NetworkListen</value>
   </data>
-  <data name="TcpSend.Description" xml:space="preserve">
-    <value>This action sends data through either tcp or udp.</value>
+  <data name="NetworkSend.Description" xml:space="preserve">
+    <value>Send data through the network.</value>
   </data>
-  <data name="TcpSend.Title" xml:space="preserve">
-    <value>Transmit by radio</value>
+  <data name="NetworkSend.Title" xml:space="preserve">
+    <value>NetworkSend</value>
   </data>
-  <data name="TcpReceive.Description" xml:space="preserve">
-    <value>This action receives the data through either the tcp or the udp.</value>
+  <data name="NetworkReceive.Description" xml:space="preserve">
+    <value>Receive network data.</value>
   </data>
-  <data name="TcpReceive.Title" xml:space="preserve">
-    <value>Receive</value>
+  <data name="NetworkReceive.Title" xml:space="preserve">
+    <value>NetworkReceive</value>
   </data>
-  <data name="TcpConnect.Description" xml:space="preserve">
-    <value>This action connects to the server through either tcp or udp.</value>
+  <data name="NetworkConnect.Description" xml:space="preserve">
+    <value>Connect to the network server.</value>
   </data>
-  <data name="TcpConnect.Title" xml:space="preserve">
-    <value>Linkage</value>
+  <data name="NetworkConnect.Title" xml:space="preserve">
+    <value>NetworkConnect</value>
   </data>
   <data name="FilterArea.Description" xml:space="preserve">
     <value>Filter the elements in the list by calculating the area of the elements in the array</value>
@@ -1273,16 +1273,16 @@
     <value>Empty</value>
   </data>
   <data name="EnumWindows.Description" xml:space="preserve">
-    <value>Enumeration window</value>
+    <value>Enumerate the window in the operating system and sort according to the creation time of the process of the window.</value>
   </data>
   <data name="EnumWindows.Title" xml:space="preserve">
     <value>EnumWindows</value>
   </data>
-  <data name="FilterWindows.Description" xml:space="preserve">
-    <value>Filter the eligible windows in the current operating system</value>
+  <data name="AdbIsInstalled.Description" xml:space="preserve">
+    <value>Check if an android application is installed on a device.</value>
   </data>
-  <data name="FilterWindows.Title" xml:space="preserve">
-    <value>FilterWindows</value>
+  <data name="AdbIsInstalled.Title" xml:space="preserve">
+    <value>AdbIsInstalled</value>
   </data>
   <data name="MatchTemplate.Description" xml:space="preserve">
     <value>Simple picture lookup is usually used to find smaller images, or images with fewer features.</value>
@@ -1320,11 +1320,11 @@
   <data name="WindowXy.Title" xml:space="preserve">
     <value>WindowXy</value>
   </data>
-  <data name="TypeJson.Description" xml:space="preserve">
-    <value>Define the JSON data format</value>
+  <data name="IterRow.Description" xml:space="preserve">
+    <value>Iterate over DataFrame rows as (index, Series) pairs.</value>
   </data>
-  <data name="TypeJson.Title" xml:space="preserve">
-    <value>JSON</value>
+  <data name="IterRow.Title" xml:space="preserve">
+    <value>IterRow</value>
   </data>
   <data name="WindowSize.Description" xml:space="preserve">
     <value>Get or set the window size (Width and Height)</value>
@@ -1398,10 +1398,10 @@
   <data name="WorkWait.Title" xml:space="preserve">
     <value>WorkWait</value>
   </data>
-  <data name="Camera.Description" xml:space="preserve">
-    <value>Capture camera image</value>
+  <data name="TypeCamera.Description" xml:space="preserve">
+    <value>Camera Device</value>
   </data>
-  <data name="Camera.Title" xml:space="preserve">
+  <data name="TypeCamera.Title" xml:space="preserve">
     <value>Camera</value>
   </data>
   <data name="VideoFrame.Description" xml:space="preserve">
@@ -1446,12 +1446,6 @@
   <data name="TypeStrings.Title" xml:space="preserve">
     <value>Strings</value>
   </data>
-  <data name="Method.Description" xml:space="preserve">
-    <value>Contains some commonly used methods</value>
-  </data>
-  <data name="Method.Title" xml:space="preserve">
-    <value>Method</value>
-  </data>
   <data name="PopBack.Description" xml:space="preserve">
     <value>Removes the last element in the vector, effectively reducing the container size by one.</value>
   </data>
@@ -1464,54 +1458,112 @@
   <data name="PushBack.Title" xml:space="preserve">
     <value>PushBack</value>
   </data>
-
-
   <data name="JoinString.Description" xml:space="preserve">
     <value>Join string with seperator.</value>
   </data>
   <data name="JoinString.Title" xml:space="preserve">
     <value>JoinString</value>
   </data>
-
-
-
-
   <data name="BarcodeCreate.Description" xml:space="preserve">
     <value>Generate barcode image</value>
   </data>
   <data name="BarcodeCreate.Title" xml:space="preserve">
     <value>BarcodeCreate</value>
   </data>
-
-
-
-
   <data name="DrawText.Description" xml:space="preserve">
     <value>Draw text on the image</value>
   </data>
   <data name="DrawText.Title" xml:space="preserve">
     <value>DrawText</value>
   </data>
-
-
-
-
   <data name="DrawImage.Description" xml:space="preserve">
     <value>Draw images on the image</value>
   </data>
   <data name="DrawImage.Title" xml:space="preserve">
     <value>DrawImage</value>
   </data>
-
-
-
-
   <data name="SubString.Description" xml:space="preserve">
-    <value>SubString</value>
+    <value>This action can obtain part string according to a specific method.</value>
   </data>
   <data name="SubString.Title" xml:space="preserve">
     <value>SubString</value>
   </data>
-
-
+  <data name="TypeDict.Description" xml:space="preserve">
+    <value>Dict are used to store data values in key:value pairs.</value>
+  </data>
+  <data name="TypeDict.Title" xml:space="preserve">
+    <value>Dict</value>
+  </data>
+  <data name="TypeTuple.Description" xml:space="preserve">
+    <value>Tuple are used to store multiple items in a single variable. </value>
+  </data>
+  <data name="TypeTuple.Title" xml:space="preserve">
+    <value>Tuple</value>
+  </data>
+  <data name="StandardPath.Description" xml:space="preserve">
+    <value>This action contains functions to query standard locations on the local filesystem, for common tasks such as user-specific directories or system-wide configuration directories.</value>
+  </data>
+  <data name="StandardPath.Title" xml:space="preserve">
+    <value>StandardPath</value>
+  </data>
+  <data name="TypeHostAddress.Description" xml:space="preserve">
+    <value>Represents an internet (IP) endpoint/socket address. The address can belong either to the IPv4 or the IPv6 address family and consists of a host address and a port number.</value>
+  </data>
+  <data name="TypeHostAddress.Title" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="FlashWindow.Description" xml:space="preserve">
+    <value>Flashes the specified window. It does not change the active state of the window.</value>
+  </data>
+  <data name="FlashWindow.Title" xml:space="preserve">
+    <value>FlashWindow</value>
+  </data>
+  <data name="TypeSlice.Description" xml:space="preserve">
+    <value>Type Slice</value>
+  </data>
+  <data name="TypeSlice.Title" xml:space="preserve">
+    <value>TypeSlice</value>
+  </data>
+  <data name="AdbInstall.Description" xml:space="preserve">
+    <value>Install an Apk file one the android device.</value>
+  </data>
+  <data name="AdbInstall.Title" xml:space="preserve">
+    <value>AdbInstall</value>
+  </data>
+  <data name="AdbClearText.Description" xml:space="preserve">
+    <value>Clear focused input text</value>
+  </data>
+  <data name="AdbClearText.Title" xml:space="preserve">
+    <value>AdbClearText</value>
+  </data>
+  <data name="AdbPull.Description" xml:space="preserve">
+    <value>Copy files/dirs from device</value>
+  </data>
+  <data name="AdbPull.Title" xml:space="preserve">
+    <value>AdbPull</value>
+  </data>
+  <data name="AdbLs.Description" xml:space="preserve">
+    <value>List Files and Directories</value>
+  </data>
+  <data name="AdbLs.Title" xml:space="preserve">
+    <value>AdbLs</value>
+  </data>
+  <data name="TypeList.Description" xml:space="preserve">
+    <value>Type List</value>
+  </data>
+  <data name="TypeList.Title" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="AccessFront.Description" xml:space="preserve">
+    <value>Returns a reference to the first element in the vector.</value>
+  </data>
+  <data name="AccessFront.Title" xml:space="preserve">
+    <value>AccessFront</value>
+  </data>
+  <data name="AccessBack.Description" xml:space="preserve">
+    <value>Returns a reference to the last element in the vector.</value>
+  </data>
+  <data name="AccessBack.Title" xml:space="preserve">
+    <value>AccessBack</value>
+  </data>
 </root>

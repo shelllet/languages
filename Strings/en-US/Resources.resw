@@ -165,16 +165,16 @@
   <data name="Settings.RigisterFileType.Header" xml:space="preserve">
     <value>Association type</value>
   </data>
-  <data name="Settings.Drawing.Thickness.Text" xml:space="preserve">
+  <data name="Settings.Drawing.Thickness.Header" xml:space="preserve">
     <value>Thickness</value>
   </data>
-  <data name="Settings.Drawing.FontSize.Text" xml:space="preserve">
+  <data name="Settings.Drawing.FontSize.Header" xml:space="preserve">
     <value>Font Size</value>
   </data>
-  <data name="Settings.Color.Text" xml:space="preserve">
+  <data name="Settings.Color.Header" xml:space="preserve">
     <value>Foreground Color</value>
   </data>
-  <data name="Settings.BackgroundColor.Text" xml:space="preserve">
+  <data name="Settings.BackgroundColor.Header" xml:space="preserve">
     <value>Background Color</value>
   </data>
   <data name="Settings.Process_Inference.Header" xml:space="preserve">
@@ -199,7 +199,7 @@
     <value>Hide Window</value>
   </data>
   <data name="Workflow.Delayed.Header" xml:space="preserve">
-    <value>Delay Time (Second)</value>
+    <value>Action Delay(Second)</value>
   </data>
   <data name="Workflow.Process.Header" xml:space="preserve">
     <value>Process</value>
@@ -210,7 +210,7 @@
   <data name="Workflow.Index.Header" xml:space="preserve">
     <value>Main Process</value>
   </data>
-  <data name="Workflow.Description.Text" xml:space="preserve">
+  <data name="Workflow.Description.Header" xml:space="preserve">
     <value>Description</value>
   </data>
   <data name="Page.Output.Header" xml:space="preserve">
@@ -239,6 +239,9 @@
   </data>
   <data name="ToolBar.Import.Label" xml:space="preserve">
     <value>Import</value>
+  </data>
+  <data name="ToolBar.Share.Label" xml:space="preserve">
+    <value>Share</value>
   </data>
   <data name="BlankPage.Buy.Text" xml:space="preserve">
     <value>Support to buy</value>
@@ -285,6 +288,15 @@
   <data name="ToolBar.Run.Label" xml:space="preserve">
     <value>Run</value>
   </data>
+  <data name="ToolBar.Debug.Title" xml:space="preserve">
+    <value>Debug</value>
+  </data>
+  <data name="ToolBar.DebugStart.Text" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ToolBar.DebugStop.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>Publish</value>
   </data>
@@ -297,22 +309,22 @@
   <data name="ToolBar.Settings.Label" xml:space="preserve">
     <value>Settings</value>
   </data>
-  <data name="Shortcut.MouseGlobalPosition.Text" xml:space="preserve">
+  <data name="Shortcut.MouseGlobalPosition.Header" xml:space="preserve">
     <value>Mouse Position (Global)</value>
   </data>
-  <data name="Shortcut.MouseWindowPosition.Text" xml:space="preserve">
+  <data name="Shortcut.MouseWindowPosition.Header" xml:space="preserve">
     <value>Mouse Position (Window)</value>
   </data>
-  <data name="Shortcut.WindowInfo.Text" xml:space="preserve">
+  <data name="Shortcut.WindowInfo.Header" xml:space="preserve">
     <value>Get Window Info</value>
   </data>
-  <data name="Shortcut.ColorPicker.Text" xml:space="preserve">
+  <data name="Shortcut.ColorPicker.Header" xml:space="preserve">
     <value>Pick up the color</value>
   </data>
-  <data name="Shortcut.WorkRun.Text" xml:space="preserve">
+  <data name="Shortcut.WorkRun.Header" xml:space="preserve">
     <value>Run the process</value>
   </data>
-  <data name="Shortcut.WorkPause.Text" xml:space="preserve">
+  <data name="Shortcut.WorkPause.Header" xml:space="preserve">
     <value>Pause process</value>
   </data>
   <data name="Record.Title" xml:space="preserve">
@@ -378,8 +390,11 @@
   <data name="InputFlyoutItem.TimeSpan.Text" xml:space="preserve">
     <value>TimeSpan</value>
   </data>
+  <data name="InputFlyoutItem.Path.Text" xml:space="preserve">
+    <value>Path</value>
+  </data>
   <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
-    <value>Add</value>
+    <value>Add Action</value>
   </data>
   <data name="Workflow.MenuItem.Copy.Text" xml:space="preserve">
     <value>Copy</value>
@@ -432,6 +447,9 @@
   <data name="Workflow.Run.Completed.Text" xml:space="preserve">
     <value>The current workflow run is completed.</value>
   </data>
+  <data name="Workflow.Run.Start.Text" xml:space="preserve">
+    <value>The current workflow has started running.</value>
+  </data>
   <data name="Publish.File.Header" xml:space="preserve">
     <value>File</value>
   </data>
@@ -468,10 +486,16 @@
   <data name="TeachingTip.ImagePreview.Title" xml:space="preserve">
     <value>Preview</value>
   </data>
-  <data name="Range.Min.Text" xml:space="preserve">
+  <data name="Range.Min.Header" xml:space="preserve">
     <value>Minimum</value>
   </data>
-  <data name="Range.Max.Text" xml:space="preserve">
+  <data name="Range.Max.Header" xml:space="preserve">
     <value>Maximum</value>
+  </data>
+  <data name="AndroidPackages.Device.Header" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="AndroidPackages.Packages.Header" xml:space="preserve">
+    <value>Packages</value>
   </data>
 </root>

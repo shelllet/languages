@@ -217,10 +217,10 @@
     <value>快捷键</value>
   </data>
   <data name="Window.Description" xml:space="preserve">
-    <value>窗口类</value>
+    <value>窗口</value>
   </data>
   <data name="Window.Title" xml:space="preserve">
-    <value>窗口类</value>
+    <value>窗口</value>
   </data>
   <data name="FindWindow.Description" xml:space="preserve">
     <value>查找 Windows 系统中的窗口，该动作通过窗口标题或者窗口类搜索窗口。</value>
@@ -235,7 +235,7 @@
     <value>逻辑</value>
   </data>
   <data name="For.Description" xml:space="preserve">
-    <value>循环，主要用来迭代容器</value>
+    <value>用来迭代相应的列表数据，遍历列表的每一个元素，也可称为*循环*。</value>
   </data>
   <data name="For.Title" xml:space="preserve">
     <value>循环</value>
@@ -341,7 +341,7 @@
     <value>退出流程执行</value>
   </data>
   <data name="ExitApp.Title" xml:space="preserve">
-    <value>退出</value>
+    <value>结束流程</value>
   </data>
   <data name="ImageLoad.Description" xml:space="preserve">
     <value>从本地磁盘加载图像</value>
@@ -365,13 +365,13 @@
     <value>可用于结束正在执行的 线程 动作。</value>
   </data>
   <data name="WorkExit.Title" xml:space="preserve">
-    <value>异步结束</value>
+    <value>异步停止</value>
   </data>
   <data name="AdbPackages.Description" xml:space="preserve">
     <value>此动作可以获取安卓模拟器当中的所有安装包。</value>
   </data>
   <data name="AdbPackages.Title" xml:space="preserve">
-    <value>安装包</value>
+    <value>应用列表</value>
   </data>
   <data name="Filesystem.Description" xml:space="preserve">
     <value>文件</value>
@@ -421,11 +421,11 @@
   <data name="MatchShapes.Title" xml:space="preserve">
     <value>形状匹配</value>
   </data>
-  <data name="ReadJson.Description" xml:space="preserve">
-    <value>读取 Json</value>
+  <data name="IndexLoc.Description" xml:space="preserve">
+    <value>基于索引来选择 Pandas 中的行和列。</value>
   </data>
-  <data name="ReadJson.Title" xml:space="preserve">
-    <value>读取 Json</value>
+  <data name="IndexLoc.Title" xml:space="preserve">
+    <value>行列选择（索引）</value>
   </data>
   <data name="RandomNumber.Description" xml:space="preserve">
     <value>生成随机数</value>
@@ -451,17 +451,17 @@
   <data name="WebWaitVisibilityByLocator.Title" xml:space="preserve">
     <value>等待*可见（定位器）</value>
   </data>
-  <data name="AccessSize.Description" xml:space="preserve">
+  <data name="ArraySize.Description" xml:space="preserve">
     <value>获取 数组 的长度。</value>
   </data>
-  <data name="AccessSize.Title" xml:space="preserve">
+  <data name="ArraySize.Title" xml:space="preserve">
     <value>数组长度</value>
   </data>
-  <data name="Web.Description" xml:space="preserve">
-    <value>浏览器操作</value>
+  <data name="Browser.Description" xml:space="preserve">
+    <value>浏览器自动化</value>
   </data>
-  <data name="Web.Title" xml:space="preserve">
-    <value>Web</value>
+  <data name="Browser.Title" xml:space="preserve">
+    <value>浏览器</value>
   </data>
   <data name="Network.Description" xml:space="preserve">
     <value>网络</value>
@@ -497,7 +497,7 @@
     <value>此动作通过 HTTP 协议下载网络文件。</value>
   </data>
   <data name="HttpDownload.Title" xml:space="preserve">
-    <value>下载</value>
+    <value>文件下载</value>
   </data>
   <data name="WebElementAttribute.Description" xml:space="preserve">
     <value>获取属性</value>
@@ -617,7 +617,7 @@
     <value>将焦点切换到默认框架。</value>
   </data>
   <data name="WebFocusFrameDefault.Title" xml:space="preserve">
-    <value>框架*设置焦点</value>
+    <value>切换默认框架</value>
   </data>
   <data name="WebActionChainsCreated.Description" xml:space="preserve">
     <value>创建 Web 动作链</value>
@@ -686,15 +686,15 @@
     <value>运行框</value>
   </data>
   <data name="HttpGet.Description" xml:space="preserve">
-    <value>发送基于 HTTP 的Get 请求</value>
+    <value>发送基于 HTTP 的 GET 请求</value>
   </data>
   <data name="HttpGet.Title" xml:space="preserve">
-    <value>Get</value>
+    <value>GET 请求</value>
   </data>
-  <data name="ONNXModel.Description" xml:space="preserve">
+  <data name="TypeModel.Description" xml:space="preserve">
     <value>加载 ONNX 模型文件</value>
   </data>
-  <data name="ONNXModel.Title" xml:space="preserve">
+  <data name="TypeModel.Title" xml:space="preserve">
     <value>模型</value>
   </data>
   <data name="WebWaitVisibilityByElement.Description" xml:space="preserve">
@@ -745,10 +745,10 @@
   <data name="PositionWindow.Title" xml:space="preserve">
     <value>窗口置顶</value>
   </data>
-  <data name="YoutubeDownload.Description" xml:space="preserve">
-    <value>目前只支持 Youtube 视频下载，需要能访问 Youtube 的网络。</value>
+  <data name="VideoDownload.Description" xml:space="preserve">
+    <value>下载视频,目前只支持 Youtube 视频下载，需要有能访问 Youtube 的网络。</value>
   </data>
-  <data name="YoutubeDownload.Title" xml:space="preserve">
+  <data name="VideoDownload.Title" xml:space="preserve">
     <value>视频下载</value>
   </data>
   <data name="DirectoryIterator.Description" xml:space="preserve">
@@ -859,17 +859,17 @@
   <data name="WorkThread.Title" xml:space="preserve">
     <value>工作线程</value>
   </data>
-  <data name="ForegroundWindow.Description" xml:space="preserve">
+  <data name="ActiveWindow.Description" xml:space="preserve">
     <value>将创建指定窗口的线程置于前台并激活该窗口</value>
   </data>
-  <data name="ForegroundWindow.Title" xml:space="preserve">
-    <value>前置窗口</value>
+  <data name="ActiveWindow.Title" xml:space="preserve">
+    <value>激活窗口</value>
   </data>
-  <data name="ShutdownSystem.Description" xml:space="preserve">
-    <value>该动作可以关闭操作系统，也就是电脑关机。</value>
+  <data name="ExitWindows.Description" xml:space="preserve">
+    <value>注销交互式用户，关闭系统或关闭并重新启动系统。</value>
   </data>
-  <data name="ShutdownSystem.Title" xml:space="preserve">
-    <value>关机</value>
+  <data name="ExitWindows.Title" xml:space="preserve">
+    <value>退出系统</value>
   </data>
   <data name="WorkTask.Description" xml:space="preserve">
     <value>该动作在指定的时间触发，并且可以执行相应的子流程。</value>
@@ -878,25 +878,25 @@
     <value>定时任务</value>
   </data>
   <data name="HttpPost.Description" xml:space="preserve">
-    <value>发送基于 HTTP 的Post 请求</value>
+    <value>发送基于 HTTP 的 POST 请求</value>
   </data>
   <data name="HttpPost.Title" xml:space="preserve">
-    <value>Post</value>
+    <value>POST 请求</value>
   </data>
   <data name="HttpHead.Description" xml:space="preserve">
-    <value>发送基于 HTTP 的Head 请求</value>
+    <value>用于向服务器请求指定的资源。</value>
   </data>
   <data name="HttpHead.Title" xml:space="preserve">
-    <value>Head</value>
+    <value>HEAD 请求</value>
   </data>
   <data name="Android.Description" xml:space="preserve">
-    <value>安卓</value>
+    <value>基于 ADB 的安卓操作</value>
   </data>
   <data name="Android.Title" xml:space="preserve">
     <value>安卓</value>
   </data>
   <data name="AdbKillServer.Description" xml:space="preserve">
-    <value>终止安卓模拟器服务，结束进程 Adb.exe。</value>
+    <value>终止 adb 服务进程。</value>
   </data>
   <data name="AdbKillServer.Title" xml:space="preserve">
     <value>终止服务</value>
@@ -905,10 +905,10 @@
     <value>查询系统中已经启动的安卓模拟器。</value>
   </data>
   <data name="AdbDevices.Title" xml:space="preserve">
-    <value>设备列表</value>
+    <value>设备</value>
   </data>
   <data name="AdbStartServer.Description" xml:space="preserve">
-    <value>启动 Adb 服务</value>
+    <value>如果 *adb*服务未启动，启动 adb 服务。</value>
   </data>
   <data name="AdbStartServer.Title" xml:space="preserve">
     <value>启动服务</value>
@@ -925,17 +925,17 @@
   <data name="AdbConnect.Title" xml:space="preserve">
     <value>连接</value>
   </data>
-  <data name="AdbIfConfig.Description" xml:space="preserve">
-    <value>查看模拟器网卡配置</value>
+  <data name="AdbPush.Description" xml:space="preserve">
+    <value>将本地文件/目录复制到 `Android` 设备。</value>
   </data>
-  <data name="AdbIfConfig.Title" xml:space="preserve">
-    <value>网卡配置</value>
+  <data name="AdbPush.Title" xml:space="preserve">
+    <value>上传文件</value>
   </data>
-  <data name="AdbRemoveForward.Description" xml:space="preserve">
-    <value>在当前系统当中移除端口转发。</value>
+  <data name="Adbkeyboard.Description" xml:space="preserve">
+    <value>发送键盘输入至 Android 设备，必须安装 `Adbkeyboard`，可支持中文输入。</value>
   </data>
-  <data name="AdbRemoveForward.Title" xml:space="preserve">
-    <value>移除转发</value>
+  <data name="Adbkeyboard.Title" xml:space="preserve">
+    <value>键盘输入</value>
   </data>
   <data name="ReadLines.Description" xml:space="preserve">
     <value>读取文本文件，并根据换行符 `\r\n`，拆分成多行字符串，也就是字符串列表。</value>
@@ -950,10 +950,10 @@
     <value>滑动</value>
   </data>
   <data name="AdbInput.Description" xml:space="preserve">
-    <value>在安卓模拟器中模拟输入文本，此动作不支持中文输入。</value>
+    <value>在安卓模拟器中模拟输入文本，此动作仅支持英文输入。</value>
   </data>
   <data name="AdbInput.Title" xml:space="preserve">
-    <value>输入</value>
+    <value>键盘输入 * 英文</value>
   </data>
   <data name="AdbKey.Description" xml:space="preserve">
     <value>在安卓模拟器中模拟按键。</value>
@@ -980,7 +980,7 @@
     <value>访问数组</value>
   </data>
   <data name="BaiduTranslate.Description" xml:space="preserve">
-    <value>百度翻译</value>
+    <value>基于百度云接口的在线翻译，将中文翻译成英文和其他语言，以及其他语言翻译成中文。</value>
   </data>
   <data name="BaiduTranslate.Title" xml:space="preserve">
     <value>百度翻译</value>
@@ -997,11 +997,11 @@
   <data name="AccessKey.Title" xml:space="preserve">
     <value>访问对象</value>
   </data>
-  <data name="CaptureForground.Description" xml:space="preserve">
-    <value>前置窗口截图。</value>
+  <data name="CaptureActiveWindow.Description" xml:space="preserve">
+    <value>截取当前活动窗口图像</value>
   </data>
-  <data name="CaptureForground.Title" xml:space="preserve">
-    <value>前置窗口截图</value>
+  <data name="CaptureActiveWindow.Title" xml:space="preserve">
+    <value>活动窗口截图</value>
   </data>
   <data name="Cloud.Description" xml:space="preserve">
     <value>云接口调用</value>
@@ -1015,23 +1015,23 @@
   <data name="Pandas.Title" xml:space="preserve">
     <value>数据分析</value>
   </data>
-  <data name="XmlLoadDocument.Description" xml:space="preserve">
-    <value>加载Xml 文档</value>
+  <data name="LoadDocument.Description" xml:space="preserve">
+    <value>加载文档</value>
   </data>
-  <data name="XmlLoadDocument.Title" xml:space="preserve">
+  <data name="LoadDocument.Title" xml:space="preserve">
     <value>文档</value>
   </data>
-  <data name="XmlGetNodeList.Description" xml:space="preserve">
-    <value>获取 Xml 节点</value>
+  <data name="DataFrameQuery.Description" xml:space="preserve">
+    <value>查询 DataFrame 数据结构</value>
   </data>
-  <data name="XmlGetNodeList.Title" xml:space="preserve">
-    <value>获取节点</value>
+  <data name="DataFrameQuery.Title" xml:space="preserve">
+    <value>查询</value>
   </data>
-  <data name="XmlNodeName.Description" xml:space="preserve">
-    <value>Xml 节点名称</value>
+  <data name="NameLoc.Description" xml:space="preserve">
+    <value>用于通过标签选择/过滤行和列。</value>
   </data>
-  <data name="XmlNodeName.Title" xml:space="preserve">
-    <value>节点名称</value>
+  <data name="NameLoc.Title" xml:space="preserve">
+    <value>行列选择（标签）</value>
   </data>
   <data name="FilterText.Description" xml:space="preserve">
     <value>在数组或者列表中，筛选包含指定文本元素。</value>
@@ -1039,23 +1039,23 @@
   <data name="FilterText.Title" xml:space="preserve">
     <value>文本筛选</value>
   </data>
-  <data name="XmlDocumentElement.Description" xml:space="preserve">
-    <value>Xml 元素</value>
+  <data name="RowsCount.Description" xml:space="preserve">
+    <value>获取数据的行数</value>
   </data>
-  <data name="XmlDocumentElement.Title" xml:space="preserve">
-    <value>元素</value>
+  <data name="RowsCount.Title" xml:space="preserve">
+    <value>统计行数</value>
   </data>
-  <data name="XmlReplaceText.Description" xml:space="preserve">
-    <value>替换 节点 文本</value>
+  <data name="OutputString.Description" xml:space="preserve">
+    <value>输出字符串</value>
   </data>
-  <data name="XmlReplaceText.Title" xml:space="preserve">
-    <value>文本替换</value>
+  <data name="OutputString.Title" xml:space="preserve">
+    <value>输出字符串</value>
   </data>
-  <data name="XmlSaveDocument.Description" xml:space="preserve">
-    <value>保存 Xml 文件</value>
+  <data name="SaveDocument.Description" xml:space="preserve">
+    <value>保存文件</value>
   </data>
-  <data name="XmlSaveDocument.Title" xml:space="preserve">
-    <value>保存</value>
+  <data name="SaveDocument.Title" xml:space="preserve">
+    <value>保存文件</value>
   </data>
   <data name="IsEmpty.Description" xml:space="preserve">
     <value>判断 容器 或者 列表 是否为空</value>
@@ -1069,17 +1069,17 @@
   <data name="QRCode.Title" xml:space="preserve">
     <value>二维码识别</value>
   </data>
-  <data name="IterParam.Description" xml:space="preserve">
-    <value>通常做为子动作，其值由相应的父动作传入。通常返回多个值的动作都会支持子动作，列表的每个元素都会被迭代透传给该动作。</value>
+  <data name="Param.Description" xml:space="preserve">
+    <value>通常做为子动作，其值由相应的父动作传入。例如列表中的每个项都会被透传给该动作。</value>
   </data>
-  <data name="IterParam.Title" xml:space="preserve">
-    <value>迭代参数</value>
+  <data name="Param.Title" xml:space="preserve">
+    <value>参数</value>
   </data>
-  <data name="WebActionChainsPerform.Description" xml:space="preserve">
-    <value>执行创建的动作链。</value>
+  <data name="CellClick.Description" xml:space="preserve">
+    <value>移动鼠标至网格中的每个单元格并点击鼠标</value>
   </data>
-  <data name="WebActionChainsPerform.Title" xml:space="preserve">
-    <value>动作链*执行</value>
+  <data name="CellClick.Title" xml:space="preserve">
+    <value>点击 * 网格</value>
   </data>
   <data name="WebElementSendKey.Description" xml:space="preserve">
     <value>发送按键</value>
@@ -1157,7 +1157,7 @@
     <value>将鼠标移动到当前鼠标位置的或指定 Web 元素的偏移量。</value>
   </data>
   <data name="WebActionMoveOffset.Title" xml:space="preserve">
-    <value>动作链.移动（偏移）</value>
+    <value>动作链.偏移移动</value>
   </data>
   <data name="WebActionSendText.Description" xml:space="preserve">
     <value>设置文本</value>
@@ -1165,10 +1165,10 @@
   <data name="WebActionSendText.Title" xml:space="preserve">
     <value>动作链.发送文本</value>
   </data>
-  <data name="LoggingEnabled.Description" xml:space="preserve">
+  <data name="LoggingControl.Description" xml:space="preserve">
     <value>该动作用来在流程中控制输出日志</value>
   </data>
-  <data name="LoggingEnabled.Title" xml:space="preserve">
+  <data name="LoggingControl.Title" xml:space="preserve">
     <value>输出控制</value>
   </data>
   <data name="AdaptiveThreshold.Description" xml:space="preserve">
@@ -1189,29 +1189,29 @@
   <data name="AdbMove.Title" xml:space="preserve">
     <value>移动</value>
   </data>
-  <data name="TcpListen.Description" xml:space="preserve">
-    <value>此动作用来创建TCP或者UDP服务端。</value>
+  <data name="NetworkListen.Description" xml:space="preserve">
+    <value>创建一个网络服务端。</value>
   </data>
-  <data name="TcpListen.Title" xml:space="preserve">
-    <value>监听</value>
+  <data name="NetworkListen.Title" xml:space="preserve">
+    <value>网络服务</value>
   </data>
-  <data name="TcpSend.Description" xml:space="preserve">
-    <value>此动作通过TCP或者UDP发送数据。</value>
+  <data name="NetworkSend.Description" xml:space="preserve">
+    <value>通过网络，发送数据。</value>
   </data>
-  <data name="TcpSend.Title" xml:space="preserve">
-    <value>发送</value>
+  <data name="NetworkSend.Title" xml:space="preserve">
+    <value>发送数据</value>
   </data>
-  <data name="TcpReceive.Description" xml:space="preserve">
-    <value>此动作通过TCP或者UDP接收数据。</value>
+  <data name="NetworkReceive.Description" xml:space="preserve">
+    <value>接收网络数据。</value>
   </data>
-  <data name="TcpReceive.Title" xml:space="preserve">
-    <value>接收</value>
+  <data name="NetworkReceive.Title" xml:space="preserve">
+    <value>接收数据</value>
   </data>
-  <data name="TcpConnect.Description" xml:space="preserve">
-    <value>此动作通过TCP或者UDP连接服务端。</value>
+  <data name="NetworkConnect.Description" xml:space="preserve">
+    <value>连接网络服务端。</value>
   </data>
-  <data name="TcpConnect.Title" xml:space="preserve">
-    <value>连接</value>
+  <data name="NetworkConnect.Title" xml:space="preserve">
+    <value>连接服务</value>
   </data>
   <data name="FilterArea.Description" xml:space="preserve">
     <value>通过计算数组中元素的面积来筛选列表中的元素</value>
@@ -1268,16 +1268,16 @@
     <value>Empty</value>
   </data>
   <data name="EnumWindows.Description" xml:space="preserve">
-    <value>枚举窗口</value>
+    <value>枚举操作系统中的窗口，并按照窗口所在进程的创建时间进行排序。</value>
   </data>
   <data name="EnumWindows.Title" xml:space="preserve">
     <value>枚举窗口</value>
   </data>
-  <data name="FilterWindows.Description" xml:space="preserve">
-    <value>筛选当前操作系统中，符合条件的窗口</value>
+  <data name="AdbIsInstalled.Description" xml:space="preserve">
+    <value>检测 Android 应用程序包是否已经安装。</value>
   </data>
-  <data name="FilterWindows.Title" xml:space="preserve">
-    <value>窗口筛选</value>
+  <data name="AdbIsInstalled.Title" xml:space="preserve">
+    <value>应用检测</value>
   </data>
   <data name="MatchTemplate.Description" xml:space="preserve">
     <value>简单的图片查找，通常用于查找较小的图像,或者特征比较少的图像。</value>
@@ -1315,11 +1315,11 @@
   <data name="WindowXy.Title" xml:space="preserve">
     <value>窗口位置</value>
   </data>
-  <data name="TypeJson.Description" xml:space="preserve">
-    <value>定义JSON数据格式</value>
+  <data name="IterRow.Description" xml:space="preserve">
+    <value>将 DataFrame 行作为（索引，数组）对进行迭代。</value>
   </data>
-  <data name="TypeJson.Title" xml:space="preserve">
-    <value>JSON</value>
+  <data name="IterRow.Title" xml:space="preserve">
+    <value>迭代行</value>
   </data>
   <data name="WindowSize.Description" xml:space="preserve">
     <value>获取或设置窗口的大小（长和宽）</value>
@@ -1393,11 +1393,11 @@
   <data name="WorkWait.Title" xml:space="preserve">
     <value>异步等待</value>
   </data>
-  <data name="Camera.Description" xml:space="preserve">
-    <value>采集相机图像</value>
+  <data name="TypeCamera.Description" xml:space="preserve">
+    <value>相机设备</value>
   </data>
-  <data name="Camera.Title" xml:space="preserve">
-    <value>相机图像</value>
+  <data name="TypeCamera.Title" xml:space="preserve">
+    <value>相机</value>
   </data>
   <data name="ImageDifference.Description" xml:space="preserve">
     <value>比较两个图像，或两个轮廓，并返回显示相似性的度量标准。</value>
@@ -1445,73 +1445,126 @@
     <value>定义一个字符串列表</value>
   </data>
   <data name="TypeStrings.Title" xml:space="preserve">
-    <value>Strings</value>
-  </data>
-  <data name="Method.Description" xml:space="preserve">
-    <value>包含一系列常用函数</value>
-  </data>
-  <data name="Method.Title" xml:space="preserve">
-    <value>函数</value>
+    <value>字符串列表</value>
   </data>
   <data name="PopBack.Description" xml:space="preserve">
     <value>删除容器中的最后一个元素，有效地将容器大小减少一个。</value>
   </data>
   <data name="PopBack.Title" xml:space="preserve">
-    <value>PopBack</value>
+    <value>尾部取出</value>
   </data>
   <data name="PushBack.Description" xml:space="preserve">
     <value>在容器的末尾添加一个新元素，位于其当前最后一个元素之后。</value>
   </data>
   <data name="PushBack.Title" xml:space="preserve">
-    <value>PushBack</value>
+    <value>尾部压入</value>
   </data>
-
-
   <data name="JoinString.Description" xml:space="preserve">
     <value>使用分隔符，合并字符串。</value>
   </data>
   <data name="JoinString.Title" xml:space="preserve">
     <value>合并字符串</value>
   </data>
-
-
-
-
   <data name="BarcodeCreate.Description" xml:space="preserve">
     <value>生成条形码图片</value>
   </data>
   <data name="BarcodeCreate.Title" xml:space="preserve">
     <value>生成条码</value>
   </data>
-
-
-
   <data name="DrawText.Description" xml:space="preserve">
     <value>在图像上绘制文本</value>
   </data>
   <data name="DrawText.Title" xml:space="preserve">
     <value>绘制文本</value>
   </data>
-
-
-
-
   <data name="DrawImage.Description" xml:space="preserve">
     <value>在图像上绘制图像</value>
   </data>
   <data name="DrawImage.Title" xml:space="preserve">
     <value>绘制图像</value>
   </data>
-
-
-
-
   <data name="SubString.Description" xml:space="preserve">
-    <value>SubString</value>
+    <value>该动作根据特定的方法，可以获取部分字符串。</value>
   </data>
   <data name="SubString.Title" xml:space="preserve">
-    <value>SubString</value>
+    <value>字符串提取</value>
   </data>
-
-
+  <data name="TypeDict.Description" xml:space="preserve">
+    <value>字典 用于将数据值存储在（键/值）对中。</value>
+  </data>
+  <data name="TypeDict.Title" xml:space="preserve">
+    <value>字典</value>
+  </data>
+  <data name="TypeTuple.Description" xml:space="preserve">
+    <value>元组用于将多个项目存储在单个变量中。</value>
+  </data>
+  <data name="TypeTuple.Title" xml:space="preserve">
+    <value>元组</value>
+  </data>
+  <data name="StandardPath.Description" xml:space="preserve">
+    <value>此操作包含在本地文件系统上查询标准路径位置的功能，例如特定于用户目录或系统范围的配置目录等常见任务。</value>
+  </data>
+  <data name="StandardPath.Title" xml:space="preserve">
+    <value>标准路径</value>
+  </data>
+  <data name="TypeHostAddress.Description" xml:space="preserve">
+    <value> 代表Internet（IP）端点/套接字地址。该地址可以属于IPv4或IPv6地址家族，由主机地址和端口号组成。</value>
+  </data>
+  <data name="TypeHostAddress.Title" xml:space="preserve">
+    <value>主机地址</value>
+  </data>
+  <data name="FlashWindow.Description" xml:space="preserve">
+    <value>闪烁指定的窗口，它不会更改窗口的活动状态。</value>
+  </data>
+  <data name="FlashWindow.Title" xml:space="preserve">
+    <value>闪烁窗口</value>
+  </data>
+  <data name="TypeSlice.Description" xml:space="preserve">
+    <value>切片类型</value>
+  </data>
+  <data name="TypeSlice.Title" xml:space="preserve">
+    <value>切片</value>
+  </data>
+  <data name="AdbInstall.Description" xml:space="preserve">
+    <value>安装 APk 到安卓设备中。</value>
+  </data>
+  <data name="AdbInstall.Title" xml:space="preserve">
+    <value>安装 APK</value>
+  </data>
+  <data name="AdbClearText.Description" xml:space="preserve">
+    <value>清除当前输入框的文字，必须安装`Adbkeyboard`。</value>
+  </data>
+  <data name="AdbClearText.Title" xml:space="preserve">
+    <value>清除文字</value>
+  </data>
+  <data name="AdbPull.Description" xml:space="preserve">
+    <value>从设备复制文件/目录到本地计算机。</value>
+  </data>
+  <data name="AdbPull.Title" xml:space="preserve">
+    <value>拉取文件</value>
+  </data>
+  <data name="AdbLs.Description" xml:space="preserve">
+    <value>获取文件或者文件夹列表</value>
+  </data>
+  <data name="AdbLs.Title" xml:space="preserve">
+    <value>文件目录</value>
+  </data>
+  <data name="TypeList.Description" xml:space="preserve">
+    <value>列表类型</value>
+  </data>
+  <data name="TypeList.Title" xml:space="preserve">
+    <value>列表</value>
+  </data>
+  <data name="AccessFront.Description" xml:space="preserve">
+    <value>获取容器中的第一个元素</value>
+  </data>
+  <data name="AccessFront.Title" xml:space="preserve">
+    <value>首个元素</value>
+  </data>
+  <data name="AccessBack.Description" xml:space="preserve">
+    <value>获取容器中的最后一个元素</value>
+  </data>
+  <data name="AccessBack.Title" xml:space="preserve">
+    <value>尾部元素</value>
+  </data>
 </root>
