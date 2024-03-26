@@ -297,6 +297,21 @@
   <data name="ToolBar.DebugStop.Text" xml:space="preserve">
     <value>Stop</value>
   </data>
+  <data name="ToolBar.DebugReStart.Text" xml:space="preserve">
+    <value>ReStart</value>
+  </data>
+  <data name="ToolBar.DebugBreakAll.Text" xml:space="preserve">
+    <value>Break All</value>
+  </data>
+  <data name="ToolBar.DebugContinue.Text" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="ToolBar.DebugStepInto.Text" xml:space="preserve">
+    <value>Step Into</value>
+  </data>
+  <data name="ToolBar.DebugStepOver.Text" xml:space="preserve">
+    <value>Step Over</value>
+  </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>Publish</value>
   </data>
@@ -497,5 +512,14 @@
   </data>
   <data name="AndroidPackages.Packages.Header" xml:space="preserve">
     <value>Packages</value>
+  </data>
+  <data name="Variable.Name.Header" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Variable.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Variable.Description.Header" xml:space="preserve">
+    <value>Description</value>
   </data>
 </root>

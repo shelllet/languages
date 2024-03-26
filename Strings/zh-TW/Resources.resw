@@ -297,6 +297,22 @@
   <data name="ToolBar.DebugStop.Text" xml:space="preserve">
     <value>停止調試</value>
   </data>
+  <data name="ToolBar.DebugReStart.Text" xml:space="preserve">
+    <value>重啟</value>
+  </data>
+  <data name="ToolBar.DebugBreakAll.Text" xml:space="preserve">
+    <value>暫停</value>
+  </data>
+
+  <data name="ToolBar.DebugContinue.Text" xml:space="preserve">
+    <value>繼續</value>
+  </data>
+  <data name="ToolBar.DebugStepInto.Text" xml:space="preserve">
+    <value>步入</value>
+  </data>
+  <data name="ToolBar.DebugStepOver.Text" xml:space="preserve">
+    <value>步出</value>
+  </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>發佈</value>
   </data>
@@ -494,5 +510,14 @@
   </data>
   <data name="AndroidPackages.Packages.Header" xml:space="preserve">
     <value>安裝包</value>
+  </data>
+  <data name="Variable.Name.Header" xml:space="preserve">
+    <value>名稱</value>
+  </data>
+  <data name="Variable.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Variable.Description.Header" xml:space="preserve">
+    <value>備註</value>
   </data>
 </root>
