@@ -309,6 +309,15 @@
   <data name="ToolBar.DebugStepOver.Text" xml:space="preserve">
     <value>步出</value>
   </data>
+  <data name="ToolBar.DebugBreakAll.Label" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="ToolBar.DebugStop.Label" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="ToolBar.DebugRestart.Label" xml:space="preserve">
+    <value>重启</value>
+  </data>
   <data name="ToolBar.Import.Label" xml:space="preserve">
     <value>导入</value>
   </data>
@@ -408,14 +417,14 @@
   <data name="InputFlyoutItem.Path.Text" xml:space="preserve">
     <value>路径</value>
   </data>
-  <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
+  <data name="Workflow.MenuItem.AddAction.Text" xml:space="preserve">
     <value>添加动作</value>
   </data>
-  <data name="Workflow.MenuItem.Copy.Text" xml:space="preserve">
-    <value>复制</value>
+  <data name="Workflow.MenuItem.CopyAction.Text" xml:space="preserve">
+    <value>复制动作</value>
   </data>
-  <data name="Workflow.MenuItem.Locate.Text" xml:space="preserve">
-    <value>定位</value>
+  <data name="Workflow.MenuItem.LocateAction.Text" xml:space="preserve">
+    <value>定位动作</value>
   </data>
   <data name="Save.Text" xml:space="preserve">
     <value>保存</value>
@@ -518,5 +527,8 @@
   </data>
   <data name="Variable.Description.Header" xml:space="preserve">
     <value>备注</value>
+  </data>
+  <data name="Actions.SearchText.Text" xml:space="preserve">
+    <value>搜索：</value>
   </data>
 </root>

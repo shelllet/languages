@@ -114,17 +114,20 @@
   <data name="Action.WorkBegin.Thread.Header" xml:space="preserve">
     <value>Async Object</value>
   </data>
-  <data name="Action.LoginApplication.App.Header" xml:space="preserve">
+  <data name="Action.Runas.App.Header" xml:space="preserve">
     <value>Application</value>
   </data>
-  <data name="Action.LoginApplication.Account.Header" xml:space="preserve">
+  <data name="Action.Runas.Account.Header" xml:space="preserve">
     <value>Account</value>
   </data>
-  <data name="Action.LoginApplication.Password.Header" xml:space="preserve">
+  <data name="Action.Runas.Password.Header" xml:space="preserve">
     <value>Password</value>
   </data>
-  <data name="Action.LoginApplication.WorkingDirectory.Header" xml:space="preserve">
-    <value>WorkingDirectory</value>
+  <data name="Action.Runas.WorkingDirectory.Header" xml:space="preserve">
+    <value>Working Directory</value>
+  </data>
+  <data name="Action.Runas.CommandLine.Header" xml:space="preserve">
+    <value>Command Line</value>
   </data>
   <data name="Action.OpenApplication.Application.Header" xml:space="preserve">
     <value>Application</value>
@@ -1048,7 +1051,7 @@
     <value>Browser</value>
   </data>
   <data name="Action.WebGetElement.Driver.Header" xml:space="preserve">
-    <value>Driver</value>
+    <value>Object</value>
   </data>
   <data name="Action.WebGetElement.Element.Header" xml:space="preserve">
     <value>Element</value>
@@ -1089,7 +1092,7 @@
   <data name="Action.WebElementClear.Element.Header" xml:space="preserve">
     <value>Element</value>
   </data>
-  <data name="Action.WebElementIsSelect.Element.Header" xml:space="preserve">
+  <data name="Action.WebElementSelected.Element.Header" xml:space="preserve">
     <value>Element</value>
   </data>
   <data name="Action.WebElementAttribute.Element.Header" xml:space="preserve">
@@ -1156,7 +1159,7 @@
     <value>Option</value>
   </data>
   <data name="Action.WebWaitVisibilityByLocator.Driver.Header" xml:space="preserve">
-    <value>Driver</value>
+    <value>Object</value>
   </data>
   <data name="Action.WebWaitVisibilityByLocator.Element.Header" xml:space="preserve">
     <value>Element</value>
@@ -1166,6 +1169,12 @@
   </data>
   <data name="Action.WebWaitVisibilityByLocator.WebBy.Header" xml:space="preserve">
     <value>WebBy</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.Visibility.Header" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.Located.Header" xml:space="preserve">
+    <value>wait</value>
   </data>
   <data name="Action.WebSwitchToFrame.Driver.Header" xml:space="preserve">
     <value>Driver</value>

@@ -457,10 +457,10 @@
     <value>數組長度</value>
   </data>
   <data name="Browser.Description" xml:space="preserve">
-    <value>瀏覽器操作自动化</value>
+    <value>使用相關動作在瀏覽器上自動執行任務。</value>
   </data>
   <data name="Browser.Title" xml:space="preserve">
-    <value>瀏覽器</value>
+    <value>Web 自動化</value>
   </data>
   <data name="Network.Description" xml:space="preserve">
     <value>網絡</value>
@@ -1087,7 +1087,7 @@
     <value>發送按鍵</value>
   </data>
   <data name="WebElementClick.Description" xml:space="preserve">
-    <value>點擊</value>
+    <value>模擬鼠標左鍵點擊元素。</value>
   </data>
   <data name="WebElementClick.Title" xml:space="preserve">
     <value>點擊</value>
@@ -1098,10 +1098,10 @@
   <data name="WebElementClear.Title" xml:space="preserve">
     <value>清除文字</value>
   </data>
-  <data name="WebElementIsSelect.Description" xml:space="preserve">
+  <data name="WebElementSelected.Description" xml:space="preserve">
     <value>返回元素是否被選中，可用於檢查核取方塊或單選按鈕是否被選中。</value>
   </data>
-  <data name="WebElementIsSelect.Title" xml:space="preserve">
+  <data name="WebElementSelected.Title" xml:space="preserve">
     <value>選中檢查</value>
   </data>
   <data name="WebElementSendText.Description" xml:space="preserve">
@@ -1344,11 +1344,11 @@
   <data name="WorkBegin.Title" xml:space="preserve">
     <value>異步啟動</value>
   </data>
-  <data name="LoginApplication.Description" xml:space="preserve">
+  <data name="Runas.Description" xml:space="preserve">
     <value>使用本地系統中的賬號打開應用程序</value>
   </data>
-  <data name="LoginApplication.Title" xml:space="preserve">
-    <value>登錄應用</value>
+  <data name="Runas.Title" xml:space="preserve">
+    <value>Runas</value>
   </data>
   <data name="PixelPoint.Description" xml:space="preserve">
     <value>這個動作檢索指定坐標處的像素的紅色，綠色，藍色（RGB）顏色值。</value>

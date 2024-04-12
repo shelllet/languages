@@ -312,6 +312,15 @@
   <data name="ToolBar.DebugStepOver.Text" xml:space="preserve">
     <value>Step Over</value>
   </data>
+  <data name="ToolBar.DebugBreakAll.Label" xml:space="preserve">
+    <value>Break All</value>
+  </data>
+  <data name="ToolBar.DebugStop.Label" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="ToolBar.DebugRestart.Label" xml:space="preserve">
+    <value>Restart</value>
+  </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>Publish</value>
   </data>
@@ -408,14 +417,14 @@
   <data name="InputFlyoutItem.Path.Text" xml:space="preserve">
     <value>Path</value>
   </data>
-  <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
+  <data name="Workflow.MenuItem.AddAction.Text" xml:space="preserve">
     <value>Add Action</value>
   </data>
-  <data name="Workflow.MenuItem.Copy.Text" xml:space="preserve">
-    <value>Copy</value>
+  <data name="Workflow.MenuItem.CopyAction.Text" xml:space="preserve">
+    <value>Copy Action</value>
   </data>
-  <data name="Workflow.MenuItem.Locate.Text" xml:space="preserve">
-    <value>Locate</value>
+  <data name="Workflow.MenuItem.LocateAction.Text" xml:space="preserve">
+    <value>Locate Action</value>
   </data>
   <data name="Save.Text" xml:space="preserve">
     <value>Save</value>
@@ -521,5 +530,8 @@
   </data>
   <data name="Variable.Description.Header" xml:space="preserve">
     <value>Description</value>
+  </data>
+  <data name="Actions.SearchText.Text" xml:space="preserve">
+    <value>Search:</value>
   </data>
 </root>

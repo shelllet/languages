@@ -114,17 +114,20 @@
   <data name="Action.WorkBegin.Thread.Header" xml:space="preserve">
     <value>異步對象</value>
   </data>
-  <data name="Action.LoginApplication.App.Header" xml:space="preserve">
+  <data name="Action.Runas.App.Header" xml:space="preserve">
     <value>應用</value>
   </data>
-  <data name="Action.LoginApplication.Account.Header" xml:space="preserve">
+  <data name="Action.Runas.Account.Header" xml:space="preserve">
     <value>帳戶</value>
   </data>
-  <data name="Action.LoginApplication.Password.Header" xml:space="preserve">
+  <data name="Action.Runas.Password.Header" xml:space="preserve">
     <value>密碼</value>
   </data>
-  <data name="Action.LoginApplication.WorkingDirectory.Header" xml:space="preserve">
+  <data name="Action.Runas.WorkingDirectory.Header" xml:space="preserve">
     <value>工作目錄</value>
+  </data>
+  <data name="Action.Runas.CommandLine.Header" xml:space="preserve">
+    <value>命令行</value>
   </data>
   <data name="Action.OpenApplication.Application.Header" xml:space="preserve">
     <value>應用</value>
@@ -1045,7 +1048,7 @@
     <value>瀏覽器</value>
   </data>
   <data name="Action.WebGetElement.Driver.Header" xml:space="preserve">
-    <value>瀏覽器</value>
+    <value>對象</value>
   </data>
   <data name="Action.WebGetElement.Element.Header" xml:space="preserve">
     <value>元素</value>
@@ -1086,7 +1089,7 @@
   <data name="Action.WebElementClear.Element.Header" xml:space="preserve">
     <value>元素</value>
   </data>
-  <data name="Action.WebElementIsSelect.Element.Header" xml:space="preserve">
+  <data name="Action.WebElementSelected.Element.Header" xml:space="preserve">
     <value>元素</value>
   </data>
   <data name="Action.WebElementAttribute.Element.Header" xml:space="preserve">
@@ -1163,6 +1166,12 @@
   </data>
   <data name="Action.WebWaitVisibilityByLocator.WebBy.Header" xml:space="preserve">
     <value>策略</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.Visibility.Header" xml:space="preserve">
+    <value>可見性</value>
+  </data>
+  <data name="Action.WebWaitVisibilityByLocator.Located.Header" xml:space="preserve">
+    <value>等待</value>
   </data>
   <data name="Action.WebSwitchToFrame.Driver.Header" xml:space="preserve">
     <value>瀏覽器</value>
