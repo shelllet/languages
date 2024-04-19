@@ -532,4 +532,7 @@
   <data name="Actions.SearchText.Text" xml:space="preserve">
     <value>搜尋:</value>
   </data>
+  <data name="Workflow.Clone.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
 </root>

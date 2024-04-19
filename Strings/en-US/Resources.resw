@@ -534,4 +534,7 @@
   <data name="Actions.SearchText.Text" xml:space="preserve">
     <value>Search:</value>
   </data>
+  <data name="Workflow.Clone.Text" xml:space="preserve">
+    <value>Clone</value>
+  </data>
 </root>

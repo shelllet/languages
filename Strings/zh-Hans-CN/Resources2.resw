@@ -1113,8 +1113,8 @@
   <data name="Action.WebWaitPresence.WebBy.Header" xml:space="preserve">
     <value>策略</value>
   </data>
-  <data name="Action.WebWaitPresence.Mode.Header" xml:space="preserve">
-    <value>模式</value>
+  <data name="Action.WebWaitPresence.Located.Header" xml:space="preserve">
+    <value>等待</value>
   </data>
   <data name="Action.WebWaitTitle.Driver.Header" xml:space="preserve">
     <value>浏览器</value>
@@ -1182,7 +1182,7 @@
   <data name="Action.WebSwitchToFrame.Name.Header" xml:space="preserve">
     <value>名称</value>
   </data>
-  <data name="Action.WebFocusFrameDefault.Driver.Header" xml:space="preserve">
+  <data name="Action.WebFocusDefaultFrame.Driver.Header" xml:space="preserve">
     <value>浏览器</value>
   </data>
   <data name="Action.WebScreenshot.Element.Header" xml:space="preserve">
@@ -1524,11 +1524,14 @@
   <data name="Action.If.Source.Header" xml:space="preserve">
     <value>数据</value>
   </data>
-  <data name="Action.AccessBack.Value.Header" xml:space="preserve">
-    <value>值</value>
+  <data name="Action.WebExecute.Driver.Header" xml:space="preserve">
+    <value>对象</value>
   </data>
-  <data name="Action.AccessFront.Value.Header" xml:space="preserve">
-    <value>值</value>
+  <data name="Action.WebExecute.Code.Header" xml:space="preserve">
+    <value>脚本</value>
+  </data>
+  <data name="Action.WaitKey.Key.Header" xml:space="preserve">
+    <value>按键</value>
   </data>
   <data name="Action.ExitWindows.Options.Header" xml:space="preserve">
     <value>选项</value>

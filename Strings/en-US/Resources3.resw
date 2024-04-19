@@ -442,7 +442,7 @@
     <value>Check if the given frame can be switched to.</value>
   </data>
   <data name="WebWaitFrameAvailable.Title" xml:space="preserve">
-    <value>Wait for * frame switchable</value>
+    <value>WebWaitFrameAvailable</value>
   </data>
   <data name="WebWaitVisibilityByLocator.Description" xml:space="preserve">
     <value>By location strategy to check whether elements known to exist on the page dom are visible, visibility means that elements are not only displayed but also with height and width greater than 0</value>
@@ -612,11 +612,11 @@
   <data name="WebSwitchToFrame.Title" xml:space="preserve">
     <value>WebSwitchToFrame</value>
   </data>
-  <data name="WebFocusFrameDefault.Description" xml:space="preserve">
+  <data name="WebFocusDefaultFrame.Description" xml:space="preserve">
     <value>Switch the focus to the default frame.</value>
   </data>
-  <data name="WebFocusFrameDefault.Title" xml:space="preserve">
-    <value>WebFocusFrameDefault</value>
+  <data name="WebFocusDefaultFrame.Title" xml:space="preserve">
+    <value>WebFocusDefaultFrame</value>
   </data>
   <data name="WebActionChainsCreated.Description" xml:space="preserve">
     <value>Create the web, and the action chain</value>
@@ -1554,16 +1554,16 @@
   <data name="TypeList.Title" xml:space="preserve">
     <value>List</value>
   </data>
-  <data name="AccessFront.Description" xml:space="preserve">
-    <value>Returns a reference to the first element in the vector.</value>
+  <data name="WaitKey.Description" xml:space="preserve">
+    <value>Wait key.</value>
   </data>
-  <data name="AccessFront.Title" xml:space="preserve">
-    <value>AccessFront</value>
+  <data name="WaitKey.Title" xml:space="preserve">
+    <value>WaitKey</value>
   </data>
-  <data name="AccessBack.Description" xml:space="preserve">
-    <value>Returns a reference to the last element in the vector.</value>
+  <data name="WebExecute.Description" xml:space="preserve">
+    <value>Synchronously Executes JavaScript in the current window/frame.</value>
   </data>
-  <data name="AccessBack.Title" xml:space="preserve">
-    <value>AccessBack</value>
+  <data name="WebExecute.Title" xml:space="preserve">
+    <value>WebExecute</value>
   </data>
 </root>
