@@ -1188,7 +1188,7 @@
   <data name="Action.WebScreenshot.Element.Header" xml:space="preserve">
     <value>Element</value>
   </data>
-  <data name="Action.WebActionChainsCreated.Driver.Header" xml:space="preserve">
+  <data name="Action.WebActionChainsPerform.Driver.Header" xml:space="preserve">
     <value>Driver</value>
   </data>
   <data name="Action.WebActionClick.Element.Header" xml:space="preserve">
@@ -1208,6 +1208,9 @@
   </data>
   <data name="Action.WebActionMoveTo.Element.Header" xml:space="preserve">
     <value>Element</value>
+  </data>
+  <data name="Action.WebActionMoveTo.Offset.Header" xml:space="preserve">
+    <value>Offset</value>
   </data>
   <data name="Action.WebActionRelease.Element.Header" xml:space="preserve">
     <value>Element</value>
@@ -1535,5 +1538,8 @@
   </data>
   <data name="Action.ExitWindows.Options.Header" xml:space="preserve">
     <value>Options</value>
+  </data>
+  <data name="Action.WebActionPause.Value.Header" xml:space="preserve">
+    <value>Seconds</value>
   </data>
 </root>

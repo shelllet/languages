@@ -456,11 +456,11 @@
   <data name="ArraySize.Title" xml:space="preserve">
     <value>數組長度</value>
   </data>
-  <data name="Browser.Description" xml:space="preserve">
+  <data name="Web.Description" xml:space="preserve">
     <value>使用相關動作在瀏覽器上自動執行任務。</value>
   </data>
-  <data name="Browser.Title" xml:space="preserve">
-    <value>Web 自動化</value>
+  <data name="Web.Title" xml:space="preserve">
+    <value>Web</value>
   </data>
   <data name="Network.Description" xml:space="preserve">
     <value>網絡</value>
@@ -505,10 +505,10 @@
     <value>獲取内容</value>
   </data>
   <data name="WebCookies.Description" xml:space="preserve">
-    <value>獲取cookies</value>
+    <value>獲取瀏覽器站點的 Cookies</value>
   </data>
   <data name="WebCookies.Title" xml:space="preserve">
-    <value>獲取cookies</value>
+    <value>獲取 Cookie</value>
   </data>
   <data name="WebWaitPresence.Description" xml:space="preserve">
     <value>檢查元素是否存在於頁面的dom中，這並不一定意味著該元素是可見的。</value>
@@ -618,10 +618,10 @@
   <data name="WebFocusDefaultFrame.Title" xml:space="preserve">
     <value>重置框架</value>
   </data>
-  <data name="WebActionChainsCreated.Description" xml:space="preserve">
+  <data name="WebActionChainsPerform.Description" xml:space="preserve">
     <value>創建web動作鏈</value>
   </data>
-  <data name="WebActionChainsCreated.Title" xml:space="preserve">
+  <data name="WebActionChainsPerform.Title" xml:space="preserve">
     <value>動作鏈*創建</value>
   </data>
   <data name="WebActionClick.Description" xml:space="preserve">
@@ -1108,7 +1108,7 @@
     <value>向當前有焦點的web元素發送文字。</value>
   </data>
   <data name="WebElementSendText.Title" xml:space="preserve">
-    <value>發送文字</value>
+    <value>設置文字</value>
   </data>
   <data name="WebActionClickHold.Description" xml:space="preserve">
     <value>在元素上按住滑鼠左鍵，此動作需要加入到動作鏈當中。</value>
@@ -1141,16 +1141,16 @@
     <value>動作鏈.拖放</value>
   </data>
   <data name="WebActionKeyDown.Description" xml:space="preserve">
-    <value>僅發送按鍵，不釋放。 只能與（control、alt和shift）一起使用。</value>
+    <value>僅發送按鍵，不釋放。只能使用（Control、Alt 和 Shift）修飾鍵。</value>
   </data>
   <data name="WebActionKeyDown.Title" xml:space="preserve">
-    <value>動作鏈.按鍵</value>
+    <value>動作鏈.按下修饰键</value>
   </data>
   <data name="WebActionKeyUp.Description" xml:space="preserve">
-    <value>釋放修改鍵</value>
+    <value>释放修饰键</value>
   </data>
   <data name="WebActionKeyUp.Title" xml:space="preserve">
-    <value>動作鏈.釋放按鍵</value>
+    <value>動作鏈.释放修饰键</value>
   </data>
   <data name="WebActionMoveOffset.Description" xml:space="preserve">
     <value>將滑鼠移動到當前滑鼠位置的或指定web元素的偏移量。</value>
@@ -1566,4 +1566,14 @@
   <data name="WebExecute.Title" xml:space="preserve">
     <value>執行腳本</value>
   </data>>
+
+
+  <data name="WebActionPause.Description" xml:space="preserve">
+    <value>暫停方動作在執行某些需要加載 JavaScript 的命令或兩個操作之間存在時間間隙的類似情況時非常有用。</value>
+  </data>
+  <data name="WebActionPause.Title" xml:space="preserve">
+    <value>动作链*暂停</value>
+  </data>
+
+
 </root>

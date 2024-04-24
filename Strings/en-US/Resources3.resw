@@ -456,11 +456,11 @@
   <data name="ArraySize.Title" xml:space="preserve">
     <value>Array length</value>
   </data>
-  <data name="Browser.Description" xml:space="preserve">
+  <data name="Web.Description" xml:space="preserve">
     <value>Using actions to perform tasks on the web automatically</value>
   </data>
-  <data name="Browser.Title" xml:space="preserve">
-    <value>Web Automation</value>
+  <data name="Web.Title" xml:space="preserve">
+    <value>Web</value>
   </data>
   <data name="Network.Description" xml:space="preserve">
     <value>Network</value>
@@ -505,10 +505,10 @@
     <value>Get properties</value>
   </data>
   <data name="WebCookies.Description" xml:space="preserve">
-    <value>Get the cookies</value>
+    <value>Get web cookies</value>
   </data>
   <data name="WebCookies.Title" xml:space="preserve">
-    <value>Get the cookies</value>
+    <value>WebCookies</value>
   </data>
   <data name="WebWaitPresence.Description" xml:space="preserve">
     <value>Check that an element is present in the dom of the page does not necessarily mean that the element is visible.</value>
@@ -618,11 +618,11 @@
   <data name="WebFocusDefaultFrame.Title" xml:space="preserve">
     <value>WebFocusDefaultFrame</value>
   </data>
-  <data name="WebActionChainsCreated.Description" xml:space="preserve">
-    <value>Create the web, and the action chain</value>
+  <data name="WebActionChainsPerform.Description" xml:space="preserve">
+    <value>ActionChains are a way to automate low-level interactions such as mouse movements, mouse button actions, keypress, and context menu interactions.</value>
   </data>
-  <data name="WebActionChainsCreated.Title" xml:space="preserve">
-    <value>Action chain * created</value>
+  <data name="WebActionChainsPerform.Title" xml:space="preserve">
+    <value>WebActionChainsPerform</value>
   </data>
   <data name="WebActionClick.Description" xml:space="preserve">
     <value>Click on a web element, and this action needs to be added to the action chain.</value>
@@ -1114,7 +1114,7 @@
     <value>Send text to web elements that currently have a focus.</value>
   </data>
   <data name="WebElementSendText.Title" xml:space="preserve">
-    <value>Send text</value>
+    <value>WebElementSendText</value>
   </data>
   <data name="WebActionClickHold.Description" xml:space="preserve">
     <value>Hold down the left mouse button on the element, which needs to be added to the action chain.</value>
@@ -1126,37 +1126,37 @@
     <value>Double-click on an element, and this action needs to be added to the action chain.</value>
   </data>
   <data name="WebActionDoubleClick.Title" xml:space="preserve">
-    <value>Action chain. double click</value>
+    <value>WebActionDoubleClick</value>
   </data>
   <data name="WebActionMoveTo.Description" xml:space="preserve">
     <value>Move the mouse over to the element.</value>
   </data>
   <data name="WebActionMoveTo.Title" xml:space="preserve">
-    <value>Action chain. shift</value>
+    <value>WebActionMoveTo</value>
   </data>
   <data name="WebActionRelease.Description" xml:space="preserve">
     <value>Release the pressed mouse button on the element.</value>
   </data>
   <data name="WebActionRelease.Title" xml:space="preserve">
-    <value>Action chain. release</value>
+    <value>WebActionRelease</value>
   </data>
   <data name="WebActionDragDrop.Description" xml:space="preserve">
     <value>Press and hold the left mouse button on the source element, then move to the target element and release the mouse.</value>
   </data>
   <data name="WebActionDragDrop.Title" xml:space="preserve">
-    <value>Action chain. drag and drop</value>
+    <value>WebActionDragDrop</value>
   </data>
   <data name="WebActionKeyDown.Description" xml:space="preserve">
     <value>Send the keys only, and do not release them. use it only with (control, alt, and shift).</value>
   </data>
   <data name="WebActionKeyDown.Title" xml:space="preserve">
-    <value>Action chain. key</value>
+    <value>WebActionKeyDown</value>
   </data>
   <data name="WebActionKeyUp.Description" xml:space="preserve">
     <value>Release the modification key</value>
   </data>
   <data name="WebActionKeyUp.Title" xml:space="preserve">
-    <value>Action chain. release the key button</value>
+    <value>WebActionKeyUp</value>
   </data>
   <data name="WebActionMoveOffset.Description" xml:space="preserve">
     <value>Move the mouse to the current mouse location or specify the offset of the web element.</value>
@@ -1165,10 +1165,10 @@
     <value>WebActionMoveOffset</value>
   </data>
   <data name="WebActionSendText.Description" xml:space="preserve">
-    <value>Set the text</value>
+    <value>Send text to web elements that currently have a focus.</value>
   </data>
   <data name="WebActionSendText.Title" xml:space="preserve">
-    <value>Action chain. send out the text</value>
+    <value>WebActionSendText</value>
   </data>
   <data name="LoggingControl.Description" xml:space="preserve">
     <value>This action is used to control the output logs in the process</value>
@@ -1566,4 +1566,15 @@
   <data name="WebExecute.Title" xml:space="preserve">
     <value>WebExecute</value>
   </data>
+
+
+
+  <data name="WebActionPause.Description" xml:space="preserve">
+    <value>Pause action is useful in case one is executing some command that takes some javascript to load or a similar situation where there is a time gap between two operations.</value>
+  </data>
+  <data name="WebActionPause.Title" xml:space="preserve">
+    <value>WebActionPause</value>
+  </data>
+
+
 </root>
