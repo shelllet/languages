@@ -127,7 +127,10 @@
     <value>Working Directory</value>
   </data>
   <data name="Action.Runas.CommandLine.Header" xml:space="preserve">
-    <value>Command Line</value>
+    <value>CommandLine</value>
+  </data>
+  <data name="Action.Runas.Environment.Header" xml:space="preserve">
+    <value>Environment</value>
   </data>
   <data name="Action.OpenApplication.Application.Header" xml:space="preserve">
     <value>Application</value>

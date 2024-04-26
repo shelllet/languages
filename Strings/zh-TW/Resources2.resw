@@ -129,6 +129,9 @@
   <data name="Action.Runas.CommandLine.Header" xml:space="preserve">
     <value>命令行</value>
   </data>
+  <data name="Action.Runas.Environment.Header" xml:space="preserve">
+    <value>環境變量</value>
+  </data>
   <data name="Action.OpenApplication.Application.Header" xml:space="preserve">
     <value>應用</value>
   </data>
