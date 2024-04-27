@@ -417,6 +417,9 @@
   <data name="InputFlyoutItem.Path.Text" xml:space="preserve">
     <value>Path</value>
   </data>
+  <data name="InputFlyoutItem.Strings.Text" xml:space="preserve">
+    <value>Strings</value>
+  </data>
   <data name="Workflow.MenuItem.AddAction.Text" xml:space="preserve">
     <value>Add Action</value>
   </data>

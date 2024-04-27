@@ -417,6 +417,9 @@
   <data name="InputFlyoutItem.Path.Text" xml:space="preserve">
     <value>路径</value>
   </data>
+  <data name="InputFlyoutItem.Strings.Text" xml:space="preserve">
+    <value>字符串</value>
+  </data>
   <data name="Workflow.MenuItem.AddAction.Text" xml:space="preserve">
     <value>添加动作</value>
   </data>

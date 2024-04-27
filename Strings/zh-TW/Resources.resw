@@ -424,6 +424,9 @@
   <data name="InputFlyoutItem.Path.Text" xml:space="preserve">
     <value>路徑</value>
   </data>
+  <data name="InputFlyoutItem.Strings.Text" xml:space="preserve">
+    <value>字符串</value>
+  </data>
   <data name="Workflow.MenuItem.LocateAction.Text" xml:space="preserve">
     <value>定位動作</value>
   </data>
