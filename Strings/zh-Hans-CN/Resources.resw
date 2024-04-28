@@ -294,6 +294,30 @@
   <data name="ToolBar.DebugStop.Text" xml:space="preserve">
     <value>停止调试</value>
   </data>
+  <data name="ToolBar.DebugReStart.Text" xml:space="preserve">
+    <value>重启</value>
+  </data>
+  <data name="ToolBar.DebugBreakAll.Text" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="ToolBar.DebugContinue.Text" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="ToolBar.DebugStepInto.Text" xml:space="preserve">
+    <value>步入</value>
+  </data>
+  <data name="ToolBar.DebugStepOver.Text" xml:space="preserve">
+    <value>步出</value>
+  </data>
+  <data name="ToolBar.DebugBreakAll.Label" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="ToolBar.DebugStop.Label" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="ToolBar.DebugRestart.Label" xml:space="preserve">
+    <value>重启</value>
+  </data>
   <data name="ToolBar.Import.Label" xml:space="preserve">
     <value>导入</value>
   </data>
@@ -393,14 +417,17 @@
   <data name="InputFlyoutItem.Path.Text" xml:space="preserve">
     <value>路径</value>
   </data>
-  <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
+  <data name="InputFlyoutItem.Strings.Text" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="Workflow.MenuItem.AddAction.Text" xml:space="preserve">
     <value>添加动作</value>
   </data>
-  <data name="Workflow.MenuItem.Copy.Text" xml:space="preserve">
-    <value>复制</value>
+  <data name="Workflow.MenuItem.CopyAction.Text" xml:space="preserve">
+    <value>复制动作</value>
   </data>
-  <data name="Workflow.MenuItem.Locate.Text" xml:space="preserve">
-    <value>定位</value>
+  <data name="Workflow.MenuItem.LocateAction.Text" xml:space="preserve">
+    <value>定位动作</value>
   </data>
   <data name="Save.Text" xml:space="preserve">
     <value>保存</value>
@@ -494,5 +521,20 @@
   </data>
   <data name="AndroidPackages.Packages.Header" xml:space="preserve">
     <value>安装包</value>
+  </data>
+  <data name="Variable.Name.Header" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Variable.Value.Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Variable.Description.Header" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="Actions.SearchText.Text" xml:space="preserve">
+    <value>搜索：</value>
+  </data>
+  <data name="Workflow.Clone.Text" xml:space="preserve">
+    <value>复制</value>
   </data>
 </root>

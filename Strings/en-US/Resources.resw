@@ -297,6 +297,30 @@
   <data name="ToolBar.DebugStop.Text" xml:space="preserve">
     <value>Stop</value>
   </data>
+  <data name="ToolBar.DebugReStart.Text" xml:space="preserve">
+    <value>ReStart</value>
+  </data>
+  <data name="ToolBar.DebugBreakAll.Text" xml:space="preserve">
+    <value>Break All</value>
+  </data>
+  <data name="ToolBar.DebugContinue.Text" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="ToolBar.DebugStepInto.Text" xml:space="preserve">
+    <value>Step Into</value>
+  </data>
+  <data name="ToolBar.DebugStepOver.Text" xml:space="preserve">
+    <value>Step Over</value>
+  </data>
+  <data name="ToolBar.DebugBreakAll.Label" xml:space="preserve">
+    <value>Break All</value>
+  </data>
+  <data name="ToolBar.DebugStop.Label" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="ToolBar.DebugRestart.Label" xml:space="preserve">
+    <value>Restart</value>
+  </data>
   <data name="ToolBar.Shared.Label" xml:space="preserve">
     <value>Publish</value>
   </data>
@@ -393,14 +417,17 @@
   <data name="InputFlyoutItem.Path.Text" xml:space="preserve">
     <value>Path</value>
   </data>
-  <data name="Workflow.MenuItem.Add.Text" xml:space="preserve">
+  <data name="InputFlyoutItem.Strings.Text" xml:space="preserve">
+    <value>Strings</value>
+  </data>
+  <data name="Workflow.MenuItem.AddAction.Text" xml:space="preserve">
     <value>Add Action</value>
   </data>
-  <data name="Workflow.MenuItem.Copy.Text" xml:space="preserve">
-    <value>Copy</value>
+  <data name="Workflow.MenuItem.CopyAction.Text" xml:space="preserve">
+    <value>Copy Action</value>
   </data>
-  <data name="Workflow.MenuItem.Locate.Text" xml:space="preserve">
-    <value>Locate</value>
+  <data name="Workflow.MenuItem.LocateAction.Text" xml:space="preserve">
+    <value>Locate Action</value>
   </data>
   <data name="Save.Text" xml:space="preserve">
     <value>Save</value>
@@ -497,5 +524,20 @@
   </data>
   <data name="AndroidPackages.Packages.Header" xml:space="preserve">
     <value>Packages</value>
+  </data>
+  <data name="Variable.Name.Header" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Variable.Value.Header" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Variable.Description.Header" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Actions.SearchText.Text" xml:space="preserve">
+    <value>Search:</value>
+  </data>
+  <data name="Workflow.Clone.Text" xml:space="preserve">
+    <value>Clone</value>
   </data>
 </root>
