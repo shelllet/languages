@@ -63,6 +63,15 @@
   <data name="Language" xml:space="preserve">
     <value>繁體中文</value>
   </data>
+  <data name="Run.Label" xml:space="preserve">
+    <value>運行</value>
+  </data>
+  <data name="Stop.Label" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="Push.Label" xml:space="preserve">
+    <value>推送</value>
+  </data>
   <data name="Add.Label" xml:space="preserve">
     <value>添加</value>
   </data>
@@ -74,6 +83,9 @@
   </data>
   <data name="MoveDown.Label" xml:space="preserve">
     <value>下移</value>
+  </data>
+  <data name="Connect.Label" xml:space="preserve">
+    <value>連接</value>
   </data>
   <data name="Workflow.Title" xml:space="preserve">
     <value>工作流</value>
@@ -183,6 +195,9 @@
   <data name="Settings.Basic_RandomTitle.Header" xml:space="preserve">
     <value>隨機標題</value>
   </data>
+  <data name="Settings.ListenPort.Header" xml:space="preserve">
+    <value>監聽端口</value>
+  </data>
   <data name="WorkflowOptions.Header.Text" xml:space="preserve">
     <value>選項</value>
   </data>
@@ -232,7 +247,7 @@
     <value>導入</value>
   </data>
   <data name="ToolBar.Share.Label" xml:space="preserve">
-    <value>分享</value>
+    <value>遠端部署</value>
   </data>
   <data name="ToolBar.Help.Label" xml:space="preserve">
     <value>幫助</value>
@@ -537,5 +552,20 @@
   </data>
   <data name="Workflow.Clone.Text" xml:space="preserve">
     <value>复制</value>
+  </data>
+  <data name="Device.Ip.Text" xml:space="preserve">
+    <value>地址</value>
+  </data>
+  <data name="Device.Ip.Count.Text" xml:space="preserve">
+    <value>数量</value>
+  </data>
+  <data name="Device.Ip.Port.Text" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="Device.Decription.Text" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="DevicePage.Title" xml:space="preserve">
+    <value>设备管理</value>
   </data>
 </root>
