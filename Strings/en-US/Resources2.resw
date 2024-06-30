@@ -918,11 +918,8 @@
   <data name="Action.VideoDownload.Output.Header" xml:space="preserve">
     <value>Output</value>
   </data>
-  <data name="Action.VideoDownload.OnlyAudio.Header" xml:space="preserve">
-    <value>Audio</value>
-  </data>
-  <data name="Action.VideoDownload.Itag.Header" xml:space="preserve">
-    <value>Itag</value>
+  <data name="Action.VideoDownload.Options.Header" xml:space="preserve">
+    <value>Options</value>
   </data>
   <data name="Action.SubString.Value.Header" xml:space="preserve">
     <value>Value</value>
@@ -1236,11 +1233,14 @@
   <data name="Action.WebActionKeyUp.Key.Header" xml:space="preserve">
     <value>Key</value>
   </data>
-  <data name="Action.WebActionMoveOffset.Element.Header" xml:space="preserve">
-    <value>Element</value>
+  <data name="Action.ImageRotate.Image.Header" xml:space="preserve">
+    <value>Image</value>
   </data>
-  <data name="Action.WebActionMoveOffset.Position.Header" xml:space="preserve">
-    <value>Position</value>
+  <data name="Action.ImageRotate.Center.Header" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="Action.ImageRotate.Angle.Header" xml:space="preserve">
+    <value>Angle</value>
   </data>
   <data name="Action.WebCookies.Driver.Header" xml:space="preserve">
     <value>Driver</value>

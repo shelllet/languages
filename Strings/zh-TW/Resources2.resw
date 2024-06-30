@@ -915,11 +915,8 @@
   <data name="Action.VideoDownload.Output.Header" xml:space="preserve">
     <value>目錄</value>
   </data>
-  <data name="Action.VideoDownload.OnlyAudio.Header" xml:space="preserve">
-    <value>音頻</value>
-  </data>
-  <data name="Action.VideoDownload.Itag.Header" xml:space="preserve">
-    <value>標籤</value>
+  <data name="Action.VideoDownload.Options.Header" xml:space="preserve">
+    <value>選項</value>
   </data>
   <data name="Action.SubString.Value.Header" xml:space="preserve">
     <value>數據</value>
@@ -1233,11 +1230,14 @@
   <data name="Action.WebActionKeyUp.Key.Header" xml:space="preserve">
     <value>键</value>
   </data>
-  <data name="Action.WebActionMoveOffset.Element.Header" xml:space="preserve">
-    <value>元素</value>
+  <data name="Action.ImageRotate.Image.Header" xml:space="preserve">
+    <value>圖像</value>
   </data>
-  <data name="Action.WebActionMoveOffset.Position.Header" xml:space="preserve">
-    <value>位置</value>
+  <data name="Action.ImageRotate.Center.Header" xml:space="preserve">
+    <value>旋轉中心</value>
+  </data>
+  <data name="Action.ImageRotate.Angle.Header" xml:space="preserve">
+    <value>角度</value>
   </data>
   <data name="Action.WebCookies.Driver.Header" xml:space="preserve">
     <value>瀏覽器</value>

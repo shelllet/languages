@@ -1158,11 +1158,11 @@
   <data name="WebActionKeyUp.Title" xml:space="preserve">
     <value>WebActionKeyUp</value>
   </data>
-  <data name="WebActionMoveOffset.Description" xml:space="preserve">
-    <value>Move the mouse to the current mouse location or specify the offset of the web element.</value>
+  <data name="ImageRotate.Description" xml:space="preserve">
+    <value>Rotate image.</value>
   </data>
-  <data name="WebActionMoveOffset.Title" xml:space="preserve">
-    <value>WebActionMoveOffset</value>
+  <data name="ImageRotate.Title" xml:space="preserve">
+    <value>ImageRotate</value>
   </data>
   <data name="WebActionSendText.Description" xml:space="preserve">
     <value>Send text to web elements that currently have a focus.</value>
